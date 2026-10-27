@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cml xmlns="http://www.chemaxon.com">
+  <MDocument><MChemicalStruct><molecule molID="m1">
+    <atomArray>
+      <atom id="a1" elementType="C" x2="0" y2="0"/>
+      <atom id="a2" elementType="C" x2="1.299" y2="0.75"/>
+      <atom id="a3" elementType="O" x2="2.598" y2="0"/>
+    </atomArray>
+    <bondArray>
+      <bond id="b1" atomRefs2="a1 a2" order="1"/>
+      <bond id="b2" atomRefs2="a2 a3" order="1"/>
+    </bondArray>
+  </molecule></MChemicalStruct></MDocument>
+</cml>

@@ -1,0 +1,35 @@
+.ai-assistant{display:flex;flex:1;flex-direction:column;gap:12px;min-width:0;min-height:0;padding:14px;color:#40536c;font-size:12px;line-height:1.6;overflow:hidden}
+.ai-assistant>[data-ai-view=chat]{display:flex;flex:1;flex-direction:column;min-height:0;overflow:hidden}
+.ai-assistant>[data-ai-view=settings]{flex:1;min-height:0;overflow:auto;padding-right:3px}
+.ai-assistant .ai-header,.ai-assistant .ai-privacy,.ai-assistant .ai-presets,.ai-assistant .ai-composer{flex-shrink:0}
+.ai-assistant *{box-sizing:border-box}.ai-assistant [hidden]{display:none!important}
+.ai-assistant .ai-header{display:flex;gap:6px;padding:3px;background:#edf2fa;border-radius:9px}
+.ai-assistant .ai-header button{flex:1;border:0;background:transparent;color:#6b7e9b}
+.ai-assistant .ai-header button[aria-pressed=true]{background:#fff;color:#365f9b;box-shadow:0 1px 5px #1e385412}
+.ai-assistant button{font:inherit;line-height:1.4;padding:7px 10px;border:1px solid #dce5f0;border-radius:7px;background:#fff;color:#49698f;cursor:pointer;white-space:normal}
+.ai-assistant button:hover:enabled{background:#edf4ff;border-color:#a9c1e5}.ai-assistant button:disabled{opacity:.55;cursor:default}
+.ai-assistant button.ai-primary{background:#3d70b6;border-color:#3d70b6;color:white}
+.ai-assistant textarea,.ai-assistant input:not([type=checkbox]),.ai-assistant select{width:100%;min-width:0;font:inherit;color:#334862;background:#fff;border:1px solid #d7e1ee;border-radius:7px;padding:8px;outline:none}
+.ai-assistant textarea{resize:vertical;line-height:1.6}.ai-assistant textarea:focus,.ai-assistant input:focus,.ai-assistant select:focus{border-color:#719bd3;box-shadow:0 0 0 2px #6999d31a}
+.ai-assistant .ai-privacy,.ai-assistant .ai-note,.ai-assistant small{font-size:10px;line-height:1.7;color:#7b8da5;margin:0;overflow-wrap:anywhere}
+.ai-assistant .ai-privacy{padding:9px 10px;background:#f3f6fb;border:1px solid #e5ebf4;border-radius:8px}
+.ai-assistant .ai-log{flex:1;min-height:70px;overflow:auto;scroll-behavior:smooth;padding-right:3px}
+.ai-assistant .ai-welcome{margin:5px 0 12px;color:#8494ab;font-size:11px}
+.ai-assistant .ai-message{margin:0 0 10px;padding:10px;border:1px solid #e5ebf3;background:#fafcff;border-radius:9px;overflow-wrap:anywhere}
+.ai-assistant .ai-message-user{background:#eff5ff;border-color:#dde9f9}.ai-assistant .ai-message strong{font-size:10px;color:#6f8bad;font-weight:600}
+.ai-assistant .ai-message p{white-space:pre-wrap;margin:4px 0 0;line-height:1.8}
+.ai-assistant .ai-trace{margin:0 0 10px;padding-left:18px;font-size:10px;line-height:1.8;color:#8092ac;overflow-wrap:anywhere}
+.ai-assistant .ai-presets{display:flex;gap:5px;flex-wrap:wrap;margin:8px 0 12px}.ai-assistant .ai-presets button{font-size:10px;padding:5px 8px;background:#f8faff}
+.ai-assistant .ai-composer,.ai-assistant .ai-config{display:flex;flex-direction:column;gap:9px;margin:0}
+.ai-assistant .ai-field{display:flex;flex-direction:column;gap:5px;font-size:11px;color:#687f9d;margin:0 0 8px}.ai-assistant .ai-config .ai-field{margin:0}
+.ai-assistant .ai-checkbox{flex-direction:row-reverse;justify-content:flex-end;align-items:center;gap:6px;margin:0}
+.ai-assistant .ai-checkbox input{accent-color:#4f80bf;margin:0;width:14px;height:14px;min-height:14px;flex:0 0 14px;padding:0}.ai-assistant .ai-actions{display:flex;align-items:center;gap:5px;flex-wrap:wrap}
+.ai-assistant .ai-actions button{font-size:11px}.ai-assistant .ai-status{font-size:11px;color:#5d7caa;margin:0;overflow-wrap:anywhere;white-space:pre-wrap;min-height:17px}
+.ai-assistant .ai-config{margin-bottom:16px;padding-bottom:14px;border-bottom:1px solid #e5ebf4}
+.ai-assistant .ai-prompt{font-size:10px;color:#8a9ab0;margin-top:12px}.ai-assistant .ai-prompt summary{cursor:pointer;color:#5d7eaa}
+.ai-assistant .ai-prompt pre{font:inherit;white-space:pre-wrap;overflow-wrap:anywhere;max-height:280px;overflow:auto;padding:9px;background:#f5f8fc;border-radius:7px;color:#7589a3}
+.ai-assistant .ai-download{display:block;font-size:11px;color:#356baf;margin:8px 0;text-decoration:underline;overflow-wrap:anywhere}
+.ai-assistant .ai-context{flex-shrink:0;padding:8px 10px;border:1px solid #e5ebf4;border-radius:8px;background:#fafcff;font-size:10px;min-width:0}
+.ai-assistant .ai-context summary{cursor:pointer;color:#5d7eaa;overflow-wrap:anywhere}
+.ai-assistant .ai-context p{margin-top:6px}
+.ai-assistant .ai-context pre{max-height:150px;overflow:auto;white-space:pre-wrap;overflow-wrap:anywhere;font-size:10px;margin:7px 0 0;color:#687f9d}

@@ -1,0 +1,6 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": { "noEmit": false, "declaration": true, "emitDeclarationOnly": true, "outDir": "dist-sdk", "rootDir": "src" },
+  "include": ["src/index.ts", "src/vite-env.d.ts", "src/core/**/*.ts", "src/formats/**/*.ts", "src/editor/**/*.ts"],
+  "exclude": ["tests"]
+}

@@ -1,0 +1,13 @@
+node_modules/
+dist/
+dist-sdk/
+.vite/
+coverage/
+*.log
+.local/
+.playwright-mcp/
+.env
+.env.local
+.env.*
+!.env.example
+!.env.sample

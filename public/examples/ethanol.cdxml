@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDXML>
+  <page id="1"><fragment id="2">
+    <n id="3" p="0 0" Element="6"/>
+    <n id="4" p="25.98 -15" Element="6"/>
+    <n id="5" p="51.96 0" Element="8"/>
+    <b id="6" B="3" E="4" Order="1"/>
+    <b id="7" B="4" E="5" Order="1"/>
+  </fragment></page>
+</CDXML>
