@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE CDXML SYSTEM "http://www.camsoft.com/xml/cdxml.dtd" >
+
+<CDXML
+
+><page
+
+><fragment
+
+><n
+
+ id="5"
+
+ p="148.5 164.25"
+
+ Element="7"
+
+></n><n
+
+ id="6"
+
+ p="177.48 172.01"
+
+/><n
+
+ id="4"
+
+ p="119.52 172.01"
+
+/><b
+
+ B="5"
+
+ E="6"
+
+/><b
+
+ B="5"
+
+ E="4"
+
+/></fragment></page></CDXML>

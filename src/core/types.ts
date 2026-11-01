@@ -1,6 +1,9 @@
 export type AtomId = string;
 export type BondId = string;
 export type Format = 'json' | 'mol' | 'mol-v3000' | 'cdxml' | 'mrv';
+export type ImportFormat = Format | 'cdx';
+export type ImportData = string | Uint8Array | ArrayBuffer;
+export interface ImportInput { data: ImportData; format?: ImportFormat; name?: string }
 export interface Point { x: number; y: number }
 export type HydrogenPolicy = { mode: 'auto' } | { mode: 'fixed'; count: number };
 export interface Atom {
@@ -30,8 +33,9 @@ export interface Diagnostic {
   objectId?: string;
 }
 export interface SourceRecord {
-  format: Format;
+  format: ImportFormat;
   name?: string;
+  /** CDX bytes are retained as a cdx:base64,... string; other formats retain original text. */
   raw: string;
   /** Original data can only be returned verbatim if the editable projection is unchanged. */
   fingerprint: string;
@@ -54,6 +58,15 @@ export interface ExportResult {
   format: Format;
   issues: Diagnostic[];
   passthrough: boolean;
+  preservation?: 'original' | 'preserved' | 'converted' | 'rebuilt';
+}
+/** CDX data uses the same cdx:base64 transport as SourceRecord.raw. */
+export interface SourceFileExportResult {
+  data: string;
+  format: ImportFormat;
+  issues: Diagnostic[];
+  passthrough: boolean;
+  preservation: 'original' | 'preserved';
 }
 export interface FormatCapability {
   format: Format;

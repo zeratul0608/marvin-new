@@ -1,0 +1,82 @@
+{
+  "rdkitVersion": "2025.03.6",
+  "cases": [
+    {
+      "file": "cdx-simple.cdxml",
+      "atoms": 3,
+      "bonds": 2,
+      "canonicalSmiles": "CNC",
+      "chiralCenters": [],
+      "xmlValid": true,
+      "chemistryMatches": true
+    },
+    {
+      "file": "cdx-styled.cdxml",
+      "atoms": 3,
+      "bonds": 2,
+      "canonicalSmiles": "CNC",
+      "chiralCenters": [],
+      "xmlValid": true,
+      "chemistryMatches": true
+    },
+    {
+      "file": "cdxml-simple-edited.cdxml",
+      "atoms": 3,
+      "bonds": 2,
+      "canonicalSmiles": "C[15NH]C",
+      "chiralCenters": [],
+      "xmlValid": true,
+      "chemistryMatches": true
+    },
+    {
+      "file": "cdxml-styled-edited.cdxml",
+      "atoms": 3,
+      "bonds": 2,
+      "canonicalSmiles": "C[15NH]C",
+      "chiralCenters": [],
+      "xmlValid": true,
+      "chemistryMatches": true
+    },
+    {
+      "file": "ethanol-mrv.cdxml",
+      "atoms": 3,
+      "bonds": 2,
+      "canonicalSmiles": "CCO",
+      "chiralCenters": [],
+      "xmlValid": true,
+      "chemistryMatches": true
+    },
+    {
+      "file": "aspirin.cdxml",
+      "atoms": 13,
+      "bonds": 13,
+      "canonicalSmiles": "CC(=O)Oc1ccccc1C(=O)O",
+      "chiralCenters": [],
+      "xmlValid": true,
+      "chemistryMatches": true
+    },
+    {
+      "file": "isotopes-charges-hydrogens.cdxml",
+      "atoms": 3,
+      "bonds": 1,
+      "canonicalSmiles": "[13CH3][15NH3+].[Cl-]",
+      "chiralCenters": [],
+      "xmlValid": true,
+      "chemistryMatches": true
+    },
+    {
+      "file": "wedge.cdxml",
+      "atoms": 5,
+      "bonds": 4,
+      "canonicalSmiles": "F[C@](Cl)(Br)I",
+      "chiralCenters": [
+        [
+          0,
+          "S"
+        ]
+      ],
+      "xmlValid": true,
+      "chemistryMatches": true
+    }
+  ]
+}

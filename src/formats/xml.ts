@@ -42,27 +42,31 @@ export function readCdxml(raw: string, name?: string): ImportResult {
     if (!ELEMENTS[z - 1] || p.length !== 2) fail('CDXML 原子元素或二维坐标无效');
     if (attr(node, 'xyz')) fail('三维 CDXML 结构暂不支持', 'UNSUPPORTED_3D');
     if (attr(node, 'Radical') && attr(node, 'Radical') !== 'None') fail('自由基语义尚未实现', 'UNSUPPORTED_RADICAL');
+    if (node.hasAttribute('AS') && !['U', 'N'].includes(attr(node, 'AS'))) fail('CDXML 原子拓扑立体化学尚未实现', 'UNSUPPORTED_STEREO');
     for (const key of ['ElementList', 'GenericNickname', 'Attachments', 'AtomNumber', 'SubstituentsExactly', 'SubstituentsUpTo', 'RingBondCount', 'Unsaturated', 'RxnChange', 'RxnStereo', 'EnhancedStereoType', 'EnhancedStereoGroupNum']) {
       if (node.hasAttribute(key)) fail(`CDXML ${key} 语义尚未实现`, 'UNSUPPORTED_ATOM_PROPERTY');
     }
     const props: Partial<Atom> = { charge: integer(attr(node, 'Charge'), 0) };
-    if (node.hasAttribute('Isotope')) props.isotope = integer(attr(node, 'Isotope'));
+    if (node.hasAttribute('Isotope')) { const isotope = integer(attr(node, 'Isotope')); if (isotope) props.isotope = isotope; }
     if (node.hasAttribute('NumHydrogens')) props.hydrogens = { mode: 'fixed', count: integer(attr(node, 'NumHydrogens')) };
     reader.atom(ref, ELEMENTS[z - 1], numeric(p[0]) / 20, -numeric(p[1]) / 20, props);
-    checkAttributes(node, ['id', 'p', 'Element', 'NodeType', 'Charge', 'Isotope', 'NumHydrogens', 'Radical'], issues);
+    checkAttributes(node, ['id', 'p', 'Element', 'NodeType', 'Charge', 'Isotope', 'NumHydrogens', 'Radical', 'AS'], issues);
     const labels = all(node, 't');
     if (labels.some(t => t.textContent?.trim() !== ELEMENTS[z - 1] || [...t.children].some(s => s.localName !== 's' || [...s.attributes].some(a => !['font', 'size'].includes(a.name)) || (s.hasAttribute('font') && attr(s, 'font') !== '3') || (s.hasAttribute('size') && attr(s, 'size') !== '10')))) warning(issues, 'ChemDraw 原子标签的字体与排版暂未解释');
   }
   for (const bond of all(input, 'b')) {
-    const ref = attr(bond, 'id'); if (!ref || ids.has(ref)) fail('重复或缺失的 ChemDraw 对象 ID'); ids.add(ref);
+    // Bond IDs are optional in CDXML; endpoints still refer to required node IDs.
+    const ref = attr(bond, 'id'); if (ref && ids.has(ref)) fail('重复的 ChemDraw 对象 ID'); if (ref) ids.add(ref);
+    if (bond.parentElement?.localName !== 'fragment') fail('CDXML 键必须属于可识别的分子片段');
     const orderText = attr(bond, 'Order') || '1';
     if (!['1', '2', '3', '1.5'].includes(orderText)) fail(`尚未支持的 ChemDraw 键型：${orderText}`, 'UNSUPPORTED_BOND');
     const display = attr(bond, 'Display') || 'Solid';
     const style = display.startsWith('WedgedHash') ? 'hashed' : display.startsWith('Wedge') ? 'wedge' : display === 'Wavy' ? 'wavy' : undefined;
     if (!['Solid', 'WedgeBegin', 'WedgeEnd', 'WedgedHashBegin', 'WedgedHashEnd', 'Wavy'].includes(display)) fail(`尚未支持的 ChemDraw 键描绘：${display}`, 'UNSUPPORTED_BOND');
-    for (const key of ['BS', 'BondCircularOrdering', 'Topology', 'RxnParticipation']) if (bond.hasAttribute(key)) fail(`CDXML 键属性 ${key} 尚未实现`, 'UNSUPPORTED_BOND');
+    if (bond.hasAttribute('BS') && !['U', 'N'].includes(attr(bond, 'BS'))) fail('CDXML 键拓扑立体化学尚未实现', 'UNSUPPORTED_STEREO');
+    for (const key of ['BondCircularOrdering', 'Topology', 'RxnParticipation']) if (bond.hasAttribute(key)) fail(`CDXML 键属性 ${key} 尚未实现`, 'UNSUPPORTED_BOND');
     reader.bond(attr(bond, 'B'), attr(bond, 'E'), orderText === '1.5' ? 'aromatic' : Number(orderText) as BondOrder, style, display.endsWith('End'));
-    checkAttributes(bond, ['id', 'B', 'E', 'Order', 'Display'], issues);
+    checkAttributes(bond, ['id', 'B', 'E', 'Order', 'Display', 'BS'], issues);
   }
   if (!Object.keys(reader.document.graph.atoms).length && (fragments.length || all(input, 't').length)) fail('文件中没有可编辑的普通分子结构');
   const known = new Set(['CDXML', 'page', 'fragment', 'n', 'b', 't', 's', 'fonttable', 'font', 'colortable', 'color']);

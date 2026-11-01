@@ -6,8 +6,9 @@ import type { EditRequest, EditResult, EditorApi, EditorEvents, EditorPlugin, Ed
 import { PluginRegistry } from './plugins';
 import { transformAtoms, type StructureTransform } from '../core/geometry';
 import { exampleDocument, insertRing } from '../core/templates';
-import type { AtomId, BondOrder, ChemicalDocument, Diagnostic, ExportResult, Format, ImportResult, Point } from '../core/types';
-import { exportDocument, formats, FormatError, importDocument } from '../formats';
+import type { AtomId, BondOrder, ChemicalDocument, Diagnostic, ExportResult, Format, ImportInput, ImportResult, Point, SourceFileExportResult } from '../core/types';
+import { decodeCdx, encodeCdx, isCdx } from '../formats/cdx';
+import { exportDocument, exportOriginalSource, exportSourceFile, formats, FormatError, importDocument } from '../formats';
 import { escapeXml as esc } from '../formats/shared';
 import { icon } from './icons';
 import { documentBounds, exportSvg, moleculeMarkup, svgDrawingStyle } from './render';
@@ -60,7 +61,7 @@ export class ChemicalEditorElement extends HTMLElementBase {
   private toastTimer?: ReturnType<typeof setTimeout>;
   private lastIssues: Diagnostic[] = [];
   private pendingImport?: { name?: string; data: string };
-  private exportResult?: ExportResult;
+  private exportResult?: ExportResult | SourceFileExportResult;
   private previousFocus?: HTMLElement;
   private root!: ShadowRoot;
   private svg!: SVGSVGElement;
@@ -152,8 +153,8 @@ export class ChemicalEditorElement extends HTMLElementBase {
       <dialog class="templates-dialog" aria-label="结构模板库"><div class="dialog-header"><div><h2>结构模板</h2><p>选择一个分子开始编辑；可通过撤销恢复当前结构。</p></div><button class="icon-button ghost" data-action="close-dialog" aria-label="关闭模板库">${icon('close', 20)}</button></div><div class="template-grid">${samples.map(s => `<button class="template-card" data-sample="${s.id}"><span class="template-category">${s.category}</span><span class="template-preview"><img src="data:image/svg+xml;charset=utf-8,${encodeURIComponent(exportSvg(exampleDocument(s.id)))}" alt="${s.name}结构预览"/></span><span class="template-name">${s.name}<small>${s.english}</small></span><span class="template-formula">${molecularFormula(exampleDocument(s.id))}</span></button>`).join('')}</div></dialog>
       <dialog class="shortcuts-dialog" aria-label="键盘快捷键"><div class="dialog-header"><div><h2>让绘制更顺手</h2><p>在画布获得焦点时使用快捷键</p></div><button class="icon-button ghost" data-action="close-dialog" aria-label="关闭快捷键">${icon('close', 20)}</button></div><div class="dialog-body shortcut-grid">${[['搜索工具','Ctrl / ⌘ K'],['选择 / 单键','V / B'],['双键 / 三键','2 / 3'],['苯环 / 六元环','6 / R'],['实楔 / 虚楔','W / D'],['全选','Ctrl / ⌘ A'],['撤销','Ctrl / ⌘ Z'],['重做','Ctrl / ⌘ Shift Z'],['导出','Ctrl / ⌘ S'],['适应画布','Enter'],['取消选择','Esc'],['删除所选','Delete'],['平移画布','空格 + 拖动'],['自由成键角度','Alt + 拖动']].map(([name, key]) => `<div><span>${name}</span><kbd>${key}</kbd></div>`).join('')}</div></dialog>
       <input type="file" class="file-input" accept=".mol,.mrv,.cdxml,.json,.cdx" aria-label="选择结构文件"/>
-      <dialog class="import-dialog" aria-label="导入化学结构"><div class="dialog-header"><div><h2>导入结构</h2><p>从 ChemDraw、Marvin JS 或结构文件继续编辑</p></div><button class="icon-button ghost" data-action="close-dialog" aria-label="关闭导入">${icon('close')}</button></div><div class="dialog-body"><div class="file-row"><button data-action="choose-file">${icon('import', 15)}选择文件</button><span class="import-filename">支持 CDXML、MRV、MOL、JSON · 最大 2 MB</span></div><textarea class="source-input import-source" aria-label="结构源数据" spellcheck="false" placeholder="也可以在这里粘贴 CDXML、MRV、MOL 或原生 JSON 源数据…"></textarea><div class="dialog-message import-message">普通分子可导入编辑。暂不支持的复杂化学语义会明确报告。</div></div><div class="dialog-footer"><button data-action="close-dialog">取消</button><button class="primary" data-action="apply-import">导入画布</button></div></dialog>
-      <dialog class="export-dialog" aria-label="导出化学结构"><div class="dialog-header"><div><h2>导出结构</h2><p>选择目标应用的格式，并检查转换结果</p></div><button class="icon-button ghost" data-action="close-dialog" aria-label="关闭导出">${icon('close')}</button></div><div class="dialog-body"><select class="export-format" aria-label="导出格式">${formats.map(f => `<option value="${f.format}">${f.name} (${f.extension})</option>`).join('')}<option value="svg">SVG 矢量图片 (.svg)</option></select><textarea class="source-input export-source" readonly aria-label="导出数据预览" spellcheck="false"></textarea><label class="lossy-option"><input type="checkbox" class="allow-lossy"/>允许有损导出（接受报告中列出的信息损失）</label><div class="dialog-message export-message"></div></div><div class="dialog-footer"><span class="spacer"></span><button data-action="copy-export">复制源码</button><button class="primary" data-action="download-export">${icon('export', 15)}下载文件</button></div></dialog>
+      <dialog class="import-dialog" aria-label="导入化学结构"><div class="dialog-header"><div><h2>导入结构</h2><p>从 ChemDraw、Marvin JS 或结构文件继续编辑</p></div><button class="icon-button ghost" data-action="close-dialog" aria-label="关闭导入">${icon('close')}</button></div><div class="dialog-body"><div class="file-row"><button data-action="choose-file">${icon('import', 15)}选择文件</button><span class="import-filename">支持 CDX 导入、CDXML、MRV、MOL、JSON · 最大 2 MB</span></div><textarea class="source-input import-source" aria-label="结构源数据" spellcheck="false" placeholder="也可以在这里粘贴 CDXML、MRV、MOL 或原生 JSON 源数据…"></textarea><div class="dialog-message import-message">普通分子可导入编辑。暂不支持的复杂化学语义会明确报告。</div></div><div class="dialog-footer"><button data-action="close-dialog">取消</button><button class="primary" data-action="apply-import">导入画布</button></div></dialog>
+      <dialog class="export-dialog" aria-label="导出化学结构"><div class="dialog-header"><div><h2>导出结构</h2><p>选择目标应用的格式，并检查转换结果</p></div><button class="icon-button ghost" data-action="close-dialog" aria-label="关闭导出">${icon('close')}</button></div><div class="dialog-body"><select class="export-format" aria-label="导出格式">${formats.map(f => `<option value="${f.format}">${f.name} (${f.extension})</option>`).join('')}<option value="source">源格式保留保存（CDX / CDXML）</option><option value="original">下载导入时的原始文件</option><option value="svg">SVG 矢量图片 (.svg)</option></select><textarea class="source-input export-source" readonly aria-label="导出数据预览" spellcheck="false"></textarea><label class="lossy-option"><input type="checkbox" class="allow-lossy"/>允许有损导出（接受报告中列出的信息损失）</label><div class="dialog-message export-message"></div></div><div class="dialog-footer"><span class="spacer"></span><button data-action="copy-export">复制源码</button><button class="primary" data-action="download-export">${icon('export', 15)}下载文件</button></div></dialog>
       <dialog class="issues-dialog" aria-label="兼容报告"><div class="dialog-header"><div><h2>兼容与结构检查</h2><p>查看当前结构和最近一次转换的诊断信息</p></div><button class="icon-button ghost" data-action="close-dialog" aria-label="关闭报告">${icon('close')}</button></div><div class="dialog-body issue-list"></div><div class="dialog-footer"><button data-action="close-dialog">完成</button></div></dialog>
       <dialog class="clear-dialog" aria-label="清空确认"><div class="dialog-header"><h2>清空当前画布？</h2><button class="icon-button ghost" data-action="close-dialog" aria-label="关闭确认">${icon('close')}</button></div><div class="dialog-body">清空后可以通过撤销恢复当前结构。</div><div class="dialog-footer"><button data-action="close-dialog">取消</button><button class="primary" data-action="confirm-clear">清空画布</button></div></dialog>`;
     this.svg = this.query('.canvas'); this.drawing = this.query('.drawing'); this.overlay = this.query('.overlay');
@@ -257,6 +258,11 @@ export class ChemicalEditorElement extends HTMLElementBase {
       case 'get_diagnostics': return this.getDiagnostics();
       case 'import': return this.import(request.params);
       case 'export': return this.export(request.params);
+      case 'export_source': {
+        this.assertFields(request.params, ['original'], '源文档导出');
+        if (request.params.original !== undefined && typeof request.params.original !== 'boolean') throw new Error('original 必须为布尔值');
+        return request.params.original ? exportOriginalSource(this.getDocument()) : exportSourceFile(this.getDocument());
+      }
       case 'export_svg': return this.exportSvg();
       case 'undo': this.undo(); return this.getSnapshot();
       case 'redo': this.redo(); return this.getSnapshot();
@@ -336,7 +342,7 @@ export class ChemicalEditorElement extends HTMLElementBase {
     this.selection.clear(); this.selectedBond = undefined; this.lastIssues = doc.source?.issues ?? [];
     this.store.replace(doc); if (this.initialized) { this.render(); this.fit(); }
   }
-  import(input: { data: string; format?: Format; name?: string }): ImportResult {
+  import(input: ImportInput): ImportResult {
     this.assertLive(); this.assertFields(input, ['data', 'format', 'name'], '导入请求');
     if (input.name !== undefined && typeof input.name !== 'string') throw new Error('文件名必须为字符串');
     const result = importDocument(input); this.setDocument(result.document);
@@ -426,7 +432,7 @@ export class ChemicalEditorElement extends HTMLElementBase {
       const b = doc.graph.bonds[this.selectedBond], d = doc.depiction.bonds[b.id];
       properties = `<div class="selection-name">化学键<small>已选择</small></div><label for="bond-order">键类型</label><select id="bond-order" data-bond-property="order">${[['1','单键'],['2','双键'],['3','三键'],['aromatic','芳香键']].map(([v,t]) => `<option value="${v}"${String(b.order) === v ? ' selected' : ''}>${t}</option>`).join('')}</select>${b.order === 1 ? `<label for="bond-style">二维描绘</label><select id="bond-style" data-bond-property="style">${[['plain','普通'],['wedge','实楔键'],['hashed','虚楔键'],['wavy','波浪键']].map(([v,t]) => `<option value="${v}"${(d?.style ?? 'plain') === v ? ' selected' : ''}>${t}</option>`).join('')}</select>${d && d.style !== 'plain' ? '<button data-action="flip-bond" style="margin-top:12px;width:100%">交换描绘锚点</button>' : ''}` : ''}`;
     }
-    this.query('.inspector-content').innerHTML = `<div class="inspector-heading"><strong>结构与属性</strong><button class="icon-button ghost" data-action="inspector" aria-label="收起属性面板">${icon('close', 16)}</button></div><section class="overview-card"><div class="section-label">分子概览<span>2D STRUCTURE</span></div><div class="formula">${formula}<small>分子式 · 基础价态规则估算</small></div><div class="metrics"><div class="metric"><b>${atoms.length}</b><span>原子</span></div><div class="metric"><b>${bonds.length}</b><span>化学键</span></div><div class="metric"><b>${connectedComponents(doc).length}</b><span>片段</span></div></div></section><section class="property-section">${properties}</section><section class="property-section"><div class="section-label">文件与兼容<span>本地转换</span></div><div class="format-badges"><span class="format-badge">CDXML</span><span class="format-badge">MRV</span><span class="format-badge">MOL</span><span class="format-badge">JSON</span></div><button class="compatibility${issues.some(i => i.severity !== 'info') ? ' has-issues' : ''}" data-action="issues"><span>${icon(issues.length ? 'info' : 'check', 14)}${issues.length ? `${issues.length} 项提示` : '基础检查通过'}</span>查看报告 →</button></section><button class="shortcut-link" data-action="shortcuts">${icon('keyboard', 17)}键盘快捷键<span>?</span></button>`;
+    this.query('.inspector-content').innerHTML = `<div class="inspector-heading"><strong>结构与属性</strong><button class="icon-button ghost" data-action="inspector" aria-label="收起属性面板">${icon('close', 16)}</button></div><section class="overview-card"><div class="section-label">分子概览<span>2D STRUCTURE</span></div><div class="formula">${formula}<small>分子式 · 基础价态规则估算</small></div><div class="metrics"><div class="metric"><b>${atoms.length}</b><span>原子</span></div><div class="metric"><b>${bonds.length}</b><span>化学键</span></div><div class="metric"><b>${connectedComponents(doc).length}</b><span>片段</span></div></div></section><section class="property-section">${properties}</section><section class="property-section"><div class="section-label">文件与兼容<span>本地转换</span></div><div class="format-badges"><span class="format-badge">CDX 导入</span><span class="format-badge">CDXML</span><span class="format-badge">MRV</span><span class="format-badge">MOL</span><span class="format-badge">JSON</span></div><button class="compatibility${issues.some(i => i.severity !== 'info') ? ' has-issues' : ''}" data-action="issues"><span>${icon(issues.length ? 'info' : 'check', 14)}${issues.length ? `${issues.length} 项提示` : '基础检查通过'}</span>查看报告 →</button></section><button class="shortcut-link" data-action="shortcuts">${icon('keyboard', 17)}键盘快捷键<span>?</span></button>`;
   }
   private showDialog(selector: string) {
     this.previousFocus = this.root.activeElement as HTMLElement || this;
@@ -549,7 +555,7 @@ export class ChemicalEditorElement extends HTMLElementBase {
       case 'zoom-out': this.zoom(1.2); break;
       case 'clear': this.showDialog('.clear-dialog'); break;
       case 'confirm-clear': this.closeDialog(target); this.setDocument(emptyDocument()); break;
-      case 'import': this.pendingImport = undefined; this.query<HTMLTextAreaElement>('.import-source').value = ''; this.query('.import-filename').textContent = '支持 CDXML、MRV、MOL、JSON · 最大 2 MB'; this.importMessage('普通分子可导入编辑。复杂化学语义会明确报告。'); this.showDialog('.import-dialog'); break;
+      case 'import': this.pendingImport = undefined; this.query<HTMLTextAreaElement>('.import-source').readOnly = false; this.query<HTMLTextAreaElement>('.import-source').value = ''; this.query('.import-filename').textContent = '支持 CDX 导入、CDXML、MRV、MOL、JSON · 最大 2 MB'; this.importMessage('普通分子可导入编辑。复杂化学语义会明确报告。'); this.showDialog('.import-dialog'); break;
       case 'choose-file': this.query<HTMLInputElement>('.file-input').click(); break;
       case 'apply-import': this.applyImport(); break;
       case 'export': case 'source': this.query<HTMLInputElement>('.allow-lossy').checked = false; this.updateExport(); this.showDialog('.export-dialog'); break;
@@ -594,18 +600,24 @@ export class ChemicalEditorElement extends HTMLElementBase {
   private importMessage(message: string, error = false) { const el = this.query('.import-message'); el.textContent = message; el.classList.toggle('error', error); }
   private async openFile(file: File, apply = false) {
     if (file.size > 2_000_000) { this.notify('文件大小超过 2 MB'); return; }
-    if (/\.cdx$/i.test(file.name)) { this.notify('CDX 二进制适配尚未实现，请先从 ChemDraw 另存为 CDXML'); return; }
     try {
-      const data = await file.text(); this.pendingImport = { name: file.name, data };
+      const bytes = new Uint8Array(await file.arrayBuffer());
+      const binary = /\.cdx$/i.test(file.name) || isCdx(bytes);
+      // CDX stays binary until converted to a lossless printable transport for this text-based dialog.
+      const data = binary ? encodeCdx(bytes) : new TextDecoder('utf-8', { fatal: true }).decode(bytes);
+      this.pendingImport = { name: file.name, data };
       if (apply) { this.import({ data, name: file.name }); this.notify(`已导入 ${file.name}`); return; }
-      this.query<HTMLTextAreaElement>('.import-source').value = data;
+      const preview = this.query<HTMLTextAreaElement>('.import-source');
+      preview.readOnly = binary;
+      preview.value = binary ? `已选择 CDX 文件：${file.name}\n文件大小：${file.size} 字节\n\n点击“导入画布”解析普通二维分子。兼容提示将在导入后显示；原始文件随 JSON 文档保留。` : data;
       this.query('.import-filename').textContent = file.name;
-      this.importMessage('文件已读取，点击“导入画布”完成导入。');
+      this.importMessage(binary ? 'CDX 文件已就绪。导入后可选择源格式保留保存，或导出 JSON、CDXML、MRV、MOL。' : '文件已读取，点击“导入画布”完成导入。');
     } catch (error) { this.lastIssues = error instanceof FormatError ? error.issues : [{ severity: 'error', code: 'FILE_READ', message: (error as Error).message }]; if (apply) this.showIssues(); else this.importMessage((error as Error).message, true); }
   }
   private applyImport() {
     try {
-      const data = this.query<HTMLTextAreaElement>('.import-source').value;
+      const preview = this.query<HTMLTextAreaElement>('.import-source');
+      const data = preview.readOnly && this.pendingImport ? this.pendingImport.data : preview.value;
       const result = this.import({ data, name: this.pendingImport?.data === data ? this.pendingImport.name : undefined });
       this.query<HTMLDialogElement>('.import-dialog').close();
       this.notify(result.issues.length ? `已导入结构，另有 ${result.issues.length} 项兼容提示` : '结构已导入');
@@ -618,21 +630,27 @@ export class ChemicalEditorElement extends HTMLElementBase {
     const format = this.query<HTMLSelectElement>('.export-format').value;
     const preview = this.query<HTMLTextAreaElement>('.export-source'), message = this.query<HTMLElement>('.export-message');
     this.exportResult = undefined; message.classList.remove('error');
+    this.query<HTMLElement>('.lossy-option').hidden = format === 'source' || format === 'original';
     try {
       if (format === 'svg') {
         preview.value = this.exportSvg(); message.textContent = 'SVG 是矢量图片。需要继续编辑化学数据时，请选择 JSON、MRV 或 CDXML。';
+      } else if (format === 'source' || format === 'original') {
+        const result = format === 'original' ? exportOriginalSource(this.getDocument()) : exportSourceFile(this.getDocument());
+        this.exportResult = result;
+        preview.value = result.format === 'cdx' ? `CDX 二进制文件 · ${decodeCdx(result.data).length} 字节\n点击“下载文件”保存 .cdx 文件。` : result.data;
+        message.textContent = format === 'original' ? '下载导入时的原始文件，字节保持一致；之后的编辑不包含在此文件中。' : result.passthrough ? '当前文档未修改，原样保存源文件。' : '在源文档上保存已支持的修改，保留其余对象、属性和文档信息。';
       } else {
         const result = this.export({ format: format as Format, allowLossy: this.query<HTMLInputElement>('.allow-lossy').checked });
         this.exportResult = result; preview.value = result.data;
-        message.textContent = result.passthrough ? '结构与布局尚未修改，将原样返回源文件。源文件中未解释的内容仍保留。' : result.issues.length ? result.issues.map(i => i.message).join(' ') : formats.find(f => f.format === format)!.description;
+        message.textContent = result.preservation === 'preserved' ? '在原 CDXML 文档上更新已支持的字段，其余对象、属性与文档信息保留。' : result.preservation === 'converted' ? 'CDX 对象与属性均已映射为 CDXML，并已复核分子内容；未丢弃未解释字段。' : result.passthrough ? '结构与布局尚未修改，将原样返回源文件。源文件中未解释的内容仍保留。' : result.issues.length ? result.issues.map(i => i.message).join(' ') : formats.find(f => f.format === format)!.description;
         message.classList.toggle('error', result.issues.length > 0 && !result.passthrough);
       }
       this.query<HTMLButtonElement>('[data-action="download-export"]').disabled = false;
-      this.query<HTMLButtonElement>('[data-action="copy-export"]').disabled = false;
+      this.query<HTMLButtonElement>('[data-action="copy-export"]').disabled = this.exportResult?.format === 'cdx';
     } catch (error) {
       preview.value = ''; message.classList.add('error');
       this.lastIssues = error instanceof FormatError ? error.issues : [];
-      message.textContent = `${(error as Error).message} ${this.lastIssues.filter(i => i.code !== 'LOSSY_EXPORT_BLOCKED').map(i => i.message).join(' ')}`;
+      message.textContent = `${(error as Error).message} ${this.lastIssues.filter(i => i.code !== 'LOSSY_EXPORT_BLOCKED' && i.message !== (error as Error).message).map(i => i.message).join(' ')}`.trim();
       this.query<HTMLButtonElement>('[data-action="download-export"]').disabled = true;
       this.query<HTMLButtonElement>('[data-action="copy-export"]').disabled = true;
     }
@@ -641,10 +659,12 @@ export class ChemicalEditorElement extends HTMLElementBase {
     const format = this.query<HTMLSelectElement>('.export-format').value;
     const data = this.query<HTMLTextAreaElement>('.export-source').value;
     if (!data || (format !== 'svg' && !this.exportResult)) return;
-    const extension = format === 'svg' ? '.svg' : formats.find(f => f.format === format)!.extension;
-    const blob = new Blob([data], { type: format === 'svg' ? 'image/svg+xml;charset=utf-8' : format === 'json' ? 'application/json;charset=utf-8' : 'text/plain;charset=utf-8' });
+    const actualFormat = this.exportResult?.format ?? format;
+    const extension = actualFormat === 'cdx' ? '.cdx' : actualFormat === 'svg' ? '.svg' : formats.find(f => f.format === actualFormat)!.extension;
+    const payload = actualFormat === 'cdx' ? decodeCdx(this.exportResult!.data).slice().buffer as ArrayBuffer : this.exportResult?.data ?? data;
+    const blob = new Blob([payload], { type: actualFormat === 'cdx' ? 'application/octet-stream' : format === 'svg' ? 'image/svg+xml;charset=utf-8' : actualFormat === 'json' ? 'application/json;charset=utf-8' : 'text/plain;charset=utf-8' });
     const url = URL.createObjectURL(blob), a = document.createElement('a');
-    a.href = url; a.download = (this.getDocument().title.replace(/[<>:"/\\|?*\x00-\x1f]/g, '_') || 'structure') + extension; a.click();
+    a.href = url; a.download = format === 'original' && this.getDocument().source?.name ? 'original-' + this.getDocument().source!.name!.replace(/[<>:"/\\|?*\x00-\x1f]/g, '_') : (this.getDocument().title.replace(/[<>:"/\\|?*\x00-\x1f]/g, '_') || 'structure') + extension; a.click();
     setTimeout(() => URL.revokeObjectURL(url), 1000);
     if (this.exportResult) { this.lastIssues = this.exportResult.issues; this.render(); }
     this.notify('文件已导出');

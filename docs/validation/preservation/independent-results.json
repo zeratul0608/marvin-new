@@ -1,0 +1,36 @@
+{
+  "rdkitVersion": "2025.03.6",
+  "originalBytesIdentical": true,
+  "originalSha256": "4987416b9939e10035504efd66474e11303f889ffc3164dd48e7f9ce90e70c5b",
+  "cases": [
+    {
+      "file": "styled-moved.cdx",
+      "canonicalSmiles": "CNC",
+      "independentlyReadable": true,
+      "chemistryMatches": true
+    },
+    {
+      "file": "ethanol-18o-anion.cdx",
+      "canonicalSmiles": "CC[18O-]",
+      "independentlyReadable": true,
+      "chemistryMatches": true
+    },
+    {
+      "file": "ethanol-18o-anion.cdxml",
+      "canonicalSmiles": "CC[18O-]",
+      "independentlyReadable": true,
+      "chemistryMatches": true
+    }
+  ],
+  "annotatedXml": {
+    "syntaxValid": true,
+    "fontPreserved": true,
+    "graphicPreserved": true,
+    "textPreserved": true,
+    "cdataPreserved": true,
+    "commentPreserved": true,
+    "doctypePreserved": true,
+    "atomIdPreserved": true,
+    "editedPositionMatches": true
+  }
+}

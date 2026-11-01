@@ -1,0 +1,23 @@
+{
+  "originalBytesIdentical": true,
+  "originalSha256": "4987416b9939e10035504efd66474e11303f889ffc3164dd48e7f9ce90e70c5b",
+  "movedCdxDownloaded": true,
+  "editedCdxDownloaded": true,
+  "exactMappedCdxmlDownloaded": true,
+  "binaryCopyDisabled": true,
+  "strictSaveIgnoresLossyCheckbox": true,
+  "labelEditBlocked": true,
+  "blockedMessage": "无法保留源文档保存：该化学修改需要重排原子标签，尚不能保证原标签的字体、上下标与图形一致。可保存原生 JSON，或明确选择有损重建。",
+  "originalAvailableAfterBlockedEdit": true,
+  "cdata": {
+    "preservation": "preserved",
+    "parserError": false,
+    "label": "keep <text> & symbols",
+    "font": "Courier",
+    "graphic": "40 40 80 80",
+    "comment": true,
+    "cdata": true,
+    "doctype": true
+  },
+  "pageErrors": []
+}

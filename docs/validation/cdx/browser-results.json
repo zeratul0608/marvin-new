@@ -1,0 +1,112 @@
+{
+  "cases": [
+    {
+      "file": "dimethylamine-simple.cdx",
+      "bytes": 165,
+      "sha256": "24d264ddaec1144f6591c7ece46f71e4b39e5e91fc064eaca1e242fac25386b5",
+      "formula": "C2H7N",
+      "atoms": 3,
+      "bonds": 2,
+      "sourceFormat": "cdx",
+      "warnings": 0,
+      "editable": true,
+      "undo": true,
+      "originalPreserved": true,
+      "draftPreserved": true,
+      "cdxmlFormula": "C2H7N",
+      "molFormula": "C2H7N"
+    },
+    {
+      "file": "dimethylamine-styled.cdx",
+      "bytes": 820,
+      "sha256": "4987416b9939e10035504efd66474e11303f889ffc3164dd48e7f9ce90e70c5b",
+      "formula": "C2H7N",
+      "atoms": 3,
+      "bonds": 2,
+      "sourceFormat": "cdx",
+      "warnings": 34,
+      "editable": true,
+      "undo": true,
+      "originalPreserved": true,
+      "draftPreserved": true,
+      "cdxmlFormula": "C2H7N",
+      "molFormula": "C2H7N"
+    },
+    {
+      "file": "rdkit-ethanol.cdx",
+      "bytes": 170,
+      "sha256": "8501545fa11cc1825828b1f154476dd15b2e01eceffb17e842c6002fa6f80239",
+      "formula": "C2H6O",
+      "atoms": 3,
+      "bonds": 2,
+      "sourceFormat": "cdx",
+      "warnings": 1,
+      "editable": true,
+      "undo": true,
+      "originalPreserved": true,
+      "draftPreserved": true,
+      "cdxmlFormula": "C2H6O",
+      "molFormula": "C2H6O"
+    },
+    {
+      "file": "rdkit-benzene.cdx",
+      "bytes": 338,
+      "sha256": "7059156f4cbba1a1bdbabd83a961ad18b550cf0d181be6ffd7c50f48fb12d537",
+      "formula": "C6H6",
+      "atoms": 6,
+      "bonds": 6,
+      "sourceFormat": "cdx",
+      "warnings": 1,
+      "editable": true,
+      "undo": true,
+      "originalPreserved": true,
+      "draftPreserved": true,
+      "cdxmlFormula": "C6H6",
+      "molFormula": "C6H6"
+    },
+    {
+      "file": "rdkit-isotopes-charges.cdx",
+      "bytes": 186,
+      "sha256": "8c56b6c279d16148e00965389028a3c90f1d133c66a5086e6c6e416e830d2226",
+      "formula": "CH6ClN",
+      "atoms": 3,
+      "bonds": 1,
+      "sourceFormat": "cdx",
+      "warnings": 1,
+      "editable": true,
+      "undo": true,
+      "originalPreserved": true,
+      "draftPreserved": true,
+      "cdxmlFormula": "CH6ClN",
+      "molFormula": "CH6ClN"
+    }
+  ],
+  "dragDrop": true,
+  "failures": [
+    {
+      "name": "unsupported-ring-stereo",
+      "rejected": true,
+      "documentUnchanged": true,
+      "message": "CDX 化学属性 0x0445 尚未实现"
+    },
+    {
+      "name": "truncated",
+      "rejected": true,
+      "documentUnchanged": true,
+      "message": "CDX 数据在字节 50 处截断"
+    },
+    {
+      "name": "invalid-version",
+      "rejected": true,
+      "documentUnchanged": true,
+      "message": "CDX 文件头版本或保留字段不受支持"
+    },
+    {
+      "name": "fake-cdx",
+      "rejected": true,
+      "documentUnchanged": true,
+      "message": "CDX 文件头无效或文件已截断"
+    }
+  ],
+  "pageErrors": []
+}

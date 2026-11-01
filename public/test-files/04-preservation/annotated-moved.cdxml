@@ -1,0 +1,3 @@
+<?xml version="1.0"?>
+<!DOCTYPE CDXML SYSTEM "http://example.invalid/cdxml.dtd">
+<CDXML><fonttable><font id="9" name="Courier"/></fonttable><page id="1"><!-- independent text and graphic --><fragment id="2"><n id="3" p="10 -5" Element="8"/></fragment><t id="8" p="50 50"><s font="9"><![CDATA[keep <text> & symbols]]></s></t><graphic id="7" GraphicType="Rectangle" BoundingBox="40 40 80 80"/></page></CDXML>

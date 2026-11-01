@@ -1,0 +1,117 @@
+{
+  "cases": [
+    {
+      "name": "cdx-simple",
+      "file": "docs/validation/cdxml/cdx-simple.cdxml",
+      "formula": "C2H7N",
+      "atoms": 3,
+      "bonds": 2,
+      "sourceWarnings": 0,
+      "lossConfirmed": false,
+      "reimport": {
+        "formula": "C2H7N",
+        "atoms": 3,
+        "bonds": 2
+      }
+    },
+    {
+      "name": "cdx-styled",
+      "file": "docs/validation/cdxml/cdx-styled.cdxml",
+      "formula": "C2H7N",
+      "atoms": 3,
+      "bonds": 2,
+      "sourceWarnings": 34,
+      "lossConfirmed": true,
+      "reimport": {
+        "formula": "C2H7N",
+        "atoms": 3,
+        "bonds": 2
+      }
+    },
+    {
+      "name": "cdxml-simple-edited",
+      "file": "docs/validation/cdxml/cdxml-simple-edited.cdxml",
+      "formula": "C2H7N",
+      "atoms": 3,
+      "bonds": 2,
+      "sourceWarnings": 0,
+      "lossConfirmed": false,
+      "reimport": {
+        "formula": "C2H7N",
+        "atoms": 3,
+        "bonds": 2
+      }
+    },
+    {
+      "name": "cdxml-styled-edited",
+      "file": "docs/validation/cdxml/cdxml-styled-edited.cdxml",
+      "formula": "C2H7N",
+      "atoms": 3,
+      "bonds": 2,
+      "sourceWarnings": 5,
+      "lossConfirmed": true,
+      "reimport": {
+        "formula": "C2H7N",
+        "atoms": 3,
+        "bonds": 2
+      }
+    },
+    {
+      "name": "ethanol-mrv",
+      "file": "docs/validation/cdxml/ethanol-mrv.cdxml",
+      "formula": "C2H6O",
+      "atoms": 3,
+      "bonds": 2,
+      "sourceWarnings": 0,
+      "lossConfirmed": false,
+      "reimport": {
+        "formula": "C2H6O",
+        "atoms": 3,
+        "bonds": 2
+      }
+    },
+    {
+      "name": "aspirin",
+      "file": "docs/validation/cdxml/aspirin.cdxml",
+      "formula": "C9H8O4",
+      "atoms": 13,
+      "bonds": 13,
+      "sourceWarnings": 0,
+      "lossConfirmed": false,
+      "reimport": {
+        "formula": "C9H8O4",
+        "atoms": 13,
+        "bonds": 13
+      }
+    },
+    {
+      "name": "isotopes-charges-hydrogens",
+      "file": "docs/validation/cdxml/isotopes-charges-hydrogens.cdxml",
+      "formula": "CH6ClN",
+      "atoms": 3,
+      "bonds": 1,
+      "sourceWarnings": 0,
+      "lossConfirmed": false,
+      "reimport": {
+        "formula": "CH6ClN",
+        "atoms": 3,
+        "bonds": 1
+      }
+    },
+    {
+      "name": "wedge",
+      "file": "docs/validation/cdxml/wedge.cdxml",
+      "formula": "CBrClFI",
+      "atoms": 5,
+      "bonds": 4,
+      "sourceWarnings": 0,
+      "lossConfirmed": false,
+      "reimport": {
+        "formula": "CBrClFI",
+        "atoms": 5,
+        "bonds": 4
+      }
+    }
+  ],
+  "pageErrors": []
+}

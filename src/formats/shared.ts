@@ -1,5 +1,5 @@
 import { addAtom, addBond, emptyDocument, fingerprint, validateDocument } from '../core/model';
-import type { Atom, BondOrder, ChemicalDocument, Diagnostic, Format, ImportResult } from '../core/types';
+import type { Atom, BondOrder, ChemicalDocument, Diagnostic, ImportFormat, ImportResult } from '../core/types';
 
 export class FormatError extends Error {
   issues: Diagnostic[];
@@ -19,7 +19,7 @@ export function numeric(value: string): number {
   return Number(value);
 }
 export function boundCount(count: number) { if (count < 0 || count > 2000) fail('首版单文档最多支持 2000 个原子／键', 'SIZE_LIMIT'); }
-export function finish(doc: ChemicalDocument, raw: string, format: Format, issues: Diagnostic[], name?: string): ImportResult {
+export function finish(doc: ChemicalDocument, raw: string, format: ImportFormat, issues: Diagnostic[], name?: string): ImportResult {
   boundCount(Object.keys(doc.graph.atoms).length); boundCount(Object.keys(doc.graph.bonds).length);
   try { validateDocument(doc); } catch (error) { fail((error as Error).message); }
   doc.source = { raw, format, fingerprint: fingerprint(doc), issues: structuredClone(issues), name };

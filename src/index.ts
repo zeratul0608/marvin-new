@@ -13,6 +13,8 @@ export { BUILTIN_AI_PROMPT, AI_PROMPT_PRESETS } from './ai/prompts';
 export type * from './ai/types';
 export { exportSvg } from './editor/render';
 export { importDocument, exportDocument, detectFormat, formats, FormatError } from './formats';
+export { encodeCdx, decodeCdx } from './formats/cdx';
+export { exportOriginalSource, exportSourceFile } from './formats/preservation';
 export { emptyDocument, addAtom, addBond, removeAtom, removeBond, validateDocument, connectedComponents, molecularFormula, hydrogenCount, ELEMENTS } from './core/model';
 export { DocumentStore } from './core/store';
 export { exampleDocument } from './core/templates';

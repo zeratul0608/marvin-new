@@ -73,7 +73,7 @@ export function validateDocument(doc: ChemicalDocument): Diagnostic[] {
   if (Object.keys(doc.graph.atoms).length > 2000 || Object.keys(doc.graph.bonds).length > 2000) throw new Error('首版最多支持 2000 个原子／键');
   if (doc.source) {
     fields(doc.source, ['format', 'name', 'raw', 'fingerprint', 'issues'], '源文件记录');
-    if (!['json', 'mol', 'mol-v3000', 'cdxml', 'mrv'].includes(doc.source.format) || typeof doc.source.raw !== 'string' || typeof doc.source.fingerprint !== 'string' || !Array.isArray(doc.source.issues)) throw new Error('源文件记录无效');
+    if (!['json', 'mol', 'mol-v3000', 'cdxml', 'mrv', 'cdx'].includes(doc.source.format) || typeof doc.source.raw !== 'string' || typeof doc.source.fingerprint !== 'string' || !Array.isArray(doc.source.issues)) throw new Error('源文件记录无效');
     if (doc.source.name !== undefined && typeof doc.source.name !== 'string') throw new Error('源文件名称无效');
     for (const issue of doc.source.issues) {
       fields(issue, ['severity', 'code', 'message', 'objectId'], '诊断');

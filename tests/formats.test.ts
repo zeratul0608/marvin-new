@@ -51,15 +51,17 @@ describe('format compatibility', () => {
     const result = exportDocument(doc, { format: 'cdxml', allowLossy: true });
     expect(result.issues[0].code).toBe('ATOM_MAP_LOSS');
   });
-  it('returns unsupported document graphics verbatim only while their projection is unchanged', () => {
+  it('retains document graphics when CDXML edits can be patched in the original document', () => {
     const raw = '<CDXML><page id="1"><fragment id="2"><n id="3" p="0 0" Element="8"/></fragment><graphic id="4" GraphicType="Rectangle"/></page></CDXML>';
     const { document, issues } = importDocument({ data: raw });
     expect(issues.length).toBeGreaterThan(0);
     expect(exportDocument(document, { format: 'cdxml' })).toMatchObject({ data: raw, passthrough: true });
     document.depiction.positions[Object.keys(document.graph.atoms)[0]].x = 2;
-    expect(() => exportDocument(document, { format: 'cdxml' })).toThrow('导出已阻止');
+    const preserved = exportDocument(document, { format: 'cdxml' });
+    expect(preserved.preservation).toBe('preserved');
+    expect(preserved.data).toContain('GraphicType="Rectangle"');
     expect(() => exportDocument(document, { format: 'mrv' })).toThrow();
-    expect(exportDocument(document, { format: 'cdxml', allowLossy: true }).issues[0].code).toBe('SOURCE_DATA_LOSS');
+    expect(exportDocument(document, { format: 'cdxml', allowLossy: true }).issues).toEqual([]);
   });
   it('keeps source records and stable IDs in native JSON and rejects future schemas', () => {
     const doc = importDocument({ data: exportDocument(exampleDocument('ethanol'), { format: 'mrv' }).data }).document;

@@ -1,5 +1,5 @@
 import type { CreatedObjects, EditOperation } from '../core/edits';
-import type { AtomId, BondId, ChemicalDocument, Diagnostic, ExportResult, Format, ImportResult } from '../core/types';
+import type { AtomId, BondId, ChemicalDocument, Diagnostic, ExportResult, Format, ImportInput, ImportResult } from '../core/types';
 
 export const EDITOR_API_VERSION = 1 as const;
 export interface EditorSelection { atomIds: AtomId[]; bondId?: BondId }
@@ -24,7 +24,7 @@ export interface EditorApi {
   setSelection(selection: EditorSelection): void;
   applyEdits(request: EditRequest): EditResult;
   getDiagnostics(): Diagnostic[];
-  import(input: { data: string; format?: Format; name?: string }): ImportResult;
+  import(input: ImportInput): ImportResult;
   export(input: { format: Format; allowLossy?: boolean }): ExportResult;
   exportSvg(): string;
   undo(): void;
@@ -43,8 +43,9 @@ export type EditorRequest =
   | { method: 'get_snapshot' | 'get_selection' | 'get_diagnostics' | 'export_svg' | 'undo' | 'redo' | 'fit' | 'list_plugins' | 'list_commands' }
   | { method: 'set_selection'; params: EditorSelection }
   | { method: 'apply_edits'; params: EditRequest }
-  | { method: 'import'; params: { data: string; format?: Format; name?: string } }
+  | { method: 'import'; params: ImportInput }
   | { method: 'export'; params: { format: Format; allowLossy?: boolean } }
+  | { method: 'export_source'; params: { original?: boolean } }
   | { method: 'execute_command'; params: { id: string; input?: unknown } };
 
 export interface PluginCommand {
