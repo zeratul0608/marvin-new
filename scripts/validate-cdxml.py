@@ -35,7 +35,8 @@ for name, smiles in expected.items():
     root = ET.parse(path).getroot()
     assert root.tag == 'CDXML', path
     nodes, bonds = root.findall('.//n'), root.findall('.//b')
-    ids = [e.attrib['id'] for e in root.iter() if e.tag in ('page', 'fragment', 'n', 'b')]
+    # Page, fragment and bond IDs may be omitted in valid source-preserved CDXML.
+    ids = [e.attrib['id'] for e in root.iter() if e.tag in ('page', 'fragment', 'n', 'b') and 'id' in e.attrib]
     assert len(ids) == len(set(ids)), f'{name}: duplicate IDs'
     node_ids = {e.attrib['id'] for e in nodes}
     for node in nodes:

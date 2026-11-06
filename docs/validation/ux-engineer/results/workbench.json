@@ -1,0 +1,181 @@
+{
+  "persona": "化学工程师：日常结构审阅、排版与重复片段编辑",
+  "method": "Chrome独立context真实UI操作；只读getSnapshot/getDiagnostics验证，不调用写入SDK；clipboard权限只授予测试context",
+  "startedAt": "2026-11-06T03:42:12.958Z",
+  "tasks": [
+    {
+      "id": "WB01",
+      "title": "审阅正常乙醇，摘要与基础检查含义清楚",
+      "steps": [
+        "模板乙醇",
+        "高级编辑→扩展插件→结构审阅",
+        "刷新摘要",
+        "核对分子式、节点/键、片段、形式电荷、诊断和校验范围"
+      ],
+      "status": "passed",
+      "result": {
+        "rows": "分子式（基础规则）\nC2H6O\n画布节点 / 键\n3 / 2\n已定义化学原子\n3\n不连通片段\n1\n总形式电荷\n0\n同位素标记原子\n0\n选中原子 / 键\n0 / 0\n基础诊断\n0\n文档版本\n2",
+        "scope": "基础结构摘要；包含已定义缩写的内部原子，分子式采用有限价态规则，不包含完整化学合理性或立体化学校验。",
+        "readOnly": true
+      },
+      "screenshot": ".local/ux-engineer/workbench/WB01-normal-review.png",
+      "durationSeconds": 0.464
+    },
+    {
+      "id": "WB02",
+      "title": "问题可发现但兼容报告不能定位错误原子",
+      "steps": [
+        "模板乙醇",
+        "选择有两条键的中间碳",
+        "按F改成两价氟以制造基础价态告警",
+        "结构审阅显示诊断",
+        "基本属性→查看报告",
+        "点击问题文本",
+        "检查选区定位",
+        "一次撤销恢复"
+      ],
+      "status": "passed",
+      "summary": "分子式（基础规则）\nCH4FO · 待校验\n画布节点 / 键\n3 / 2\n已定义化学原子\n3\n不连通片段\n1\n总形式电荷\n0\n同位素标记原子\n0\n选中原子 / 键\n1 / 0\n基础诊断\n1\n文档版本\n4",
+      "result": {
+        "diagnostics": [
+          {
+            "severity": "warning",
+            "code": "VALENCE_UNRESOLVED",
+            "objectId": "a_90bb8c80-8281-4507-894c-2bf97dd4c574",
+            "message": "F 的氢数或价态暂无法由基础规则确定"
+          }
+        ],
+        "diagnosticTargetAtomId": "a_90bb8c80-8281-4507-894c-2bf97dd4c574",
+        "selectionBeforeIssueClick": [
+          "a_a139e261-e9ef-4ce8-a63a-dc3bb26ff642"
+        ],
+        "selectionAfterIssueClick": [
+          "a_a139e261-e9ef-4ce8-a63a-dc3bb26ff642"
+        ],
+        "reportText": "F 的氢数或价态暂无法由基础规则确定\nVALENCE_UNRESOLVED",
+        "issueMarkup": "<div class=\"issue warning\">F 的氢数或价态暂无法由基础规则确定<small>VALENCE_UNRESOLVED</small></div>",
+        "selectionUnchangedOnClick": true,
+        "descriptionContainsId": false
+      },
+      "screenshot": ".local/ux-engineer/workbench/WB02-diagnostic-no-locate.png",
+      "durationSeconds": 0.417
+    },
+    {
+      "id": "WB03",
+      "title": "可见结构排版按钮保留化学语义并一步撤销",
+      "steps": [
+        "化学计算面板SMILES输入CCO.CC(=O)O",
+        "使用SMILES替换",
+        "结构排版→片段横向排列",
+        "核对图与位置",
+        "一次撤销",
+        "统一键长（等比例）",
+        "核对图和中位键长",
+        "一次撤销"
+      ],
+      "status": "passed",
+      "arrangedScreenshot": ".local/ux-engineer/workbench/WB03-row-layout.png",
+      "result": {
+        "atoms": 7,
+        "bonds": 5,
+        "graphPreservedForBothActions": true,
+        "normalizedBondLengths": [
+          1.5,
+          1.5,
+          1.5,
+          1.5000000915186753,
+          1.5
+        ],
+        "perFragmentMedianBondLengths": [
+          1.5,
+          1.5
+        ],
+        "bothSingleUndoRestoredExactDocument": true
+      },
+      "screenshot": ".local/ux-engineer/workbench/WB03-normalized.png",
+      "durationSeconds": 0.374
+    },
+    {
+      "id": "WB04",
+      "title": "真实画布Ctrl+C/V复制粘贴能力核查",
+      "steps": [
+        "模板乙醇",
+        "标题输入已知文本并通过键盘复制，验证浏览器剪贴板可用",
+        "全选画布",
+        "Ctrl+C",
+        "读取剪贴板",
+        "Ctrl+V",
+        "核对原子数/版本和文档是否变化",
+        "查看快捷键说明"
+      ],
+      "status": "unsupported",
+      "result": {
+        "clipboardPermissionConfirmed": true,
+        "clipboardAfterCanvasCopy": "UX-clipboard-probe-ethanol",
+        "copyReplacedClipboard": false,
+        "pasteChangedDocument": false,
+        "atomsBefore": 3,
+        "atomsAfter": 3,
+        "revisionBefore": 12,
+        "revisionAfter": 12
+      },
+      "screenshot": ".local/ux-engineer/workbench/WB04-copy-paste-no-action.png",
+      "shortcutGuide": "让绘制更顺手\n\n在画布获得焦点时使用快捷键\n\n搜索工具\nCtrl / ⌘ K\n选择 / 单键\nV / B\n双键 / 三键\n2 / 3\n苯环 / 六元环\n6 / R\n实楔 / 虚楔\nW / D\n全选\nCtrl / ⌘ A\n撤销\nCtrl / ⌘ Z\n重做\nCtrl / ⌘ Shift Z\n导出\nCtrl / ⌘ S\n适应画布\nEnter\n取消选择\nEsc\n删除所选\nDelete\n平移画布\n空格 + 拖动\n自由成键角度\nAlt + 拖动",
+      "guideScreenshot": ".local/ux-engineer/workbench/WB04-shortcuts-no-copy-paste.png",
+      "durationSeconds": 0.309
+    },
+    {
+      "id": "WB05",
+      "title": "删除所选氧与全图后均可一步撤销",
+      "steps": [
+        "模板乙醇",
+        "选OH",
+        "按Delete",
+        "核对只删氧及相连键",
+        "一次撤销完整恢复",
+        "全选",
+        "按Delete",
+        "一次撤销完整恢复"
+      ],
+      "status": "passed",
+      "deletedScreenshot": ".local/ux-engineer/workbench/WB05-delete-all.png",
+      "result": {
+        "singleOxygenDeleteExact": true,
+        "allDeleteClearsGraph": true,
+        "bothSingleUndoRestoredExactDocument": true
+      },
+      "screenshot": ".local/ux-engineer/workbench/WB05-undo-restored.png",
+      "durationSeconds": 0.245
+    }
+  ],
+  "findings": [
+    {
+      "id": "WB-UX-01",
+      "severity": "P2",
+      "title": "结构问题报告缺少对象定位",
+      "detail": "制造两价F后，结构审阅正确显示1项基础诊断；查看报告能读到“F 的氢数或价态暂无法由基础规则确定”，但该行仅div，无对象标签或定位按钮，点击不会选中/定位原子。真实诊断含objectId，UI未承接；大结构有多个同元素时需人工寻找。当前基础审阅范围本身已明确，不将缺少完整化学校验计为bug。",
+      "evidence": ".local/ux-engineer/workbench/WB02-diagnostic-no-locate.png"
+    },
+    {
+      "id": "WB-UX-02",
+      "severity": "P2",
+      "title": "画布缺少常用复制/粘贴结构能力，快捷键无反馈",
+      "detail": "独立Chrome已授予clipboard权限，标题文本Ctrl+C确认剪贴板可用；全选乙醇后Ctrl+C未写入结构，Ctrl+V也不改变3原子/2键或文档版本。快捷键表未列复制/粘贴，属于尚未提供的常用能力而非权限错误。工程师重复片段或跨文档搬运需另走导出/导入，建议提供菜单入口、Ctrl+C/V及范围/不支持格式反馈。",
+      "evidence": ".local/ux-engineer/workbench/WB04-copy-paste-no-action.png"
+    }
+  ],
+  "pageErrors": [],
+  "harnessCorrections": [
+    "首轮WB03把“各片段中位键长1.5”等比例缩放误断言为“所有键长恰好1.5”；纠正为按UI说明逐片段检查中位数。",
+    "首轮WB04/WB05画布定位器误写为.canvas svg；第二轮定位到svg.canvas后固定坐标又位于浮动元素栏下。最终改为点击实际可见OH再Ctrl+A；浏览器clipboard路径本身可用。前两轮原始记录保存在first-run.json、second-run.json。"
+  ],
+  "finishedAt": "2026-11-06T03:42:15.008Z",
+  "summary": {
+    "tasks": 5,
+    "passed": 4,
+    "failed": 0,
+    "unsupported": 1,
+    "productionFilesModified": false,
+    "clipboardPermissionsContextOnly": true
+  }
+}

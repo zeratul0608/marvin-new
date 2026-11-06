@@ -31,6 +31,19 @@ console.log(editor.getPlugins(), editor.getCommands());
 
 电荷归零只修改形式电荷，不推断 pH 或质子化状态，不增加、删除氢。分子式使用项目现有的有限价态规则；该插件不承担完整化学合理性、拓扑立体化学或工艺适用性校验。
 
+## 面板与高级编辑栏
+
+编辑器默认显示基础工具，高级栏初始关闭。`showPluginPanel('plugin-id')` 或执行带面板插件的命令时，会自动展开「高级编辑 → 扩展插件」。面板在插件启用时挂载，切换分类或收起高级栏不会重新挂载；禁用／卸载插件才执行清理。
+
+```ts
+editor.showAdvancedEditor('queries'); // properties / queries / fragments / document / extensions
+editor.hideAdvancedEditor();
+editor.showPluginPanel('structure-review');
+editor.showPluginPanel(); // 返回基本属性，保留已展开的高级工具栏
+```
+
+界面开关不写入文档，也不增加撤销步骤。组件导出 `AdvancedEditorSection` 类型，界面状态按编辑器实例独立保存于当前会话。界面使用见 [高级编辑栏](advanced-editor.md)。
+
 ## 编写插件
 
 ```ts

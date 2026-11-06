@@ -112,20 +112,23 @@ describe('source-preserving saves', () => {
     expect(decodeCdx(exportOriginalSource(doc).data)).toEqual(fixture('rdkit-ethanol'));
   });
 
-  it.each(['cdx', 'cdxml'])('refuses topology edits in strict %s preservation while keeping the original available', kind => {
+  it.each(['cdx', 'cdxml'])('preserves an added atom in %s while keeping the original available', kind => {
     const doc = importDocument({ data: kind === 'cdx' ? fixture('rdkit-ethanol') : xml }).document;
     addAtom(doc, 'F', { x: 0, y: 1 });
-    expect(() => exportSourceFile(doc)).toThrow('新增、删除');
-    if (kind === 'cdxml') expect(() => exportDocument(doc, { format: 'cdxml' })).toThrow('导出已阻止');
+    const saved = exportSourceFile(doc);
+    expect(Object.values(importDocument({ data: saved.data }).document.graph.atoms).some(a => a.element === 'F')).toBe(true);
+    if (kind === 'cdxml') expect(exportDocument(doc, { format: 'cdxml' }).preservation).toBe('preserved');
     expect(exportOriginalSource(doc).preservation).toBe('original');
   });
 
-  it('refuses label chemistry changes, out-of-bounds layout and values outside binary limits', () => {
+  it('updates ordinary labels and layout caches while still refusing values outside binary limits', () => {
     const doc = importDocument({ data: fixture('dimethylamine-styled') }).document;
     const n = Object.values(doc.graph.atoms).find(a => a.element === 'N')!;
-    n.element = 'O'; expect(() => exportSourceFile(doc)).toThrow('标签');
+    n.element = 'P'; expect(exportSourceFile(doc).preservation).toBe('preserved');
     n.element = 'N'; doc.depiction.positions[n.id].x = 1000;
-    expect(() => exportSourceFile(doc)).toThrow('包围框');
+    expect(exportSourceFile(doc).preservation).toBe('preserved');
+    doc.depiction.positions[n.id].x = 2000;
+    expect(() => exportSourceFile(doc)).toThrow('数值超出');
     const simple = importDocument({ data: fixture('rdkit-ethanol') }).document;
     Object.values(simple.graph.atoms)[0].charge = 128;
     expect(() => exportSourceFile(simple)).toThrow('数值超出');

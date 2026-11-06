@@ -1,0 +1,116 @@
+{
+  "browser": "Chrome",
+  "aiTested": false,
+  "results": [
+    {
+      "file": "Carbon Hybridization.cdxml",
+      "id": "a_aa9efff2-f70a-4932-b5be-e5b9da2aa318",
+      "atoms": 267,
+      "bonds": 205,
+      "drawings": 576,
+      "reactions": 10,
+      "revision": 2,
+      "roundtrip": true,
+      "uiImport": true,
+      "uiChemicalEdit": true,
+      "undoRedo": true,
+      "downloaded": true
+    },
+    {
+      "file": "Hotkeys Cheat Sheet.cdxml",
+      "id": "a_afe6bc5b-c0d8-487b-a361-c399c04a728a",
+      "atoms": 385,
+      "bonds": 317,
+      "drawings": 461,
+      "reactions": 8,
+      "revision": 6,
+      "roundtrip": true,
+      "uiImport": true,
+      "uiChemicalEdit": true,
+      "undoRedo": true,
+      "downloaded": true
+    },
+    {
+      "file": "Shortcuts Cheat Sheet.cdxml",
+      "id": "a_1a3469d0-4ea9-4165-a600-3ca795950717",
+      "atoms": 400,
+      "bonds": 416,
+      "drawings": 201,
+      "reactions": 33,
+      "revision": 10,
+      "roundtrip": true,
+      "uiImport": true,
+      "uiChemicalEdit": true,
+      "undoRedo": true,
+      "downloaded": true
+    },
+    {
+      "file": "Human Insulin.cdxml",
+      "id": "a_425f63aa-e155-4256-b42f-b200a4eb8b4b",
+      "atoms": 59,
+      "bonds": 60,
+      "drawings": 66,
+      "reactions": 0,
+      "revision": 14,
+      "roundtrip": true,
+      "uiImport": true,
+      "uiChemicalEdit": true,
+      "undoRedo": true,
+      "downloaded": true
+    },
+    {
+      "file": "Vasopressin Peptides.cdxml",
+      "id": "a_6731f1b8-af0b-41a0-a07a-7a21de32fe34",
+      "atoms": 187,
+      "bonds": 187,
+      "drawings": 1733,
+      "reactions": 0,
+      "revision": 18,
+      "roundtrip": true,
+      "uiImport": true,
+      "uiChemicalEdit": true,
+      "undoRedo": true,
+      "downloaded": true
+    },
+    {
+      "file": "Stereoisomerism.cdxml",
+      "id": "a_22cab10d-215c-45ea-a8a1-7215d61c22e8",
+      "atoms": 419,
+      "bonds": 372,
+      "drawings": 143,
+      "reactions": 2,
+      "revision": 22,
+      "roundtrip": true,
+      "uiImport": true,
+      "uiChemicalEdit": true,
+      "undoRedo": true,
+      "downloaded": true
+    },
+    {
+      "file": "reaction.cdx",
+      "id": "a_a56fd427-12cf-4a93-84c2-4ce9b06c9802",
+      "atoms": 14,
+      "bonds": 14,
+      "drawings": 3,
+      "reactions": 1,
+      "revision": 26,
+      "roundtrip": true,
+      "uiImport": true,
+      "uiChemicalEdit": true,
+      "undoRedo": true,
+      "downloaded": true
+    }
+  ],
+  "nestedEditor": {
+    "visibleElementChange": true,
+    "save": true,
+    "undoRedo": true,
+    "sourceRoundtrip": true
+  },
+  "pageSelection": {
+    "visibleAtoms": 1,
+    "totalAtoms": 3
+  },
+  "realPointerArrowDrag": true,
+  "errors": []
+}

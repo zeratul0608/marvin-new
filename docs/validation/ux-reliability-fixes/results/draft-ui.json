@@ -1,0 +1,140 @@
+{
+  "browser": "Chrome headless",
+  "method": "All edits, recovery, Undo and language changes through visible UI. Snapshots/storage reads assert correctness; addInitScript only seeds the legacy raw-draft fixture.",
+  "results": [
+    {
+      "id": "DR01",
+      "title": "两个工作页交错保存后各自刷新恢复，旧问题不再覆盖",
+      "status": "passed",
+      "durationMs": 1152,
+      "aCharge": 0,
+      "bCharge": -1,
+      "aTitle": "Draft A independent",
+      "bTitle": "Draft B oxygen minus one",
+      "conflictWasVisible": true,
+      "exactReloadRecovery": true
+    },
+    {
+      "id": "DR02",
+      "title": "草稿列表同时包含双方版本，恢复后一步撤销精确恢复",
+      "status": "passed",
+      "durationMs": 3075,
+      "listedTitles": [
+        "Draft A independent",
+        "Draft B oxygen minus one",
+        "Draft B oxygen minus one",
+        "Draft A base",
+        "乙醇",
+        "阿司匹林"
+      ],
+      "restoreExact": true,
+      "undoExact": true
+    },
+    {
+      "id": "DR03",
+      "title": "同一文档两页同时保存至少一方提示冲突，双方刷新保留修改",
+      "status": "passed",
+      "durationMs": 577,
+      "states": [
+        "saved",
+        "conflict"
+      ],
+      "cTitle": "Concurrent C retained",
+      "dTitle": "Concurrent D retained",
+      "exactReloadRecovery": true
+    },
+    {
+      "id": "DR04",
+      "title": "提交输入后不等待异步保存便立即刷新，最新文档仍可恢复",
+      "status": "passed",
+      "durationMs": 118,
+      "savedTitle": "Immediate reload kept",
+      "waitedForAsyncSave": false,
+      "exactRecovery": true
+    },
+    {
+      "id": "DR05",
+      "title": "关闭全部工作页后，新页面可从版本列表恢复非共享分支",
+      "status": "passed",
+      "durationMs": 275,
+      "recoveredTitle": "Immediate reload kept",
+      "closedBothOriginalPages": true,
+      "exactRecovery": true
+    },
+    {
+      "id": "DR06",
+      "title": "旧版原始localStorage草稿可迁移，原记录保持原样",
+      "status": "passed",
+      "durationMs": 340,
+      "oldRawPreserved": true,
+      "migratedRecoveryRecords": 1,
+      "editedMigrationReloadExact": true
+    },
+    {
+      "id": "DR07",
+      "title": "英文390px草稿入口可操作且无横向溢出",
+      "status": "passed",
+      "durationMs": 86,
+      "viewport": 390,
+      "draftEntryBox": {
+        "x": 157.46875,
+        "y": 786,
+        "width": 22,
+        "height": 25
+      },
+      "horizontalOverflow": false
+    }
+  ],
+  "pageErrors": [],
+  "navigations": [
+    {
+      "at": 1793941005131,
+      "url": "http://127.0.0.1:5173/"
+    },
+    {
+      "at": 1793941005603,
+      "url": "http://127.0.0.1:5173/"
+    },
+    {
+      "at": 1793941005897,
+      "url": "http://127.0.0.1:5173/"
+    },
+    {
+      "at": 1793941005997,
+      "url": "http://127.0.0.1:5173/"
+    },
+    {
+      "at": 1793941009364,
+      "url": "http://127.0.0.1:5173/"
+    },
+    {
+      "at": 1793941009562,
+      "url": "http://127.0.0.1:5173/"
+    },
+    {
+      "at": 1793941009762,
+      "url": "http://127.0.0.1:5173/"
+    },
+    {
+      "at": 1793941009766,
+      "url": "http://127.0.0.1:5173/"
+    },
+    {
+      "at": 1793941009975,
+      "url": "http://127.0.0.1:5173/"
+    },
+    {
+      "at": 1793941010170,
+      "url": "http://127.0.0.1:5173/"
+    },
+    {
+      "at": 1793941010496,
+      "url": "http://127.0.0.1:5173/"
+    },
+    {
+      "at": 1793941010687,
+      "url": "http://127.0.0.1:5173/"
+    }
+  ],
+  "developmentRunNote": "An earlier run correctly restored the legacy document but timed out waiting for the transient saved state while source files were being edited. That run remains in first-run.json. The unchanged saved-state assertion and explicit v2 recovery-record assertion pass with application source held stable."
+}

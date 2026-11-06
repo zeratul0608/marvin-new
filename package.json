@@ -4,8 +4,15 @@
   "private": true,
   "type": "module",
   "description": "An embeddable chemical structure editor with explicit format compatibility diagnostics.",
-  "exports": { ".": { "types": "./dist-sdk/index.d.ts", "import": "./dist-sdk/chemical-editor.js" } },
-  "files": ["dist-sdk"],
+  "exports": {
+    ".": {
+      "types": "./dist-sdk/index.d.ts",
+      "import": "./dist-sdk/chemical-editor.js"
+    }
+  },
+  "files": [
+    "dist-sdk"
+  ],
   "scripts": {
     "dev": "vite --host 127.0.0.1",
     "typecheck": "tsc --noEmit",
@@ -15,9 +22,12 @@
     "preview": "vite preview --host 127.0.0.1"
   },
   "devDependencies": {
+    "happy-dom": "^20.0.0",
     "typescript": "^5.9.3",
     "vite": "^8.0.0",
-    "vitest": "^4.0.0",
-    "happy-dom": "^20.0.0"
+    "vitest": "^4.0.0"
+  },
+  "dependencies": {
+    "@rdkit/rdkit": "2026.9.1"
   }
 }

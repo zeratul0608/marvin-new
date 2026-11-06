@@ -1,0 +1,77 @@
+{
+  "rdkitVersion": "2025.03.6",
+  "validated": 10,
+  "scope": "Chirality from wedge depiction, chirality preservation under mirror, alkene E/Z from drawing, connectivity and counts. Does not certify ChemDraw layout or all stereo classes.",
+  "cases": [
+    {
+      "file": "tetra-original.cdx",
+      "scenario": "tetra-original",
+      "format": "cdx",
+      "canonicalIsomericSmiles": "F[C@](Cl)(Br)I",
+      "stereo": "S"
+    },
+    {
+      "file": "tetra-original.cdxml",
+      "scenario": "tetra-original",
+      "format": "cdxml",
+      "canonicalIsomericSmiles": "F[C@](Cl)(Br)I",
+      "stereo": "S"
+    },
+    {
+      "file": "tetra-inverted.cdx",
+      "scenario": "tetra-inverted",
+      "format": "cdx",
+      "canonicalIsomericSmiles": "F[C@@](Cl)(Br)I",
+      "stereo": "R"
+    },
+    {
+      "file": "tetra-inverted.cdxml",
+      "scenario": "tetra-inverted",
+      "format": "cdxml",
+      "canonicalIsomericSmiles": "F[C@@](Cl)(Br)I",
+      "stereo": "R"
+    },
+    {
+      "file": "tetra-mirrored.cdx",
+      "scenario": "tetra-mirrored",
+      "format": "cdx",
+      "canonicalIsomericSmiles": "F[C@](Cl)(Br)I",
+      "stereo": "S"
+    },
+    {
+      "file": "tetra-mirrored.cdxml",
+      "scenario": "tetra-mirrored",
+      "format": "cdxml",
+      "canonicalIsomericSmiles": "F[C@](Cl)(Br)I",
+      "stereo": "S"
+    },
+    {
+      "file": "alkene-trans.cdx",
+      "scenario": "alkene-trans",
+      "format": "cdx",
+      "canonicalIsomericSmiles": "C/C=C/C",
+      "stereo": "STEREOE"
+    },
+    {
+      "file": "alkene-trans.cdxml",
+      "scenario": "alkene-trans",
+      "format": "cdxml",
+      "canonicalIsomericSmiles": "C/C=C/C",
+      "stereo": "STEREOE"
+    },
+    {
+      "file": "alkene-cis.cdx",
+      "scenario": "alkene-cis",
+      "format": "cdx",
+      "canonicalIsomericSmiles": "C/C=C\\C",
+      "stereo": "STEREOZ"
+    },
+    {
+      "file": "alkene-cis.cdxml",
+      "scenario": "alkene-cis",
+      "format": "cdxml",
+      "canonicalIsomericSmiles": "C/C=C\\C",
+      "stereo": "STEREOZ"
+    }
+  ]
+}

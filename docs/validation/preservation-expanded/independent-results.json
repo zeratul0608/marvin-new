@@ -1,0 +1,85 @@
+{
+  "rdkitVersion": "2025.03.6",
+  "cases": [
+    {
+      "file": "cdx-isotope-charge.cdx",
+      "canonicalSmiles": "C[15NH2+]C",
+      "chemistryMatches": true
+    },
+    {
+      "file": "cdx-element.cdx",
+      "canonicalSmiles": "CPC",
+      "chemistryMatches": true
+    },
+    {
+      "file": "cdx-add-atom.cdx",
+      "canonicalSmiles": "CNCO",
+      "chemistryMatches": true
+    },
+    {
+      "file": "cdx-add-to-label.cdx",
+      "canonicalSmiles": "C[NH+](C)C",
+      "chemistryMatches": true
+    },
+    {
+      "file": "cdx-delete-atom.cdx",
+      "canonicalSmiles": "CN",
+      "chemistryMatches": true
+    },
+    {
+      "file": "cdx-delete-bond.cdx",
+      "canonicalSmiles": "C.CN",
+      "chemistryMatches": true
+    },
+    {
+      "file": "cdx-rewire-bond.cdx",
+      "canonicalSmiles": "CCN",
+      "chemistryMatches": true
+    },
+    {
+      "file": "cdx-live-preview.cdx",
+      "canonicalSmiles": "C[15NH]C",
+      "chemistryMatches": true
+    },
+    {
+      "file": "cdxml-isotope-charge.cdxml",
+      "canonicalSmiles": "C[15NH2+]C",
+      "chemistryMatches": true
+    },
+    {
+      "file": "cdxml-element.cdxml",
+      "canonicalSmiles": "CPC",
+      "chemistryMatches": true
+    },
+    {
+      "file": "cdxml-add-atom.cdxml",
+      "canonicalSmiles": "CNCO",
+      "chemistryMatches": true
+    },
+    {
+      "file": "cdxml-add-to-label.cdxml",
+      "canonicalSmiles": "C[NH+](C)C",
+      "chemistryMatches": true
+    },
+    {
+      "file": "cdxml-delete-atom.cdxml",
+      "canonicalSmiles": "CN",
+      "chemistryMatches": true
+    },
+    {
+      "file": "cdxml-delete-bond.cdxml",
+      "canonicalSmiles": "C.CN",
+      "chemistryMatches": true
+    },
+    {
+      "file": "cdxml-rewire-bond.cdxml",
+      "canonicalSmiles": "CCN",
+      "chemistryMatches": true
+    },
+    {
+      "file": "cdxml-live-preview.cdxml",
+      "canonicalSmiles": "C[15NH]C",
+      "chemistryMatches": true
+    }
+  ]
+}

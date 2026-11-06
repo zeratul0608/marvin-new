@@ -1,0 +1,206 @@
+{
+  "browser": "Chrome",
+  "scope": "Own fixtures only. Actual file input, expanded graph atom/bond clicks, child-editor isotope edits, parent save, undo/redo, actual source downloads and file reimports. No AI test.",
+  "summary": {
+    "scenarios": 5,
+    "passed": 5,
+    "failed": 0,
+    "actualChildEdits": 6
+  },
+  "results": [
+    {
+      "scenario": "own-peptide",
+      "original": "own-peptide-original.cdxml",
+      "expanded": "own-peptide-expanded.cdxml",
+      "rootAtoms": 3,
+      "branches": 1,
+      "cards": 1,
+      "visibleOriginalImport": true,
+      "realExpansionButton": true,
+      "expansionUndoRedo": true,
+      "edits": [
+        {
+          "element": "N",
+          "isotope": 15,
+          "pathDepth": 1,
+          "candidate": 1,
+          "realCardClick": true,
+          "childFocus": true,
+          "visibleIsotopeEdit": true,
+          "parentSave": true,
+          "undoRedo": true
+        }
+      ],
+      "allCandidatesRetained": true,
+      "wrapperAnnotationsRetained": true,
+      "documentReferencesRetained": true,
+      "boundaryMappingsRetained": true,
+      "bondClickAndFocus": true,
+      "sourceDownloadRoundtrip": {
+        "completeProjection": true,
+        "rootAtoms": 3,
+        "branches": 1
+      },
+      "sourceDownloadReimport": true,
+      "preparedExpandedFileImport": true
+    },
+    {
+      "scenario": "own-alternatives",
+      "original": "own-alternatives-original.cdxml",
+      "expanded": "own-alternatives-expanded.cdxml",
+      "rootAtoms": 1,
+      "branches": 2,
+      "cards": 2,
+      "visibleOriginalImport": true,
+      "realExpansionButton": true,
+      "expansionUndoRedo": true,
+      "edits": [
+        {
+          "element": "O",
+          "isotope": 17,
+          "pathDepth": 1,
+          "candidate": 1,
+          "realCardClick": true,
+          "childFocus": true,
+          "visibleIsotopeEdit": true,
+          "parentSave": true,
+          "undoRedo": true
+        },
+        {
+          "element": "N",
+          "isotope": 15,
+          "pathDepth": 1,
+          "candidate": 2,
+          "realCardClick": true,
+          "childFocus": true,
+          "visibleIsotopeEdit": true,
+          "parentSave": true,
+          "undoRedo": true
+        }
+      ],
+      "allCandidatesRetained": true,
+      "wrapperAnnotationsRetained": true,
+      "documentReferencesRetained": true,
+      "boundaryMappingsRetained": true,
+      "bondClickAndFocus": "not applicable: this fixture has no bonds",
+      "sourceDownloadRoundtrip": {
+        "completeProjection": true,
+        "rootAtoms": 1,
+        "branches": 2
+      },
+      "sourceDownloadReimport": true,
+      "preparedExpandedFileImport": true
+    },
+    {
+      "scenario": "own-referenced",
+      "original": "own-referenced-original.cdxml",
+      "expanded": "own-referenced-expanded.cdxml",
+      "rootAtoms": 2,
+      "branches": 1,
+      "cards": 1,
+      "visibleOriginalImport": true,
+      "realExpansionButton": true,
+      "expansionUndoRedo": true,
+      "edits": [
+        {
+          "element": "O",
+          "isotope": 17,
+          "pathDepth": 1,
+          "candidate": 1,
+          "realCardClick": true,
+          "childFocus": true,
+          "visibleIsotopeEdit": true,
+          "parentSave": true,
+          "undoRedo": true
+        }
+      ],
+      "allCandidatesRetained": true,
+      "wrapperAnnotationsRetained": true,
+      "documentReferencesRetained": true,
+      "boundaryMappingsRetained": true,
+      "bondClickAndFocus": true,
+      "sourceDownloadRoundtrip": {
+        "completeProjection": true,
+        "rootAtoms": 2,
+        "branches": 1
+      },
+      "sourceDownloadReimport": true,
+      "preparedExpandedFileImport": true
+    },
+    {
+      "scenario": "own-inconsistent",
+      "original": "own-inconsistent-original.cdxml",
+      "expanded": "own-inconsistent-expanded.cdxml",
+      "rootAtoms": 2,
+      "branches": 1,
+      "cards": 1,
+      "visibleOriginalImport": true,
+      "realExpansionButton": true,
+      "expansionUndoRedo": true,
+      "edits": [
+        {
+          "element": "O",
+          "isotope": 17,
+          "pathDepth": 1,
+          "candidate": 1,
+          "realCardClick": true,
+          "childFocus": true,
+          "visibleIsotopeEdit": true,
+          "parentSave": true,
+          "undoRedo": true
+        }
+      ],
+      "allCandidatesRetained": true,
+      "wrapperAnnotationsRetained": true,
+      "documentReferencesRetained": true,
+      "boundaryMappingsRetained": true,
+      "bondClickAndFocus": true,
+      "sourceDownloadRoundtrip": {
+        "completeProjection": true,
+        "rootAtoms": 2,
+        "branches": 1
+      },
+      "sourceDownloadReimport": true,
+      "preparedExpandedFileImport": true
+    },
+    {
+      "scenario": "own-nested",
+      "original": "own-nested-original.cdxml",
+      "expanded": "own-nested-expanded.cdxml",
+      "rootAtoms": 2,
+      "branches": 1,
+      "cards": 2,
+      "visibleOriginalImport": true,
+      "realExpansionButton": true,
+      "expansionUndoRedo": true,
+      "edits": [
+        {
+          "element": "O",
+          "isotope": 17,
+          "pathDepth": 2,
+          "candidate": 1,
+          "realCardClick": true,
+          "childFocus": true,
+          "visibleIsotopeEdit": true,
+          "parentSave": true,
+          "undoRedo": true
+        }
+      ],
+      "allCandidatesRetained": true,
+      "wrapperAnnotationsRetained": true,
+      "documentReferencesRetained": true,
+      "boundaryMappingsRetained": true,
+      "bondClickAndFocus": true,
+      "sourceDownloadRoundtrip": {
+        "completeProjection": true,
+        "rootAtoms": 2,
+        "branches": 1
+      },
+      "sourceDownloadReimport": true,
+      "preparedExpandedFileImport": true
+    }
+  ],
+  "failures": [],
+  "errors": [],
+  "aiTested": false
+}

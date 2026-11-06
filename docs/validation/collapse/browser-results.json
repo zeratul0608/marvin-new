@@ -1,0 +1,185 @@
+{
+  "browser": "Chrome",
+  "results": [
+    {
+      "file": "ether-original.cdxml",
+      "scenario": "ether",
+      "label": "OMe",
+      "selectedIndices": [
+        2,
+        3
+      ],
+      "rootAtomsBefore": 4,
+      "rootAtomsCollapsed": 3,
+      "chemicalSummary": {
+        "knownChemicalAtomCount": 4,
+        "formalCharge": 0,
+        "isotopeAtomCount": 0,
+        "complete": true,
+        "incompleteReasons": []
+      },
+      "canonicalIsomericSmiles": "CCOC",
+      "stereoAtoms": [],
+      "visibleFileImport": true,
+      "visibleContraction": true,
+      "visibleAtomCounts": true,
+      "recursiveChargeAndIsotope": true,
+      "undoRedo": true,
+      "sourceDownloadRoundtrip": true,
+      "downloadedExpansionChemicalIdentity": true,
+      "visibleRecursiveExpansion": true
+    },
+    {
+      "file": "two-port-original.cdxml",
+      "scenario": "two-port",
+      "label": "CH2CH2",
+      "selectedIndices": [
+        1,
+        2
+      ],
+      "rootAtomsBefore": 4,
+      "rootAtomsCollapsed": 3,
+      "chemicalSummary": {
+        "knownChemicalAtomCount": 4,
+        "formalCharge": 0,
+        "isotopeAtomCount": 0,
+        "complete": true,
+        "incompleteReasons": []
+      },
+      "canonicalIsomericSmiles": "NCCO",
+      "stereoAtoms": [],
+      "visibleFileImport": true,
+      "visibleContraction": true,
+      "visibleAtomCounts": true,
+      "recursiveChargeAndIsotope": true,
+      "undoRedo": true,
+      "sourceDownloadRoundtrip": true,
+      "downloadedExpansionChemicalIdentity": true,
+      "visibleRecursiveExpansion": true
+    },
+    {
+      "file": "chiral-original.cdxml",
+      "scenario": "chiral",
+      "label": "Chiral",
+      "selectedIndices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "rootAtomsBefore": 5,
+      "rootAtomsCollapsed": 1,
+      "chemicalSummary": {
+        "knownChemicalAtomCount": 5,
+        "formalCharge": 0,
+        "isotopeAtomCount": 0,
+        "complete": true,
+        "incompleteReasons": []
+      },
+      "canonicalIsomericSmiles": "C[C@](F)(Cl)Br",
+      "stereoAtoms": [
+        "S"
+      ],
+      "visibleFileImport": true,
+      "visibleContraction": true,
+      "visibleAtomCounts": true,
+      "recursiveChargeAndIsotope": true,
+      "undoRedo": true,
+      "sourceDownloadRoundtrip": true,
+      "downloadedExpansionChemicalIdentity": true,
+      "visibleRecursiveExpansion": true
+    },
+    {
+      "file": "charged-isotope-original.cdxml",
+      "scenario": "charged-isotope",
+      "label": "Amino",
+      "selectedIndices": [
+        0
+      ],
+      "rootAtomsBefore": 2,
+      "rootAtomsCollapsed": 2,
+      "chemicalSummary": {
+        "knownChemicalAtomCount": 2,
+        "formalCharge": 1,
+        "isotopeAtomCount": 1,
+        "complete": true,
+        "incompleteReasons": []
+      },
+      "canonicalIsomericSmiles": "C[15NH3+]",
+      "stereoAtoms": [],
+      "visibleFileImport": true,
+      "visibleContraction": true,
+      "visibleAtomCounts": true,
+      "recursiveChargeAndIsotope": true,
+      "undoRedo": true,
+      "sourceDownloadRoundtrip": true,
+      "downloadedExpansionChemicalIdentity": true,
+      "visibleRecursiveExpansion": true
+    },
+    {
+      "file": "alkene-original.cdxml",
+      "scenario": "alkene",
+      "label": "Alkene",
+      "selectedIndices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rootAtomsBefore": 4,
+      "rootAtomsCollapsed": 1,
+      "chemicalSummary": {
+        "knownChemicalAtomCount": 4,
+        "formalCharge": 0,
+        "isotopeAtomCount": 0,
+        "complete": true,
+        "incompleteReasons": []
+      },
+      "canonicalIsomericSmiles": "C/C=C/C",
+      "stereoAtoms": [],
+      "visibleFileImport": true,
+      "visibleContraction": true,
+      "visibleAtomCounts": true,
+      "recursiveChargeAndIsotope": true,
+      "undoRedo": true,
+      "sourceDownloadRoundtrip": true,
+      "downloadedExpansionChemicalIdentity": true,
+      "visibleRecursiveExpansion": true
+    },
+    {
+      "file": "phenyl-original.cdxml",
+      "scenario": "phenyl",
+      "label": "Ph",
+      "selectedIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "rootAtomsBefore": 9,
+      "rootAtomsCollapsed": 4,
+      "chemicalSummary": {
+        "knownChemicalAtomCount": 9,
+        "formalCharge": 0,
+        "isotopeAtomCount": 0,
+        "complete": true,
+        "incompleteReasons": []
+      },
+      "canonicalIsomericSmiles": "OCCc1ccccc1",
+      "stereoAtoms": [],
+      "visibleFileImport": true,
+      "visibleContraction": true,
+      "visibleAtomCounts": true,
+      "recursiveChargeAndIsotope": true,
+      "undoRedo": true,
+      "sourceDownloadRoundtrip": true,
+      "downloadedExpansionChemicalIdentity": true,
+      "visibleRecursiveExpansion": true
+    }
+  ],
+  "errors": [],
+  "aiTested": false
+}

@@ -1,0 +1,154 @@
+{
+  "scope": "Own SMILES examples; source contraction, reload, expansion and restore with chemical identity and recursive-summary checks.",
+  "filesPrepared": 18,
+  "results": [
+    {
+      "scenario": "ether",
+      "original": "ether-original.cdxml",
+      "collapsed": "ether-collapsed.cdxml",
+      "restored": "ether-restored.cdxml",
+      "canonicalIsomericSmiles": "CCOC",
+      "formula": "C3H8O",
+      "atomCount": 4,
+      "bondCount": 3,
+      "stereoAtoms": [],
+      "selectedIndices": [
+        2,
+        3
+      ],
+      "label": "OMe",
+      "summary": {
+        "knownChemicalAtomCount": 4,
+        "formalCharge": 0,
+        "isotopeAtomCount": 0,
+        "complete": true,
+        "incompleteReasons": []
+      }
+    },
+    {
+      "scenario": "two-port",
+      "original": "two-port-original.cdxml",
+      "collapsed": "two-port-collapsed.cdxml",
+      "restored": "two-port-restored.cdxml",
+      "canonicalIsomericSmiles": "NCCO",
+      "formula": "C2H7NO",
+      "atomCount": 4,
+      "bondCount": 3,
+      "stereoAtoms": [],
+      "selectedIndices": [
+        1,
+        2
+      ],
+      "label": "CH2CH2",
+      "summary": {
+        "knownChemicalAtomCount": 4,
+        "formalCharge": 0,
+        "isotopeAtomCount": 0,
+        "complete": true,
+        "incompleteReasons": []
+      }
+    },
+    {
+      "scenario": "chiral",
+      "original": "chiral-original.cdxml",
+      "collapsed": "chiral-collapsed.cdxml",
+      "restored": "chiral-restored.cdxml",
+      "canonicalIsomericSmiles": "C[C@](F)(Cl)Br",
+      "formula": "C2H3BrClF",
+      "atomCount": 5,
+      "bondCount": 4,
+      "stereoAtoms": [
+        "S"
+      ],
+      "selectedIndices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "label": "Chiral",
+      "summary": {
+        "knownChemicalAtomCount": 5,
+        "formalCharge": 0,
+        "isotopeAtomCount": 0,
+        "complete": true,
+        "incompleteReasons": []
+      }
+    },
+    {
+      "scenario": "charged-isotope",
+      "original": "charged-isotope-original.cdxml",
+      "collapsed": "charged-isotope-collapsed.cdxml",
+      "restored": "charged-isotope-restored.cdxml",
+      "canonicalIsomericSmiles": "C[15NH3+]",
+      "formula": "CH6N+",
+      "atomCount": 2,
+      "bondCount": 1,
+      "stereoAtoms": [],
+      "selectedIndices": [
+        0
+      ],
+      "label": "Amino",
+      "summary": {
+        "knownChemicalAtomCount": 2,
+        "formalCharge": 1,
+        "isotopeAtomCount": 1,
+        "complete": true,
+        "incompleteReasons": []
+      }
+    },
+    {
+      "scenario": "alkene",
+      "original": "alkene-original.cdxml",
+      "collapsed": "alkene-collapsed.cdxml",
+      "restored": "alkene-restored.cdxml",
+      "canonicalIsomericSmiles": "C/C=C/C",
+      "formula": "C4H8",
+      "atomCount": 4,
+      "bondCount": 3,
+      "stereoAtoms": [],
+      "selectedIndices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "label": "Alkene",
+      "summary": {
+        "knownChemicalAtomCount": 4,
+        "formalCharge": 0,
+        "isotopeAtomCount": 0,
+        "complete": true,
+        "incompleteReasons": []
+      }
+    },
+    {
+      "scenario": "phenyl",
+      "original": "phenyl-original.cdxml",
+      "collapsed": "phenyl-collapsed.cdxml",
+      "restored": "phenyl-restored.cdxml",
+      "canonicalIsomericSmiles": "OCCc1ccccc1",
+      "formula": "C8H10O",
+      "atomCount": 9,
+      "bondCount": 9,
+      "stereoAtoms": [],
+      "selectedIndices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "label": "Ph",
+      "summary": {
+        "knownChemicalAtomCount": 9,
+        "formalCharge": 0,
+        "isotopeAtomCount": 0,
+        "complete": true,
+        "incompleteReasons": []
+      }
+    }
+  ]
+}

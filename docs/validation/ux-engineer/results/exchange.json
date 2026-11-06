@@ -1,0 +1,332 @@
+{
+  "browser": "Chrome",
+  "viewport": {
+    "width": 1600,
+    "height": 1050
+  },
+  "method": "All user mutations through visible UI and file chooser. Read-only snapshot assertions; isolated browser context. Automation timings are not human task-time measurements. Not a ChemDraw interoperability certification.",
+  "results": [
+    {
+      "id": "EX01",
+      "title": "CDX试剂文件导入、同位素标记、源格式保存、重开",
+      "status": "passed",
+      "durationMs": 653,
+      "file": "rdkit-ethanol.cdx",
+      "saved": {
+        "blocked": false,
+        "message": "在源文档上保存已支持的修改，保留其余对象、属性和文档信息。",
+        "format": "source",
+        "file": ".local/ux-engineer/exchange/downloads/EX01-preserved-ethanol.cdx",
+        "suggestedFilename": "rdkit-ethanol.cdx",
+        "bytes": 247
+      },
+      "element": "C",
+      "isotope": 13,
+      "evidence": ".local/ux-engineer/exchange/EX01-reopened.png"
+    },
+    {
+      "id": "EX02",
+      "title": "CDXML结构导入、修改、CDXML保存和重开",
+      "status": "passed",
+      "durationMs": 339,
+      "saved": {
+        "blocked": false,
+        "message": "在原 CDXML 文档上更新已支持的字段，其余对象、属性与文档信息保留。",
+        "format": "cdxml",
+        "file": ".local/ux-engineer/exchange/downloads/EX02-aspirin-edited.cdxml",
+        "suggestedFilename": "aspirin.cdxml",
+        "bytes": 1982
+      },
+      "atomCount": 13,
+      "evidence": ".local/ux-engineer/exchange/EX02-reopened.png"
+    },
+    {
+      "id": "EX03",
+      "title": "通过源码粘贴导入CDXML，导出MOL V3000重开",
+      "status": "passed",
+      "durationMs": 307,
+      "saved": {
+        "blocked": false,
+        "message": "通用交换 · 支持更大结构与原子映射",
+        "format": "mol-v3000",
+        "file": ".local/ux-engineer/exchange/downloads/EX03-ethanol-v3000.mol",
+        "suggestedFilename": "ChemDraw 结构.mol",
+        "bytes": 341
+      },
+      "evidence": ".local/ux-engineer/exchange/EX03-mol-reopened.png"
+    },
+    {
+      "id": "EX04",
+      "title": "MOL导入后修改，再保存MOL V2000重开",
+      "status": "passed",
+      "durationMs": 327,
+      "saved": {
+        "blocked": false,
+        "message": "通用交换 · 单结构，最多 999 个原子／键",
+        "format": "mol",
+        "file": ".local/ux-engineer/exchange/downloads/EX04-ethanol-v2000.mol",
+        "suggestedFilename": "ChemDraw 结构.mol",
+        "bytes": 350
+      },
+      "evidence": ".local/ux-engineer/exchange/EX04-mol-v2000.png"
+    },
+    {
+      "id": "EX05",
+      "title": "原生JSON保存完整文档、重新打开并再次保存",
+      "status": "passed",
+      "durationMs": 434,
+      "saved": {
+        "blocked": false,
+        "message": "原生文档 · 保存稳定 ID、结构与布局",
+        "format": "json",
+        "file": ".local/ux-engineer/exchange/downloads/EX05-full-document.json",
+        "suggestedFilename": "annotated-moved.molecule.json",
+        "bytes": 4948
+      },
+      "secondSave": {
+        "blocked": false,
+        "message": "原生文档 · 保存稳定 ID、结构与布局",
+        "format": "json",
+        "file": ".local/ux-engineer/exchange/downloads/EX05-full-document-second-save.json",
+        "suggestedFilename": "annotated-moved.molecule.json",
+        "bytes": 4948
+      },
+      "exactDocumentPreserved": true,
+      "evidence": ".local/ux-engineer/exchange/EX05-native-json.png"
+    },
+    {
+      "id": "EX06",
+      "title": "RXN反应文件修改反应物同位素、V3000导出重开",
+      "status": "friction",
+      "durationMs": 535,
+      "saved": {
+        "blocked": false,
+        "message": "单步反应 · V3000 分子与明确角色",
+        "format": "rxn-v3000",
+        "file": ".local/ux-engineer/exchange/downloads/EX06-reaction-edited.rxn",
+        "suggestedFilename": "Mapped isotope oxidation.rxn",
+        "bytes": 781
+      },
+      "reactionRoles": {
+        "reactants": 1,
+        "products": 1,
+        "agents": 1
+      },
+      "overview": "分子概览\n2D STRUCTURE\nC2H6NaO2\n分子式 · 基础价态规则估算\n5\n原子\n2\n化学键\n3\n片段",
+      "roleOptions": [
+        "分子片段 · 2 个原子",
+        "分子片段 · 2 个原子",
+        "分子片段 · 1 个原子"
+      ],
+      "evidence": ".local/ux-engineer/exchange/EX06-rxn-reopened.png",
+      "roleEvidence": ".local/ux-engineer/exchange/EX06-reaction-role-editor.png"
+    },
+    {
+      "id": "EX07",
+      "title": "已修改结构后下载原始CDX，检查是否确实原样",
+      "status": "passed",
+      "durationMs": 318,
+      "saved": {
+        "blocked": false,
+        "message": "下载导入时的原始文件，字节保持一致；之后的编辑不包含在此文件中。",
+        "format": "original",
+        "file": ".local/ux-engineer/exchange/downloads/EX07-imported-original.cdx",
+        "suggestedFilename": "original-dimethylamine-styled.cdx",
+        "bytes": 820
+      },
+      "originalBytesPreserved": true,
+      "evidence": ".local/ux-engineer/exchange/EX07-after-original-download.png"
+    },
+    {
+      "id": "EX08",
+      "title": "复杂样式CDX的保留保存与跨格式CDXML导出",
+      "status": "friction",
+      "durationMs": 474,
+      "sourceSave": {
+        "blocked": false,
+        "message": "在源文档上保存已支持的修改，保留其余对象、属性和文档信息。",
+        "format": "source",
+        "file": ".local/ux-engineer/exchange/downloads/EX08-styled-preserved.cdx",
+        "suggestedFilename": "dimethylamine-styled.cdx",
+        "bytes": 812
+      },
+      "cross": {
+        "blocked": true,
+        "message": "导出已阻止：请查看兼容报告，或明确允许有损导出。 无法保留源文档保存：CDX 属性 0x3 尚无完整 CDXML 映射。可保存原生 JSON，或明确选择有损重建。 源文件包含未解释的信息。转换格式或编辑后重建文件，将无法保留这部分内容。原生 JSON 可完整保留源文件记录。",
+        "format": "cdxml"
+      },
+      "optedLossy": {
+        "file": ".local/ux-engineer/exchange/downloads/EX08-explicit-lossy.cdxml",
+        "name": "dimethylamine-styled.cdxml",
+        "message": "无法保留源文档保存：CDX 属性 0x3 尚无完整 CDXML 映射。可保存原生 JSON，或明确选择有损重建。 源文件包含未解释的信息。转换格式或编辑后重建文件，将无法保留这部分内容。原生 JSON 可完整保留源文件记录。"
+      },
+      "evidence": ".local/ux-engineer/exchange/EX08-cross-format-report.png"
+    },
+    {
+      "id": "EX09",
+      "title": "查询结构导出MOL时防止无声丢失条件，转回JSON保留",
+      "status": "friction",
+      "durationMs": 365,
+      "lossBlocked": true,
+      "message": "此适配器尚未写入查询条件或 2.5 键；请使用 CDXML、CDX 或 JSON 保存",
+      "afterLossConsent": "此适配器尚未写入查询条件或 2.5 键；请使用 CDXML、CDX 或 JSON 保存",
+      "stillBlockedAfterLossConsent": true,
+      "safeSave": {
+        "blocked": false,
+        "message": "原生文档 · 保存稳定 ID、结构与布局",
+        "format": "json",
+        "file": ".local/ux-engineer/exchange/downloads/EX09-query-safe.json",
+        "suggestedFilename": "ChemDraw 结构.molecule.json",
+        "bytes": 2843
+      },
+      "evidence": ".local/ux-engineer/exchange/EX09-loss-blocked.png"
+    },
+    {
+      "id": "EX10",
+      "title": "损坏CDX导入报错后保留原文档，可取消继续编辑",
+      "status": "passed",
+      "durationMs": 270,
+      "message": "CDX 数据在字节 50 处截断",
+      "oldDocumentPreserved": true,
+      "canContinueEditing": true,
+      "evidence": ".local/ux-engineer/exchange/EX10-invalid-import.png"
+    },
+    {
+      "id": "EX11",
+      "title": "导入第二份文件替换当前工作，可撤销恢复",
+      "status": "friction",
+      "durationMs": 289,
+      "importHelp": "导入结构\n\n从 ChemDraw、Marvin JS 或结构文件继续编辑\n\n选择文件\n支持 CDXML/MRV/MOL 20 MB · CDX 2 MB · JSON 80 MB\n普通分子可导入编辑。复杂化学语义会明确报告。\n取消\n导入画布",
+      "warnsReplacement": false,
+      "undoRestoresDocument": true,
+      "evidence": ".local/ux-engineer/exchange/EX11-import-replacement-affordance.png"
+    },
+    {
+      "id": "EX12",
+      "title": "重命名工艺结构，导出SVG插图并检查文件名和内容",
+      "status": "passed",
+      "durationMs": 228,
+      "saved": {
+        "blocked": false,
+        "message": "SVG 是矢量图片。需要继续编辑化学数据时，请选择 JSON、MRV 或 CDXML。",
+        "format": "svg",
+        "file": ".local/ux-engineer/exchange/downloads/EX12-engineering-figure.svg",
+        "suggestedFilename": "工艺中间体 A - 13C.svg",
+        "bytes": 7603
+      },
+      "vectorFileValid": true,
+      "evidence": ".local/ux-engineer/exchange/EX12-svg-saved.png"
+    },
+    {
+      "id": "EX13",
+      "title": "源CDXML移动原子后保留保存，重开检验位置",
+      "status": "passed",
+      "durationMs": 364,
+      "saved": {
+        "blocked": false,
+        "message": "在源文档上保存已支持的修改，保留其余对象、属性和文档信息。",
+        "format": "source",
+        "file": ".local/ux-engineer/exchange/downloads/EX13-layout-preserved.cdxml",
+        "suggestedFilename": "aspirin.cdxml",
+        "bytes": 1909
+      },
+      "dragDelta": {
+        "x": 35,
+        "y": -25
+      },
+      "bondLengthsPreserved": true,
+      "evidence": ".local/ux-engineer/exchange/EX13-layout-reopened.png"
+    },
+    {
+      "id": "EX14",
+      "title": "修改文档名称后使用源格式保存，检查名称是否保留",
+      "status": "passed",
+      "durationMs": 286,
+      "saved": {
+        "blocked": false,
+        "message": "在源文档上保存已支持的修改，保留其余对象、属性和文档信息。",
+        "format": "source",
+        "file": ".local/ux-engineer/exchange/downloads/EX14-renamed-source/工艺批次 ETOH-13C.cdxml",
+        "suggestedFilename": "工艺批次 ETOH-13C.cdxml",
+        "bytes": 303
+      },
+      "titlePreserved": true,
+      "reopenedTitle": "工艺批次 ETOH-13C",
+      "evidence": ".local/ux-engineer/exchange/EX14-renamed-source-reopened.png"
+    }
+  ],
+  "findings": [
+    {
+      "id": "EX-F04",
+      "severity": "P2",
+      "type": "scientific-ux",
+      "title": "反应文档默认分子概览未说明分子式为反应物、产物和试剂的全文合计",
+      "steps": [
+        "导入reaction-center-v2000.rxn",
+        "核对反应画布和默认分子概览",
+        "进入高级编辑→文档与反应"
+      ],
+      "actual": "画布三个分子片段无角色/方向提示，默认分子概览显示C2H6NaO2全文合计并提示基础检查通过。实际已解析反应物/产物/试剂各1，只有高级栏能核对角色。",
+      "expected": "反应文档显示反应概览与角色分区；若显示合计分子式应明确标成全文元素合计，不能让工程师误作单分子式",
+      "evidence": ".local/ux-engineer/exchange/EX06-rxn-reopened.png",
+      "secondaryEvidence": ".local/ux-engineer/exchange/EX06-reaction-role-editor.png"
+    },
+    {
+      "id": "EX-F05",
+      "severity": "P2",
+      "type": "ux",
+      "title": "反应角色编辑候选标签重复，难以区分反应物与产物",
+      "steps": [
+        "导入reaction-center-v2000.rxn",
+        "高级编辑→文档与反应→反应步骤1",
+        "查看反应物或产物候选"
+      ],
+      "actual": "两个不同分子均显示“分子片段 · 2 个原子”，缺少名称、分子式或画布定位；修改角色时无法从标签判断对应结构。",
+      "expected": "候选显示可区分的名称/分子式/序号，并支持与画布高亮联动",
+      "evidence": ".local/ux-engineer/exchange/EX06-reaction-role-editor.png"
+    },
+    {
+      "id": "EX-F01",
+      "severity": "P2",
+      "type": "conversion-limit",
+      "title": "样式CDX跨CDXML需要理解保留与重建差别",
+      "steps": [
+        "导入dimethylamine-styled.cdx",
+        "修改同位素",
+        "导出CDXML"
+      ],
+      "actual": "导出已阻止：请查看兼容报告，或明确允许有损导出。 无法保留源文档保存：CDX 属性 0x3 尚无完整 CDXML 映射。可保存原生 JSON，或明确选择有损重建。 源文件包含未解释的信息。转换格式或编辑后重建文件，将无法保留这部分内容。原生 JSON 可完整保留源文件记录。",
+      "expected": "可理解地指出哪些字段无法跨格式，并提供可点击的推荐保存方式",
+      "evidence": ".local/ux-engineer/exchange/EX08-cross-format-report.png"
+    },
+    {
+      "id": "EX-F03",
+      "severity": "P2",
+      "type": "ux",
+      "title": "不可强制转换时仍展示“允许有损导出”复选框",
+      "steps": [
+        "导入含查询条件的CDXML",
+        "导出MOL",
+        "勾选允许有损导出"
+      ],
+      "actual": "勾选前后同样被阻止，消息只说适配器尚未写入查询条件，没有说明此复选框不适用于该限制",
+      "expected": "硬性不支持时禁用/隐藏此选项，或明确区分可接受的损失与不可执行的转换",
+      "evidence": ".local/ux-engineer/exchange/EX09-loss-consent-still-blocked.png"
+    },
+    {
+      "id": "EX-F02",
+      "severity": "P2",
+      "type": "ux",
+      "title": "导入界面未明确提示会替换整份现有文档",
+      "steps": [
+        "打开并修改阿司匹林",
+        "点击导入",
+        "选择乙醇文件并导入"
+      ],
+      "actual": "无替换/覆盖提示就把13原子文档换为3原子乙醇；撤销可恢复",
+      "expected": "导入前说明替换行为，并区分替换与合并/追加",
+      "evidence": ".local/ux-engineer/exchange/EX11-import-replacement-affordance.png"
+    }
+  ],
+  "pageErrors": []
+}

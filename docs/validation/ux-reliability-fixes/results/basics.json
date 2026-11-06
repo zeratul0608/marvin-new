@@ -1,0 +1,231 @@
+{
+  "persona": "化工研发工程师场景化走查",
+  "browser": "Chrome headless; real visible UI mutations",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "results": [
+    {
+      "id": "B01",
+      "title": "初次打开和基础/高级功能发现",
+      "status": "pass",
+      "durationMs": 27,
+      "initialAtoms": 13,
+      "observation": "默认示例有结构；基础工具可见，高级工具初始收起。",
+      "evidence": ".local/ux-fixes/regression/basics/B01.png"
+    },
+    {
+      "id": "B02",
+      "title": "取消清空不损失文档",
+      "status": "pass",
+      "durationMs": 97,
+      "evidence": ".local/ux-fixes/regression/basics/B02.png"
+    },
+    {
+      "id": "B03",
+      "title": "从空白手绘乙醇",
+      "status": "pass",
+      "durationMs": 234,
+      "formula": "C2H6O\n分子式 · 基础价态规则估算",
+      "readOnlyProof": {
+        "atoms": {
+          "a_d727297b-8580-43f8-84f0-fa56e73dcae0": {
+            "id": "a_d727297b-8580-43f8-84f0-fa56e73dcae0",
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          "a_d7e11010-8c7a-4e51-8d76-78203b8728cb": {
+            "id": "a_d7e11010-8c7a-4e51-8d76-78203b8728cb",
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          "a_28b01eae-566e-4ebb-a580-4ebf4064f0ba": {
+            "id": "a_28b01eae-566e-4ebb-a580-4ebf4064f0ba",
+            "element": "O",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          }
+        },
+        "bonds": {
+          "b_065e299a-952f-4c10-ba7f-9f94bb30a2bc": {
+            "id": "b_065e299a-952f-4c10-ba7f-9f94bb30a2bc",
+            "atoms": [
+              "a_d727297b-8580-43f8-84f0-fa56e73dcae0",
+              "a_d7e11010-8c7a-4e51-8d76-78203b8728cb"
+            ],
+            "order": 1
+          },
+          "b_088b4279-1f85-42f4-86da-ecf6ae6ecd4e": {
+            "id": "b_088b4279-1f85-42f4-86da-ecf6ae6ecd4e",
+            "atoms": [
+              "a_d7e11010-8c7a-4e51-8d76-78203b8728cb",
+              "a_28b01eae-566e-4ebb-a580-4ebf4064f0ba"
+            ],
+            "order": 1
+          }
+        }
+      },
+      "interaction": "两次真实拖动绘制碳骨架，然后将端点换为氧。",
+      "evidence": ".local/ux-fixes/regression/basics/B03.png"
+    },
+    {
+      "id": "B04",
+      "title": "文档命名及同位素基本属性",
+      "status": "pass",
+      "durationMs": 87,
+      "evidence": ".local/ux-fixes/regression/basics/B04.png"
+    },
+    {
+      "id": "B05",
+      "title": "字段失焦后的Ctrl+Z是否可预期",
+      "status": "pass",
+      "durationMs": 40,
+      "evidence": ".local/ux-fixes/regression/basics/B05.png"
+    },
+    {
+      "id": "B06",
+      "title": "撤销重做按钮准确恢复",
+      "status": "pass",
+      "durationMs": 130,
+      "evidence": ".local/ux-fixes/regression/basics/B06.png"
+    },
+    {
+      "id": "B07",
+      "title": "错误数值保护及输入恢复",
+      "status": "pass",
+      "durationMs": 20,
+      "message": "同位素质量数无效",
+      "evidence": ".local/ux-fixes/regression/basics/B07.png"
+    },
+    {
+      "id": "B08",
+      "title": "全选、旋转、画布快捷键撤销",
+      "status": "pass",
+      "durationMs": 87,
+      "evidence": ".local/ux-fixes/regression/basics/B08.png"
+    },
+    {
+      "id": "B09",
+      "title": "画布缩放、平移和适应结构",
+      "status": "pass",
+      "durationMs": 119,
+      "zoom": "150%",
+      "evidence": ".local/ux-fixes/regression/basics/B09.png"
+    },
+    {
+      "id": "B10",
+      "title": "命令搜索能否用中文元素名发现元素",
+      "status": "friction",
+      "durationMs": 106,
+      "results": 0,
+      "text": "没有找到匹配项，试试“苯环”、“查询”、“内部结构”或“原子映射”。",
+      "evidence": ".local/ux-fixes/regression/basics/B10.png"
+    },
+    {
+      "id": "B11",
+      "title": "保存快捷键在标题焦点中的行为",
+      "status": "pass",
+      "durationMs": 92,
+      "exportOpened": true,
+      "observedKeyEvent": {
+        "defaultPrevented": true,
+        "target": "INPUT"
+      },
+      "evidence": ".local/ux-fixes/regression/basics/B11.png"
+    },
+    {
+      "id": "B12",
+      "title": "刷新恢复草稿和当前文档",
+      "status": "pass",
+      "durationMs": 111,
+      "canUndoAfterReload": false,
+      "observation": "刷新恢复当前结构；编辑历史不跨刷新。",
+      "evidence": ".local/ux-fixes/regression/basics/B12.png"
+    },
+    {
+      "id": "B13",
+      "title": "两个工作页是否会覆盖本地草稿",
+      "status": "pass",
+      "durationMs": 515,
+      "chargeBefore": -1,
+      "chargeAfter": -1,
+      "recoveredTitle": "工艺研发 · 溶剂乙醇 V1",
+      "evidence": ".local/ux-fixes/regression/basics/B13.png"
+    },
+    {
+      "id": "B14",
+      "title": "从环工具构建稠合双环的效率",
+      "status": "limited",
+      "durationMs": 173,
+      "atomCount": 12,
+      "bondCount": 12,
+      "formula": "C12H12\n分子式 · 基础价态规则估算",
+      "evidence": ".local/ux-fixes/regression/basics/B14.png"
+    },
+    {
+      "id": "B15",
+      "title": "中英文切换是否改变结构或历史",
+      "status": "pass",
+      "durationMs": 31,
+      "evidence": ".local/ux-fixes/regression/basics/B15.png"
+    },
+    {
+      "id": "B16",
+      "title": "窄屏属性面板与画布返回路径",
+      "status": "pass",
+      "durationMs": 118,
+      "inspectorWidth": 265,
+      "canvasWidth": 323,
+      "observation": "窄屏右侧为覆盖面板，可用关闭按钮回到画布。",
+      "evidence": ".local/ux-fixes/regression/basics/B16.png"
+    }
+  ],
+  "findings": [
+    {
+      "id": "B-F02",
+      "severity": "P3",
+      "title": "中文元素名搜索没有结果",
+      "steps": [
+        "Ctrl+K",
+        "输入“氧”"
+      ],
+      "expected": "能找到元素 O。",
+      "actual": "没有结果，需要知道元素符号 O。",
+      "evidence": ".local/ux-fixes/regression/basics/B10-search-empty.png"
+    },
+    {
+      "id": "B-F05",
+      "severity": "P2",
+      "kind": "capability-gap",
+      "title": "环工具不提供沿已有键生成稠合环",
+      "steps": [
+        "放置一个苯环",
+        "保持苯环工具，点击已有环的一条键"
+      ],
+      "expected": "能便捷生成共享两个碳的稠合双环，或明确说明该操作只放置独立环。",
+      "actual": "新增独立6碳环，合计12碳；需要手工连接或通过SMILES导入目标稠环。",
+      "evidence": ".local/ux-fixes/regression/basics/B14.png"
+    }
+  ],
+  "errors": [],
+  "readOnlySdkAssertions": true,
+  "productionCodeModified": false,
+  "harnessCorrections": [
+    {
+      "task": "B06",
+      "issue": "首轮受B05原生标题Undo的待提交输入影响，同位素19实际未写入模型，不能据此判定历史损坏。",
+      "fix": "独立定位后，B06先结束待提交标题，再逐步验证每次同位素及标题后测试Undo/Redo。焦点问题单独记录B-F01。",
+      "originalReport": ".local/ux-fixes/regression/basics/first-run.json",
+      "debugReport": ".local/ux-fixes/regression/basics/undo-debug.md"
+    }
+  ]
+}

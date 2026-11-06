@@ -1,0 +1,165 @@
+{
+  "cases": [
+    {
+      "file": "cdx-isotope-charge.cdx",
+      "kind": "cdx",
+      "scenario": "isotope-charge",
+      "formula": "C2H8N",
+      "atoms": 3,
+      "bonds": 2,
+      "unrelatedPreserved": true,
+      "preservation": "preserved"
+    },
+    {
+      "file": "cdx-element.cdx",
+      "kind": "cdx",
+      "scenario": "element",
+      "formula": "C2H7P",
+      "atoms": 3,
+      "bonds": 2,
+      "unrelatedPreserved": true,
+      "preservation": "preserved"
+    },
+    {
+      "file": "cdx-add-atom.cdx",
+      "kind": "cdx",
+      "scenario": "add-atom",
+      "formula": "C2H7NO",
+      "atoms": 4,
+      "bonds": 3,
+      "unrelatedPreserved": true,
+      "preservation": "preserved"
+    },
+    {
+      "file": "cdx-add-to-label.cdx",
+      "kind": "cdx",
+      "scenario": "add-to-label",
+      "formula": "C3H10N",
+      "atoms": 4,
+      "bonds": 3,
+      "unrelatedPreserved": true,
+      "preservation": "preserved"
+    },
+    {
+      "file": "cdx-delete-atom.cdx",
+      "kind": "cdx",
+      "scenario": "delete-atom",
+      "formula": "CH5N",
+      "atoms": 2,
+      "bonds": 1,
+      "unrelatedPreserved": true,
+      "preservation": "preserved"
+    },
+    {
+      "file": "cdx-delete-bond.cdx",
+      "kind": "cdx",
+      "scenario": "delete-bond",
+      "formula": "C2H9N",
+      "atoms": 3,
+      "bonds": 1,
+      "unrelatedPreserved": true,
+      "preservation": "preserved"
+    },
+    {
+      "file": "cdx-rewire-bond.cdx",
+      "kind": "cdx",
+      "scenario": "rewire-bond",
+      "formula": "C2H7N",
+      "atoms": 3,
+      "bonds": 2,
+      "unrelatedPreserved": true,
+      "preservation": "preserved"
+    },
+    {
+      "file": "cdx-live-preview.cdx",
+      "kind": "cdx",
+      "scenario": "live-preview",
+      "formula": "C2H7N",
+      "atoms": 3,
+      "bonds": 2,
+      "unrelatedPreserved": true,
+      "preservation": "preserved"
+    },
+    {
+      "file": "cdxml-isotope-charge.cdxml",
+      "kind": "cdxml",
+      "scenario": "isotope-charge",
+      "formula": "C2H8N",
+      "atoms": 3,
+      "bonds": 2,
+      "unrelatedPreserved": true,
+      "preservation": "preserved"
+    },
+    {
+      "file": "cdxml-element.cdxml",
+      "kind": "cdxml",
+      "scenario": "element",
+      "formula": "C2H7P",
+      "atoms": 3,
+      "bonds": 2,
+      "unrelatedPreserved": true,
+      "preservation": "preserved"
+    },
+    {
+      "file": "cdxml-add-atom.cdxml",
+      "kind": "cdxml",
+      "scenario": "add-atom",
+      "formula": "C2H7NO",
+      "atoms": 4,
+      "bonds": 3,
+      "unrelatedPreserved": true,
+      "preservation": "preserved"
+    },
+    {
+      "file": "cdxml-add-to-label.cdxml",
+      "kind": "cdxml",
+      "scenario": "add-to-label",
+      "formula": "C3H10N",
+      "atoms": 4,
+      "bonds": 3,
+      "unrelatedPreserved": true,
+      "preservation": "preserved"
+    },
+    {
+      "file": "cdxml-delete-atom.cdxml",
+      "kind": "cdxml",
+      "scenario": "delete-atom",
+      "formula": "CH5N",
+      "atoms": 2,
+      "bonds": 1,
+      "unrelatedPreserved": true,
+      "preservation": "preserved"
+    },
+    {
+      "file": "cdxml-delete-bond.cdxml",
+      "kind": "cdxml",
+      "scenario": "delete-bond",
+      "formula": "C2H9N",
+      "atoms": 3,
+      "bonds": 1,
+      "unrelatedPreserved": true,
+      "preservation": "preserved"
+    },
+    {
+      "file": "cdxml-rewire-bond.cdxml",
+      "kind": "cdxml",
+      "scenario": "rewire-bond",
+      "formula": "C2H7N",
+      "atoms": 3,
+      "bonds": 2,
+      "unrelatedPreserved": true,
+      "preservation": "preserved"
+    },
+    {
+      "file": "cdxml-live-preview.cdxml",
+      "kind": "cdxml",
+      "scenario": "live-preview",
+      "formula": "C2H7N",
+      "atoms": 3,
+      "bonds": 2,
+      "unrelatedPreserved": true,
+      "preservation": "preserved"
+    }
+  ],
+  "pageErrors": []
+}

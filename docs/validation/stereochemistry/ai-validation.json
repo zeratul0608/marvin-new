@@ -1,0 +1,7 @@
+{
+  "toolLoopUnitTest": "passed with a scripted transport; this is not a real-model result",
+  "requestedLocalModel": "Docker Qwen3.6-27B",
+  "realModelIntegration": "not completed",
+  "dockerStartupAttempted": true,
+  "blockingError": "Docker Desktop crashed while initializing Inference manager: dockerInference socket could not be accessed by the system. Existing model/container data was not reset."
+}

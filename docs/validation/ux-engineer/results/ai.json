@@ -1,0 +1,713 @@
+{
+  "persona": "化学工程师：日常结构录入、同位素修改、计算核验和可撤销AI编辑",
+  "method": "真实Chrome可见UI操作；Qwen3.6-27B、真实RDKit；SDK仅用于只读断言",
+  "startedAt": "2026-11-06T03:25:00.966Z",
+  "tasks": [
+    {
+      "id": "AI01",
+      "title": "通过可见高级面板从SMILES建立乙醇并核对分子量",
+      "steps": [
+        "高级编辑",
+        "扩展插件",
+        "化学计算",
+        "输入SMILES CCO",
+        "用SMILES替换画布",
+        "阅读计算结果"
+      ],
+      "status": "passed",
+      "result": {
+        "atoms": 3,
+        "bonds": 2,
+        "smiles": "CCO",
+        "summary": "计算引擎\nRDKit 2026.09.1\n分子式\nC2H6O\n平均分子量\n46.0690\n单同位素精确质量\n46.041865\n总形式电荷\n0\n环数 / 芳香原子\n0 / 0\n常见原子 / 双键立体标签\n0 / 0\n未指定立体中心\n0\nLogP（计算）\n-0.001\ntPSA（Å²）\n20.23"
+      },
+      "screenshot": ".local/ux-engineer/ai/AI01-smiles-ethanol.png",
+      "durationSeconds": 0.489,
+      "modelTurns": [],
+      "experience": "成功但有体验摩擦"
+    },
+    {
+      "id": "AI02",
+      "title": "错误反应式SMILES不覆盖当前结构，并可恢复输入",
+      "steps": [
+        "化学计算面板输入 CCO>>CC=O",
+        "点击替换",
+        "阅读拒绝原因",
+        "恢复CCO"
+      ],
+      "status": "passed",
+      "result": {
+        "status": "请输入单条分子 SMILES，可包含用点分隔的片段；反应和多记录文本尚未接入。",
+        "documentPreserved": true
+      },
+      "screenshot": ".local/ux-engineer/ai/AI02-invalid-smiles.png",
+      "durationSeconds": 0.097,
+      "modelTurns": [],
+      "experience": "预期保护性拒绝"
+    },
+    {
+      "id": "AI03",
+      "title": "真实AI只读计算乙醇，核对RDKit原始结果卡",
+      "steps": [
+        "模板乙醇",
+        "AI助手",
+        "关闭允许AI修改",
+        "输入只读计算指令",
+        "核对结果卡46.069和CCO"
+      ],
+      "status": "passed",
+      "prompt": "只读使用本地RDKit计算当前完整文档的分子式、平均分子量、精确质量和SMILES。不要修改结构、选区或视图。",
+      "result": {
+        "card": "RDKit 计算结果\n\nRDKit 2026.09.1 · 文档版本 3\n\n分子式\nC2H6O\n平均分子量\n46.069 g/mol\n单同位素精确质量\n46.041865 Da\n形式电荷\n0\n计算 LogP\n-0.001\ntPSA\n20.23 Å²\n氢键供体\n1\n氢键受体\n1\n环数量\n0\n计算原子数\n3\n计算范围\n异构 SMILES\n计算的立体标签\n以上为计算值；没有向文档写入立体标签。\n\n结果对应当前文档版本。",
+        "smiles": "CCO",
+        "unchanged": true
+      },
+      "screenshot": ".local/ux-engineer/ai/AI03-real-readonly-analysis.png",
+      "durationSeconds": 12.488,
+      "modelTurns": [
+        {
+          "task": "AI03",
+          "status": 200,
+          "text": "",
+          "toolCalls": [
+            {
+              "id": "chatcmpl-tool-89da794f9ca9595c",
+              "name": "analyze_molecule",
+              "arguments": "{\"expectedRevision\": 3, \"atomIds\": []}"
+            }
+          ]
+        },
+        {
+          "task": "AI03",
+          "status": 200,
+          "text": "根据本地RDKit计算结果（引擎版本 2026.09.1）：\n\n- **分子式**：C₂H₆O\n- **平均分子量**：46.069\n- **精确质量**：46.041864812\n- **SMILES**：CCO\n- **结构概要**：3个原子、2条键、0个环；LogP ≈ -0.001，tPSA = 20.23；1个氢键供体、1个受体。\n\n未修改结构、选区或视图。",
+          "toolCalls": []
+        }
+      ],
+      "experience": "成功但有体验摩擦"
+    },
+    {
+      "id": "AI04",
+      "title": "选择氧原子，AI预览标记氧18，应用后一步撤销",
+      "steps": [
+        "模板乙醇",
+        "选择工具点击OH",
+        "AI助手",
+        "允许编辑和先预览",
+        "发送自然语言",
+        "检查前后图",
+        "应用",
+        "撤销"
+      ],
+      "status": "passed",
+      "prompt": "只把当前选中的氧原子标记为氧-18，保留其他原子、键、坐标和所有属性，不要改文档标题，也不要替换整个文档。",
+      "previewScreenshot": ".local/ux-engineer/ai/AI04-preview.png",
+      "appliedScreenshot": ".local/ux-engineer/ai/AI04-applied.png",
+      "result": {
+        "exactO18": true,
+        "oneStepUndo": true
+      },
+      "durationSeconds": 10.793,
+      "modelTurns": [
+        {
+          "task": "AI04",
+          "status": 200,
+          "text": "",
+          "toolCalls": [
+            {
+              "id": "chatcmpl-tool-8dfaecd90534cbb5",
+              "name": "apply_edits",
+              "arguments": "{\"expectedRevision\": 4, \"operations\": [{\"type\": \"update-atom\", \"atomId\": \"a_09062f47-a38e-4c1b-9341-c46f60b3d041\", \"changes\": {\"isotope\": 18}}]}"
+            }
+          ]
+        },
+        {
+          "task": "AI04",
+          "status": 200,
+          "text": "已成功将选中的氧原子标记为氧-18同位素，其他内容（原子、键、坐标、标题等）保持不变。",
+          "toolCalls": []
+        }
+      ],
+      "experience": "成功"
+    },
+    {
+      "id": "AI05",
+      "title": "拒绝AI预览，当前结构和版本保持",
+      "steps": [
+        "选OH",
+        "AI新会话",
+        "请求18O",
+        "不应用",
+        "核对画布和版本"
+      ],
+      "status": "passed",
+      "prompt": "只把当前选中的氧原子改成氧-18同位素，保持所有其它结构不变。",
+      "result": {
+        "rejected": true,
+        "status": "此批修改未应用。"
+      },
+      "screenshot": ".local/ux-engineer/ai/rerun/AI05-rejected.png",
+      "durationSeconds": 7.007,
+      "modelTurns": [
+        {
+          "task": "AI05",
+          "status": 200,
+          "text": "",
+          "toolCalls": [
+            {
+              "id": "chatcmpl-tool-9577dfe51266aab4",
+              "name": "apply_edits",
+              "arguments": "{\"operations\": [{\"type\": \"update-atom\", \"atomId\": \"a_79fd2ca7-b924-48c7-b335-75dbdbb9f01c\", \"changes\": {\"isotope\": 18}}], \"expectedRevision\": 2}"
+            }
+          ]
+        }
+      ],
+      "experience": "成功"
+    },
+    {
+      "id": "AI06",
+      "title": "人工改标题使旧预览失效，停止后恢复原指令",
+      "steps": [
+        "请求18O预览",
+        "在命令栏人工改标题并失焦",
+        "检查应用按钮禁用",
+        "停止",
+        "核对人工标题和无化学改动",
+        "核对请求恢复"
+      ],
+      "status": "passed",
+      "prompt": "只给当前选中氧原子设置同位素18，保留其余内容。",
+      "staleScreenshot": ".local/ux-engineer/ai/AI06-stale-disabled.png",
+      "result": {
+        "staleBlocked": true,
+        "manualTitleKept": true,
+        "chemicalGraphUnchanged": true,
+        "instructionRestored": true,
+        "trace": "执行 apply_edits…"
+      },
+      "screenshot": ".local/ux-engineer/ai/AI06-stopped-recovered.png",
+      "durationSeconds": 6.838,
+      "modelTurns": [
+        {
+          "task": "AI06",
+          "status": 200,
+          "text": "",
+          "toolCalls": [
+            {
+              "id": "chatcmpl-tool-b283c5ddb80cdc7c",
+              "name": "apply_edits",
+              "arguments": "{\"operations\": [{\"changes\": {\"isotope\": 18}, \"type\": \"update-atom\", \"atomId\": \"a_93bf3b3b-674c-4743-b02c-093e3aa7c721\"}], \"expectedRevision\": 8}"
+            }
+          ]
+        }
+      ],
+      "experience": "成功"
+    },
+    {
+      "id": "AI07",
+      "title": "只读模式下提出编辑要求，不能改动文档",
+      "steps": [
+        "模板乙醇",
+        "选OH",
+        "AI只读",
+        "提出同位素修改",
+        "阅读模型说明"
+      ],
+      "status": "passed",
+      "prompt": "把当前选中的氧原子标记为氧-18。",
+      "result": {
+        "readonlyKeptDocument": true,
+        "messages": [
+          "你把当前选中的氧原子标记为氧-18。",
+          "AI当前处于只读模式，无法修改结构。请开启编辑权限后，再请求将氧原子标记为氧-18。"
+        ],
+        "status": "本轮结束 · 0 次成功 · 1 次未完成，请检查执行记录。"
+      },
+      "screenshot": ".local/ux-engineer/ai/rerun/AI07-readonly-edit-request.png",
+      "durationSeconds": 10.168,
+      "modelTurns": [
+        {
+          "task": "AI07",
+          "status": 200,
+          "text": "",
+          "toolCalls": [
+            {
+              "id": "chatcmpl-tool-9c83b6dfeb01265c",
+              "name": "apply_edits",
+              "arguments": "{\"expectedRevision\": 3, \"operations\": [{\"type\": \"update-atom\", \"atomId\": \"a_a2a7608d-5839-4a33-b05e-55bb7bdfbe06\", \"changes\": {\"isotope\": 18}}]}"
+            }
+          ]
+        },
+        {
+          "task": "AI07",
+          "status": 200,
+          "text": "当前处于只读模式，无法修改结构。请开启编辑权限后，再请求将氧原子标记为氧-18。",
+          "toolCalls": []
+        }
+      ],
+      "experience": "预期保护性拒绝"
+    },
+    {
+      "id": "AI08",
+      "title": "只选乙醇的氧原子计算时，AI不能偷偷扩大为整分子",
+      "steps": [
+        "模板乙醇",
+        "只选择OH",
+        "关闭允许编辑",
+        "明确只计算所选部分",
+        "核对无修改与说明"
+      ],
+      "status": "passed",
+      "prompt": "只使用当前选中的原子作为计算范围，调用本地RDKit计算分子量和SMILES。不要扩大选区，也不要计算其它原子；若不支持，请明确说明。",
+      "result": {
+        "selectionNotExpanded": true,
+        "messages": [
+          "你只使用当前选中的原子作为计算范围，调用本地RDKit计算分子量和SMILES。不要扩大选区，也不要计算其它原子；若不支持，请明确说明。",
+          "AI我来读取当前选区并尝试进行计算。\n\n",
+          "AI当前选区仅包含一个氧原子 `a_ea6a7ae4-f577-4694-b15e-a8699f2dfee5`。我尝试用这个选区调用 `analyze_molecule`：\n\n",
+          "AI**不支持。**\n\n本地 RDKit 工具 `analyze_molecule` 要求选区必须是**完整的分子**（不能切断化学键）。当前选区仅包含 1 个氧原子，它与相邻的碳原子之间的键被切断，因此计算被拒绝。\n\n如需计算分子量和 SMILES，请将整个乙醇分子（全部 3 个原子：2 个碳 + 1 个氧）纳入选区，或使用 `atomIds=[]` 计算全文。"
+        ],
+        "trace": "✓ read_selection：执行成功\n未完成 analyze_molecule：请选择完整分子后计算，当前选区切断了化学键。"
+      },
+      "screenshot": ".local/ux-engineer/ai/AI08-partial-selection.png",
+      "durationSeconds": 17.743,
+      "modelTurns": [
+        {
+          "task": "AI08",
+          "status": 200,
+          "text": "我来读取当前选区并尝试进行计算。\n\n",
+          "toolCalls": [
+            {
+              "id": "chatcmpl-tool-87a864929a271547",
+              "name": "read_selection",
+              "arguments": "{}"
+            }
+          ]
+        },
+        {
+          "task": "AI08",
+          "status": 200,
+          "text": "当前选区仅包含一个氧原子 `a_ea6a7ae4-f577-4694-b15e-a8699f2dfee5`。我尝试用这个选区调用 `analyze_molecule`：\n\n",
+          "toolCalls": [
+            {
+              "id": "chatcmpl-tool-b836fcac6a6bdf8b",
+              "name": "analyze_molecule",
+              "arguments": "{\"expectedRevision\": 11, \"atomIds\": [\"a_ea6a7ae4-f577-4694-b15e-a8699f2dfee5\"]}"
+            }
+          ]
+        },
+        {
+          "task": "AI08",
+          "status": 200,
+          "text": "**不支持。**\n\n本地 RDKit 工具 `analyze_molecule` 要求选区必须是**完整的分子**（不能切断化学键）。当前选区仅包含 1 个氧原子，它与相邻的碳原子之间的键被切断，因此计算被拒绝。\n\n如需计算分子量和 SMILES，请将整个乙醇分子（全部 3 个原子：2 个碳 + 1 个氧）纳入选区，或使用 `atomIds=[]` 计算全文。",
+          "toolCalls": []
+        }
+      ],
+      "experience": "预期保护性拒绝"
+    },
+    {
+      "id": "AI09",
+      "title": "英文窄屏下使用真实AI分析阿司匹林并阅读结果",
+      "steps": [
+        "切English",
+        "打开Aspirin模板清空选区",
+        "缩窄390px",
+        "AI只读计算全文",
+        "向上滚动查看RDKit卡",
+        "读取SMILES"
+      ],
+      "status": "passed",
+      "prompt": "Use local RDKit to analyze the entire current document. Report formula, molecular weight, exact mass and SMILES. This task is read-only: do not alter the structure, selection or view.",
+      "result": {
+        "card": "RDKit calculation results\n\nRDKit 2026.09.1 · Document revision 12\n\nFormula\nC9H8O4\nMolecular weight\n180.159 g/mol\nMonoisotopic exact mass\n180.042259 Da\nFormal charge\n0\nCalculated LogP\n1.310\ntPSA\n63.60 Å²\nH-bond donors\n1\nH-bond acceptors\n3\nRing count\n1\nAtoms calculated\n13\nCalculation scope\nIsomeric SMILES\nCalculated stereochemical labels\nThese values are calculated. No stereochemical labels were written to the document.\n\nResults match the current document revision.",
+        "smiles": "CC(=O)Oc1ccccc1C(=O)O",
+        "language": "en",
+        "noOverflow": true
+      },
+      "screenshot": ".local/ux-engineer/ai/AI09-mobile-english-calculation.png",
+      "durationSeconds": 17.67,
+      "modelTurns": [
+        {
+          "task": "AI09",
+          "status": 200,
+          "text": "",
+          "toolCalls": [
+            {
+              "id": "chatcmpl-tool-8af6504486797a18",
+              "name": "analyze_molecule",
+              "arguments": "{\"expectedRevision\": 12, \"atomIds\": []}"
+            }
+          ]
+        },
+        {
+          "task": "AI09",
+          "status": 200,
+          "text": "Here is the RDKit analysis of the current document (aspirin):\n\n| Property | Value |\n|---|---|\n| **Formula** | C₉H₈O₄ |\n| **Molecular Weight** | 180.16 Da |\n| **Exact Mass** | 180.0423 Da |\n| **Canonical SMILES** | `CC(=O)Oc1ccccc1C(=O)O` |\n\nAdditional computed descriptors (read-only):\n- **LogP**: 1.31\n- **Topological Polar Surface Area (tPSA)**: 63.6 Å²\n- **Hydrogen Bond Donors**: 1\n- **Hydrogen Bond Acceptors**: 3\n- **Ring Count**: 1 (aromatic benzene ring)\n\nEngine: RDKit 2026.09.1. No modifications were made to the structure, selection, or view.",
+          "toolCalls": []
+        }
+      ],
+      "experience": "成功但有体验摩擦"
+    },
+    {
+      "id": "AI10",
+      "title": "模型运行时写下一条草稿，停止不覆盖新草稿",
+      "steps": [
+        "模板阿司匹林",
+        "AI只读计算",
+        "立即输入下一条草稿",
+        "停止当前请求",
+        "确认新草稿与文档仍在"
+      ],
+      "status": "passed",
+      "prompt": "请用本地RDKit计算当前完整分子的各项性质，并详细解释分子式、平均分子量、精确质量、LogP、tPSA和SMILES的计算结果，不修改文档。",
+      "result": {
+        "newDraftPreserved": true,
+        "documentPreserved": true,
+        "status": "已停止"
+      },
+      "screenshot": ".local/ux-engineer/ai/recovery/AI10-new-draft-after-stop.png",
+      "durationSeconds": 0.482,
+      "modelTurns": [],
+      "experience": "成功"
+    },
+    {
+      "id": "AI11",
+      "title": "计算记录在刷新后的可追溯性与文档草稿恢复",
+      "steps": [
+        "模板乙醇",
+        "人工命名批次",
+        "AI只读计算",
+        "确认RDKit卡",
+        "刷新页面",
+        "重新打开AI",
+        "检查批次结构和计算记录"
+      ],
+      "status": "passed",
+      "prompt": "使用本地RDKit只读计算当前完整文档的分子量和SMILES，不修改结构。",
+      "beforeRefreshScreenshot": ".local/ux-engineer/ai/recovery/AI11-before-refresh.png",
+      "result": {
+        "documentRestored": true,
+        "aiMessagesAfterRefresh": 0,
+        "analysisCardsAfterRefresh": 0,
+        "historyCanUndoAfterRefresh": false
+      },
+      "screenshot": ".local/ux-engineer/ai/recovery/AI11-after-refresh-no-audit.png",
+      "durationSeconds": 12.447,
+      "modelTurns": [
+        {
+          "task": "AI11",
+          "status": 200,
+          "text": "",
+          "toolCalls": [
+            {
+              "id": "chatcmpl-tool-bcd8a8a7b32db1f8",
+              "name": "analyze_molecule",
+              "arguments": "{\"expectedRevision\": 4, \"atomIds\": []}"
+            }
+          ]
+        },
+        {
+          "task": "AI11",
+          "status": 200,
+          "text": "根据本地RDKit只读计算结果（文档未修改）：\n\n- **SMILES**: `CCO`\n- **分子式**: C₂H₆O\n- **平均分子量**: 46.069\n- **精确质量**: 46.0419\n\n其他计算属性：LogP ≈ -0.001，tPSA ≈ 20.23，氢键供体1个，受体1个，无环、无立体中心。",
+          "toolCalls": []
+        }
+      ],
+      "experience": "成功但有体验摩擦"
+    }
+  ],
+  "findings": [
+    {
+      "id": "AI-UX-01",
+      "severity": "P2",
+      "title": "SMILES入口较深，默认导入入口没有直接承接结构字符串",
+      "actual": "实际通过高级编辑→扩展插件→化学计算，再滚动到SMILES输入，才能建立乙醇。首次使用者更可能先点“导入”，但该弹窗只提示结构文件与源码，未提供SMILES快捷跳转。",
+      "expected": "导入入口直接提供SMILES标签或跳转；计算工具可被日常录入自然发现。",
+      "steps": [
+        "高级编辑",
+        "扩展插件",
+        "化学计算",
+        "输入SMILES CCO",
+        "用SMILES替换画布",
+        "阅读计算结果"
+      ],
+      "evidence": [
+        ".local/ux-engineer/ai/AI01-smiles-ethanol.png"
+      ],
+      "designBoundary": false
+    },
+    {
+      "id": "AI-UX-02",
+      "severity": "P2",
+      "title": "对话/结果区固定缩到70px，快捷示例和重复信息挤占空间",
+      "actual": "1280/390 ×中英四种布局的.ai-log clientHeight均70px；11个快捷示例占112–229px。计算完成后自动聚焦输入框，权威RDKit卡只在70px日志内显示几行，需要多层滚动；发送与状态控件初始部分在可视区外。化学结果正确，但普通工程师很难同时核对分子量、范围、SMILES和回复。",
+      "expected": "聊天与结果是主内容区域；示例在首轮后可收起，连接/上下文可折叠；计算卡提供更大阅读区或弹出展开，并保持明确发送入口。",
+      "steps": [
+        "打开AI助手",
+        "计算乙醇或阿司匹林",
+        "查看权威RDKit卡",
+        "在日志/聊天/外层面板间滚动"
+      ],
+      "evidence": [
+        ".local/ux-engineer/ai/layout-readability.json",
+        ".local/ux-engineer/ai/AI03-real-readonly-analysis.png",
+        ".local/ux-engineer/ai/AI09-mobile-english-calculation.png",
+        ".local/ux-engineer/ai/390-en-initial-ai-layout.png"
+      ],
+      "designBoundary": false
+    },
+    {
+      "id": "AI-UX-03",
+      "severity": "P2",
+      "title": "停止后工具行仍显示“执行 apply_edits…”",
+      "actual": "AI06在旧预览失效后停止，人工标题保留且化学图无变化、原指令恢复；全局已显示停止，但工具记录仍为“执行 apply_edits…”，看起来该工具仍在进行。",
+      "expected": "停止后对尚未完成的工具行标注已取消/未提交，并清楚区分此前已完成批次。",
+      "steps": [
+        "请求18O预览",
+        "在命令栏人工改标题并失焦",
+        "检查应用按钮禁用",
+        "停止",
+        "核对人工标题和无化学改动",
+        "核对请求恢复"
+      ],
+      "evidence": [
+        ".local/ux-engineer/ai/AI06-stopped-recovered.png",
+        ".local/ux-engineer/ai/first-run.json"
+      ],
+      "designBoundary": false
+    },
+    {
+      "id": "AI-UX-04",
+      "severity": "P2",
+      "title": "AI记录和计算结果刷新即失，工程记录缺少可追溯保存",
+      "actual": "AI11人工命名批次并真实计算，刷新后分子图、布局与标题恢复成功，但AI消息数和结果卡数均0，撤销历史也未恢复。默认“已保存到本机”没有在同处说明只保存结构；用户无法重新核对此前模型操作或计算版本。",
+      "expected": "明确本地保存范围，提供会话/工具/计算结果导出或持久保存；工程记录应可回溯模型、RDKit版本、计算范围和实际改动。",
+      "steps": [
+        "模板乙醇",
+        "人工命名批次",
+        "AI只读计算",
+        "确认RDKit卡",
+        "刷新页面",
+        "重新打开AI",
+        "检查批次结构和计算记录"
+      ],
+      "evidence": [
+        ".local/ux-engineer/ai/recovery/AI11-before-refresh.png",
+        ".local/ux-engineer/ai/recovery/AI11-after-refresh-no-audit.png"
+      ],
+      "designBoundary": true
+    }
+  ],
+  "errors": [],
+  "turns": [
+    {
+      "task": "AI03",
+      "status": 200,
+      "text": "",
+      "toolCalls": [
+        {
+          "id": "chatcmpl-tool-89da794f9ca9595c",
+          "name": "analyze_molecule",
+          "arguments": "{\"expectedRevision\": 3, \"atomIds\": []}"
+        }
+      ]
+    },
+    {
+      "task": "AI03",
+      "status": 200,
+      "text": "根据本地RDKit计算结果（引擎版本 2026.09.1）：\n\n- **分子式**：C₂H₆O\n- **平均分子量**：46.069\n- **精确质量**：46.041864812\n- **SMILES**：CCO\n- **结构概要**：3个原子、2条键、0个环；LogP ≈ -0.001，tPSA = 20.23；1个氢键供体、1个受体。\n\n未修改结构、选区或视图。",
+      "toolCalls": []
+    },
+    {
+      "task": "AI04",
+      "status": 200,
+      "text": "",
+      "toolCalls": [
+        {
+          "id": "chatcmpl-tool-8dfaecd90534cbb5",
+          "name": "apply_edits",
+          "arguments": "{\"expectedRevision\": 4, \"operations\": [{\"type\": \"update-atom\", \"atomId\": \"a_09062f47-a38e-4c1b-9341-c46f60b3d041\", \"changes\": {\"isotope\": 18}}]}"
+        }
+      ]
+    },
+    {
+      "task": "AI04",
+      "status": 200,
+      "text": "已成功将选中的氧原子标记为氧-18同位素，其他内容（原子、键、坐标、标题等）保持不变。",
+      "toolCalls": []
+    },
+    {
+      "task": "AI05",
+      "status": 200,
+      "text": "",
+      "toolCalls": [
+        {
+          "id": "chatcmpl-tool-a4dfd561bc502e4c",
+          "name": "apply_edits",
+          "arguments": "{\"expectedRevision\": 7, \"operations\": [{\"type\": \"update-atom\", \"atomId\": \"a_1c9134a8-f309-4bc0-bea0-fb933e8d0abb\", \"changes\": {\"isotope\": 18}}]}"
+        }
+      ]
+    },
+    {
+      "task": "AI06",
+      "status": 200,
+      "text": "",
+      "toolCalls": [
+        {
+          "id": "chatcmpl-tool-b283c5ddb80cdc7c",
+          "name": "apply_edits",
+          "arguments": "{\"operations\": [{\"changes\": {\"isotope\": 18}, \"type\": \"update-atom\", \"atomId\": \"a_93bf3b3b-674c-4743-b02c-093e3aa7c721\"}], \"expectedRevision\": 8}"
+        }
+      ]
+    },
+    {
+      "task": "AI07",
+      "status": 200,
+      "text": "",
+      "toolCalls": [
+        {
+          "id": "chatcmpl-tool-9406a5dee3ba41d0",
+          "name": "apply_edits",
+          "arguments": "{\"operations\": [{\"changes\": {\"isotope\": 18}, \"type\": \"update-atom\", \"atomId\": \"a_1d8dfd27-2963-4c28-8860-2fc287e8be3f\"}], \"expectedRevision\": 10}"
+        }
+      ]
+    },
+    {
+      "task": "AI07",
+      "status": 200,
+      "text": "当前为只读模式，无法修改结构。请先开启编辑模式后再请求将选中的氧原子标记为氧-18。",
+      "toolCalls": []
+    },
+    {
+      "task": "AI08",
+      "status": 200,
+      "text": "我来读取当前选区并尝试进行计算。\n\n",
+      "toolCalls": [
+        {
+          "id": "chatcmpl-tool-87a864929a271547",
+          "name": "read_selection",
+          "arguments": "{}"
+        }
+      ]
+    },
+    {
+      "task": "AI08",
+      "status": 200,
+      "text": "当前选区仅包含一个氧原子 `a_ea6a7ae4-f577-4694-b15e-a8699f2dfee5`。我尝试用这个选区调用 `analyze_molecule`：\n\n",
+      "toolCalls": [
+        {
+          "id": "chatcmpl-tool-b836fcac6a6bdf8b",
+          "name": "analyze_molecule",
+          "arguments": "{\"expectedRevision\": 11, \"atomIds\": [\"a_ea6a7ae4-f577-4694-b15e-a8699f2dfee5\"]}"
+        }
+      ]
+    },
+    {
+      "task": "AI08",
+      "status": 200,
+      "text": "**不支持。**\n\n本地 RDKit 工具 `analyze_molecule` 要求选区必须是**完整的分子**（不能切断化学键）。当前选区仅包含 1 个氧原子，它与相邻的碳原子之间的键被切断，因此计算被拒绝。\n\n如需计算分子量和 SMILES，请将整个乙醇分子（全部 3 个原子：2 个碳 + 1 个氧）纳入选区，或使用 `atomIds=[]` 计算全文。",
+      "toolCalls": []
+    },
+    {
+      "task": "AI09",
+      "status": 200,
+      "text": "",
+      "toolCalls": [
+        {
+          "id": "chatcmpl-tool-8af6504486797a18",
+          "name": "analyze_molecule",
+          "arguments": "{\"expectedRevision\": 12, \"atomIds\": []}"
+        }
+      ]
+    },
+    {
+      "task": "AI09",
+      "status": 200,
+      "text": "Here is the RDKit analysis of the current document (aspirin):\n\n| Property | Value |\n|---|---|\n| **Formula** | C₉H₈O₄ |\n| **Molecular Weight** | 180.16 Da |\n| **Exact Mass** | 180.0423 Da |\n| **Canonical SMILES** | `CC(=O)Oc1ccccc1C(=O)O` |\n\nAdditional computed descriptors (read-only):\n- **LogP**: 1.31\n- **Topological Polar Surface Area (tPSA)**: 63.6 Å²\n- **Hydrogen Bond Donors**: 1\n- **Hydrogen Bond Acceptors**: 3\n- **Ring Count**: 1 (aromatic benzene ring)\n\nEngine: RDKit 2026.09.1. No modifications were made to the structure, selection, or view.",
+      "toolCalls": []
+    },
+    {
+      "task": "AI05",
+      "status": 200,
+      "text": "",
+      "toolCalls": [
+        {
+          "id": "chatcmpl-tool-9577dfe51266aab4",
+          "name": "apply_edits",
+          "arguments": "{\"operations\": [{\"type\": \"update-atom\", \"atomId\": \"a_79fd2ca7-b924-48c7-b335-75dbdbb9f01c\", \"changes\": {\"isotope\": 18}}], \"expectedRevision\": 2}"
+        }
+      ]
+    },
+    {
+      "task": "AI07",
+      "status": 200,
+      "text": "",
+      "toolCalls": [
+        {
+          "id": "chatcmpl-tool-9c83b6dfeb01265c",
+          "name": "apply_edits",
+          "arguments": "{\"expectedRevision\": 3, \"operations\": [{\"type\": \"update-atom\", \"atomId\": \"a_a2a7608d-5839-4a33-b05e-55bb7bdfbe06\", \"changes\": {\"isotope\": 18}}]}"
+        }
+      ]
+    },
+    {
+      "task": "AI07",
+      "status": 200,
+      "text": "当前处于只读模式，无法修改结构。请开启编辑权限后，再请求将氧原子标记为氧-18。",
+      "toolCalls": []
+    },
+    {
+      "task": "AI11",
+      "status": 200,
+      "text": "",
+      "toolCalls": [
+        {
+          "id": "chatcmpl-tool-bcd8a8a7b32db1f8",
+          "name": "analyze_molecule",
+          "arguments": "{\"expectedRevision\": 4, \"atomIds\": []}"
+        }
+      ]
+    },
+    {
+      "task": "AI11",
+      "status": 200,
+      "text": "根据本地RDKit只读计算结果（文档未修改）：\n\n- **SMILES**: `CCO`\n- **分子式**: C₂H₆O\n- **平均分子量**: 46.069\n- **精确质量**: 46.0419\n\n其他计算属性：LogP ≈ -0.001，tPSA ≈ 20.23，氢键供体1个，受体1个，无环、无立体中心。",
+      "toolCalls": []
+    }
+  ],
+  "connection": {
+    "model": "qwen3.6-27b",
+    "protocol": "chat-completions",
+    "localModel": true
+  },
+  "finishedAt": "2026-11-06T03:32:51.547Z",
+  "summary": {
+    "userTasks": 11,
+    "passed": 11,
+    "failed": 0,
+    "completedModelResponses": 18,
+    "naturalLanguageSubmissions": 11,
+    "stoppedRequests": 2,
+    "severities": {
+      "P0": 0,
+      "P1": 0,
+      "P2": 4,
+      "P3": 0
+    },
+    "productionFilesModified": false,
+    "existingModelConfigModified": false
+  },
+  "harnessCorrections": [
+    {
+      "tasks": [
+        "AI05",
+        "AI07"
+      ],
+      "issue": "首轮化学断言已通过，随后记录文本时.ai-status匹配隐藏设置页的第二个状态节点而触发Playwright strict error。",
+      "fix": "限定[data-ai-view=\"chat\"] .ai-status，仅重跑这两项，原文档/版本断言保持不变。",
+      "originalReport": ".local/ux-engineer/ai/first-run.json",
+      "rerunReport": ".local/ux-engineer/ai/rerun/results.json"
+    }
+  ],
+  "timingNote": "每任务耗时为自动化UI路径与本地模型等待，不是真人可用性时长统计。"
+}

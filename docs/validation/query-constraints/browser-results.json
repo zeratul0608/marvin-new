@@ -1,0 +1,140 @@
+{
+  "browser": "Chrome",
+  "scope": "Actual file input, visible native query controls and canvas markers, real undo/redo and source downloads/reimports in both CDX and CDXML. Concrete element identity retained; exact-change removal is absence; explicit topology defaults remain distinct. No AI model test.",
+  "summary": {
+    "scenarios": 2,
+    "passed": 2,
+    "failed": 0,
+    "actualDownloads": 4
+  },
+  "results": [
+    {
+      "file": "native-all-fields.cdxml",
+      "visibleFileInput": true,
+      "visibleAtomQueryEdits": true,
+      "element": "C",
+      "constraints": {
+        "substituentsExactly": 0,
+        "substituentsUpTo": 255,
+        "ringBondCount": "AsDrawn",
+        "unsaturatedBonds": "MustBeAbsent",
+        "reactionStereo": "Retention",
+        "reactionChange": true
+      },
+      "visibleQ": true,
+      "reactionChangeUnsetAndRestored": true,
+      "invalidInputAtomic": true,
+      "topologyStates": [
+        "RingOrChain",
+        "absent",
+        "Unspecified",
+        "RingOrChain"
+      ],
+      "topologyUndoRedo": true,
+      "queryComputationGuard": true,
+      "queriedDownload": {
+        "format": "cdxml",
+        "completeProjection": true,
+        "concreteCarbonRetained": true,
+        "atomConstraints": {
+          "substituentsExactly": 0,
+          "substituentsUpTo": 255,
+          "ringBondCount": "AsDrawn",
+          "unsaturatedBonds": "MustBeAbsent",
+          "reactionStereo": "Retention",
+          "reactionChange": true
+        },
+        "bondTopologies": [
+          "RingOrChain"
+        ],
+        "actualDownload": true,
+        "file": "native-all-fields-queried.cdxml",
+        "suggestedFilename": "ChemDraw 结构.cdxml"
+      },
+      "visibleClearButton": true,
+      "clearUndoRedo": true,
+      "allQueriesCleared": true,
+      "ordinaryCalculationRestored": true,
+      "smiles": "CN",
+      "clearedDownload": {
+        "format": "cdxml",
+        "completeProjection": true,
+        "concreteCarbonRetained": true,
+        "atomConstraints": null,
+        "bondTopologies": [
+          null
+        ],
+        "actualDownload": true,
+        "file": "native-all-fields-cleared.cdxml",
+        "suggestedFilename": "ChemDraw 结构.cdxml"
+      },
+      "clearedDownloadFileReimport": true
+    },
+    {
+      "file": "native-all-fields.cdx",
+      "visibleFileInput": true,
+      "visibleAtomQueryEdits": true,
+      "element": "C",
+      "constraints": {
+        "ringBondCount": "AsDrawn",
+        "unsaturatedBonds": "MustBeAbsent",
+        "reactionStereo": "Retention",
+        "substituentsUpTo": 255,
+        "substituentsExactly": 0,
+        "reactionChange": true
+      },
+      "visibleQ": true,
+      "reactionChangeUnsetAndRestored": true,
+      "invalidInputAtomic": true,
+      "topologyStates": [
+        "RingOrChain",
+        "absent",
+        "Unspecified",
+        "RingOrChain"
+      ],
+      "topologyUndoRedo": true,
+      "queryComputationGuard": true,
+      "queriedDownload": {
+        "format": "cdx",
+        "completeProjection": true,
+        "concreteCarbonRetained": true,
+        "atomConstraints": {
+          "ringBondCount": "AsDrawn",
+          "unsaturatedBonds": "MustBeAbsent",
+          "reactionChange": true,
+          "reactionStereo": "Retention",
+          "substituentsUpTo": 255,
+          "substituentsExactly": 0
+        },
+        "bondTopologies": [
+          "RingOrChain"
+        ],
+        "actualDownload": true,
+        "file": "native-all-fields-queried.cdx",
+        "suggestedFilename": "native-all-fields.cdx"
+      },
+      "visibleClearButton": true,
+      "clearUndoRedo": true,
+      "allQueriesCleared": true,
+      "ordinaryCalculationRestored": true,
+      "smiles": "CN",
+      "clearedDownload": {
+        "format": "cdx",
+        "completeProjection": true,
+        "concreteCarbonRetained": true,
+        "atomConstraints": null,
+        "bondTopologies": [
+          null
+        ],
+        "actualDownload": true,
+        "file": "native-all-fields-cleared.cdx",
+        "suggestedFilename": "native-all-fields.cdx"
+      },
+      "clearedDownloadFileReimport": true
+    }
+  ],
+  "failures": [],
+  "errors": [],
+  "consoleErrors": [],
+  "aiTested": false
+}

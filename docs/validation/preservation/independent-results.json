@@ -10,6 +10,12 @@
       "chemistryMatches": true
     },
     {
+      "file": "styled-isotope.cdx",
+      "canonicalSmiles": "C[15NH]C",
+      "independentlyReadable": true,
+      "chemistryMatches": true
+    },
+    {
       "file": "ethanol-18o-anion.cdx",
       "canonicalSmiles": "CC[18O-]",
       "independentlyReadable": true,

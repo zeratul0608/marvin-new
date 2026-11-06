@@ -1,0 +1,1392 @@
+{
+  "downloads": 26,
+  "layout": {
+    "graphUnchanged": true,
+    "positionsChanged": true,
+    "undoRestores": true,
+    "redoRestores": true
+  },
+  "ui": {
+    "radicalEdited": true,
+    "doublePositionEdited": true
+  },
+  "pageErrors": [],
+  "results": [
+    {
+      "file": "ethanol.cdx",
+      "scenario": "ethanol",
+      "format": "cdx",
+      "formula": "C2H6O",
+      "atoms": 3,
+      "bonds": 2,
+      "signature": {
+        "formula": "C2H6O",
+        "atoms": [
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "O",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          }
+        ],
+        "orders": [
+          1,
+          1
+        ],
+        "styles": []
+      },
+      "sourceSave": "preserved"
+    },
+    {
+      "file": "ethanol.cdxml",
+      "scenario": "ethanol",
+      "format": "cdxml",
+      "formula": "C2H6O",
+      "atoms": 3,
+      "bonds": 2,
+      "signature": {
+        "formula": "C2H6O",
+        "atoms": [
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "O",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          }
+        ],
+        "orders": [
+          1,
+          1
+        ],
+        "styles": []
+      },
+      "sourceSave": "preserved"
+    },
+    {
+      "file": "aspirin.cdx",
+      "scenario": "aspirin",
+      "format": "cdx",
+      "formula": "C9H8O4",
+      "atoms": 13,
+      "bonds": 13,
+      "signature": {
+        "formula": "C9H8O4",
+        "atoms": [
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "O",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "O",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "O",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "O",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          }
+        ],
+        "orders": [
+          2,
+          1,
+          2,
+          1,
+          2,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          2,
+          1
+        ],
+        "styles": []
+      },
+      "sourceSave": "preserved"
+    },
+    {
+      "file": "aspirin.cdxml",
+      "scenario": "aspirin",
+      "format": "cdxml",
+      "formula": "C9H8O4",
+      "atoms": 13,
+      "bonds": 13,
+      "signature": {
+        "formula": "C9H8O4",
+        "atoms": [
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "O",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "O",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "O",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "O",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          }
+        ],
+        "orders": [
+          2,
+          1,
+          2,
+          1,
+          2,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          2,
+          1
+        ],
+        "styles": []
+      },
+      "sourceSave": "preserved"
+    },
+    {
+      "file": "caffeine.cdx",
+      "scenario": "caffeine",
+      "format": "cdx",
+      "formula": "C8H10N4O2",
+      "atoms": 14,
+      "bonds": 15,
+      "signature": {
+        "formula": "C8H10N4O2",
+        "atoms": [
+          {
+            "element": "N",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "N",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "N",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "N",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "O",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "O",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          }
+        ],
+        "orders": [
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          2,
+          2,
+          1,
+          1,
+          1
+        ],
+        "styles": []
+      },
+      "sourceSave": "preserved"
+    },
+    {
+      "file": "caffeine.cdxml",
+      "scenario": "caffeine",
+      "format": "cdxml",
+      "formula": "C8H10N4O2",
+      "atoms": 14,
+      "bonds": 15,
+      "signature": {
+        "formula": "C8H10N4O2",
+        "atoms": [
+          {
+            "element": "N",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "N",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "N",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "N",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "O",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "O",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          }
+        ],
+        "orders": [
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1,
+          2,
+          2,
+          1,
+          1,
+          1
+        ],
+        "styles": []
+      },
+      "sourceSave": "preserved"
+    },
+    {
+      "file": "benzene.cdx",
+      "scenario": "benzene",
+      "format": "cdx",
+      "formula": "C6H6",
+      "atoms": 6,
+      "bonds": 6,
+      "signature": {
+        "formula": "C6H6",
+        "atoms": [
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          }
+        ],
+        "orders": [
+          2,
+          1,
+          2,
+          1,
+          2,
+          1
+        ],
+        "styles": []
+      },
+      "sourceSave": "preserved"
+    },
+    {
+      "file": "benzene.cdxml",
+      "scenario": "benzene",
+      "format": "cdxml",
+      "formula": "C6H6",
+      "atoms": 6,
+      "bonds": 6,
+      "signature": {
+        "formula": "C6H6",
+        "atoms": [
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          }
+        ],
+        "orders": [
+          2,
+          1,
+          2,
+          1,
+          2,
+          1
+        ],
+        "styles": []
+      },
+      "sourceSave": "preserved"
+    },
+    {
+      "file": "singlet.cdx",
+      "scenario": "singlet",
+      "format": "cdx",
+      "formula": "CH2",
+      "atoms": 1,
+      "bonds": 0,
+      "signature": {
+        "formula": "CH2",
+        "atoms": [
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "fixed",
+              "count": 2
+            },
+            "radical": 1
+          }
+        ],
+        "orders": [],
+        "styles": []
+      },
+      "sourceSave": "preserved"
+    },
+    {
+      "file": "singlet.cdxml",
+      "scenario": "singlet",
+      "format": "cdxml",
+      "formula": "CH2",
+      "atoms": 1,
+      "bonds": 0,
+      "signature": {
+        "formula": "CH2",
+        "atoms": [
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "fixed",
+              "count": 2
+            },
+            "radical": 1
+          }
+        ],
+        "orders": [],
+        "styles": []
+      },
+      "sourceSave": "preserved"
+    },
+    {
+      "file": "doublet.cdx",
+      "scenario": "doublet",
+      "format": "cdx",
+      "formula": "CH3",
+      "atoms": 1,
+      "bonds": 0,
+      "signature": {
+        "formula": "CH3",
+        "atoms": [
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "fixed",
+              "count": 3
+            },
+            "radical": 2
+          }
+        ],
+        "orders": [],
+        "styles": []
+      },
+      "sourceSave": "preserved"
+    },
+    {
+      "file": "doublet.cdxml",
+      "scenario": "doublet",
+      "format": "cdxml",
+      "formula": "CH3",
+      "atoms": 1,
+      "bonds": 0,
+      "signature": {
+        "formula": "CH3",
+        "atoms": [
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "fixed",
+              "count": 3
+            },
+            "radical": 2
+          }
+        ],
+        "orders": [],
+        "styles": []
+      },
+      "sourceSave": "preserved"
+    },
+    {
+      "file": "triplet.cdx",
+      "scenario": "triplet",
+      "format": "cdx",
+      "formula": "CH2",
+      "atoms": 1,
+      "bonds": 0,
+      "signature": {
+        "formula": "CH2",
+        "atoms": [
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "fixed",
+              "count": 2
+            },
+            "radical": 3
+          }
+        ],
+        "orders": [],
+        "styles": []
+      },
+      "sourceSave": "preserved"
+    },
+    {
+      "file": "triplet.cdxml",
+      "scenario": "triplet",
+      "format": "cdxml",
+      "formula": "CH2",
+      "atoms": 1,
+      "bonds": 0,
+      "signature": {
+        "formula": "CH2",
+        "atoms": [
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "fixed",
+              "count": 2
+            },
+            "radical": 3
+          }
+        ],
+        "orders": [],
+        "styles": []
+      },
+      "sourceSave": "preserved"
+    },
+    {
+      "file": "dashed.cdx",
+      "scenario": "dashed",
+      "format": "cdx",
+      "formula": "C2H6O",
+      "atoms": 3,
+      "bonds": 2,
+      "signature": {
+        "formula": "C2H6O",
+        "atoms": [
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "O",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          }
+        ],
+        "orders": [
+          1,
+          1
+        ],
+        "styles": [
+          {
+            "style": "dashed"
+          }
+        ]
+      },
+      "sourceSave": "preserved"
+    },
+    {
+      "file": "dashed.cdxml",
+      "scenario": "dashed",
+      "format": "cdxml",
+      "formula": "C2H6O",
+      "atoms": 3,
+      "bonds": 2,
+      "signature": {
+        "formula": "C2H6O",
+        "atoms": [
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "O",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          }
+        ],
+        "orders": [
+          1,
+          1
+        ],
+        "styles": [
+          {
+            "style": "dashed"
+          }
+        ]
+      },
+      "sourceSave": "preserved"
+    },
+    {
+      "file": "bold.cdx",
+      "scenario": "bold",
+      "format": "cdx",
+      "formula": "C2H6O",
+      "atoms": 3,
+      "bonds": 2,
+      "signature": {
+        "formula": "C2H6O",
+        "atoms": [
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "O",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          }
+        ],
+        "orders": [
+          1,
+          1
+        ],
+        "styles": [
+          {
+            "style": "bold"
+          }
+        ]
+      },
+      "sourceSave": "preserved"
+    },
+    {
+      "file": "bold.cdxml",
+      "scenario": "bold",
+      "format": "cdxml",
+      "formula": "C2H6O",
+      "atoms": 3,
+      "bonds": 2,
+      "signature": {
+        "formula": "C2H6O",
+        "atoms": [
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "O",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          }
+        ],
+        "orders": [
+          1,
+          1
+        ],
+        "styles": [
+          {
+            "style": "bold"
+          }
+        ]
+      },
+      "sourceSave": "preserved"
+    },
+    {
+      "file": "hash.cdx",
+      "scenario": "hash",
+      "format": "cdx",
+      "formula": "C2H6O",
+      "atoms": 3,
+      "bonds": 2,
+      "signature": {
+        "formula": "C2H6O",
+        "atoms": [
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "O",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          }
+        ],
+        "orders": [
+          1,
+          1
+        ],
+        "styles": [
+          {
+            "style": "hash"
+          }
+        ]
+      },
+      "sourceSave": "preserved"
+    },
+    {
+      "file": "hash.cdxml",
+      "scenario": "hash",
+      "format": "cdxml",
+      "formula": "C2H6O",
+      "atoms": 3,
+      "bonds": 2,
+      "signature": {
+        "formula": "C2H6O",
+        "atoms": [
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "O",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          }
+        ],
+        "orders": [
+          1,
+          1
+        ],
+        "styles": [
+          {
+            "style": "hash"
+          }
+        ]
+      },
+      "sourceSave": "preserved"
+    },
+    {
+      "file": "double-left.cdx",
+      "scenario": "double-left",
+      "format": "cdx",
+      "formula": "C2H4O",
+      "atoms": 3,
+      "bonds": 2,
+      "signature": {
+        "formula": "C2H4O",
+        "atoms": [
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "O",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          }
+        ],
+        "orders": [
+          2,
+          1
+        ],
+        "styles": [
+          {
+            "style": "plain",
+            "doublePosition": "left"
+          }
+        ]
+      },
+      "sourceSave": "preserved"
+    },
+    {
+      "file": "double-left.cdxml",
+      "scenario": "double-left",
+      "format": "cdxml",
+      "formula": "C2H4O",
+      "atoms": 3,
+      "bonds": 2,
+      "signature": {
+        "formula": "C2H4O",
+        "atoms": [
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "O",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          }
+        ],
+        "orders": [
+          2,
+          1
+        ],
+        "styles": [
+          {
+            "style": "plain",
+            "doublePosition": "left"
+          }
+        ]
+      },
+      "sourceSave": "preserved"
+    },
+    {
+      "file": "double-right.cdx",
+      "scenario": "double-right",
+      "format": "cdx",
+      "formula": "C2H4O",
+      "atoms": 3,
+      "bonds": 2,
+      "signature": {
+        "formula": "C2H4O",
+        "atoms": [
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "O",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          }
+        ],
+        "orders": [
+          2,
+          1
+        ],
+        "styles": [
+          {
+            "style": "plain",
+            "doublePosition": "right"
+          }
+        ]
+      },
+      "sourceSave": "preserved"
+    },
+    {
+      "file": "double-right.cdxml",
+      "scenario": "double-right",
+      "format": "cdxml",
+      "formula": "C2H4O",
+      "atoms": 3,
+      "bonds": 2,
+      "signature": {
+        "formula": "C2H4O",
+        "atoms": [
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "O",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          }
+        ],
+        "orders": [
+          2,
+          1
+        ],
+        "styles": [
+          {
+            "style": "plain",
+            "doublePosition": "right"
+          }
+        ]
+      },
+      "sourceSave": "preserved"
+    },
+    {
+      "file": "attachment.cdx",
+      "scenario": "attachment",
+      "format": "cdx",
+      "formula": "CH3 · 含连接点",
+      "atoms": 2,
+      "bonds": 1,
+      "signature": {
+        "formula": "CH3 · 含连接点",
+        "atoms": [
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "fixed",
+              "count": 3
+            }
+          },
+          {
+            "element": "*",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "fixed",
+              "count": 0
+            },
+            "attachment": "external"
+          }
+        ],
+        "orders": [
+          1
+        ],
+        "styles": []
+      },
+      "sourceSave": "preserved"
+    },
+    {
+      "file": "attachment.cdxml",
+      "scenario": "attachment",
+      "format": "cdxml",
+      "formula": "CH3 · 含连接点",
+      "atoms": 2,
+      "bonds": 1,
+      "signature": {
+        "formula": "CH3 · 含连接点",
+        "atoms": [
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "fixed",
+              "count": 3
+            }
+          },
+          {
+            "element": "*",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "fixed",
+              "count": 0
+            },
+            "attachment": "external"
+          }
+        ],
+        "orders": [
+          1
+        ],
+        "styles": []
+      },
+      "sourceSave": "preserved"
+    }
+  ]
+}

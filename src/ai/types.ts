@@ -1,3 +1,5 @@
+import type { ChemistryAnalysis, ChemistryEngine } from '../chemistry/engine';
+import type { AiEditProposal } from './proposal';
 import type { EditorPlugin } from '../editor/api-types';
 
 export type AiProtocol = 'responses' | 'chat-completions';
@@ -32,16 +34,23 @@ export type AiRunEvent =
   | { type: 'tool-start'; id: string; name: string; arguments: string }
   | { type: 'tool-end'; id: string; name: string; ok: boolean; summary: string }
   | { type: 'assistant'; text: string }
-  | { type: 'artifact'; artifact: AiArtifact };
+  | { type: 'artifact'; artifact: AiArtifact }
+  | { type: 'chemistry-analysis'; analysis: ChemistryAnalysis; revision: number; scope?: 'document' | 'selection' };
 export interface AiRunOptions {
   message: string;
   history?: AiMessage[];
   instructions?: string;
   allowEdits?: boolean;
+  /** Optional host loader; defaults to the bundled local RDKit assets, loaded on demand. */
+  loadChemistryEngine?: () => Promise<ChemistryEngine>;
+  /** Reply language; an explicit language request from the user still takes precedence. */
+  locale?: 'zh-CN' | 'en';
+  /** Optional review of atomic edits, imports and template replacements. Default: direct editing. */
+  reviewEdits?: (proposal: AiEditProposal, signal?: AbortSignal) => Promise<boolean>;
   signal?: AbortSignal;
   onEvent?: (event: AiRunEvent) => void;
 }
-export interface AiRunResult { messages: AiMessage[]; text: string; toolCount: number; completed?: boolean }
-export interface AiAssistantOptions { endpoint?: string; transport?: AiTransport }
+export interface AiRunResult { messages: AiMessage[]; text: string; toolCount: number; completed?: boolean; rejected?: boolean }
+export interface AiAssistantOptions { endpoint?: string; transport?: AiTransport; locale?: 'zh-CN' | 'en'; loadChemistryEngine?: () => Promise<ChemistryEngine> }
 /** Creates a trusted plugin with chat, model settings and tool-based editing. */
 export type AiPluginFactory = (options?: AiAssistantOptions) => EditorPlugin;

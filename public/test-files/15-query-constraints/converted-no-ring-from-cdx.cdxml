@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDXML><fonttable><font id="3" charset="1252" name="Arial"/></fonttable><page id="2"><fragment id="3"><n id="4" Element="6" p="0 0" RingBondCount="AsDrawn" UnsaturatedBonds="MustBeAbsent" RxnChange="yes" RxnStereo="Retention" SubstituentsUpTo="255" SubstituentsExactly="0"></n><n id="5" Element="7" p="30 0"></n><b id="6" B="4" E="5" Order="1" Topology="RingOrChain"></b></fragment></page></CDXML>

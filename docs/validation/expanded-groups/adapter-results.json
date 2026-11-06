@@ -1,0 +1,46 @@
+{
+  "scope": "Own examples only. View expansion retains actual group annotations and all alternative branches; no branch selection or assignment is guessed.",
+  "filesPrepared": 10,
+  "results": [
+    {
+      "scenario": "own-peptide",
+      "original": "own-peptide-original.cdxml",
+      "expanded": "own-peptide-expanded.cdxml",
+      "branches": 1,
+      "recursive": true,
+      "chemistryAndAnnotationsRetained": true
+    },
+    {
+      "scenario": "own-alternatives",
+      "original": "own-alternatives-original.cdxml",
+      "expanded": "own-alternatives-expanded.cdxml",
+      "branches": 2,
+      "recursive": true,
+      "chemistryAndAnnotationsRetained": true
+    },
+    {
+      "scenario": "own-referenced",
+      "original": "own-referenced-original.cdxml",
+      "expanded": "own-referenced-expanded.cdxml",
+      "branches": 1,
+      "recursive": true,
+      "chemistryAndAnnotationsRetained": true
+    },
+    {
+      "scenario": "own-inconsistent",
+      "original": "own-inconsistent-original.cdxml",
+      "expanded": "own-inconsistent-expanded.cdxml",
+      "branches": 1,
+      "recursive": true,
+      "chemistryAndAnnotationsRetained": true
+    },
+    {
+      "scenario": "own-nested",
+      "original": "own-nested-original.cdxml",
+      "expanded": "own-nested-expanded.cdxml",
+      "branches": 1,
+      "recursive": true,
+      "chemistryAndAnnotationsRetained": true
+    }
+  ]
+}

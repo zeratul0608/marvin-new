@@ -4,3 +4,8 @@
 .ai-settings-button{display:flex;align-items:center;gap:6px;padding:7px 9px;border:1px solid #dce6fc;border-radius:6px;background:#fff;color:#49698f;font-size:11px;white-space:nowrap}.ai-settings-button:hover{background:#edf4ff}@media(max-width:700px){.ai-settings-button{padding:5px;border:0;background:transparent}.ai-settings-button span{display:none}}
 @media(max-width:700px){.app-header{gap:8px}.app-header nav{gap:8px;flex-shrink:0}.app-header .nav-button{white-space:nowrap;font-size:9px}.app-header .header-spacer{display:none}.app-header .brand{margin-right:auto;flex-shrink:0}}
 @media(max-width:350px){.app-header .brand>span:last-child{display:none}.app-header .brand{margin-right:0}}
+
+/* English navigation remains reachable without pushing the model buttons off screen. */
+@media(max-width:700px){.app-header nav{flex:1 1 0;min-width:0;overflow-x:auto;scrollbar-width:none}.app-header nav::-webkit-scrollbar{display:none}.app-header nav .nav-button{flex:0 0 auto}.app-header .ai-open-button,.app-header .ai-settings-button{flex-shrink:0}}
+
+@media(min-width:701px) and (max-width:1000px){.app-header{gap:14px}.app-header nav{flex:1 1 0;min-width:0;overflow-x:auto;scrollbar-width:none}.app-header nav .nav-button{flex:0 0 auto}.app-header nav::-webkit-scrollbar{display:none}.app-header .local-badge,.app-header .header-spacer{display:none}.app-header .header-divider{margin-left:0}.app-header .ai-open-button,.app-header .ai-settings-button,.app-header .help-button{flex-shrink:0}}

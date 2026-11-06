@@ -1,11 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CDXML BondLength="30" LabelFont="3" LabelSize="10">
-  <fonttable><font id="3" charset="utf-8" name="Arial"/></fonttable>
-  <page id="1"><fragment id="2">
-      <n id="3" p="148.5000 164.2500" Element="7"><t p="148.5000 164.2500"><s font="3" size="10">N</s></t></n>
-      <n id="4" p="177.4778 172.0146" Element="6"></n>
-      <n id="5" p="119.5222 172.0146" Element="6"></n>
-      <b id="6" B="3" E="4" Order="1" Display="Solid"/>
-      <b id="7" B="3" E="5" Order="1" Display="Solid"/>
-  </fragment></page>
-</CDXML>
+<CDXML><page id="1"><fragment id="8"><n id="5" p="148.5 164.25" Element="7"></n><n id="6" p="177.47776794433594 172.01455688476562"></n><b id="2" B="5" E="6"></b><n id="4" p="119.522216796875 172.01455688476562"></n><b id="3" B="5" E="4" BS="N"></b></fragment></page></CDXML>

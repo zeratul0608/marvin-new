@@ -1,0 +1,74 @@
+{
+  "rdkitVersion": "2025.03.6",
+  "originalFiles": 4,
+  "expandedFiles": 8,
+  "scope": "Native Python RDKit independently interprets the original nested CDXML and expanded CDX/CDXML, then compares canonical isomeric SMILES, atom/bond counts and R/S. Independent runtime and parser, same chemistry toolkit family; not ChemDraw certification.",
+  "originals": {
+    "ether": "COC",
+    "two-port": "NCCO",
+    "chiral": "C[C@@](F)(Cl)Br",
+    "recursive": "COCN"
+  },
+  "results": [
+    {
+      "file": "ether-expanded.cdxml",
+      "canonicalIsomericSmiles": "COC",
+      "matchesOriginalCollapsedCDXML": true,
+      "countsVerified": true,
+      "stereoAtoms": []
+    },
+    {
+      "file": "ether-expanded.cdx",
+      "canonicalIsomericSmiles": "COC",
+      "matchesOriginalCollapsedCDXML": true,
+      "countsVerified": true,
+      "stereoAtoms": []
+    },
+    {
+      "file": "two-port-expanded.cdxml",
+      "canonicalIsomericSmiles": "NCCO",
+      "matchesOriginalCollapsedCDXML": true,
+      "countsVerified": true,
+      "stereoAtoms": []
+    },
+    {
+      "file": "two-port-expanded.cdx",
+      "canonicalIsomericSmiles": "NCCO",
+      "matchesOriginalCollapsedCDXML": true,
+      "countsVerified": true,
+      "stereoAtoms": []
+    },
+    {
+      "file": "chiral-expanded.cdxml",
+      "canonicalIsomericSmiles": "C[C@@](F)(Cl)Br",
+      "matchesOriginalCollapsedCDXML": true,
+      "countsVerified": true,
+      "stereoAtoms": [
+        "R"
+      ]
+    },
+    {
+      "file": "chiral-expanded.cdx",
+      "canonicalIsomericSmiles": "C[C@@](F)(Cl)Br",
+      "matchesOriginalCollapsedCDXML": true,
+      "countsVerified": true,
+      "stereoAtoms": [
+        "R"
+      ]
+    },
+    {
+      "file": "recursive-expanded.cdxml",
+      "canonicalIsomericSmiles": "COCN",
+      "matchesOriginalCollapsedCDXML": true,
+      "countsVerified": true,
+      "stereoAtoms": []
+    },
+    {
+      "file": "recursive-expanded.cdx",
+      "canonicalIsomericSmiles": "COCN",
+      "matchesOriginalCollapsedCDXML": true,
+      "countsVerified": true,
+      "stereoAtoms": []
+    }
+  ]
+}

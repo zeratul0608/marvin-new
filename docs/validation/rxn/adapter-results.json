@@ -1,0 +1,145 @@
+{
+  "scope": "Self-constructed reactions; optional native RDKit fixtures are also generated from our own reaction SMILES.",
+  "results": [
+    {
+      "file": "mapped-original-v2000.rxn",
+      "format": "rxn",
+      "scenario": "mapped-original",
+      "referenceSmiles": "[13CH3:1][OH:2]>[Na+]>[13CH2:1]=[O:2]",
+      "roles": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "file": "mapped-original-v3000.rxn",
+      "format": "rxn-v3000",
+      "scenario": "mapped-original",
+      "referenceSmiles": "[13CH3:1][OH:2]>[Na+]>[13CH2:1]=[O:2]",
+      "roles": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "file": "mapped-edited-v2000.rxn",
+      "format": "rxn",
+      "scenario": "mapped-edited",
+      "referenceSmiles": "[14CH3:1][OH:2]>[Na+]>[13CH2:1]=[O:2]",
+      "roles": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "file": "mapped-edited-v3000.rxn",
+      "format": "rxn-v3000",
+      "scenario": "mapped-edited",
+      "referenceSmiles": "[14CH3:1][OH:2]>[Na+]>[13CH2:1]=[O:2]",
+      "roles": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "file": "reaction-center-v2000.rxn",
+      "format": "rxn",
+      "scenario": "reaction-center",
+      "referenceSmiles": "[13CH3:1][OH:2]>[Na+]>[13CH2:1]=[O:2]",
+      "roles": [
+        1,
+        1,
+        1
+      ],
+      "reactionCenter": [
+        12,
+        8
+      ]
+    },
+    {
+      "file": "reaction-center-v3000.rxn",
+      "format": "rxn-v3000",
+      "scenario": "reaction-center",
+      "referenceSmiles": "[13CH3:1][OH:2]>[Na+]>[13CH2:1]=[O:2]",
+      "roles": [
+        1,
+        1,
+        1
+      ],
+      "reactionCenter": [
+        12,
+        8
+      ]
+    },
+    {
+      "file": "chiral-v2000.rxn",
+      "format": "rxn",
+      "scenario": "chiral",
+      "referenceSmiles": "[C@@:1]([F:2])([Cl:3])([Br:4])[CH3:5]>>[C@@:1]([F:2])([Cl:3])([Br:4])[CH3:5]",
+      "roles": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "file": "chiral-v3000.rxn",
+      "format": "rxn-v3000",
+      "scenario": "chiral",
+      "referenceSmiles": "[C@@:1]([F:2])([Cl:3])([Br:4])[CH3:5]>>[C@@:1]([F:2])([Cl:3])([Br:4])[CH3:5]",
+      "roles": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "file": "native-v2000.rxn",
+      "format": "rxn",
+      "scenario": "native-roundtrip",
+      "referenceSmiles": "[13CH3:1][OH:2]>O>[13CH2:1]=[O:2]",
+      "roles": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "file": "native-v2000-rebuilt.rxn",
+      "format": "rxn",
+      "scenario": "native-roundtrip",
+      "referenceSmiles": "[13CH3:1][OH:2]>O>[13CH2:1]=[O:2]",
+      "roles": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "file": "native-v3000.rxn",
+      "format": "rxn-v3000",
+      "scenario": "native-roundtrip",
+      "referenceSmiles": "[13CH3:1][OH:2]>O>[13CH2:1]=[O:2]",
+      "roles": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "file": "native-v3000-rebuilt.rxn",
+      "format": "rxn-v3000",
+      "scenario": "native-roundtrip",
+      "referenceSmiles": "[13CH3:1][OH:2]>O>[13CH2:1]=[O:2]",
+      "roles": [
+        1,
+        1,
+        1
+      ]
+    }
+  ]
+}

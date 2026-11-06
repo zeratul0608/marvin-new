@@ -1,0 +1,53 @@
+{
+  "browser": "Chrome",
+  "results": [
+    {
+      "file": "ether-original.cdxml",
+      "atoms": 3,
+      "bonds": 2,
+      "smiles": "COC",
+      "stereoAtoms": [],
+      "visibleExpansion": true,
+      "visibleAtomCount": true,
+      "undoRedo": true,
+      "sourceDownloadRoundtrip": true
+    },
+    {
+      "file": "two-port-original.cdxml",
+      "atoms": 4,
+      "bonds": 3,
+      "smiles": "NCCO",
+      "stereoAtoms": [],
+      "visibleExpansion": true,
+      "visibleAtomCount": true,
+      "undoRedo": true,
+      "sourceDownloadRoundtrip": true
+    },
+    {
+      "file": "chiral-original.cdxml",
+      "atoms": 5,
+      "bonds": 4,
+      "smiles": "C[C@@](F)(Cl)Br",
+      "stereoAtoms": [
+        "R"
+      ],
+      "visibleExpansion": true,
+      "visibleAtomCount": true,
+      "undoRedo": true,
+      "sourceDownloadRoundtrip": true
+    },
+    {
+      "file": "recursive-original.cdxml",
+      "atoms": 4,
+      "bonds": 3,
+      "smiles": "COCN",
+      "stereoAtoms": [],
+      "visibleExpansion": true,
+      "visibleAtomCount": true,
+      "undoRedo": true,
+      "sourceDownloadRoundtrip": true
+    }
+  ],
+  "errors": [],
+  "aiTested": false
+}

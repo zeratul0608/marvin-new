@@ -1,0 +1,53 @@
+{
+  "method": "Chrome real UI only; SDK snapshots read-only; source files self-generated repository fixtures",
+  "results": [
+    {
+      "id": "EXFIX01",
+      "title": "导入明确替换，取消保留原文档",
+      "status": "passed",
+      "evidence": ".local/ux-fixes/exchange/EXFIX01.png"
+    },
+    {
+      "id": "EXFIX02",
+      "title": "拖入文件先确认，应用及撤销恢复",
+      "status": "passed",
+      "evidence": ".local/ux-fixes/exchange/EXFIX02.png"
+    },
+    {
+      "id": "EXFIX03",
+      "title": "复杂CDX跨格式可直达报告和源格式保留保存",
+      "status": "passed",
+      "download": ".local/ux-fixes/exchange/downloads/dimethylamine-styled.cdx",
+      "expectedIsotope": 15,
+      "evidence": ".local/ux-fixes/exchange/EXFIX03.png"
+    },
+    {
+      "id": "EXFIX04",
+      "title": "查询MOL硬限制隐藏无效许可，JSON实际下载重开完整",
+      "status": "passed",
+      "completeJsonRoundTrip": true,
+      "evidence": ".local/ux-fixes/exchange/EXFIX04.png"
+    },
+    {
+      "id": "EXFIX05",
+      "title": "可接受映射损失仍需明确确认，切格式后清除许可",
+      "status": "passed",
+      "evidence": ".local/ux-fixes/exchange/EXFIX05.png"
+    },
+    {
+      "id": "EXFIX06",
+      "title": "英文窄屏提示和推荐操作完整可用",
+      "status": "passed",
+      "evidence": ".local/ux-fixes/exchange/EXFIX06.png"
+    }
+  ],
+  "errors": [],
+  "harnessCorrections": [
+    {
+      "task": "EXFIX05",
+      "issue": "The first-run select-tool locator also matched the SVG carrying data-tool=select.",
+      "fix": "Scope the locator to button[data-tool=select]; no product code changed for this correction.",
+      "originalReport": ".local/ux-fixes/exchange/first-run.json"
+    }
+  ]
+}

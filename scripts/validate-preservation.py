@@ -29,7 +29,7 @@ def combine(molecules):
     return mol
 
 results = []
-for name, smiles, binary in [('styled-moved.cdx', 'CNC', True), ('ethanol-18o-anion.cdx', 'CC[18O-]', True),
+for name, smiles, binary in [('styled-moved.cdx', 'CNC', True), ('styled-isotope.cdx', 'C[15NH]C', True), ('ethanol-18o-anion.cdx', 'CC[18O-]', True),
                              ('ethanol-18o-anion.cdxml', 'CC[18O-]', False)]:
     molecules = Chem.MolsFromCDXMLFile(str(directory / name), params) if binary else Chem.MolsFromCDXMLFile(str(directory / name))
     mol = combine(molecules)

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDXML><page id="1"><fragment id="2"><n id="20" NodeType="AnonymousAlternativeGroup" p="0 0"><fragment id="100"><n id="101" Element="8" p="0 0" NumHydrogens="2"/></fragment><fragment id="200"><n id="201" Element="7" p="0 0" NumHydrogens="3"/></fragment><t><s>O or N</s></t><objecttag Name="MoleculeWorkbench.ExpandedView" TagType="String" Value="1" Persistent="yes" Visible="no"/></n></fragment></page></CDXML>

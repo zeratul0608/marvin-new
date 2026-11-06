@@ -1,0 +1,155 @@
+{
+  "date": "2026-11-06",
+  "scope": "First batch: draft safety, focus and save shortcuts, import/export affordances",
+  "fixed": [
+    "B-F04",
+    "B-F01",
+    "B-F03",
+    "EX-F02",
+    "EX-F01",
+    "EX-F03"
+  ],
+  "regressionChecks": 68,
+  "statuses": {
+    "passed": 62,
+    "friction": 3,
+    "limited": 3
+  },
+  "areas": {
+    "basics": {
+      "checks": 16,
+      "statuses": {
+        "passed": 14,
+        "friction": 1,
+        "limited": 1
+      },
+      "pageErrors": []
+    },
+    "exchange": {
+      "checks": 14,
+      "statuses": {
+        "passed": 13,
+        "friction": 1
+      },
+      "pageErrors": []
+    },
+    "advanced": {
+      "checks": 15,
+      "statuses": {
+        "passed": 13,
+        "friction": 1,
+        "limited": 1
+      },
+      "pageErrors": []
+    },
+    "ai": {
+      "checks": 11,
+      "statuses": {
+        "passed": 11
+      },
+      "pageErrors": []
+    },
+    "workbench": {
+      "checks": 5,
+      "statuses": {
+        "passed": 4,
+        "limited": 1
+      },
+      "pageErrors": []
+    },
+    "large": {
+      "checks": 7,
+      "statuses": {
+        "passed": 7
+      },
+      "pageErrors": []
+    }
+  },
+  "remainingFindings": [
+    {
+      "id": "B-F02",
+      "severity": "P3",
+      "title": "中文元素名搜索没有结果"
+    },
+    {
+      "id": "B-F05",
+      "severity": "P2",
+      "title": "环工具不提供沿已有键生成稠合环"
+    },
+    {
+      "id": "EX-F04",
+      "severity": "P2",
+      "title": "反应文档默认分子概览未说明分子式为反应物、产物和试剂的全文合计"
+    },
+    {
+      "id": "EX-F05",
+      "severity": "P2",
+      "title": "反应角色编辑候选标签重复，难以区分反应物与产物"
+    },
+    {
+      "id": "ADV-UX-01",
+      "severity": "P2",
+      "title": "反应对象主要依赖导入，缺少从零创建箭头和条件文字的直接绘制入口"
+    },
+    {
+      "id": "ADV-UX-02",
+      "severity": "P2",
+      "title": "多层内部编辑缺少父级路径提示"
+    },
+    {
+      "id": "ADV-UX-03",
+      "severity": "P2",
+      "title": "文档对象列表与箭头几何暴露内部格式术语"
+    },
+    {
+      "id": "ADV-UX-04",
+      "severity": "P3",
+      "title": "文档文字输入框未延续其它属性控件的宽度和样式"
+    },
+    {
+      "id": "AI-UX-01",
+      "severity": "P2",
+      "title": "SMILES入口需要穿过高级分类与插件标签，首次查找成本较高"
+    },
+    {
+      "id": "AI-UX-02",
+      "severity": "P2",
+      "title": "计算结束自动聚焦输入框，窄屏首次不易看到结果卡"
+    },
+    {
+      "id": "AI-UX-04",
+      "severity": "P2",
+      "title": "AI对话、操作记录与计算结果刷新后全部消失"
+    },
+    {
+      "id": "AI-UX-03",
+      "severity": "P2",
+      "title": "停止后工具行仍显示“执行 apply_edits…”"
+    },
+    {
+      "id": "WB-UX-01",
+      "severity": "P2",
+      "title": "结构问题报告缺少对象定位"
+    },
+    {
+      "id": "WB-UX-02",
+      "severity": "P2",
+      "title": "画布缺少常用复制/粘贴结构能力，快捷键无反馈"
+    },
+    {
+      "id": "LG-F01",
+      "severity": "P2",
+      "title": "适应画布后部分结构被常用元素浮动条遮挡"
+    }
+  ],
+  "remainingSeverities": {
+    "P3": 2,
+    "P2": 13
+  },
+  "unitTests": {
+    "vitest": 820,
+    "nodeServer": 18
+  },
+  "build": "typecheck + app + SDK + declarations passed",
+  "interpretation": "Pass verifies a defined outcome including safe refusal, not friction-free usability. Large-document rows are operation checks. Unsupported is normalized to limited. Original reports remain historical baselines. AI06 status finding was retained from the captured current trace on review; future script output includes it automatically."
+}

@@ -1,0 +1,177 @@
+{
+  "rdkitVersion": "2025.03.6",
+  "directFilesValidated": 16,
+  "closedChildrenValidated": 2,
+  "validated": 18,
+  "scope": "Native parser verifies isomeric SMILES, counts and common stereochemistry. Closed labels without external ports expose a RDKit 2025.03.6 wrapper-fusion limitation: their exact untouched XML child is verified separately after asserting the sole extra native component is one isolated wildcard. These are not counted as direct full-file interoperability. Not commercial ChemDraw certification.",
+  "results": [
+    {
+      "file": "ether-original.cdxml",
+      "stage": "original",
+      "mode": "direct-file",
+      "directParserSmiles": "CCOC",
+      "canonicalIsomericSmiles": "CCOC",
+      "countsVerified": true,
+      "stereoAtoms": []
+    },
+    {
+      "file": "ether-collapsed.cdxml",
+      "stage": "collapsed",
+      "mode": "direct-file",
+      "directParserSmiles": "CCOC",
+      "canonicalIsomericSmiles": "CCOC",
+      "countsVerified": true,
+      "stereoAtoms": []
+    },
+    {
+      "file": "ether-restored.cdxml",
+      "stage": "restored",
+      "mode": "direct-file",
+      "directParserSmiles": "CCOC",
+      "canonicalIsomericSmiles": "CCOC",
+      "countsVerified": true,
+      "stereoAtoms": []
+    },
+    {
+      "file": "two-port-original.cdxml",
+      "stage": "original",
+      "mode": "direct-file",
+      "directParserSmiles": "NCCO",
+      "canonicalIsomericSmiles": "NCCO",
+      "countsVerified": true,
+      "stereoAtoms": []
+    },
+    {
+      "file": "two-port-collapsed.cdxml",
+      "stage": "collapsed",
+      "mode": "direct-file",
+      "directParserSmiles": "NCCO",
+      "canonicalIsomericSmiles": "NCCO",
+      "countsVerified": true,
+      "stereoAtoms": []
+    },
+    {
+      "file": "two-port-restored.cdxml",
+      "stage": "restored",
+      "mode": "direct-file",
+      "directParserSmiles": "NCCO",
+      "canonicalIsomericSmiles": "NCCO",
+      "countsVerified": true,
+      "stereoAtoms": []
+    },
+    {
+      "file": "chiral-original.cdxml",
+      "stage": "original",
+      "mode": "direct-file",
+      "directParserSmiles": "C[C@](F)(Cl)Br",
+      "canonicalIsomericSmiles": "C[C@](F)(Cl)Br",
+      "countsVerified": true,
+      "stereoAtoms": [
+        "S"
+      ]
+    },
+    {
+      "file": "chiral-collapsed.cdxml",
+      "stage": "collapsed",
+      "mode": "untouched-child-fragment",
+      "directParserSmiles": "*.C[C@](F)(Cl)Br",
+      "canonicalIsomericSmiles": "C[C@](F)(Cl)Br",
+      "countsVerified": true,
+      "stereoAtoms": [
+        "S"
+      ]
+    },
+    {
+      "file": "chiral-restored.cdxml",
+      "stage": "restored",
+      "mode": "direct-file",
+      "directParserSmiles": "C[C@](F)(Cl)Br",
+      "canonicalIsomericSmiles": "C[C@](F)(Cl)Br",
+      "countsVerified": true,
+      "stereoAtoms": [
+        "S"
+      ]
+    },
+    {
+      "file": "charged-isotope-original.cdxml",
+      "stage": "original",
+      "mode": "direct-file",
+      "directParserSmiles": "C[15NH3+]",
+      "canonicalIsomericSmiles": "C[15NH3+]",
+      "countsVerified": true,
+      "stereoAtoms": []
+    },
+    {
+      "file": "charged-isotope-collapsed.cdxml",
+      "stage": "collapsed",
+      "mode": "direct-file",
+      "directParserSmiles": "C[15NH3+]",
+      "canonicalIsomericSmiles": "C[15NH3+]",
+      "countsVerified": true,
+      "stereoAtoms": []
+    },
+    {
+      "file": "charged-isotope-restored.cdxml",
+      "stage": "restored",
+      "mode": "direct-file",
+      "directParserSmiles": "C[15NH3+]",
+      "canonicalIsomericSmiles": "C[15NH3+]",
+      "countsVerified": true,
+      "stereoAtoms": []
+    },
+    {
+      "file": "alkene-original.cdxml",
+      "stage": "original",
+      "mode": "direct-file",
+      "directParserSmiles": "C/C=C/C",
+      "canonicalIsomericSmiles": "C/C=C/C",
+      "countsVerified": true,
+      "stereoAtoms": []
+    },
+    {
+      "file": "alkene-collapsed.cdxml",
+      "stage": "collapsed",
+      "mode": "untouched-child-fragment",
+      "directParserSmiles": "*.C/C=C/C",
+      "canonicalIsomericSmiles": "C/C=C/C",
+      "countsVerified": true,
+      "stereoAtoms": []
+    },
+    {
+      "file": "alkene-restored.cdxml",
+      "stage": "restored",
+      "mode": "direct-file",
+      "directParserSmiles": "C/C=C/C",
+      "canonicalIsomericSmiles": "C/C=C/C",
+      "countsVerified": true,
+      "stereoAtoms": []
+    },
+    {
+      "file": "phenyl-original.cdxml",
+      "stage": "original",
+      "mode": "direct-file",
+      "directParserSmiles": "OCCc1ccccc1",
+      "canonicalIsomericSmiles": "OCCc1ccccc1",
+      "countsVerified": true,
+      "stereoAtoms": []
+    },
+    {
+      "file": "phenyl-collapsed.cdxml",
+      "stage": "collapsed",
+      "mode": "direct-file",
+      "directParserSmiles": "OCCc1ccccc1",
+      "canonicalIsomericSmiles": "OCCc1ccccc1",
+      "countsVerified": true,
+      "stereoAtoms": []
+    },
+    {
+      "file": "phenyl-restored.cdxml",
+      "stage": "restored",
+      "mode": "direct-file",
+      "directParserSmiles": "OCCc1ccccc1",
+      "canonicalIsomericSmiles": "OCCc1ccccc1",
+      "countsVerified": true,
+      "stereoAtoms": []
+    }
+  ]
+}

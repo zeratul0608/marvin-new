@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDXML><page id="1"><fragment id="2"><n id="3" p="-30 0"/><b id="5" B="3" E="6" Display="WedgeEnd"/><n id="6" p="0 0" Geometry="Tetrahedral" BondOrdering="5 20 21 22"/><n id="7" p="30 0" Element="9"/><n id="8" p="0 30" Element="17"/><n id="9" p="0 -30" Element="35"/><b id="20" B="6" E="7"/><b id="21" B="6" E="8"/><b id="22" B="6" E="9"/></fragment></page></CDXML>

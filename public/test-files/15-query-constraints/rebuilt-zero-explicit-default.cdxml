@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDXML BondLength="30" LabelFont="3" LabelSize="10">
+  <fonttable><font id="3" charset="utf-8" name="Arial"/></fonttable>
+  <page id="1"><fragment id="2">
+      <n id="3" p="0.0000 0.0000" SubstituentsExactly="0" SubstituentsUpTo="0" RingBondCount="Unspecified" UnsaturatedBonds="Unspecified" RxnStereo="Unspecified" Element="6"></n>
+      <n id="4" p="30.0000 0.0000" Element="7"><t p="30.0000 0.0000"><s font="3" size="10">N</s></t></n>
+      <b id="5" B="3" E="4" Order="1" Display="Solid" Topology="Unspecified"/>
+  </fragment></page>
+</CDXML>

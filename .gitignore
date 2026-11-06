@@ -11,3 +11,6 @@ coverage/
 .env.*
 !.env.example
 !.env.sample
+# Local commercial installers and activation utilities are not project assets.
+/ChemDraw_26.0.0.msi
+/中文激活程序.exe

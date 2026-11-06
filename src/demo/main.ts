@@ -1,4 +1,5 @@
-import { createChemicalEditor, exampleDocument, structureReviewPlugin, createAiAssistantPlugin } from '../index';
+import { createChemicalEditor, exampleDocument, createChemistryPlugin, structureLayoutPlugin, structureReviewPlugin, createAiAssistantPlugin } from '../index';
+import { EditorI18n, type EditorLocale } from '../editor/i18n';
 import { icon } from '../editor/icons';
 import './style.css';
 
@@ -21,10 +22,10 @@ app.innerHTML = `
       <div class="workspace-footnote"><span>${icon('check', 12)}手动编辑在本地完成 · AI 按配置连接模型服务</span><span class="workspace-footnote-right"><button data-page="templates">${icon('templates', 13)}打开结构模板</button><span class="footnote-divider"></span><button data-page="compatibility">查看格式支持范围${icon('chevron', 12)}</button></span></div>
     </main>
   </div>
-  <dialog id="compatibility-dialog" class="app-dialog" aria-label="格式兼容范围"><header><div><span class="eyebrow">FORMAT COMPATIBILITY</span><h2>清晰的兼容边界</h2></div><button class="close" aria-label="关闭格式兼容">${icon('close', 20)}</button></header><div class="dialog-content"><p>当前版本支持普通二维分子的基础交换。高级化学语义会阻止导入；未解释的文档排版会列入报告。</p><table><thead><tr><th>格式</th><th>可用范围</th></tr></thead><tbody><tr><td>CDX（导入与源格式保存）</td><td>普通二维分子、元素、电荷、同位素、氢数和二维键描绘；原始文件可原样取回；支持受限的源格式保留编辑，也可随 JSON 保存</td></tr><tr><td>CDXML</td><td>元素、电荷、同位素、指定氢数、普通键、二维楔线描绘与坐标</td></tr><tr><td>MRV</td><td>普通分子、原子映射、二维坐标与楔线描绘；支持基础压缩原子数组</td></tr><tr><td>MOL V2000 / V3000</td><td>单结构、元素、电荷、同位素、原子映射与二维键描绘</td></tr><tr><td>Molecule JSON</td><td>完整保存首版模型、稳定 ID、布局与源文件记录</td></tr><tr><td>SVG</td><td>矢量绘图导出；用于文档和演示</td></tr></tbody></table><div class="notice"><strong>后续模块</strong>通用 CDX 新建写入、SMILES / SMARTS、SDF 批量记录、反应、查询、Markush、聚合物、完整拓扑立体化学与 CIP 计算。<br/>尚未在 ChemDraw / Marvin JS 实际软件中完成兼容认证；当前以规范与样例测试验证。</div><p class="muted">可导出的文本格式在文档未编辑时可原样返回源文件；CDX / CDXML 支持受限的源文档保留保存；CDX 转 CDXML 仅在字段均有映射时直接转换，否则默认阻止已知的信息损失。</p></div></dialog>
+  <dialog id="compatibility-dialog" class="app-dialog" aria-label="格式兼容范围"><header><div><span class="eyebrow">FORMAT COMPATIBILITY</span><h2>清晰的兼容边界</h2></div><button class="close" aria-label="关闭格式兼容">${icon('close', 20)}</button></header><div class="dialog-content"><p>当前版本支持普通分子、查询、内部片段、反应及文档对象的解析编辑。部分专用图元仍使用轮廓显示，跨格式转换会检查信息损失。</p><table><thead><tr><th>格式</th><th>可用范围</th></tr></thead><tbody><tr><td>CDX（二进制读写）</td><td>普通二维分子、自由基、连接点、键描绘、四面体几何与双键连接顺序；支持新建二进制导出及源格式保留保存</td></tr><tr><td>CDXML</td><td>普通化学图、查询、内部片段、反应角色、立体排序与文档对象；支持重建和源格式保留保存</td></tr><tr><td>MRV</td><td>普通分子、原子映射、二维坐标与楔线描绘；支持基础压缩原子数组</td></tr><tr><td>MOL V2000 / V3000</td><td>单结构、元素、电荷、同位素、原子映射与二维键描绘</td></tr><tr><td>Molecule JSON</td><td>保存当前模型、稳定 ID、文档对象、内部片段、布局与源文件记录</td></tr><tr><td>SMILES / 本地计算</td><td>单条分子输入与可复制输出；普通完整分子的二维清理、分子性质及常见 R/S/E/Z 计算，在右侧“化学计算”使用</td></tr><tr><td>SVG</td><td>矢量绘图导出；用于文档和演示</td></tr></tbody></table><div class="notice"><strong>后续模块</strong>SMARTS、SDF 批量记录、通用 Markush／聚合物求值、全部立体类别的 CIP 与名称转结构。查询、内部片段、轴／增强立体等目前不参与普通分子的自动计算。<br/>尚未在 ChemDraw / Marvin JS 实际软件中完成兼容认证；当前以规范与样例测试验证。</div><p class="muted">可导出的文本格式在文档未编辑时可原样返回源文件；CDX / CDXML 支持受限的源文档保留保存；CDX 转 CDXML 仅在字段均有映射时直接转换，否则默认阻止已知的信息损失。</p></div></dialog>
   <dialog id="integration-dialog" class="app-dialog" aria-label="组件接入文档"><header><div><span class="eyebrow">EMBEDDABLE BY DESIGN</span><h2>嵌入你的业务系统</h2></div><button class="close" aria-label="关闭接入文档">${icon('close', 20)}</button></header><div class="dialog-content"><p>组件使用 Web Component 与 Shadow DOM，样式隔离。构建后可通过 JavaScript SDK 接入 React、Vue 或普通网页。</p><pre><code>import { createChemicalEditor } from './chemical-editor.js';
 
-const editor = createChemicalEditor({
+const editor = createChemicalEditor({ locale: 'en',
   container: document.querySelector('#editor'),
 });
 
@@ -35,10 +36,10 @@ console.log(result.data, result.issues);
 
 editor.addEventListener('change', event =&gt; {
   saveDraft(event.detail.document);
-});</code></pre><h3>插件与公开 API</h3><p>在「扩展」中管理插件。开发者可添加命令和面板，通过公开 API 读取选区、批量修改结构或接入业务系统。</p><pre><code>import { createChemicalEditor, structureReviewPlugin }
+});</code></pre><h3>插件与公开 API</h3><p>在「高级编辑 → 扩展插件」中管理插件。开发者可添加命令和面板，通过公开 API 读取选区、批量修改结构或接入业务系统。</p><pre><code>import { createChemicalEditor, structureReviewPlugin }
   from './chemical-editor.js';
 
-const editor = createChemicalEditor({
+const editor = createChemicalEditor({ locale: 'en',
   container: document.querySelector('#editor'),
   plugins: [structureReviewPlugin],
 });
@@ -54,8 +55,17 @@ const summary = await editor.execute({
   params: { id: 'structure-review.review' },
 });</code></pre><p class="muted">完整开发指南：项目 docs/extensions.md。提供浏览器 SDK、JSON 命令接口及可选 AI 助手。模型连接在 AI 助手的「模型设置」中配置；MCP 可复用相同编辑能力。</p><p class="muted">核心模型与格式适配器均可独立调用。源代码入口为 src/index.ts；npm run build 会生成 dist-sdk/。</p><div class="notice">SDK 的导出默认严格检查已知损失；调用方可展示 issues，并由用户明确选择 allowLossy。此示例中的 saveDraft 由业务系统实现。</div></div></dialog>`;
 
-const editor = createChemicalEditor({ container: document.querySelector('#editor-container')!, document: exampleDocument('aspirin'), storageKey: 'molecule-workbench:v1', plugins: [structureReviewPlugin, createAiAssistantPlugin()] });
-if (matchMedia('(min-width: 1001px)').matches) editor.showPluginPanel('ai-assistant');
+const localeStorageKey = 'molecule-workbench:locale:v1';
+let locale: EditorLocale = 'zh-CN';
+try { if (localStorage.getItem(localeStorageKey) === 'en') locale = 'en'; } catch { /* UI preference is optional. */ }
+const appI18n = new EditorI18n(app,locale);
+document.documentElement.lang = locale;
+const editor = createChemicalEditor({ locale, container: document.querySelector('#editor-container')!, document: exampleDocument('aspirin'), storageKey: 'molecule-workbench:v1', plugins: [structureReviewPlugin, structureLayoutPlugin, createChemistryPlugin(), createAiAssistantPlugin()] });
+editor.addEventListener('localechange', event => {
+  const locale = (event as CustomEvent<{locale:EditorLocale}>).detail.locale;
+  appI18n.setLocale(locale); document.documentElement.lang = locale;
+  try { localStorage.setItem(localeStorageKey,locale); } catch { /* UI preference is optional. */ }
+});
 // An explicitly exposed demo handle makes integration experiments possible in the console.
 Object.assign(window, { moleculeEditor: editor });
 document.addEventListener('click', event => {

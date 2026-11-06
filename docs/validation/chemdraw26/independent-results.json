@@ -1,0 +1,162 @@
+{
+  "rdkitVersion": "2025.03.6",
+  "validated": 24,
+  "notValidated": 2,
+  "scope": "Connectivity, counts and radical electron counts. RDKit does not certify singlet/triplet spin distinction or exact depiction/layout.",
+  "cases": [
+    {
+      "file": "ethanol.cdx",
+      "independentChemistryValidation": true,
+      "canonicalSmiles": "CCO",
+      "radicalElectrons": 0
+    },
+    {
+      "file": "ethanol.cdxml",
+      "independentChemistryValidation": true,
+      "canonicalSmiles": "CCO",
+      "radicalElectrons": 0
+    },
+    {
+      "file": "aspirin.cdx",
+      "independentChemistryValidation": true,
+      "canonicalSmiles": "CC(=O)Oc1ccccc1C(=O)O",
+      "radicalElectrons": 0
+    },
+    {
+      "file": "aspirin.cdxml",
+      "independentChemistryValidation": true,
+      "canonicalSmiles": "CC(=O)Oc1ccccc1C(=O)O",
+      "radicalElectrons": 0
+    },
+    {
+      "file": "caffeine.cdx",
+      "independentChemistryValidation": true,
+      "canonicalSmiles": "Cn1c(=O)c2c(ncn2C)n(C)c1=O",
+      "radicalElectrons": 0
+    },
+    {
+      "file": "caffeine.cdxml",
+      "independentChemistryValidation": true,
+      "canonicalSmiles": "Cn1c(=O)c2c(ncn2C)n(C)c1=O",
+      "radicalElectrons": 0
+    },
+    {
+      "file": "benzene.cdx",
+      "independentChemistryValidation": true,
+      "canonicalSmiles": "c1ccccc1",
+      "radicalElectrons": 0
+    },
+    {
+      "file": "benzene.cdxml",
+      "independentChemistryValidation": true,
+      "canonicalSmiles": "c1ccccc1",
+      "radicalElectrons": 0
+    },
+    {
+      "file": "singlet.cdx",
+      "independentChemistryValidation": true,
+      "canonicalSmiles": "[CH2]",
+      "radicalElectrons": 2
+    },
+    {
+      "file": "singlet.cdxml",
+      "independentChemistryValidation": true,
+      "canonicalSmiles": "[CH2]",
+      "radicalElectrons": 2
+    },
+    {
+      "file": "doublet.cdx",
+      "independentChemistryValidation": true,
+      "canonicalSmiles": "[CH3]",
+      "radicalElectrons": 1
+    },
+    {
+      "file": "doublet.cdxml",
+      "independentChemistryValidation": true,
+      "canonicalSmiles": "[CH3]",
+      "radicalElectrons": 1
+    },
+    {
+      "file": "triplet.cdx",
+      "independentChemistryValidation": true,
+      "canonicalSmiles": "[CH2]",
+      "radicalElectrons": 2
+    },
+    {
+      "file": "triplet.cdxml",
+      "independentChemistryValidation": true,
+      "canonicalSmiles": "[CH2]",
+      "radicalElectrons": 2
+    },
+    {
+      "file": "dashed.cdx",
+      "independentChemistryValidation": true,
+      "canonicalSmiles": "CCO",
+      "radicalElectrons": 0
+    },
+    {
+      "file": "dashed.cdxml",
+      "independentChemistryValidation": true,
+      "canonicalSmiles": "CCO",
+      "radicalElectrons": 0
+    },
+    {
+      "file": "bold.cdx",
+      "independentChemistryValidation": true,
+      "canonicalSmiles": "CCO",
+      "radicalElectrons": 0
+    },
+    {
+      "file": "bold.cdxml",
+      "independentChemistryValidation": true,
+      "canonicalSmiles": "CCO",
+      "radicalElectrons": 0
+    },
+    {
+      "file": "hash.cdx",
+      "independentChemistryValidation": true,
+      "canonicalSmiles": "CCO",
+      "radicalElectrons": 0
+    },
+    {
+      "file": "hash.cdxml",
+      "independentChemistryValidation": true,
+      "canonicalSmiles": "CCO",
+      "radicalElectrons": 0
+    },
+    {
+      "file": "double-left.cdx",
+      "independentChemistryValidation": true,
+      "canonicalSmiles": "C=CO",
+      "radicalElectrons": 0
+    },
+    {
+      "file": "double-left.cdxml",
+      "independentChemistryValidation": true,
+      "canonicalSmiles": "C=CO",
+      "radicalElectrons": 0
+    },
+    {
+      "file": "double-right.cdx",
+      "independentChemistryValidation": true,
+      "canonicalSmiles": "C=CO",
+      "radicalElectrons": 0
+    },
+    {
+      "file": "double-right.cdxml",
+      "independentChemistryValidation": true,
+      "canonicalSmiles": "C=CO",
+      "radicalElectrons": 0
+    },
+    {
+      "file": "attachment.cdx",
+      "independentChemistryValidation": false,
+      "reason": "RDKit does not correctly represent standalone ChemDraw external connection points; browser/native field tests cover them."
+    },
+    {
+      "file": "attachment.cdxml",
+      "independentChemistryValidation": false,
+      "reason": "RDKit does not correctly represent standalone ChemDraw external connection points; browser/native field tests cover them."
+    }
+  ]
+}

@@ -1,0 +1,3739 @@
+{
+  "summary": {
+    "files": 673,
+    "applicableTopLevelGroups": 532,
+    "editedAndSourceSaved": 283,
+    "protected": 249,
+    "saveFailures": 0
+  },
+  "scope": "Each top-level abbreviation expanded independently; explicit unsupported/ambiguous cases reported as protected, not successful. Full file-set audit.",
+  "results": [
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/ChemDraw Items/Nicknames/DMPM.cdxml",
+      "label": "OCH3",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/ChemDraw Items/Nicknames/DMPM.cdxml",
+      "label": "OCH3",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/ChemDraw Items/Nicknames/DMTr.cdxml",
+      "label": "OCH3",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/ChemDraw Items/Nicknames/DMTr.cdxml",
+      "label": "OCH3",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/ChemDraw Items/Nicknames/MMTr.cdxml",
+      "label": "OCH3",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/ChemDraw Items/Nicknames/MPM.cdxml",
+      "label": "OCH3",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/ChemDraw Items/Nicknames/PMB.cdxml",
+      "label": "OCH3",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/ChemDraw Items/Nicknames/PMBM.cdxml",
+      "label": "OCH3",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alcohol Metabolism.cdxml",
+      "label": "CO2",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alcohol Metabolism.cdxml",
+      "label": "NAD+",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alcohol Metabolism.cdxml",
+      "label": "O2",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alcohol Metabolism.cdxml",
+      "label": "CH3CH2OH",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alcohol Metabolism.cdxml",
+      "label": "CARBOHYDRATES",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkenes.cdxml",
+      "label": "KMnO4",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkenes.cdxml",
+      "label": "NH2NH2",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkenes.cdxml",
+      "label": "OR",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkenes.cdxml",
+      "label": "OR",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkenes.cdxml",
+      "label": "HX",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkenes.cdxml",
+      "label": "NBS",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkenes.cdxml",
+      "label": "DMSO-H2O",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkenes.cdxml",
+      "label": "THF",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkenes.cdxml",
+      "label": "CH2I2",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkenes.cdxml",
+      "label": "Pd(OAc)2",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkenes.cdxml",
+      "label": "CHCl3",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkenes.cdxml",
+      "label": "KOtBu",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkenes.cdxml",
+      "label": "KMnO4",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkenes.cdxml",
+      "label": "NaIO4",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkynes Internal.cdxml",
+      "label": "Me",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkynes Internal.cdxml",
+      "label": "Me",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkynes Internal.cdxml",
+      "label": "Me",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkynes Internal.cdxml",
+      "label": "Me",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkynes Internal.cdxml",
+      "label": "Me",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkynes Internal.cdxml",
+      "label": "Me",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkynes Internal.cdxml",
+      "label": "Me",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkynes Internal.cdxml",
+      "label": "Me",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkynes Internal.cdxml",
+      "label": "Me",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkynes Internal.cdxml",
+      "label": "Me",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkynes Internal.cdxml",
+      "label": "Me",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkynes Internal.cdxml",
+      "label": "KMnO4",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkynes Internal.cdxml",
+      "label": "KMnO4",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkynes Internal.cdxml",
+      "label": "H2",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkynes Internal.cdxml",
+      "label": "LiAlH4",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkynes Internal.cdxml",
+      "label": "H2",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkynes Internal.cdxml",
+      "label": "Me",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkynes Internal.cdxml",
+      "label": "Me",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkynes Internal.cdxml",
+      "label": "Me",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkynes Internal.cdxml",
+      "label": "Me",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkynes Internal.cdxml",
+      "label": "Pt (Ni)",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkynes Internal.cdxml",
+      "label": "CO2H",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkynes Internal.cdxml",
+      "label": "MeCO2H",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkynes Internal.cdxml",
+      "label": "Me",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkynes Internal.cdxml",
+      "label": "Me",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkynes Internal.cdxml",
+      "label": "KH (KAPA)",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkynes Internal.cdxml",
+      "label": "H2N(CH2)3NH2",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkynes Internal.cdxml",
+      "label": "Me4N+Cl-",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkynes Terminal.cdxml",
+      "label": "[Cu(NH3)2]Cl",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkynes Terminal.cdxml",
+      "label": "RMgBr",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkynes Terminal.cdxml",
+      "label": "(Ph3P)2PdCl2",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkynes Terminal.cdxml",
+      "label": "[Ag(NH3)2]OH",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkynes Terminal.cdxml",
+      "label": "MgBr",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkynes Terminal.cdxml",
+      "label": "SiMe3",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkynes Terminal.cdxml",
+      "label": "Cu(OAc)2",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkynes Terminal.cdxml",
+      "label": "Py",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkynes Terminal.cdxml",
+      "label": "CuBr",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkynes Terminal.cdxml",
+      "label": "Cu2Cl2",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkynes Terminal.cdxml",
+      "label": "O2",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Antigen Pathway.cdxml",
+      "label": "RAF",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Antigen Pathway.cdxml",
+      "label": "CD3",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Catecholamines.cdxml",
+      "label": "CO2",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Citric Acid Cycle.cdxml",
+      "label": "CoA",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Citric Acid Cycle.cdxml",
+      "label": "CoA",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Citric Acid Cycle.cdxml",
+      "label": "FADH2",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Citric Acid Cycle.cdxml",
+      "label": "FAD",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Citric Acid Cycle.cdxml",
+      "label": "CO2",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Citric Acid Cycle.cdxml",
+      "label": "NAD+",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Citric Acid Cycle.cdxml",
+      "label": "CoA-SH",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Citric Acid Cycle.cdxml",
+      "label": "CoA-SH",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Condensation.cdxml",
+      "label": "OR",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Condensation.cdxml",
+      "label": "OR",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Condensation.cdxml",
+      "label": "CO2R",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Condensation.cdxml",
+      "label": "XCO2R",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Condensation.cdxml",
+      "label": "OR",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Condensation.cdxml",
+      "label": "OR",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Condensation.cdxml",
+      "label": "KCN",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Condensation.cdxml",
+      "label": "Mg (Zn)",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Condensation.cdxml",
+      "label": "OH",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Condensation.cdxml",
+      "label": "OR",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Condensation.cdxml",
+      "label": "COOH",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Condensation.cdxml",
+      "label": "(MeCO)2O",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Condensation.cdxml",
+      "label": "NaOEt",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Condensation.cdxml",
+      "label": "OR",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Condensation.cdxml",
+      "label": "KCN",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Condensation.cdxml",
+      "label": "EtONa",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Condensation.cdxml",
+      "label": "OR",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Constitutional Isomerism.cdxml",
+      "label": "COOH",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Constitutional Isomerism.cdxml",
+      "label": "COOH",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Constitutional Isomerism.cdxml",
+      "label": "CHO",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Constitutional Isomerism.cdxml",
+      "label": "CH2OH",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Cyclic Peptide.cdxml",
+      "label": "PAThr",
+      "ports": 2,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-C.cdxml",
+      "label": "CH3MgBr",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-C.cdxml",
+      "label": "XOD",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-C.cdxml",
+      "label": "NR",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-C.cdxml",
+      "label": "OR",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-C.cdxml",
+      "label": "HC(OEt)3",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-C.cdxml",
+      "label": "CO2",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-C.cdxml",
+      "label": "OR",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-C.cdxml",
+      "label": "NHR",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-C.cdxml",
+      "label": "OR",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-C.cdxml",
+      "label": "OR",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-C.cdxml",
+      "label": "OMe",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-C.cdxml",
+      "label": "Me",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-C.cdxml",
+      "label": "CS2",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-C.cdxml",
+      "label": "RBr",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-C.cdxml",
+      "label": "(RO)2SO2",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-C.cdxml",
+      "label": "CO2H",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-C.cdxml",
+      "label": "CN",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-C.cdxml",
+      "label": "CN",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "RMgBr",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "S8",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "O2",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "CuBr",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "I2",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "SO3",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "R3SnCl",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "CdCl2",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "D2O",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "SO2",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "BF3",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "SiCl4",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "R2PCl",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "RCuMgBr2",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "B(OMe)3",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "R3SiCl",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "ClNH2",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "BiCl3",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "PbCl2",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "ZnCl2",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "HgCl2",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "R4Pb",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "R2Hg",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "R2Cd",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "R3B",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "R2Zn",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "R3Bi",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "SiR4",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "C-Pb",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "C-Sn",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "C-Cd",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "C-Zn",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "C-Bi",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "C-D",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "C-B",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "C-N",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "C-O",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "C-I",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "C-Si",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "C-Si",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "C-P",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "C-S",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "C-S",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "C-S",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "C-Cu",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "C-Hg",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "C-H",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "C-B",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "B(OMe)2",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "PR2",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "SiR3",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "SnR3",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Hotkeys Cheat Sheet for macOS.cdxml",
+      "label": "NO2",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Hotkeys Cheat Sheet for macOS.cdxml",
+      "label": "OMe",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Hotkeys Cheat Sheet for macOS.cdxml",
+      "label": "Ph",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Hotkeys Cheat Sheet for macOS.cdxml",
+      "label": "CF3",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Hotkeys Cheat Sheet for macOS.cdxml",
+      "label": "Cbz",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Hotkeys Cheat Sheet for macOS.cdxml",
+      "label": "Me",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Hotkeys Cheat Sheet for macOS.cdxml",
+      "label": "MgBr",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Hotkeys Cheat Sheet for macOS.cdxml",
+      "label": "Boc",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Hotkeys Cheat Sheet for macOS.cdxml",
+      "label": "Ac",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Hotkeys Cheat Sheet for macOS.cdxml",
+      "label": "Fmoc",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Hotkeys Cheat Sheet for macOS.cdxml",
+      "label": "CO2Me",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Hotkeys Cheat Sheet for macOS.cdxml",
+      "label": "Et",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Hotkeys Cheat Sheet for macOS.cdxml",
+      "label": "Ph",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Hotkeys Cheat Sheet for macOS.cdxml",
+      "label": "Boc",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Hotkeys Cheat Sheet.cdxml",
+      "label": "NO2",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Hotkeys Cheat Sheet.cdxml",
+      "label": "OMe",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Hotkeys Cheat Sheet.cdxml",
+      "label": "Ph",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Hotkeys Cheat Sheet.cdxml",
+      "label": "CF3",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Hotkeys Cheat Sheet.cdxml",
+      "label": "Cbz",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Hotkeys Cheat Sheet.cdxml",
+      "label": "Me",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Hotkeys Cheat Sheet.cdxml",
+      "label": "MgBr",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Hotkeys Cheat Sheet.cdxml",
+      "label": "Boc",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Hotkeys Cheat Sheet.cdxml",
+      "label": "Ac",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Hotkeys Cheat Sheet.cdxml",
+      "label": "Fmoc",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Hotkeys Cheat Sheet.cdxml",
+      "label": "CO2Me",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Hotkeys Cheat Sheet.cdxml",
+      "label": "Et",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Hotkeys Cheat Sheet.cdxml",
+      "label": "Ph",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Hotkeys Cheat Sheet.cdxml",
+      "label": "Boc",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Nucleophilic Substitution Sn2.cdxml",
+      "label": "OEt",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Nucleophilic Substitution Sn2.cdxml",
+      "label": "OEt",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Nucleophilic Substitution Sn2.cdxml",
+      "label": "OAc",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Nucleophilic Substitution Sn2.cdxml",
+      "label": "DMF",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Nucleophilic Substitution Sn2.cdxml",
+      "label": "NHTs",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Nucleophilic Substitution Sn2.cdxml",
+      "label": "AgNO2",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Nucleophilic Substitution Sn2.cdxml",
+      "label": "NO2",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Nucleophilic Substitution Sn2.cdxml",
+      "label": "N3",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Nucleophilic Substitution Sn2.cdxml",
+      "label": "CN",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Nucleophilic Substitution Sn2.cdxml",
+      "label": "THF",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Nucleophilic Substitution Sn2.cdxml",
+      "label": "ArONa",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Nucleophilic Substitution Sn2.cdxml",
+      "label": "NaSH",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Nucleophilic Substitution Sn2.cdxml",
+      "label": "KO2",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Nucleophilic Substitution Sn2.cdxml",
+      "label": "DMSO",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Nucleophilic Substitution Sn2.cdxml",
+      "label": "NaBr",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Nucleophilic Substitution Sn2.cdxml",
+      "label": "DMSO",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Nucleophilic Substitution Sn2.cdxml",
+      "label": "KCN",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Nucleophilic Substitution Sn2.cdxml",
+      "label": "NaNO2",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Nucleophilic Substitution Sn2.cdxml",
+      "label": "DMF",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Nucleophilic Substitution Sn2.cdxml",
+      "label": "KI",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Nucleophilic Substitution Sn2.cdxml",
+      "label": "LiAlD4",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Nucleophilic Substitution Sn2.cdxml",
+      "label": "(LiAlH4)",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Nucleophilic Substitution Sn2.cdxml",
+      "label": "Bu3SnH",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Nucleophilic Substitution Sn2.cdxml",
+      "label": "AIBN",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Nucleophilic Substitution Sn2.cdxml",
+      "label": "NaN3",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Nucleophilic Substitution Sn2.cdxml",
+      "label": "NaN3",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Shortcuts Cheat Sheet for macOS.cdxml",
+      "label": "NO2",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Shortcuts Cheat Sheet for macOS.cdxml",
+      "label": "CF3",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Shortcuts Cheat Sheet for macOS.cdxml",
+      "label": "NO2",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Shortcuts Cheat Sheet for macOS.cdxml",
+      "label": "CF3",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Shortcuts Cheat Sheet for macOS.cdxml",
+      "label": "NO2",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Shortcuts Cheat Sheet for macOS.cdxml",
+      "label": "CF3",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Shortcuts Cheat Sheet for macOS.cdxml",
+      "label": "NO2",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Shortcuts Cheat Sheet for macOS.cdxml",
+      "label": "CF3",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Shortcuts Cheat Sheet for macOS.cdxml",
+      "label": "NO2",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Shortcuts Cheat Sheet for macOS.cdxml",
+      "label": "CF3",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Shortcuts Cheat Sheet for macOS.cdxml",
+      "label": "NO2",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Shortcuts Cheat Sheet for macOS.cdxml",
+      "label": "CF3",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Shortcuts Cheat Sheet for macOS.cdxml",
+      "label": "NO2",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Shortcuts Cheat Sheet for macOS.cdxml",
+      "label": "CF3",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Shortcuts Cheat Sheet for macOS.cdxml",
+      "label": "NO2",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Shortcuts Cheat Sheet for macOS.cdxml",
+      "label": "CF3",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Shortcuts Cheat Sheet for macOS.cdxml",
+      "label": "NO2",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Shortcuts Cheat Sheet for macOS.cdxml",
+      "label": "CF3",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Shortcuts Cheat Sheet.cdxml",
+      "label": "NO2",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Shortcuts Cheat Sheet.cdxml",
+      "label": "CF3",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Shortcuts Cheat Sheet.cdxml",
+      "label": "NO2",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Shortcuts Cheat Sheet.cdxml",
+      "label": "CF3",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Shortcuts Cheat Sheet.cdxml",
+      "label": "NO2",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Shortcuts Cheat Sheet.cdxml",
+      "label": "CF3",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Shortcuts Cheat Sheet.cdxml",
+      "label": "NO2",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Shortcuts Cheat Sheet.cdxml",
+      "label": "CF3",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Shortcuts Cheat Sheet.cdxml",
+      "label": "NO2",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Shortcuts Cheat Sheet.cdxml",
+      "label": "CF3",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Shortcuts Cheat Sheet.cdxml",
+      "label": "NO2",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Shortcuts Cheat Sheet.cdxml",
+      "label": "CF3",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Shortcuts Cheat Sheet.cdxml",
+      "label": "NO2",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Shortcuts Cheat Sheet.cdxml",
+      "label": "CF3",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Shortcuts Cheat Sheet.cdxml",
+      "label": "NO2",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Shortcuts Cheat Sheet.cdxml",
+      "label": "CF3",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Shortcuts Cheat Sheet.cdxml",
+      "label": "NO2",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Shortcuts Cheat Sheet.cdxml",
+      "label": "CF3",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Stereoisomerism.cdxml",
+      "label": "COOH",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Stereoisomerism.cdxml",
+      "label": "COOH",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Stereoisomerism.cdxml",
+      "label": "COOH",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Stereoisomerism.cdxml",
+      "label": "COOH",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Stereoisomerism.cdxml",
+      "label": "COOH",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Stereoisomerism.cdxml",
+      "label": "COOH",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Stereoisomerism.cdxml",
+      "label": "COOH",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Stereoisomerism.cdxml",
+      "label": "COOH",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Stereoisomerism.cdxml",
+      "label": "(S)",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Stereoisomerism.cdxml",
+      "label": "(R)",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Stereoisomerism.cdxml",
+      "label": "C2",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Stereoisomerism.cdxml",
+      "label": "NO2",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Stereoisomerism.cdxml",
+      "label": "CO2H",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Stereoisomerism.cdxml",
+      "label": "NO2",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Stereoisomerism.cdxml",
+      "label": "CO2H",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Stereoisomerism.cdxml",
+      "label": "CO2H",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Stereoisomerism.cdxml",
+      "label": "NO2",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Stereoisomerism.cdxml",
+      "label": "CO2H",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Stereoisomerism.cdxml",
+      "label": "NO2",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Stereoisomerism.cdxml",
+      "label": "C2",
+      "ports": 0,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Stereoisomerism.cdxml",
+      "label": "CHO",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Stereoisomerism.cdxml",
+      "label": "CH2OH",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Stereoisomerism.cdxml",
+      "label": "CHO",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Stereoisomerism.cdxml",
+      "label": "CH2OH",
+      "ports": 1,
+      "expanded": true,
+      "sourceSaved": true
+    }
+  ],
+  "protectedCases": [
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkenes.cdxml",
+      "label": "X2, CCl4",
+      "ports": 0,
+      "stage": "edit",
+      "reason": "备选组尚未选择唯一结构，请先在内部编辑器确定具体片段"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkenes.cdxml",
+      "label": "X2, ROH",
+      "ports": 0,
+      "stage": "edit",
+      "reason": "备选组尚未选择唯一结构，请先在内部编辑器确定具体片段"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkynes Internal.cdxml",
+      "label": "H2O, D",
+      "ports": 0,
+      "stage": "edit",
+      "reason": "备选组尚未选择唯一结构，请先在内部编辑器确定具体片段"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkynes Terminal.cdxml",
+      "label": "Ar-X, Cu(I), R3N",
+      "ports": 0,
+      "stage": "edit",
+      "reason": "备选组尚未选择唯一结构，请先在内部编辑器确定具体片段"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkynes Terminal.cdxml",
+      "label": "Pd(PPh3)4, CuI",
+      "ports": 0,
+      "stage": "edit",
+      "reason": "备选组尚未选择唯一结构，请先在内部编辑器确定具体片段"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Condensation.cdxml",
+      "label": "CO2R",
+      "ports": 1,
+      "stage": "edit",
+      "reason": "本次展开需要每个绑定端口恰好连接一条内外同阶的普通单键、双键或三键"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Cyclic Peptide.cdxml",
+      "label": "bAla",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Cyclic Peptide.cdxml",
+      "label": "D-Trp",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Cyclic Peptide.cdxml",
+      "label": "Trp",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-C.cdxml",
+      "label": "X=RCO, R, H",
+      "ports": 0,
+      "stage": "edit",
+      "reason": "备选组尚未选择唯一结构，请先在内部编辑器确定具体片段"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-C.cdxml",
+      "label": "X=RN, R2N",
+      "ports": 0,
+      "stage": "edit",
+      "reason": "备选组尚未选择唯一结构，请先在内部编辑器确定具体片段"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "label": "[R4B]",
+      "ports": 0,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "D",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "I",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "S",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "S",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "A",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "R",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "K",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "L",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "C",
+      "ports": 3,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "R",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "Y",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "L",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "V",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "K",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "E",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "I",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "E",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "K",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "L",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "C",
+      "ports": 3,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "G",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "H",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "A",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "N",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "W",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "S",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "Q",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "F",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "R",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "G",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "Y",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "S",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "E",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "K",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "C",
+      "ports": 3,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "C",
+      "ports": 3,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "L",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "T",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "G",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "C",
+      "ports": 3,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "T",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "K",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "E",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "E",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "L",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "S",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "I",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "A",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "C",
+      "ports": 3,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "L",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "P",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "Y",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "I",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "D",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "label": "F",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Nucleophilic Substitution Sn2.cdxml",
+      "label": "LiCl, DMF",
+      "ports": 0,
+      "stage": "edit",
+      "reason": "备选组尚未选择唯一结构，请先在内部编辑器确定具体片段"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Nucleophilic Substitution Sn2.cdxml",
+      "label": "TsNH2, KOH",
+      "ports": 0,
+      "stage": "edit",
+      "reason": "备选组尚未选择唯一结构，请先在内部编辑器确定具体片段"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Nucleophilic Substitution Sn2.cdxml",
+      "label": "NaCN",
+      "ports": 0,
+      "stage": "edit",
+      "reason": "文档对象把缩写作为单个原子引用，无法自动改为多个原子"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Nucleophilic Substitution Sn2.cdxml",
+      "label": "DMSO, D",
+      "ports": 0,
+      "stage": "edit",
+      "reason": "备选组尚未选择唯一结构，请先在内部编辑器确定具体片段"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Nucleophilic Substitution Sn2.cdxml",
+      "label": "NC",
+      "ports": 1,
+      "stage": "edit",
+      "reason": "文档对象把缩写作为单个原子引用，无法自动改为多个原子"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Nucleophilic Substitution Sn2.cdxml",
+      "label": "DMSO, D",
+      "ports": 0,
+      "stage": "edit",
+      "reason": "备选组尚未选择唯一结构，请先在内部编辑器确定具体片段"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Nucleophilic Substitution Sn2.cdxml",
+      "label": "P(OEt)3, D",
+      "ports": 0,
+      "stage": "edit",
+      "reason": "备选组尚未选择唯一结构，请先在内部编辑器确定具体片段"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Pituitary Hormones.cdxml",
+      "label": "H",
+      "ports": 1,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Pituitary Hormones.cdxml",
+      "label": "OH",
+      "ports": 1,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Pituitary Hormones.cdxml",
+      "label": "Cys",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Pituitary Hormones.cdxml",
+      "label": "Tyr",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Pituitary Hormones.cdxml",
+      "label": "Ile",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Pituitary Hormones.cdxml",
+      "label": "Gln",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Pituitary Hormones.cdxml",
+      "label": "Asn",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Pituitary Hormones.cdxml",
+      "label": "Cys",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Pituitary Hormones.cdxml",
+      "label": "Pro",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Pituitary Hormones.cdxml",
+      "label": "Leu",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Pituitary Hormones.cdxml",
+      "label": "Gly",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Pituitary Hormones.cdxml",
+      "label": "H",
+      "ports": 1,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Pituitary Hormones.cdxml",
+      "label": "OH",
+      "ports": 1,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Pituitary Hormones.cdxml",
+      "label": "Cys",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Pituitary Hormones.cdxml",
+      "label": "Tyr",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Pituitary Hormones.cdxml",
+      "label": "Phe",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Pituitary Hormones.cdxml",
+      "label": "Gln",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Pituitary Hormones.cdxml",
+      "label": "Asn",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Pituitary Hormones.cdxml",
+      "label": "Cys",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Pituitary Hormones.cdxml",
+      "label": "Pro",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Pituitary Hormones.cdxml",
+      "label": "Arg",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Pituitary Hormones.cdxml",
+      "label": "Gly",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Cys",
+      "ports": 3,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Tyr",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Phe",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Gln",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Asn",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Cys",
+      "ports": 3,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Pro",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Arg",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Gly",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Cys",
+      "ports": 3,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Tyr",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Phe",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Gln",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Asn",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Cys",
+      "ports": 3,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Pro",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Lys",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Gly",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Cys",
+      "ports": 3,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Phe",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Phe",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Gln",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Asn",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Cys",
+      "ports": 3,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Pro",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Arg",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Gly",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Cys",
+      "ports": 3,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Tyr",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Ile",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Gln",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Asn",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Cys",
+      "ports": 3,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Pro",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Arg",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Gly",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Cys",
+      "ports": 3,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Tyr",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Ile",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Gln",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Asn",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Cys",
+      "ports": 3,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Pro",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Arg",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Gly",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Cys",
+      "ports": 3,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Tyr",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Ile",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Gln",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Asn",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Cys",
+      "ports": 3,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Pro",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Pro",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Gly",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Cys",
+      "ports": 3,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Tyr",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Ile",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Gln",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Asn",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Cys",
+      "ports": 3,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Pro",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Ile",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Gly",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Cys",
+      "ports": 3,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Tyr",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Ile",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Gln",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Ser",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Cys",
+      "ports": 3,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Pro",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Ile",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Gly",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Cys",
+      "ports": 3,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Tyr",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Ile",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Ser",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Asn",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Cys",
+      "ports": 3,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Pro",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Ile",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Gly",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Cys",
+      "ports": 3,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Tyr",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Ile",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Ser",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Asn",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Cys",
+      "ports": 3,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Pro",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Gln",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Gly",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Cys",
+      "ports": 3,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Tyr",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Ile",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Asn",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Asn",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Cys",
+      "ports": 3,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Pro",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Leu",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Gly",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Cys",
+      "ports": 3,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Leu",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Ile",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Thr",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Asn",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Cys",
+      "ports": 3,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Pro",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Arg",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Gly",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Cys",
+      "ports": 3,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Phe",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Val",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Arg",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Asn",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Cys",
+      "ports": 3,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Pro",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Thr",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Gly",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Cys",
+      "ports": 3,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Phe",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Ile",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Arg",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Asn",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Cys",
+      "ports": 3,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Pro",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Lys",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Gly",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Cys",
+      "ports": 3,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Ile",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Ile",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Arg",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Asn",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Cys",
+      "ports": 3,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Pro",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Arg",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Gly",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Cys",
+      "ports": 3,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Tyr",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Phe",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Arg",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Asn",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Cys",
+      "ports": 3,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Pro",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Ile",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Gly",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Cys",
+      "ports": 3,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Phe",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Trp",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Thr",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Ser",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Cys",
+      "ports": 3,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Pro",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Ile",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "label": "Gly",
+      "ports": 2,
+      "stage": "edit",
+      "reason": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改"
+    }
+  ],
+  "failures": []
+}

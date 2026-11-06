@@ -40,7 +40,8 @@ try {
   await page.locator('[data-action="export"]').click();
   await page.locator('.export-format').selectOption('cdxml');
   const blocked=await page.locator('[data-action="download-export"]').isDisabled();
-  assert.equal(blocked,before.sourceWarnings>0);
+  // Styled CDX still lacks a full cross-format mapping; edited CDXML now preserves its labels/styles.
+  assert.equal(blocked,name==='cdx-styled');
   if(blocked)await page.locator('.allow-lossy').check();
   const downloadPromise=page.waitForEvent('download'); await page.locator('[data-action="download-export"]').click();
   const download=await downloadPromise; assert.match(download.suggestedFilename(),/\.cdxml$/);

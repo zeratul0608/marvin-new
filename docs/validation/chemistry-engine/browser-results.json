@@ -1,0 +1,88 @@
+{
+  "results": [
+    {
+      "mode": "development",
+      "cip": [
+        "S"
+      ],
+      "smiles": "C[C@H](N)C(=O)O",
+      "cdxmlRoundtrip": true,
+      "lazyWasm": true,
+      "localRequestsOnly": true,
+      "actualButtons": true,
+      "undoRedo": true,
+      "cdxmlDownload": true,
+      "invalidInputAtomic": true,
+      "assets": [
+        {
+          "path": "/src/chemistry/rdkit-2026.9.1/RDKit_minimal.js",
+          "status": 200,
+          "type": "text/javascript; charset=utf-8"
+        },
+        {
+          "path": "/src/chemistry/rdkit-2026.9.1/RDKit_minimal.wasm",
+          "status": 200,
+          "type": "application/wasm"
+        }
+      ],
+      "beforeAtoms": 6,
+      "errors": []
+    },
+    {
+      "mode": "production",
+      "cip": [
+        "S"
+      ],
+      "smiles": null,
+      "lazyWasm": true,
+      "localRequestsOnly": true,
+      "actualButtons": true,
+      "undoRedo": true,
+      "cdxmlDownload": true,
+      "invalidInputAtomic": true,
+      "assets": [
+        {
+          "path": "/assets/rdkit-2026.9.1/RDKit_minimal.js",
+          "status": 200,
+          "type": "text/javascript; charset=utf-8"
+        },
+        {
+          "path": "/assets/rdkit-2026.9.1/RDKit_minimal.wasm",
+          "status": 200,
+          "type": "application/wasm"
+        }
+      ],
+      "beforeAtoms": 6,
+      "errors": []
+    },
+    {
+      "mode": "sdk",
+      "cip": [
+        "S"
+      ],
+      "smiles": "C[C@H](N)C(=O)O",
+      "cdxmlRoundtrip": true,
+      "lazyWasm": true,
+      "localRequestsOnly": true,
+      "actualButtons": true,
+      "undoRedo": true,
+      "cdxmlDownload": true,
+      "invalidInputAtomic": true,
+      "assets": [
+        {
+          "path": "/rdkit-2026.9.1/RDKit_minimal.js",
+          "status": 200,
+          "type": "text/javascript; charset=utf-8"
+        },
+        {
+          "path": "/rdkit-2026.9.1/RDKit_minimal.wasm",
+          "status": 200,
+          "type": "application/wasm"
+        }
+      ],
+      "beforeAtoms": 6,
+      "errors": []
+    }
+  ],
+  "aiTested": false
+}

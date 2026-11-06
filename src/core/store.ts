@@ -1,5 +1,7 @@
 import { clone, fingerprint, validateDocument } from './model';
 import type { ChemicalDocument } from './types';
+import { assertStereoEdit } from './stereochemistry';
+import { invalidateCipLabels } from './chemistry-annotations';
 
 /** Every edit is an atomic transaction. History snapshots retain stable object IDs. */
 export class DocumentStore {
@@ -22,7 +24,7 @@ export class DocumentStore {
     this.current = clone(doc); this.future = []; this.emit();
   }
   transact(edit: (draft: ChemicalDocument) => void): void {
-    const draft = this.document; edit(draft); this.replace(draft);
+    const draft = this.document; edit(draft); invalidateCipLabels(this.current, draft); validateDocument(draft); assertStereoEdit(this.current, draft); this.replace(draft);
   }
   undo(): void { const prev = this.past.pop(); if (prev) { this.future.push(this.current); this.current = prev; this.emit(); } }
   redo(): void { const next = this.future.pop(); if (next) { this.past.push(this.current); this.current = next; this.emit(); } }

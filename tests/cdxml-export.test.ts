@@ -30,8 +30,8 @@ describe('CDXML export with file fixtures', () => {
     // An edit forces the actual writer; this must not pass by returning the fixture unchanged.
     const n = Object.values(input.document.graph.atoms).find(a => a.element === 'N')!;
     const edited = applyDocumentEdits(input.document, [{ type: 'update-atom', atomId: n.id, changes: { isotope: 15 } }]).document;
-    if (style === 'styled') expect(() => exportDocument(edited, { format: 'cdxml' })).toThrow('导出已阻止');
-    const output = exportDocument(edited, { format: 'cdxml', allowLossy: true });
+    const output = exportDocument(edited, { format: 'cdxml' });
+    expect(output.preservation).toBe('preserved');
     expect(output.passthrough).toBe(false);
     expect(output.data).toContain('Isotope="15"');
     expect(projection(importDocument({ data: output.data }).document)).toEqual(projection(edited));
@@ -61,11 +61,12 @@ describe('CDXML export with file fixtures', () => {
     expect(molecularFormula(importDocument({ data: output.data }).document)).toBe('C2H6O');
   });
 
-  it.each(['AS="R"', 'AS="S"', 'AS="u"'])('rejects actual atom stereochemistry %s', attribute => {
-    expect(() => importDocument({ data: `<CDXML><page><fragment><n id="1" p="0 0" ${attribute}/></fragment></page></CDXML>` })).toThrow('拓扑立体');
+  it.each(['R', 'S', 'u'])('retains imported CIP cache %s without claiming to calculate it', label => {
+    const doc = importDocument({ data: `<CDXML><page><fragment><n id="1" p="0 0" AS="${label}"/></fragment></page></CDXML>` }).document;
+    expect(Object.values(doc.graph.atoms)[0].cipLabel).toBe(label);
   });
   it.each(['E', 'Z'])('rejects actual bond stereochemistry %s', stereo => {
-    expect(() => importDocument({ data: `<CDXML><page><fragment><n id="1" p="0 0"/><n id="2" p="30 0"/><b B="1" E="2" BS="${stereo}"/></fragment></page></CDXML>` })).toThrow('拓扑立体');
+    expect(() => importDocument({ data: `<CDXML><page><fragment><n id="1" p="0 0"/><n id="2" p="30 0"/><b B="1" E="2" BS="${stereo}"/></fragment></page></CDXML>` })).toThrow('双键');
   });
   it('accepts natural isotope zero without creating an invalid isotope and still rejects duplicate bond IDs', () => {
     const raw = '<CDXML><page><fragment><n id="1" p="0 0" Isotope="0" AS="U"/><n id="2" p="30 0"/><b B="1" E="2" BS="U"/></fragment></page></CDXML>';

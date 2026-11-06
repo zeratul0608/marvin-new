@@ -38,9 +38,16 @@ try {
   assert.deepEqual(await readFile(`${out}/original-styled.cdx`), original);
 
   await page.evaluate(() => { const api = window.moleculeEditor, n = Object.values(api.getDocument().graph.atoms).find(a => a.element === 'N'); api.applyEdits({ operations: [{ type: 'update-atom', atomId: n.id, changes: { isotope: 15 } }] }); });
+  await openExport('source'); await download('styled-isotope.cdx'); await closeExport();
+  await page.evaluate(() => {
+    const api = window.moleculeEditor;
+    api.import({ data: '<CDXML><page><fragment><n id="1" p="0 0" Element="7"><t><s font="3">custom annotation</s></t></n></fragment></page></CDXML>', name: 'custom-label.cdxml' });
+    const n = Object.values(api.getDocument().graph.atoms)[0];
+    api.applyEdits({ operations: [{ type: 'update-atom', atomId: n.id, changes: { isotope: 15 } }] });
+  });
   await openExport('source');
   assert.equal(await page.locator('[data-action="download-export"]').isDisabled(), true);
-  const blockedMessage = await page.locator('.export-message').innerText(); assert.match(blockedMessage, /标签/);
+  const blockedMessage = await page.locator('.export-message').innerText(); assert.match(blockedMessage, /自定义文字/);
   await page.locator('.export-format').selectOption('original'); assert.equal(await page.locator('[data-action="download-export"]').isDisabled(), false);
   assert.match(await page.locator('.export-message').innerText(), /之后的编辑不包含/);
   await closeExport();
@@ -71,7 +78,7 @@ try {
   assert.deepEqual(errors, []);
   const report = { originalBytesIdentical: true, originalSha256: createHash('sha256').update(original).digest('hex'),
     movedCdxDownloaded: true, editedCdxDownloaded: true, exactMappedCdxmlDownloaded: true,
-    binaryCopyDisabled: true, strictSaveIgnoresLossyCheckbox: true, labelEditBlocked: true,
+    binaryCopyDisabled: true, strictSaveIgnoresLossyCheckbox: true, ordinaryLabelEditSupported: true, customLabelEditBlocked: true,
     blockedMessage, originalAvailableAfterBlockedEdit: true, cdata, pageErrors: errors };
   await writeFile(`${out}/browser-results.json`, JSON.stringify(report, null, 2) + '\n'); console.log(JSON.stringify(report));
 } finally { await browser.close(); }

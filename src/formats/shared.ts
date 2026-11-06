@@ -1,5 +1,5 @@
 import { addAtom, addBond, emptyDocument, fingerprint, validateDocument } from '../core/model';
-import type { Atom, BondOrder, ChemicalDocument, Diagnostic, ImportFormat, ImportResult } from '../core/types';
+import type { Atom, BondDepiction, BondOrder, ChemicalDocument, Diagnostic, ImportFormat, ImportResult } from '../core/types';
 
 export class FormatError extends Error {
   issues: Diagnostic[];
@@ -35,7 +35,7 @@ export class GraphReader {
       const atom = addAtom(this.document, element, { x, y }, props); this.refs.set(ref, atom); return atom;
     } catch (error) { return fail((error as Error).message, 'UNSUPPORTED_ATOM'); }
   }
-  bond(a: string, b: string, order: BondOrder, style?: 'wedge' | 'hashed' | 'wavy', reverse = false): string {
+  bond(a: string, b: string, order: BondOrder, style?: BondDepiction['style'], reverse = false): string {
     const aid = this.refs.get(a), bid = this.refs.get(b);
     if (!aid || !bid) fail('文件中的键引用了不存在的原子');
     if (aid === bid || Object.values(this.document.graph.bonds).some(x => x.atoms.includes(aid) && x.atoms.includes(bid))) fail('文件含重复键或自身连接');

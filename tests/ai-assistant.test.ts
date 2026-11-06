@@ -182,8 +182,8 @@ describe('AI editor tool loop', () => {
     const editor = create(), before = editor.getSnapshot();
     const transport = scripted(turn(
       call('eval', { code: 'globalThis.PWNED = true' }), call('execute_command', { id: 'untrusted-plugin.run' }),
-      call('apply_edits', { operations: [{ type: 'rename', title: 'no revision' }] }),
-      call('apply_edits', { expectedRevision: before.revision, operations: [{ type: 'rename', title: 'extra', javascript: 'alert(1)' }] }),
+      call('apply_edits', { operations: [{ type: 'rename', title: 'no revision' }] }, 'missing-revision'),
+      call('apply_edits', { expectedRevision: before.revision, operations: [{ type: 'rename', title: 'extra', javascript: 'alert(1)' }] }, 'unknown-operation-field'),
       call('read_structure', { includeSource: true }),
       { id: 'bad-json', name: 'apply_edits', arguments: '({operations:[]})' },
     ), { text: '未执行非法操作。', toolCalls: [] });
@@ -295,7 +295,7 @@ describe('AI editor tool loop', () => {
   it('never enables lossy export, reports format diagnostics and creates no failed artifact', async () => {
     const doc = exampleDocument('ethanol'); Object.values(doc.graph.atoms)[0].atomMap = 1;
     const editor = create(doc), events: AiRunEvent[] = [];
-    const transport = scripted(turn(call('export_structure', { format: 'cdxml' }), call('export_structure', { format: 'cdxml', allowLossy: true })), { text: '导出被阻止，未生成文件。', toolCalls: [] });
+    const transport = scripted(turn(call('export_structure', { format: 'cdxml' }), call('export_structure', { format: 'cdxml', allowLossy: true }, 'lossy-attempt')), { text: '导出被阻止，未生成文件。', toolCalls: [] });
     const result = await runAiAssistant(editor, transport, { message: '导出 CDXML', onEvent: event => events.push(event) });
     expect(results(result.messages).every(item => !item.ok)).toBe(true);
     expect(results(result.messages)[0].error.issues).toEqual(expect.arrayContaining([expect.objectContaining({ code: 'LOSSY_EXPORT_BLOCKED' })]));

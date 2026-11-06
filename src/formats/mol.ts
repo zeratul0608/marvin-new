@@ -17,12 +17,13 @@ export function readMol(raw: string, name?: string): ImportResult {
     const element = line.slice(31, 34).trim(), massDiff = integer(line.slice(34, 36), 0), chargeCode = integer(line.slice(36, 39), 0);
     if (numeric(line.slice(20, 30)) !== 0) fail('首版只支持二维 MOL 坐标，三维结构尚未实现', 'UNSUPPORTED_3D');
     if (integer(line.slice(39, 42), 0) !== 0) fail('原子 parity 立体编码尚未实现；请使用二维楔线键', 'UNSUPPORTED_STEREO');
-    if (chargeCode === 4 || chargeCode < 0 || chargeCode > 7) fail('当前版本尚未支持此自由基／电荷编码', 'UNSUPPORTED_RADICAL');
+    if (chargeCode < 0 || chargeCode > 7) fail('MOL 自由基／电荷编码无效', 'UNSUPPORTED_RADICAL');
     if (integer(line.slice(45, 48), 0) || integer(line.slice(48, 51), 0) || integer(line.slice(51, 54), 0)) fail('当前版本尚未支持原子查询或显式价态约束', 'UNSUPPORTED_QUERY');
     const hCode = integer(line.slice(42, 45), 0), map = integer(line.slice(60, 63), 0);
     if (hCode < 0 || hCode > 5) fail('无效的 MOL 氢数编码');
     if (massDiff && !masses[element]) fail('此元素的相对同位素编码尚未实现', 'UNSUPPORTED_ISOTOPE');
     const props: Partial<Atom> = { charge: chargeCode ? 4 - chargeCode : 0 };
+    if (chargeCode === 4) props.radical = 2;
     if (massDiff) props.isotope = masses[element] + massDiff;
     if (map) props.atomMap = map;
     if (hCode) props.hydrogens = { mode: 'fixed', count: hCode - 1 };
@@ -39,19 +40,23 @@ export function readMol(raw: string, name?: string): ImportResult {
   let ended = false;
   let hasChargeRecord = false;
   let hasIsotopeRecord = false;
+  let hasRadicalRecord = false;
   for (const line of lines.slice(4 + n + m)) {
     if (line.trim() === 'M  END') { ended = true; continue; }
     if (!line.trim()) continue;
     if (ended) fail('MOL 结束标记后还有未支持的数据段', 'UNSUPPORTED_MOL_DATA');
-    if (/^M  (CHG|ISO)\s/.test(line)) {
+    if (/^M  (CHG|ISO|RAD)\s/.test(line)) {
       const tokens = line.trim().split(/\s+/), count = integer(tokens[2]);
       if (tokens.length !== 3 + count * 2) fail('MOL 属性记录长度无效');
       if (tokens[1] === 'CHG' && !hasChargeRecord) { for (const atom of Object.values(reader.document.graph.atoms)) atom.charge = 0; hasChargeRecord = true; }
       if (tokens[1] === 'ISO' && !hasIsotopeRecord) { for (const atom of Object.values(reader.document.graph.atoms)) delete atom.isotope; hasIsotopeRecord = true; }
+      if (tokens[1] === 'RAD' && !hasRadicalRecord) { for (const atom of Object.values(reader.document.graph.atoms)) delete atom.radical; hasRadicalRecord = true; }
       for (let i = 0; i < count; i++) {
         const ref = reader.refs.get(String(integer(tokens[3 + 2 * i]))); if (!ref) fail('MOL 属性引用无效');
         const atom = reader.document.graph.atoms[ref], value = integer(tokens[4 + 2 * i]);
-        if (tokens[1] === 'CHG') atom.charge = value; else atom.isotope = value;
+        if (tokens[1] === 'CHG') atom.charge = value;
+        else if (tokens[1] === 'RAD') { if (![1, 2, 3].includes(value)) fail('MOL RAD 自旋态无效', 'UNSUPPORTED_RADICAL'); atom.radical = value as Atom['radical']; }
+        else atom.isotope = value;
       }
     } else fail(`尚未支持的 MOL 属性：${line.slice(0, 12).trim()}`, 'UNSUPPORTED_MOL_PROPERTY');
   }
@@ -90,6 +95,7 @@ function readV3000(raw: string, lines: string[], name?: string): ImportResult {
         if (key === 'CHG') props.charge = integer(value);
         else if (key === 'MASS') props.isotope = integer(value);
         else if (key === 'HCOUNT') props.hydrogens = { mode: 'fixed', count: integer(value) === -1 ? 0 : integer(value) };
+        else if (key === 'RAD') { const radical = integer(value); if (![1, 2, 3].includes(radical)) fail('V3000 RAD 自旋态无效', 'UNSUPPORTED_RADICAL'); props.radical = radical as Atom['radical']; }
         else fail(`尚未支持的 V3000 原子属性：${key}`, 'UNSUPPORTED_MOL_PROPERTY');
       }
       reader.atom(t[0], t[1], numeric(t[2]), numeric(t[3]), props);
@@ -108,6 +114,7 @@ function readV3000(raw: string, lines: string[], name?: string): ImportResult {
   return finish(reader.document, raw, 'mol-v3000', [], name);
 }
 export function writeMol(doc: ChemicalDocument, format: Format): string {
+  if (Object.values(doc.graph.atoms).some(a => a.query||a.queryConstraints) || Object.values(doc.graph.bonds).some(b => b.topology!==undefined||b.order === 'any' || b.order === 2.5)) fail('此 MOL 适配器尚未写入查询或 2.5 键，请保存 CDXML、CDX 或 JSON', 'UNSUPPORTED_QUERY');
   const atoms = Object.values(doc.graph.atoms), bonds = Object.values(doc.graph.bonds);
   const indices = new Map(atoms.map((a, i) => [a.id, i + 1]));
   const title = doc.title.replace(/[\r\n]/g, ' ');
@@ -116,7 +123,7 @@ export function writeMol(doc: ChemicalDocument, format: Format): string {
     out.push('  0  0  0     0  0            999 V3000', 'M  V30 BEGIN CTAB', `M  V30 COUNTS ${atoms.length} ${bonds.length} 0 0 0`, 'M  V30 BEGIN ATOM');
     atoms.forEach((a, i) => {
       const p = doc.depiction.positions[a.id];
-      out.push(`M  V30 ${i + 1} ${a.element} ${p.x.toFixed(6)} ${p.y.toFixed(6)} 0 ${a.atomMap ?? 0}${a.charge ? ` CHG=${a.charge}` : ''}${a.isotope ? ` MASS=${a.isotope}` : ''}${a.hydrogens.mode === 'fixed' ? ` HCOUNT=${a.hydrogens.count || -1}` : ''}`);
+      out.push(`M  V30 ${i + 1} ${a.element} ${p.x.toFixed(6)} ${p.y.toFixed(6)} 0 ${a.atomMap ?? 0}${a.charge ? ` CHG=${a.charge}` : ''}${a.isotope ? ` MASS=${a.isotope}` : ''}${a.radical ? ` RAD=${a.radical}` : ''}${a.hydrogens.mode === 'fixed' ? ` HCOUNT=${a.hydrogens.count || -1}` : ''}`);
     });
     out.push('M  V30 END ATOM', 'M  V30 BEGIN BOND');
     bonds.forEach((b, i) => {
@@ -148,12 +155,12 @@ export function writeMol(doc: ChemicalDocument, format: Format): string {
     let [a, c] = b.atoms;
     const d = doc.depiction.bonds[b.id]; if (d?.from === c) [a, c] = [c, a];
     const stereo = d?.style === 'wedge' ? 1 : d?.style === 'hashed' ? 6 : d?.style === 'wavy' ? 4 : 0;
-    out.push(`${pad(indices.get(a)!)}${pad(indices.get(c)!)}${pad(b.order === 'aromatic' ? 4 : b.order)}${pad(stereo)}  0  0  0`);
+    out.push(`${pad(indices.get(a)!)}${pad(indices.get(c)!)}${pad(b.order === 'aromatic' ? 4 : Number(b.order))}${pad(stereo)}  0  0  0`);
   }
-  for (const [key, list] of [['CHG', atoms.filter(a => a.charge !== 0)], ['ISO', atoms.filter(a => a.isotope !== undefined)]] as const) {
+  for (const [key, list] of [['CHG', atoms.filter(a => a.charge !== 0)], ['ISO', atoms.filter(a => a.isotope !== undefined)], ['RAD', atoms.filter(a => a.radical !== undefined)]] as const) {
     for (let i = 0; i < list.length; i += 8) {
       const group = list.slice(i, i + 8);
-      out.push(`M  ${key}${pad(group.length)}${group.map(a => ` ${pad(indices.get(a.id)!)} ${pad(key === 'CHG' ? a.charge : a.isotope!)}`).join('')}`);
+      out.push(`M  ${key}${pad(group.length)}${group.map(a => ` ${pad(indices.get(a.id)!)} ${pad(key === 'CHG' ? a.charge : key === 'RAD' ? a.radical! : a.isotope!)}`).join('')}`);
     }
   }
   out.push('M  END'); return out.join('\n');

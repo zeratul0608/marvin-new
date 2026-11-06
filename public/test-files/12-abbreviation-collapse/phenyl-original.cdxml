@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDXML BondLength="30" LabelFont="3" LabelSize="10">
+  <fonttable><font id="3" charset="utf-8" name="Arial"/></fonttable>
+  <page id="1"><fragment id="2">
+      <n id="3" p="30.0000 0.0000" Element="6"></n>
+      <n id="4" p="15.0000 -25.9808" Element="6"></n>
+      <n id="5" p="-15.0000 -25.9808" Element="6"></n>
+      <n id="6" p="-30.0000 0.0000" Element="6"></n>
+      <n id="7" p="-15.0000 25.9808" Element="6"></n>
+      <n id="8" p="15.0000 25.9808" Element="6"></n>
+      <n id="9" p="30.0000 51.9615" Element="6"></n>
+      <n id="10" p="15.0000 77.9423" Element="6"></n>
+      <n id="11" p="30.0000 103.9230" Element="8"><t p="30.0000 103.9230"><s font="3" size="10">O</s></t></n>
+      <b id="12" B="3" E="4" Order="1.5" Display="Solid"/>
+      <b id="13" B="4" E="5" Order="1.5" Display="Solid"/>
+      <b id="14" B="5" E="6" Order="1.5" Display="Solid"/>
+      <b id="15" B="6" E="7" Order="1.5" Display="Solid"/>
+      <b id="16" B="7" E="8" Order="1.5" Display="Solid"/>
+      <b id="17" B="8" E="9" Order="1" Display="Solid"/>
+      <b id="18" B="9" E="10" Order="1" Display="Solid"/>
+      <b id="19" B="10" E="11" Order="1" Display="Solid"/>
+      <b id="20" B="8" E="3" Order="1.5" Display="Solid"/>
+  </fragment></page>
+</CDXML>

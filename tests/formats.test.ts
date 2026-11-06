@@ -54,7 +54,8 @@ describe('format compatibility', () => {
   it('retains document graphics when CDXML edits can be patched in the original document', () => {
     const raw = '<CDXML><page id="1"><fragment id="2"><n id="3" p="0 0" Element="8"/></fragment><graphic id="4" GraphicType="Rectangle"/></page></CDXML>';
     const { document, issues } = importDocument({ data: raw });
-    expect(issues.length).toBeGreaterThan(0);
+    expect(Object.values(document.depiction.objects ?? {}).some(o => o.tag === 'graphic')).toBe(true);
+    expect(issues).toEqual([]);
     expect(exportDocument(document, { format: 'cdxml' })).toMatchObject({ data: raw, passthrough: true });
     document.depiction.positions[Object.keys(document.graph.atoms)[0]].x = 2;
     const preserved = exportDocument(document, { format: 'cdxml' });
@@ -90,7 +91,7 @@ describe('format compatibility', () => {
     '<CDXML><page><fragment><n id="1" p="0 0" NodeType="Nickname"/></fragment></page></CDXML>',
     '<CDXML><page><fragment><n id="1" p="0 0" MysteryChemistry="1"/></fragment></page></CDXML>',
     '<CDXML><page><scheme><step/></scheme></page></CDXML>',
-    '<cml><molecule molID="m1"><atomArray><atom id="a1" elementType="N" x2="0" y2="0" radical="monovalent"/></atomArray></molecule></cml>',
+    '<cml><molecule molID="m1"><atomArray><atom id="a1" elementType="N" x2="0" y2="0" radical="trivalent4"/></atomArray></molecule></cml>',
     '<cml><molecule role="SRU"/></cml>',
     '<CDXML><page><fragment><n id="1" p="0 0"/><b id="2" B="1" E="missing"/></fragment></page></CDXML>',
     '<!DOCTYPE cml [<!ENTITY x "payload">]><cml/>',

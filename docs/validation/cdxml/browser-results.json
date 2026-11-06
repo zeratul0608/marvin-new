@@ -49,7 +49,7 @@
       "atoms": 3,
       "bonds": 2,
       "sourceWarnings": 5,
-      "lossConfirmed": true,
+      "lossConfirmed": false,
       "reimport": {
         "formula": "C2H7N",
         "atoms": 3,

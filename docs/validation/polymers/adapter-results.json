@@ -1,0 +1,240 @@
+{
+  "scope": "Own independently assembled binary and XML fixtures; source edits and mapped CDX-to-CDXML conversion.",
+  "results": [
+    {
+      "file": "sru-original.cdxml",
+      "format": "cdxml",
+      "groups": [
+        {
+          "usage": "SRU",
+          "repeatPattern": "HeadToTail",
+          "flipType": "Unspecified",
+          "label": "n",
+          "atomIndices": [
+            1,
+            2
+          ],
+          "crossings": [
+            {
+              "bondIndex": 0,
+              "innerAtomIndex": 1
+            },
+            {
+              "bondIndex": 2,
+              "innerAtomIndex": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "sru-edited.cdxml",
+      "format": "cdxml",
+      "groups": [
+        {
+          "usage": "MultipleGroup",
+          "repeatPattern": "HeadToHead",
+          "flipType": "Flip",
+          "repeatCount": 5.25,
+          "label": "m",
+          "atomIndices": [
+            1,
+            2
+          ],
+          "crossings": [
+            {
+              "bondIndex": 0,
+              "innerAtomIndex": 1
+            },
+            {
+              "bondIndex": 2,
+              "innerAtomIndex": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "multiple-original.cdx",
+      "format": "cdx",
+      "groups": [
+        {
+          "usage": "MultipleGroup",
+          "repeatPattern": "HeadToTail",
+          "flipType": "Unspecified",
+          "repeatCount": 3.5,
+          "label": "n",
+          "atomIndices": [
+            1,
+            2
+          ],
+          "crossings": [
+            {
+              "bondIndex": 0,
+              "innerAtomIndex": 1
+            },
+            {
+              "bondIndex": 2,
+              "innerAtomIndex": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "multiple-original-converted.cdxml",
+      "format": "cdxml",
+      "groups": [
+        {
+          "usage": "MultipleGroup",
+          "repeatPattern": "HeadToTail",
+          "flipType": "Unspecified",
+          "repeatCount": 3.5,
+          "label": "n",
+          "atomIndices": [
+            1,
+            2
+          ],
+          "crossings": [
+            {
+              "bondIndex": 0,
+              "innerAtomIndex": 1
+            },
+            {
+              "bondIndex": 2,
+              "innerAtomIndex": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "multiple-edited.cdx",
+      "format": "cdx",
+      "groups": [
+        {
+          "usage": "MultipleGroup",
+          "repeatPattern": "HeadToHead",
+          "flipType": "Flip",
+          "repeatCount": 5.25,
+          "label": "m",
+          "atomIndices": [
+            1,
+            2
+          ],
+          "crossings": [
+            {
+              "bondIndex": 0,
+              "innerAtomIndex": 1
+            },
+            {
+              "bondIndex": 2,
+              "innerAtomIndex": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "multiple-edited-converted.cdxml",
+      "format": "cdxml",
+      "groups": [
+        {
+          "usage": "MultipleGroup",
+          "repeatPattern": "HeadToHead",
+          "flipType": "Flip",
+          "repeatCount": 5.25,
+          "label": "m",
+          "atomIndices": [
+            1,
+            2
+          ],
+          "crossings": [
+            {
+              "bondIndex": 0,
+              "innerAtomIndex": 1
+            },
+            {
+              "bondIndex": 2,
+              "innerAtomIndex": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "nested-original.cdxml",
+      "format": "cdxml",
+      "groups": [
+        {
+          "usage": "Copolymer",
+          "repeatPattern": "HeadToTail",
+          "flipType": "Unspecified",
+          "atomIndices": [
+            1,
+            2
+          ],
+          "crossings": []
+        },
+        {
+          "usage": "SRU",
+          "repeatPattern": "HeadToTail",
+          "flipType": "Unspecified",
+          "label": "n",
+          "atomIndices": [
+            1,
+            2
+          ],
+          "crossings": [
+            {
+              "bondIndex": 0,
+              "innerAtomIndex": 1
+            },
+            {
+              "bondIndex": 2,
+              "innerAtomIndex": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "nested-edited.cdxml",
+      "format": "cdxml",
+      "groups": [
+        {
+          "usage": "Copolymer",
+          "repeatPattern": "HeadToHead",
+          "flipType": "Flip",
+          "repeatCount": 5.25,
+          "label": "m",
+          "atomIndices": [
+            1,
+            2
+          ],
+          "crossings": []
+        },
+        {
+          "usage": "SRU",
+          "repeatPattern": "HeadToTail",
+          "flipType": "Unspecified",
+          "label": "n",
+          "atomIndices": [
+            1,
+            2
+          ],
+          "crossings": [
+            {
+              "bondIndex": 0,
+              "innerAtomIndex": 1
+            },
+            {
+              "bondIndex": 2,
+              "innerAtomIndex": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

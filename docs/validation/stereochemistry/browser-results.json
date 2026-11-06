@@ -1,0 +1,1013 @@
+{
+  "results": [
+    {
+      "scenario": "tetra-original",
+      "file": "tetra-original.cdx",
+      "format": "cdx",
+      "signature": {
+        "atoms": [
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            },
+            "geometry": {
+              "type": "tetrahedral",
+              "bondOrdering": [
+                0,
+                1,
+                2,
+                3
+              ]
+            }
+          },
+          {
+            "element": "F",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "Cl",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "Br",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "I",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          }
+        ],
+        "bonds": [
+          {
+            "atoms": [
+              0,
+              1
+            ],
+            "order": 1,
+            "depiction": {
+              "style": "wedge",
+              "from": 0
+            }
+          },
+          {
+            "atoms": [
+              0,
+              2
+            ],
+            "order": 1
+          },
+          {
+            "atoms": [
+              0,
+              3
+            ],
+            "order": 1
+          },
+          {
+            "atoms": [
+              0,
+              4
+            ],
+            "order": 1
+          }
+        ],
+        "positions": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1.5,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1.5
+          },
+          {
+            "x": -1.5,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": -1.5
+          }
+        ]
+      },
+      "sourceSaveVerified": true
+    },
+    {
+      "scenario": "tetra-original",
+      "file": "tetra-original.cdxml",
+      "format": "cdxml",
+      "signature": {
+        "atoms": [
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            },
+            "geometry": {
+              "type": "tetrahedral",
+              "bondOrdering": [
+                0,
+                1,
+                2,
+                3
+              ]
+            }
+          },
+          {
+            "element": "F",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "Cl",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "Br",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "I",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          }
+        ],
+        "bonds": [
+          {
+            "atoms": [
+              0,
+              1
+            ],
+            "order": 1,
+            "depiction": {
+              "style": "wedge",
+              "from": 0
+            }
+          },
+          {
+            "atoms": [
+              0,
+              2
+            ],
+            "order": 1
+          },
+          {
+            "atoms": [
+              0,
+              3
+            ],
+            "order": 1
+          },
+          {
+            "atoms": [
+              0,
+              4
+            ],
+            "order": 1
+          }
+        ],
+        "positions": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1.5,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1.5
+          },
+          {
+            "x": -1.5,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": -1.5
+          }
+        ]
+      },
+      "sourceSaveVerified": true
+    },
+    {
+      "scenario": "tetra-inverted",
+      "file": "tetra-inverted.cdx",
+      "format": "cdx",
+      "signature": {
+        "atoms": [
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            },
+            "geometry": {
+              "type": "tetrahedral",
+              "bondOrdering": [
+                0,
+                1,
+                3,
+                2
+              ]
+            }
+          },
+          {
+            "element": "F",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "Cl",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "Br",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "I",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          }
+        ],
+        "bonds": [
+          {
+            "atoms": [
+              0,
+              1
+            ],
+            "order": 1,
+            "depiction": {
+              "style": "hashed",
+              "from": 0
+            }
+          },
+          {
+            "atoms": [
+              0,
+              2
+            ],
+            "order": 1
+          },
+          {
+            "atoms": [
+              0,
+              3
+            ],
+            "order": 1
+          },
+          {
+            "atoms": [
+              0,
+              4
+            ],
+            "order": 1
+          }
+        ],
+        "positions": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1.5,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1.5
+          },
+          {
+            "x": -1.5,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": -1.5
+          }
+        ]
+      },
+      "sourceSaveVerified": true
+    },
+    {
+      "scenario": "tetra-inverted",
+      "file": "tetra-inverted.cdxml",
+      "format": "cdxml",
+      "signature": {
+        "atoms": [
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            },
+            "geometry": {
+              "type": "tetrahedral",
+              "bondOrdering": [
+                0,
+                1,
+                3,
+                2
+              ]
+            }
+          },
+          {
+            "element": "F",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "Cl",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "Br",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "I",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          }
+        ],
+        "bonds": [
+          {
+            "atoms": [
+              0,
+              1
+            ],
+            "order": 1,
+            "depiction": {
+              "style": "hashed",
+              "from": 0
+            }
+          },
+          {
+            "atoms": [
+              0,
+              2
+            ],
+            "order": 1
+          },
+          {
+            "atoms": [
+              0,
+              3
+            ],
+            "order": 1
+          },
+          {
+            "atoms": [
+              0,
+              4
+            ],
+            "order": 1
+          }
+        ],
+        "positions": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1.5,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1.5
+          },
+          {
+            "x": -1.5,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": -1.5
+          }
+        ]
+      },
+      "sourceSaveVerified": true
+    },
+    {
+      "scenario": "tetra-mirrored",
+      "file": "tetra-mirrored.cdx",
+      "format": "cdx",
+      "signature": {
+        "atoms": [
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            },
+            "geometry": {
+              "type": "tetrahedral",
+              "bondOrdering": [
+                0,
+                1,
+                2,
+                3
+              ]
+            }
+          },
+          {
+            "element": "F",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "Cl",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "Br",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "I",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          }
+        ],
+        "bonds": [
+          {
+            "atoms": [
+              0,
+              1
+            ],
+            "order": 1,
+            "depiction": {
+              "style": "hashed",
+              "from": 0
+            }
+          },
+          {
+            "atoms": [
+              0,
+              2
+            ],
+            "order": 1
+          },
+          {
+            "atoms": [
+              0,
+              3
+            ],
+            "order": 1
+          },
+          {
+            "atoms": [
+              0,
+              4
+            ],
+            "order": 1
+          }
+        ],
+        "positions": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": -1.5,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1.5
+          },
+          {
+            "x": 1.5,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": -1.5
+          }
+        ]
+      },
+      "sourceSaveVerified": true
+    },
+    {
+      "scenario": "tetra-mirrored",
+      "file": "tetra-mirrored.cdxml",
+      "format": "cdxml",
+      "signature": {
+        "atoms": [
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            },
+            "geometry": {
+              "type": "tetrahedral",
+              "bondOrdering": [
+                0,
+                1,
+                2,
+                3
+              ]
+            }
+          },
+          {
+            "element": "F",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "Cl",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "Br",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "I",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          }
+        ],
+        "bonds": [
+          {
+            "atoms": [
+              0,
+              1
+            ],
+            "order": 1,
+            "depiction": {
+              "style": "hashed",
+              "from": 0
+            }
+          },
+          {
+            "atoms": [
+              0,
+              2
+            ],
+            "order": 1
+          },
+          {
+            "atoms": [
+              0,
+              3
+            ],
+            "order": 1
+          },
+          {
+            "atoms": [
+              0,
+              4
+            ],
+            "order": 1
+          }
+        ],
+        "positions": [
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": -1.5,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": 1.5
+          },
+          {
+            "x": 1.5,
+            "y": 0
+          },
+          {
+            "x": 0,
+            "y": -1.5
+          }
+        ]
+      },
+      "sourceSaveVerified": true
+    },
+    {
+      "scenario": "alkene-trans",
+      "file": "alkene-trans.cdx",
+      "format": "cdx",
+      "signature": {
+        "atoms": [
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          }
+        ],
+        "bonds": [
+          {
+            "atoms": [
+              0,
+              1
+            ],
+            "order": 1
+          },
+          {
+            "atoms": [
+              1,
+              2
+            ],
+            "order": 2,
+            "circularOrdering": [
+              0,
+              null,
+              2,
+              null
+            ]
+          },
+          {
+            "atoms": [
+              2,
+              3
+            ],
+            "order": 1
+          }
+        ],
+        "positions": [
+          {
+            "x": -1,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1.5,
+            "y": 0
+          },
+          {
+            "x": 2.5,
+            "y": -1
+          }
+        ]
+      },
+      "sourceSaveVerified": true
+    },
+    {
+      "scenario": "alkene-trans",
+      "file": "alkene-trans.cdxml",
+      "format": "cdxml",
+      "signature": {
+        "atoms": [
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          }
+        ],
+        "bonds": [
+          {
+            "atoms": [
+              0,
+              1
+            ],
+            "order": 1
+          },
+          {
+            "atoms": [
+              1,
+              2
+            ],
+            "order": 2,
+            "circularOrdering": [
+              0,
+              null,
+              2,
+              null
+            ]
+          },
+          {
+            "atoms": [
+              2,
+              3
+            ],
+            "order": 1
+          }
+        ],
+        "positions": [
+          {
+            "x": -1,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1.5,
+            "y": 0
+          },
+          {
+            "x": 2.5,
+            "y": -1
+          }
+        ]
+      },
+      "sourceSaveVerified": true
+    },
+    {
+      "scenario": "alkene-cis",
+      "file": "alkene-cis.cdx",
+      "format": "cdx",
+      "signature": {
+        "atoms": [
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          }
+        ],
+        "bonds": [
+          {
+            "atoms": [
+              0,
+              1
+            ],
+            "order": 1
+          },
+          {
+            "atoms": [
+              1,
+              2
+            ],
+            "order": 2,
+            "circularOrdering": [
+              0,
+              null,
+              null,
+              2
+            ]
+          },
+          {
+            "atoms": [
+              2,
+              3
+            ],
+            "order": 1
+          }
+        ],
+        "positions": [
+          {
+            "x": -1,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1.5,
+            "y": 0
+          },
+          {
+            "x": 2.5,
+            "y": 1
+          }
+        ]
+      },
+      "sourceSaveVerified": true
+    },
+    {
+      "scenario": "alkene-cis",
+      "file": "alkene-cis.cdxml",
+      "format": "cdxml",
+      "signature": {
+        "atoms": [
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          {
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          }
+        ],
+        "bonds": [
+          {
+            "atoms": [
+              0,
+              1
+            ],
+            "order": 1
+          },
+          {
+            "atoms": [
+              1,
+              2
+            ],
+            "order": 2,
+            "circularOrdering": [
+              0,
+              null,
+              null,
+              2
+            ]
+          },
+          {
+            "atoms": [
+              2,
+              3
+            ],
+            "order": 1
+          }
+        ],
+        "positions": [
+          {
+            "x": -1,
+            "y": 1
+          },
+          {
+            "x": 0,
+            "y": 0
+          },
+          {
+            "x": 1.5,
+            "y": 0
+          },
+          {
+            "x": 2.5,
+            "y": 1
+          }
+        ]
+      },
+      "sourceSaveVerified": true
+    }
+  ],
+  "blocked": {
+    "unchanged": true,
+    "message": "环周连接顺序只适用于双键；请先清除该约束再改变键级"
+  },
+  "dragBlocked": {
+    "unchanged": true,
+    "message": "此编辑会改变或压平已记录的双键构型；请使用“反转双键构型”，或先清除连接顺序"
+  },
+  "pageErrors": []
+}

@@ -1,10 +1,12 @@
 import { connectedComponents, molecularFormula } from '../core/model';
+import {knownChemicalSummary} from '../core/chemical-summary';
 import type { EditorPlugin, PluginContext } from '../editor/api-types';
 
 function readSummary(context: PluginContext) {
   const snapshot = context.editor.getSnapshot();
   const atoms = Object.values(snapshot.document.graph.atoms);
   const diagnostics = context.editor.getDiagnostics();
+  const chemistry=knownChemicalSummary(snapshot.document);
   return {
     revision: snapshot.revision,
     title: snapshot.document.title,
@@ -12,12 +14,15 @@ function readSummary(context: PluginContext) {
     atomCount: atoms.length,
     bondCount: Object.keys(snapshot.document.graph.bonds).length,
     fragmentCount: connectedComponents(snapshot.document).length,
-    formalCharge: atoms.reduce((total, atom) => total + atom.charge, 0),
-    isotopeAtomCount: atoms.filter(atom => atom.isotope !== undefined).length,
+    formalCharge: chemistry.formalCharge,
+    isotopeAtomCount: chemistry.isotopeAtomCount,
+    knownChemicalAtomCount: chemistry.knownChemicalAtomCount,
+    chemicalSummaryComplete: chemistry.complete,
+    incompleteChemicalReasons: chemistry.incompleteReasons,
     selectedAtomCount: snapshot.selection.atomIds.length,
     selectedBondCount: snapshot.selection.bondId ? 1 : 0,
     diagnostics,
-    scope: '基础结构摘要；分子式采用有限价态规则，不包含完整化学合理性或立体化学校验。',
+    scope: '基础结构摘要；包含已定义缩写的内部原子，分子式采用有限价态规则，不包含完整化学合理性或立体化学校验。'+(chemistry.complete?'':` 当前含${chemistry.incompleteReasons.join('、')}，电荷和同位素仅统计已定义部分。`),
   };
 }
 
@@ -40,7 +45,7 @@ export const structureReviewPlugin: EditorPlugin = {
         description: '返回原子、键、片段、形式电荷、同位素、基础分子式及现有诊断；不执行完整化学合理性校验。',
         execute() {
           const summary = readSummary(context);
-          context.notify(`${summary.formula} · ${summary.atomCount} 个原子 · ${summary.fragmentCount} 个片段 · ${summary.diagnostics.length} 项基础诊断`);
+          context.notify(`${summary.formula} · ${summary.atomCount} 个画布节点 · ${summary.knownChemicalAtomCount} 个已定义化学原子 · ${summary.diagnostics.length} 项基础诊断`);
           return summary;
         },
       }),
@@ -80,10 +85,11 @@ export const structureReviewPlugin: EditorPlugin = {
             const summary = readSummary(context);
             const rows: [string, string | number][] = [
               ['分子式（基础规则）', summary.formula],
-              ['原子 / 键', `${summary.atomCount} / ${summary.bondCount}`],
+              ['画布节点 / 键', `${summary.atomCount} / ${summary.bondCount}`],
+              ['已定义化学原子', summary.knownChemicalAtomCount],
               ['不连通片段', summary.fragmentCount],
-              ['总形式电荷', summary.formalCharge > 0 ? `+${summary.formalCharge}` : summary.formalCharge],
-              ['同位素标记原子', summary.isotopeAtomCount],
+              [summary.chemicalSummaryComplete?'总形式电荷':'形式电荷（已定义图）', summary.formalCharge > 0 ? `+${summary.formalCharge}` : summary.formalCharge],
+              [summary.chemicalSummaryComplete?'同位素标记原子':'同位素标记（已定义）', summary.isotopeAtomCount],
               ['选中原子 / 键', `${summary.selectedAtomCount} / ${summary.selectedBondCount}`],
               ['基础诊断', summary.diagnostics.length],
               ['文档版本', summary.revision],

@@ -1,0 +1,317 @@
+{
+  "browser": "Chrome",
+  "viewport": {
+    "width": 1440,
+    "height": 1050
+  },
+  "uiOnlyMutations": true,
+  "apiReadOnlyAssertions": true,
+  "tasks": [
+    {
+      "id": "A01",
+      "title": "检查四面体连接顺序并反转、撤销、重做",
+      "steps": [
+        "导入 tetra-original.cdxml",
+        "选择中心原子",
+        "高级属性查看连接顺序",
+        "反转四面体构型",
+        "撤销／重做"
+      ],
+      "status": "pass",
+      "durationMs": 1058,
+      "undoRedoExact": true,
+      "stableAtomIds": true,
+      "evidence": ".local/ux-fixes/regression/advanced/A01-stereo-inverted.png"
+    },
+    {
+      "id": "A02",
+      "title": "双键反转与破坏已有立体约束时的保护",
+      "steps": [
+        "导入 alkene-trans",
+        "选择双键",
+        "反转构型后撤销",
+        "基本属性将双键改为单键"
+      ],
+      "status": "pass",
+      "durationMs": 406,
+      "inversionWorks": true,
+      "invalidEditPreservesDocument": true,
+      "guardMessage": "环周连接顺序只适用于双键或部分双键；请先清除该约束再改变键级",
+      "evidence": ".local/ux-fixes/regression/advanced/A02-stereo-protection.png"
+    },
+    {
+      "id": "A03",
+      "title": "添加查询条件、核对画布标记并清除",
+      "steps": [
+        "导入含全部查询条件的CDXML",
+        "选择查询目标",
+        "修改最多非氢取代数",
+        "清除查询约束",
+        "撤销"
+      ],
+      "status": "pass",
+      "durationMs": 418,
+      "preservesOtherConditions": true,
+      "markerVisible": true,
+      "clearUndoExact": true,
+      "evidence": ".local/ux-fixes/regression/advanced/A03-query-conditions.png"
+    },
+    {
+      "id": "A04",
+      "title": "普通片段收起为自定义缩写再恢复",
+      "steps": [
+        "导入乙醇CDX",
+        "全选",
+        "高级片段收起为 EtOH",
+        "打开内部编辑器确认",
+        "撤销"
+      ],
+      "status": "pass",
+      "durationMs": 542,
+      "internalGraphPreserved": true,
+      "undoExact": true,
+      "evidence": ".local/ux-fixes/regression/advanced/A04-edit-collapsed-structure.png"
+    },
+    {
+      "id": "A05",
+      "title": "打开缩写内部结构编辑同位素并保存",
+      "steps": [
+        "导入 ether-original",
+        "选择缩写节点",
+        "打开内部编辑器",
+        "选内部氧设18",
+        "保存到主文档",
+        "撤销"
+      ],
+      "status": "pass",
+      "durationMs": 533,
+      "oneParentUndo": true,
+      "portsPreserved": true,
+      "evidence": ".local/ux-fixes/regression/advanced/A05-internal-edit-undo.png"
+    },
+    {
+      "id": "A06",
+      "title": "复杂肽片段展开视图并保留保护性边界",
+      "steps": [
+        "导入 own-peptide-original",
+        "选择缩写",
+        "展开结构视图",
+        "尝试提升为主图",
+        "核对拒绝后完整文档"
+      ],
+      "status": "pass",
+      "durationMs": 434,
+      "expandedAtoms": 6,
+      "protectedPromotion": true,
+      "message": "缩写节点含整体电荷、映射或生物序列等注释，尚不能可靠分配到内部原子；请继续在内部编辑器修改",
+      "evidence": ".local/ux-fixes/regression/advanced/A06-protected-peptide.png"
+    },
+    {
+      "id": "A07",
+      "title": "备选片段候选逐个可编辑且互不覆盖",
+      "steps": [
+        "导入 own-alternatives-original",
+        "展开候选",
+        "点击第二候选内部原子",
+        "改同位素保存",
+        "核对第一候选不变并撤销"
+      ],
+      "status": "pass",
+      "durationMs": 460,
+      "allCandidatesVisible": true,
+      "otherCandidateUnchanged": true,
+      "undoExact": true,
+      "evidence": ".local/ux-fixes/regression/advanced/A07-alternatives.png"
+    },
+    {
+      "id": "A08",
+      "title": "递归片段点击定位到正确内部路径",
+      "steps": [
+        "导入 own-nested-original",
+        "展开全部内部层级",
+        "点击最深卡片的内部原子",
+        "修改保存并核对根节点",
+        "撤销"
+      ],
+      "status": "pass",
+      "durationMs": 505,
+      "pathDepth": 2,
+      "exactTarget": true,
+      "parentUndoExact": true,
+      "evidence": ".local/ux-fixes/regression/advanced/A08-deep-internal-editor.png"
+    },
+    {
+      "id": "A09",
+      "title": "聚合物标签、成员及非法重复次数的编辑",
+      "steps": [
+        "导入 sru-original",
+        "高级文档选择括号组",
+        "编辑SRU标签",
+        "查看成员",
+        "切MultipleGroup并输入0"
+      ],
+      "status": "pass",
+      "durationMs": 371,
+      "membersVisible": true,
+      "invalidValueProtected": true,
+      "message": "重复次数必须是有限正数",
+      "evidence": ".local/ux-fixes/regression/advanced/A09-polymer-properties.png"
+    },
+    {
+      "id": "A10",
+      "title": "聚合物不冒充普通分子进行计算",
+      "steps": [
+        "导入聚合物",
+        "高级扩展→化学计算",
+        "计算分子性质",
+        "核对拒绝及文档不变"
+      ],
+      "status": "pass",
+      "durationMs": 411,
+      "computationRefusedSafely": true,
+      "message": "当前选区含聚合物、重复单元或混合物括号组；尚未展开其整体化学，不能把所画单元当作整个分子计算或清理。可选择组外的完整普通分子。",
+      "evidence": ".local/ux-fixes/regression/advanced/A10-polymer-computation-guard.png"
+    },
+    {
+      "id": "A11",
+      "title": "反应条件文字保留格式修改并撤销",
+      "steps": [
+        "导入 reaction-original",
+        "高级文档选择heat文字",
+        "改为80 °C, 2 h",
+        "核对字体和反应引用",
+        "撤销"
+      ],
+      "status": "pass",
+      "durationMs": 342,
+      "fontStylePreserved": true,
+      "reactionRolesPreserved": true,
+      "undoExact": true,
+      "evidence": ".local/ux-fixes/regression/advanced/A11-reaction-conditions.png"
+    },
+    {
+      "id": "A12",
+      "title": "反应角色和箭头拖动保持关联",
+      "steps": [
+        "导入reaction-original",
+        "编辑箭头下方条件角色",
+        "选择箭头实际拖动",
+        "核对角色与几何",
+        "撤销"
+      ],
+      "status": "pass",
+      "durationMs": 453,
+      "roleEdited": true,
+      "realArrowDrag": true,
+      "rolesPreserved": true,
+      "undoExact": true,
+      "evidence": ".local/ux-fixes/regression/advanced/A12-reaction-arrow.png"
+    },
+    {
+      "id": "A13",
+      "title": "跨页面编辑不会改错页面",
+      "steps": [
+        "导入multipage",
+        "在第1页改氧同位素",
+        "切第2页改氮电荷",
+        "查看全部页",
+        "撤销最后一步"
+      ],
+      "status": "pass",
+      "durationMs": 391,
+      "pageIsolation": true,
+      "allPagesAccessible": true,
+      "lastPageUndoExact": true,
+      "evidence": ".local/ux-fixes/regression/advanced/A13-pages.png"
+    },
+    {
+      "id": "A15",
+      "title": "调整反应箭头长度需编辑原始坐标",
+      "steps": [
+        "导入reaction-original",
+        "选择arrow对象",
+        "读取Head3D三个数值",
+        "只改第一坐标100→130",
+        "核对Tail不变并撤销"
+      ],
+      "status": "friction",
+      "durationMs": 337,
+      "geometryEditWorks": true,
+      "originalCoordinateKnowledgeRequired": true,
+      "undoExact": true,
+      "evidence": ".local/ux-fixes/regression/advanced/A15-arrow-length-raw-fields.png"
+    },
+    {
+      "id": "A14",
+      "title": "从新文档发现反应绘制入口",
+      "steps": [
+        "搜索“箭头”",
+        "查看结果和工具栏是否有新建箭头/文字/反应"
+      ],
+      "status": "limited",
+      "durationMs": 120,
+      "searchResults": "文档文字箭头与图形\n高级编辑 · 文档与反应 · 选择文档对象，编辑文字、箭头、图形和坐标\n↵\n反应步骤与角色\n高级编辑 · 文档与反应 · 编辑反应物、产物、箭头和反应条件的归属",
+      "evidence": ".local/ux-fixes/regression/advanced/A14-arrow-discovery.png"
+    }
+  ],
+  "findings": [
+    {
+      "id": "ADV-UX-01",
+      "severity": "P2",
+      "kind": "capability-gap",
+      "title": "反应对象主要依赖导入，缺少从零创建箭头和条件文字的直接绘制入口",
+      "steps": [
+        "Ctrl+K搜索箭头",
+        "检查左侧和绘制／结构功能栏"
+      ],
+      "actual": "文档文字箭头与图形\n高级编辑 · 文档与反应 · 选择文档对象，编辑文字、箭头、图形和坐标\n↵\n反应步骤与角色\n高级编辑 · 文档与反应 · 编辑反应物、产物、箭头和反应条件的归属",
+      "expected": "工程师可新建反应箭头、文字和步骤，不需要先准备CDXML文件",
+      "evidence": ".local/ux-fixes/regression/advanced/A14-arrow-discovery.png"
+    },
+    {
+      "id": "ADV-UX-02",
+      "severity": "P2",
+      "kind": "usability",
+      "title": "多层内部编辑缺少父级路径提示",
+      "steps": [
+        "导入own-nested-original",
+        "展开全部层级",
+        "点击深层OMe内部原子"
+      ],
+      "actual": "打开的弹窗仅显示“编辑 OMe”及“片段1”，没有根片段→子片段路径或父级名称。数据正确定位到完整路径，用户却难核对同名层级。",
+      "expected": "弹窗标题附面包屑/层级路径和候选序号，保存前能确认修改目标。",
+      "evidence": ".local/ux-fixes/regression/advanced/A08-deep-internal-editor.png"
+    },
+    {
+      "id": "ADV-UX-03",
+      "severity": "P2",
+      "kind": "usability",
+      "title": "文档对象列表与箭头几何暴露内部格式术语",
+      "steps": [
+        "高级文档选择聚合物/箭头",
+        "读取文档对象下拉",
+        "调整箭头长度"
+      ],
+      "actual": "列表显示bracketedgroup/arrow/t和来源编号；箭头长度需编辑Head3D/Tail3D原始坐标，整体拖动可用，但缺少友好的长度/角度或端点控件。",
+      "expected": "按文字/反应箭头/聚合物单元分组并用可读名称；提供端点调整或长度角度输入，将原始字段放到更多属性。",
+      "evidence": [
+        ".local/ux-fixes/regression/advanced/A09-polymer-properties.png",
+        ".local/ux-fixes/regression/advanced/A15-arrow-length-raw-fields.png"
+      ]
+    },
+    {
+      "id": "ADV-UX-04",
+      "severity": "P3",
+      "kind": "visual",
+      "title": "文档文字输入框未延续其它属性控件的宽度和样式",
+      "steps": [
+        "选择reaction-original的heat文字对象",
+        "编辑文字内容"
+      ],
+      "actual": "文字textarea为原生窄框，未占满侧栏，和下面统一宽度的坐标输入框不一致；长条件需在小框内水平/垂直查看。",
+      "expected": "全宽多行文字编辑框，提供自然换行和清楚的字体/格式保留说明。",
+      "evidence": ".local/ux-fixes/regression/advanced/A11-reaction-conditions.png"
+    }
+  ],
+  "pageErrors": []
+}

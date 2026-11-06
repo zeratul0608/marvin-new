@@ -1,0 +1,245 @@
+{
+  "rdkitVersion": "2025.03.6",
+  "validated": 12,
+  "scope": "Native RXN parser verifies each role separately, canonical mapped/isotopic isomeric SMILES, agents, and RXCTR. Includes native-produced fixtures imported and rebuilt by the app; not certification of all RXN features.",
+  "results": [
+    {
+      "file": "mapped-original-v2000.rxn",
+      "roles": [
+        1,
+        1,
+        1
+      ],
+      "reactionSmiles": "[13CH3:1][OH:2]>[Na+]>[13CH2:1]=[O:2]",
+      "mapNumbers": [
+        [
+          1,
+          2
+        ]
+      ],
+      "stereoAtoms": [
+        []
+      ],
+      "reactionCentersVerified": false
+    },
+    {
+      "file": "mapped-original-v3000.rxn",
+      "roles": [
+        1,
+        1,
+        1
+      ],
+      "reactionSmiles": "[13CH3:1][OH:2]>[Na+]>[13CH2:1]=[O:2]",
+      "mapNumbers": [
+        [
+          1,
+          2
+        ]
+      ],
+      "stereoAtoms": [
+        []
+      ],
+      "reactionCentersVerified": false
+    },
+    {
+      "file": "mapped-edited-v2000.rxn",
+      "roles": [
+        1,
+        1,
+        1
+      ],
+      "reactionSmiles": "[14CH3:1][OH:2]>[Na+]>[13CH2:1]=[O:2]",
+      "mapNumbers": [
+        [
+          1,
+          2
+        ]
+      ],
+      "stereoAtoms": [
+        []
+      ],
+      "reactionCentersVerified": false
+    },
+    {
+      "file": "mapped-edited-v3000.rxn",
+      "roles": [
+        1,
+        1,
+        1
+      ],
+      "reactionSmiles": "[14CH3:1][OH:2]>[Na+]>[13CH2:1]=[O:2]",
+      "mapNumbers": [
+        [
+          1,
+          2
+        ]
+      ],
+      "stereoAtoms": [
+        []
+      ],
+      "reactionCentersVerified": false
+    },
+    {
+      "file": "reaction-center-v2000.rxn",
+      "roles": [
+        1,
+        1,
+        1
+      ],
+      "reactionSmiles": "[13CH3:1][OH:2]>[Na+]>[13CH2:1]=[O:2]",
+      "mapNumbers": [
+        [
+          1,
+          2
+        ]
+      ],
+      "stereoAtoms": [
+        []
+      ],
+      "reactionCentersVerified": true
+    },
+    {
+      "file": "reaction-center-v3000.rxn",
+      "roles": [
+        1,
+        1,
+        1
+      ],
+      "reactionSmiles": "[13CH3:1][OH:2]>[Na+]>[13CH2:1]=[O:2]",
+      "mapNumbers": [
+        [
+          1,
+          2
+        ]
+      ],
+      "stereoAtoms": [
+        []
+      ],
+      "reactionCentersVerified": true
+    },
+    {
+      "file": "chiral-v2000.rxn",
+      "roles": [
+        1,
+        1,
+        0
+      ],
+      "reactionSmiles": "[C@@:1]([F:2])([Cl:3])([Br:4])[CH3:5]>>[C@@:1]([F:2])([Cl:3])([Br:4])[CH3:5]",
+      "mapNumbers": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "stereoAtoms": [
+        [
+          "S"
+        ]
+      ],
+      "reactionCentersVerified": false
+    },
+    {
+      "file": "chiral-v3000.rxn",
+      "roles": [
+        1,
+        1,
+        0
+      ],
+      "reactionSmiles": "[C@@:1]([F:2])([Cl:3])([Br:4])[CH3:5]>>[C@@:1]([F:2])([Cl:3])([Br:4])[CH3:5]",
+      "mapNumbers": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "stereoAtoms": [
+        [
+          "S"
+        ]
+      ],
+      "reactionCentersVerified": false
+    },
+    {
+      "file": "native-v2000.rxn",
+      "roles": [
+        1,
+        1,
+        1
+      ],
+      "reactionSmiles": "[13CH3:1][OH:2]>O>[13CH2:1]=[O:2]",
+      "mapNumbers": [
+        [
+          1,
+          2
+        ]
+      ],
+      "stereoAtoms": [
+        []
+      ],
+      "reactionCentersVerified": false
+    },
+    {
+      "file": "native-v2000-rebuilt.rxn",
+      "roles": [
+        1,
+        1,
+        1
+      ],
+      "reactionSmiles": "[13CH3:1][OH:2]>O>[13CH2:1]=[O:2]",
+      "mapNumbers": [
+        [
+          1,
+          2
+        ]
+      ],
+      "stereoAtoms": [
+        []
+      ],
+      "reactionCentersVerified": false
+    },
+    {
+      "file": "native-v3000.rxn",
+      "roles": [
+        1,
+        1,
+        1
+      ],
+      "reactionSmiles": "[13CH3:1][OH:2]>O>[13CH2:1]=[O:2]",
+      "mapNumbers": [
+        [
+          1,
+          2
+        ]
+      ],
+      "stereoAtoms": [
+        []
+      ],
+      "reactionCentersVerified": false
+    },
+    {
+      "file": "native-v3000-rebuilt.rxn",
+      "roles": [
+        1,
+        1,
+        1
+      ],
+      "reactionSmiles": "[13CH3:1][OH:2]>O>[13CH2:1]=[O:2]",
+      "mapNumbers": [
+        [
+          1,
+          2
+        ]
+      ],
+      "stereoAtoms": [
+        []
+      ],
+      "reactionCentersVerified": false
+    }
+  ]
+}

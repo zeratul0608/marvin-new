@@ -6,8 +6,9 @@
   "exactMappedCdxmlDownloaded": true,
   "binaryCopyDisabled": true,
   "strictSaveIgnoresLossyCheckbox": true,
-  "labelEditBlocked": true,
-  "blockedMessage": "无法保留源文档保存：该化学修改需要重排原子标签，尚不能保证原标签的字体、上下标与图形一致。可保存原生 JSON，或明确选择有损重建。",
+  "ordinaryLabelEditSupported": true,
+  "customLabelEditBlocked": true,
+  "blockedMessage": "无法保留源文档保存：原子标签包含自定义文字，不能自动改写。原始文件仍可取回，或保存原生 JSON。",
   "originalAvailableAfterBlockedEdit": true,
   "cdata": {
     "preservation": "preserved",

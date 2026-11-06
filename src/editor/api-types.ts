@@ -2,7 +2,7 @@ import type { CreatedObjects, EditOperation } from '../core/edits';
 import type { AtomId, BondId, ChemicalDocument, Diagnostic, ExportResult, Format, ImportInput, ImportResult } from '../core/types';
 
 export const EDITOR_API_VERSION = 1 as const;
-export interface EditorSelection { atomIds: AtomId[]; bondId?: BondId }
+export interface EditorSelection { atomIds: AtomId[]; bondId?: BondId; objectId?: string }
 export interface EditorSnapshot {
   apiVersion: typeof EDITOR_API_VERSION;
   revision: number;

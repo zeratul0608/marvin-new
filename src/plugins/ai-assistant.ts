@@ -3,6 +3,8 @@ import type { AiAssistantOptions, AiMessage, AiModelConfig, AiProtocol } from '.
 import { runAiAssistant } from '../ai/assistant';
 import { createAiClient } from '../ai/client';
 import { AI_PROMPT_PRESETS, BUILTIN_AI_PROMPT } from '../ai/prompts';
+import { mountAiAnalysisPanel } from '../ai/analysis-panel';
+import { mountAiReviewPanel, type AiReviewPanel } from '../ai/review-panel';
 import { getAiEditorContext } from '../ai/context';
 import styles from '../ai/ai.css?inline';
 
@@ -46,6 +48,8 @@ function mountPanel(container: HTMLElement, context: PluginContext, options: AiA
   const transport = options.transport ?? client.transport;
   const root = doc.createElement('div');
   root.className = 'ai-assistant';
+  const host = (container.getRootNode() as ShadowRoot).host;
+  const currentLocale = () => options.locale ?? (host?.getAttribute('lang') === 'en' ? 'en' : 'zh-CN');
   const sheet = doc.createElement('style'); sheet.textContent = styles;
   const make = <K extends keyof HTMLElementTagNameMap>(tag: K, text?: string, className?: string) => {
     const element = doc.createElement(tag);
@@ -74,18 +78,24 @@ function mountPanel(container: HTMLElement, context: PluginContext, options: AiA
   const welcome = make('p', '描述你要完成的操作。AI 会读取当前结构和选区，通过编辑器工具完成修改；所有结构修改都可以撤销。', 'ai-welcome');
   log.append(welcome);
   const presets = make('div', undefined, 'ai-presets');
+  const reviewSlot = make('div',undefined,'ai-review-slot'); reviewSlot.hidden=true;
   const composer = make('form', undefined, 'ai-composer');
   const message = make('textarea'); message.rows = 3; message.placeholder = '例如：把选中的原子改成氮，然后检查结构';
   message.setAttribute('aria-label', '发送给 AI 的指令'); message.dataset.aiField = 'message'; message.maxLength = 16000;
   const allowEdits = make('input'); allowEdits.type = 'checkbox'; allowEdits.checked = true; allowEdits.dataset.aiField = 'allow-edits';
   const editLabel = label('允许 AI 修改结构', allowEdits); editLabel.classList.add('ai-checkbox');
+  const previewEdits = make('input'); previewEdits.type='checkbox'; previewEdits.dataset.aiField='preview-edits';
+  const previewLabel = label('先预览编辑批次',previewEdits); previewLabel.classList.add('ai-checkbox');
+  const previewHint = make('small','预览编辑、二维清理、导入和模板替换；撤销与重做按指令直接执行。'); previewHint.className='ai-mode-hint';
   const actions = make('div', undefined, 'ai-actions');
   const send = button('发送', 'send'); send.type = 'submit'; send.className = 'ai-primary';
   const stop = button('停止', 'stop'); stop.disabled = true;
-  const clear = button('清空对话', 'clear'); actions.append(send, stop, clear);
+  const clear = button('清空对话', 'clear');
+  const retry = button('恢复上次请求','restore-request'); retry.hidden=true;
+  actions.append(send, stop, clear,retry);
   const runStatus = make('p', '', 'ai-status'); runStatus.setAttribute('role', 'status');
-  composer.append(message, editLabel, actions, make('small', 'Ctrl + Enter 发送。选区和结构以执行时的当前画布为准。'), runStatus);
-  chatView.append(log, presets, composer);
+  composer.append(message, editLabel, previewLabel, previewHint, actions, make('small', 'Ctrl + Enter 发送。选区和结构以执行时的当前画布为准。'), runStatus);
+  chatView.append(log, presets, reviewSlot, composer);
 
   const configForm = make('form', undefined, 'ai-config'); configForm.autocomplete = 'off';
   const protocol = make('select'); protocol.dataset.aiField = 'protocol';
@@ -125,6 +135,9 @@ function mountPanel(container: HTMLElement, context: PluginContext, options: AiA
 
   let destroyed = false;
   let history: AiMessage[] = [];
+  let lastRequest = '';
+  let pendingReview: AiReviewPanel | undefined;
+  const analysisPanels = new Set<ReturnType<typeof mountAiAnalysisPanel>>();
   let activeRun: AbortController | undefined;
   let generation = 0;
   let config: AiModelConfig | undefined;
@@ -137,6 +150,8 @@ function mountPanel(container: HTMLElement, context: PluginContext, options: AiA
   const refreshContext = () => {
     if (destroyed) return;
     try {
+      pendingReview?.refresh();
+      for(const panel of analysisPanels)panel.refresh();
       const current = getAiEditorContext(context.editor);
       const { snapshot, summary, diagnostics } = current;
       const selected = snapshot.selection.atomIds.length;
@@ -182,10 +197,12 @@ function mountPanel(container: HTMLElement, context: PluginContext, options: AiA
   };
   const addMessage = (speaker: '你' | 'AI' | '提示', text: string) => {
     const item = make('article', undefined, `ai-message ai-message-${speaker === '你' ? 'user' : 'assistant'}`);
-    item.append(make('strong', speaker), make('p', text)); log.append(item); log.scrollTop = log.scrollHeight;
+    const body = make('p', text); if (speaker !== '提示') body.dataset.i18nSkip = '';
+    item.append(make('strong', speaker), body); log.append(item); log.scrollTop = log.scrollHeight;
   };
   const revokeArtifacts = () => { for (const url of artifactUrls) URL.revokeObjectURL(url); artifactUrls.clear(); };
   const setRunning = (running: boolean) => {
+    allowEdits.disabled=running; previewEdits.disabled=running || !allowEdits.checked; retry.disabled=running;
     stop.disabled = !running; send.textContent = running ? '处理中…' : '发送';
     setConfigBusy(configBusy);
   };
@@ -195,6 +212,7 @@ function mountPanel(container: HTMLElement, context: PluginContext, options: AiA
     previous.abort(); setRunning(false);
     if (!clearing) {
       history = [];
+      if (!message.value.trim()) message.value=lastRequest; retry.hidden=!lastRequest;
       addMessage('提示', '已停止。本轮可能已执行部分修改，可在编辑器中撤销。为避免未完成的工具记录影响后续操作，下次将开启新的上下文。');
       runStatus.textContent = '已停止';
     }
@@ -207,23 +225,45 @@ function mountPanel(container: HTMLElement, context: PluginContext, options: AiA
     const token = ++generation;
     const current = () => !destroyed && token === generation && !controller.signal.aborted;
     const traces = make('ol', undefined, 'ai-trace');
+    const reviews = new Map<string,AiReviewPanel>();
+    let activeToolId = '', successfulTools=0, failedTools=0;
     const traceItems = new Map<string, HTMLLIElement>();
     let lastAssistantText = '';
+    lastRequest=text; retry.hidden=true;
     addMessage('你', text); message.value = ''; log.append(traces); setRunning(true); runStatus.textContent = '正在读取当前结构…';
     try {
       const result = await runAiAssistant(context.editor, transport, {
-        message: text, history, instructions: instructions.value, allowEdits: allowEdits.checked, signal: controller.signal,
+        message: text, history, instructions: instructions.value, allowEdits: allowEdits.checked, locale: currentLocale(), loadChemistryEngine: options.loadChemistryEngine, signal: controller.signal,
+        ...(allowEdits.checked && previewEdits.checked ? {reviewEdits: async (proposal: import('../ai/proposal').AiEditProposal, signal?: AbortSignal) => {
+          if (!current()) return false;
+          reviewSlot.replaceChildren(); reviewSlot.hidden=false; root.classList.add('ai-reviewing'); host?.classList.add('ai-review-open');
+          const panel=mountAiReviewPanel(reviewSlot,proposal,{getRevision:()=>context.editor.getSnapshot().revision,signal});
+          pendingReview=panel; if(activeToolId)reviews.set(activeToolId,panel);
+          runStatus.textContent='等待应用修改预览';
+          try { return await panel.decision; }
+          finally {
+            if(pendingReview===panel)pendingReview=undefined;
+            reviewSlot.hidden=true; root.classList.remove('ai-reviewing'); host?.classList.remove('ai-review-open');
+            if(current()) {log.append(panel.element);log.scrollTop=log.scrollHeight;} else panel.element.remove();
+          }
+        }} : {}),
         onEvent(event) {
           if (!current()) return;
           if (event.type === 'status') runStatus.textContent = event.message;
           if (event.type === 'assistant' && event.text) { addMessage('AI', event.text); lastAssistantText = event.text; }
           if (event.type === 'tool-start') {
+            activeToolId=event.id;
             const item = make('li', `执行 ${event.name}…`); traces.append(item); traceItems.set(event.id, item);
           }
           if (event.type === 'tool-end') {
+            if(event.ok)successfulTools++;else failedTools++;
+            reviews.get(event.id)?.markResult(event.ok,event.summary);
             const item = traceItems.get(event.id) ?? make('li');
             item.textContent = `${event.ok ? '✓' : '未完成'} ${event.name}：${event.summary}`;
             if (!item.parentElement) traces.append(item);
+          }
+          if (event.type === 'chemistry-analysis') {
+            analysisPanels.add(mountAiAnalysisPanel(log,event.analysis,event.revision,()=>context.editor.getSnapshot().revision,event.scope));
           }
           if (event.type === 'artifact') {
             const url = URL.createObjectURL(new Blob([event.artifact.data], { type: event.artifact.mimeType })); artifactUrls.add(url);
@@ -235,10 +275,13 @@ function mountPanel(container: HTMLElement, context: PluginContext, options: AiA
       if (!current()) return;
       history = result.messages;
       if (result.text && result.text !== lastAssistantText) addMessage('AI', result.text);
-      runStatus.textContent = result.completed === false ? `已达到执行上限 · ${result.toolCount} 次操作，请检查结果` : `本轮已结束 · ${result.toolCount} 次工具操作`;
+      if(result.rejected) runStatus.textContent='此批修改未应用。';
+      else if(failedTools) runStatus.textContent=`本轮结束 · ${successfulTools} 次成功 · ${failedTools} 次未完成，请检查执行记录。`;
+      else runStatus.textContent = result.completed === false ? `已达到执行上限 · ${result.toolCount} 次操作，请检查结果` : `本轮已结束 · ${result.toolCount} 次工具操作`;
     } catch (error) {
       if (!current()) return;
       history = [];
+      if(!message.value.trim())message.value=text; retry.hidden=false;
       addMessage('提示', `请求失败：${error instanceof Error ? error.message : String(error)}。本轮可能已执行部分修改，可在编辑器中撤销。下次将开启新的上下文。`);
       runStatus.textContent = '请求未完成';
     } finally {
@@ -248,8 +291,13 @@ function mountPanel(container: HTMLElement, context: PluginContext, options: AiA
 
   for (const preset of AI_PROMPT_PRESETS) {
     const choice = button(preset.title, 'preset');
-    choice.addEventListener('click', () => { message.value = preset.message; message.focus(); }); presets.append(choice);
+    choice.addEventListener('click', () => { message.value = currentLocale() === 'en' ? preset.messageEn : preset.message; message.focus(); }); presets.append(choice);
   }
+  allowEdits.addEventListener('change',()=>{previewEdits.disabled=!!activeRun || !allowEdits.checked;});
+  retry.addEventListener('click',()=>{
+    if(message.value.trim() && message.value!==lastRequest) {runStatus.textContent='已保留当前草稿；清空输入后可恢复上次请求。';return;}
+    message.value=lastRequest; message.focus();
+  });
   chatTab.addEventListener('click', () => showTab(false)); settingsTab.addEventListener('click', () => showTab(true));
   clearKey.addEventListener('change', () => { if (clearKey.checked) apiKey.value = ''; setConfigBusy(configBusy); });
   protocol.addEventListener('change', () => { thinkingField.hidden = protocol.value !== 'chat-completions'; });
@@ -257,7 +305,7 @@ function mountPanel(container: HTMLElement, context: PluginContext, options: AiA
   message.addEventListener('keydown', event => { if (event.key === 'Enter' && (event.ctrlKey || event.metaKey)) { event.preventDefault(); void submit(); } });
   stop.addEventListener('click', () => stopRun());
   clear.addEventListener('click', () => {
-    stopRun(true); history = []; log.replaceChildren(welcome); revokeArtifacts(); runStatus.textContent = '已清空对话';
+    stopRun(true); pendingReview?.cancel(); pendingReview=undefined; reviewSlot.replaceChildren();reviewSlot.hidden=true;root.classList.remove('ai-reviewing');host?.classList.remove('ai-review-open'); lastRequest='';retry.hidden=true; history = []; analysisPanels.clear(); log.replaceChildren(welcome); revokeArtifacts(); runStatus.textContent = '已清空对话';
   });
   const saveSettings = async (testConnection: boolean) => {
     if (configBusy || activeRun || destroyed || hasCustomTransport) return;
@@ -314,8 +362,8 @@ function mountPanel(container: HTMLElement, context: PluginContext, options: AiA
     destroy() {
       destroyed = true; generation++; configGeneration++;
       for (const cleanup of contextCleanups) cleanup();
-      activeRun?.abort(); activeRun = undefined; configController.abort(); history = [];
-      revokeArtifacts(); root.remove();
+      host?.classList.remove('ai-review-open'); activeRun?.abort(); pendingReview?.cancel(); pendingReview=undefined; activeRun = undefined; configController.abort(); history = [];
+      analysisPanels.clear(); revokeArtifacts(); root.remove();
     },
   };
 }

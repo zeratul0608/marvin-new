@@ -13,7 +13,7 @@
 | [cdx-simple.cdxml](cdx-simple.cdxml) | 归档 SDK 最小二进制 CDX → CDXML | 二甲胺，3 原子 / 2 键 |
 | [cdx-styled.cdxml](cdx-styled.cdxml) | 归档 SDK 带样式 CDX → 确认转换损失 → CDXML | 二甲胺，3 / 2 |
 | [cdxml-simple-edited.cdxml](cdxml-simple-edited.cdxml) | SDK 最小 CDXML → 氮同位素改为 15 → 重写 | 15N 二甲胺，3 / 2 |
-| [cdxml-styled-edited.cdxml](cdxml-styled-edited.cdxml) | SDK 带样式 CDXML → 氮同位素改为 15 → 确认损失 → 重写 | 15N 二甲胺，3 / 2 |
+| [cdxml-styled-edited.cdxml](cdxml-styled-edited.cdxml) | SDK 带样式 CDXML → 氮同位素改为 15 → 保留标签样式和文档内容后保存 | 15N 二甲胺，3 / 2 |
 | [ethanol-mrv.cdxml](ethanol-mrv.cdxml) | 项目乙醇 MRV → CDXML | 乙醇，3 / 2 |
 | [aspirin.cdxml](aspirin.cdxml) | 内置阿司匹林模板 → CDXML | C9H8O4，13 / 13 |
 | [isotopes-charges-hydrogens.cdxml](isotopes-charges-hydrogens.cdxml) | 独立属性样例 → CDXML | `[13CH3][15NH3+].[Cl-]`，包括固定零氢，3 / 1 |

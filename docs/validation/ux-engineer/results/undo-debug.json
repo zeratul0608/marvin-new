@@ -1,0 +1,4300 @@
+[
+  {
+    "mode": "normal",
+    "steps": [
+      {
+        "label": "initial",
+        "revision": 6,
+        "title": "工艺研发 · 溶剂乙醇 V1",
+        "isotope": null,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "",
+        "active": {
+          "tag": "svg",
+          "id": "",
+          "class": {}
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "fill 18",
+        "revision": 6,
+        "title": "工艺研发 · 溶剂乙醇 V1",
+        "isotope": null,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": {
+          "tag": "INPUT",
+          "id": "atom-isotope",
+          "class": "",
+          "value": "18"
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "Tab 18",
+        "revision": 7,
+        "title": "工艺研发 · 溶剂乙醇 V1",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": null,
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "fill 19",
+        "revision": 7,
+        "title": "工艺研发 · 溶剂乙醇 V1",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "19",
+        "active": {
+          "tag": "INPUT",
+          "id": "atom-isotope",
+          "class": "",
+          "value": "19"
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "Tab 19",
+        "revision": 8,
+        "title": "工艺研发 · 溶剂乙醇 V1",
+        "isotope": 19,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "19",
+        "active": null,
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "fill 18",
+        "revision": 8,
+        "title": "工艺研发 · 溶剂乙醇 V1",
+        "isotope": 19,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": {
+          "tag": "INPUT",
+          "id": "atom-isotope",
+          "class": "",
+          "value": "18"
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "Tab 18",
+        "revision": 9,
+        "title": "工艺研发 · 溶剂乙醇 V1",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": null,
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 19,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "button undo",
+        "revision": 10,
+        "title": "工艺研发 · 溶剂乙醇 V1",
+        "isotope": 19,
+        "canUndo": true,
+        "canRedo": true,
+        "field": "19",
+        "active": {
+          "tag": "BUTTON",
+          "id": "",
+          "class": "icon-button ghost",
+          "value": ""
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": [
+          {
+            "isotope": 18,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ]
+      },
+      {
+        "label": "button redo",
+        "revision": 11,
+        "title": "工艺研发 · 溶剂乙醇 V1",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": null,
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 19,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": []
+      }
+    ],
+    "events": [
+      {
+        "type": "focusin",
+        "id": "atom-isotope",
+        "value": "",
+        "revision": 6
+      },
+      {
+        "type": "input",
+        "id": "atom-isotope",
+        "value": "18",
+        "revision": 6
+      },
+      {
+        "type": "change",
+        "id": "atom-isotope",
+        "value": "18",
+        "revision": 6
+      },
+      {
+        "type": "focusin",
+        "id": "atom-isotope",
+        "value": "18",
+        "revision": 7,
+        "isotope": 18
+      },
+      {
+        "type": "input",
+        "id": "atom-isotope",
+        "value": "19",
+        "revision": 7,
+        "isotope": 18
+      },
+      {
+        "type": "change",
+        "id": "atom-isotope",
+        "value": "19",
+        "revision": 7,
+        "isotope": 18
+      },
+      {
+        "type": "focusin",
+        "id": "atom-isotope",
+        "value": "19",
+        "revision": 8,
+        "isotope": 19
+      },
+      {
+        "type": "input",
+        "id": "atom-isotope",
+        "value": "18",
+        "revision": 8,
+        "isotope": 19
+      },
+      {
+        "type": "change",
+        "id": "atom-isotope",
+        "value": "18",
+        "revision": 8,
+        "isotope": 19
+      }
+    ]
+  },
+  {
+    "mode": "focus-canvas",
+    "steps": [
+      {
+        "label": "initial",
+        "revision": 6,
+        "title": "工艺研发 · 溶剂乙醇 V1",
+        "isotope": null,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "",
+        "active": {
+          "tag": "svg",
+          "id": "",
+          "class": {}
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "fill 18",
+        "revision": 6,
+        "title": "工艺研发 · 溶剂乙醇 V1",
+        "isotope": null,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": {
+          "tag": "INPUT",
+          "id": "atom-isotope",
+          "class": "",
+          "value": "18"
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "Tab 18",
+        "revision": 7,
+        "title": "工艺研发 · 溶剂乙醇 V1",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": null,
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "canvas.focus 18",
+        "revision": 7,
+        "title": "工艺研发 · 溶剂乙醇 V1",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": {
+          "tag": "svg",
+          "id": "",
+          "class": {}
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "fill 19",
+        "revision": 7,
+        "title": "工艺研发 · 溶剂乙醇 V1",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "19",
+        "active": {
+          "tag": "INPUT",
+          "id": "atom-isotope",
+          "class": "",
+          "value": "19"
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "Tab 19",
+        "revision": 8,
+        "title": "工艺研发 · 溶剂乙醇 V1",
+        "isotope": 19,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "19",
+        "active": null,
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "canvas.focus 19",
+        "revision": 8,
+        "title": "工艺研发 · 溶剂乙醇 V1",
+        "isotope": 19,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "19",
+        "active": {
+          "tag": "svg",
+          "id": "",
+          "class": {}
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "fill 18",
+        "revision": 8,
+        "title": "工艺研发 · 溶剂乙醇 V1",
+        "isotope": 19,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": {
+          "tag": "INPUT",
+          "id": "atom-isotope",
+          "class": "",
+          "value": "18"
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "Tab 18",
+        "revision": 9,
+        "title": "工艺研发 · 溶剂乙醇 V1",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": null,
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 19,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "canvas.focus 18",
+        "revision": 9,
+        "title": "工艺研发 · 溶剂乙醇 V1",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": {
+          "tag": "svg",
+          "id": "",
+          "class": {}
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 19,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "button undo",
+        "revision": 10,
+        "title": "工艺研发 · 溶剂乙醇 V1",
+        "isotope": 19,
+        "canUndo": true,
+        "canRedo": true,
+        "field": "19",
+        "active": {
+          "tag": "BUTTON",
+          "id": "",
+          "class": "icon-button ghost",
+          "value": ""
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": [
+          {
+            "isotope": 18,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ]
+      },
+      {
+        "label": "button redo",
+        "revision": 11,
+        "title": "工艺研发 · 溶剂乙醇 V1",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": null,
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 19,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": []
+      }
+    ],
+    "events": [
+      {
+        "type": "focusin",
+        "id": "atom-isotope",
+        "value": "",
+        "revision": 6
+      },
+      {
+        "type": "input",
+        "id": "atom-isotope",
+        "value": "18",
+        "revision": 6
+      },
+      {
+        "type": "change",
+        "id": "atom-isotope",
+        "value": "18",
+        "revision": 6
+      },
+      {
+        "type": "focusin",
+        "id": "atom-isotope",
+        "value": "18",
+        "revision": 7,
+        "isotope": 18
+      },
+      {
+        "type": "input",
+        "id": "atom-isotope",
+        "value": "19",
+        "revision": 7,
+        "isotope": 18
+      },
+      {
+        "type": "change",
+        "id": "atom-isotope",
+        "value": "19",
+        "revision": 7,
+        "isotope": 18
+      },
+      {
+        "type": "focusin",
+        "id": "atom-isotope",
+        "value": "19",
+        "revision": 8,
+        "isotope": 19
+      },
+      {
+        "type": "input",
+        "id": "atom-isotope",
+        "value": "18",
+        "revision": 8,
+        "isotope": 19
+      },
+      {
+        "type": "change",
+        "id": "atom-isotope",
+        "value": "18",
+        "revision": 8,
+        "isotope": 19
+      }
+    ]
+  },
+  {
+    "mode": "native-undo-prelude",
+    "steps": [
+      {
+        "label": "initial",
+        "revision": 6,
+        "title": "工艺研发 · 溶剂乙醇 V1",
+        "isotope": null,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "",
+        "active": {
+          "tag": "svg",
+          "id": "",
+          "class": {}
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "fill 18",
+        "revision": 6,
+        "title": "工艺研发 · 溶剂乙醇 V1",
+        "isotope": null,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": {
+          "tag": "INPUT",
+          "id": "atom-isotope",
+          "class": "",
+          "value": "18"
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "Tab 18",
+        "revision": 7,
+        "title": "工艺研发 · 溶剂乙醇 V1",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": null,
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "after B04 screenshot",
+        "revision": 7,
+        "title": "工艺研发 · 溶剂乙醇 V1",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": null,
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "CtrlZ after18",
+        "revision": 7,
+        "title": "工艺研发 · 溶剂乙醇 V1",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": {
+          "tag": "INPUT",
+          "id": "",
+          "class": "document-title",
+          "value": "未命名结构"
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "after B05 screenshot",
+        "revision": 7,
+        "title": "工艺研发 · 溶剂乙醇 V1",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": {
+          "tag": "INPUT",
+          "id": "",
+          "class": "document-title",
+          "value": "未命名结构"
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "fill 19",
+        "revision": 8,
+        "title": "未命名结构",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": {
+          "tag": "INPUT",
+          "id": "",
+          "class": "document-title",
+          "value": "19"
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "Tab 19",
+        "revision": 9,
+        "title": "19",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": {
+          "tag": "BUTTON",
+          "id": "",
+          "class": "icon-button ghost",
+          "value": ""
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "未命名结构"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "canvas.focus 19",
+        "revision": 9,
+        "title": "19",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": {
+          "tag": "svg",
+          "id": "",
+          "class": {}
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "未命名结构"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "fill 18",
+        "revision": 9,
+        "title": "19",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": {
+          "tag": "INPUT",
+          "id": "atom-isotope",
+          "class": "",
+          "value": "18"
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "未命名结构"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "Tab 18",
+        "revision": 9,
+        "title": "19",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": {
+          "tag": "SELECT",
+          "id": "atom-hydrogens",
+          "class": "",
+          "value": "auto"
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "未命名结构"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "canvas.focus 18",
+        "revision": 9,
+        "title": "19",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": {
+          "tag": "svg",
+          "id": "",
+          "class": {}
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "未命名结构"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "button undo",
+        "revision": 10,
+        "title": "未命名结构",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": true,
+        "field": "18",
+        "active": {
+          "tag": "BUTTON",
+          "id": "",
+          "class": "icon-button ghost",
+          "value": ""
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": [
+          {
+            "isotope": 18,
+            "title": "19"
+          }
+        ]
+      },
+      {
+        "label": "button redo",
+        "revision": 11,
+        "title": "19",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": null,
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "未命名结构"
+          }
+        ],
+        "future": []
+      }
+    ],
+    "events": [
+      {
+        "type": "focusin",
+        "id": "atom-isotope",
+        "value": "",
+        "revision": 6
+      },
+      {
+        "type": "input",
+        "id": "atom-isotope",
+        "value": "18",
+        "revision": 6
+      },
+      {
+        "type": "change",
+        "id": "atom-isotope",
+        "value": "18",
+        "revision": 6
+      },
+      {
+        "type": "focusin",
+        "id": "atom-isotope",
+        "value": "18",
+        "revision": 9,
+        "isotope": 18
+      },
+      {
+        "type": "input",
+        "id": "atom-isotope",
+        "value": "18",
+        "revision": 9,
+        "isotope": 18
+      },
+      {
+        "type": "focusout",
+        "id": "atom-isotope",
+        "value": "18",
+        "revision": 9,
+        "isotope": 18
+      },
+      {
+        "type": "focusin",
+        "id": "atom-hydrogens",
+        "value": "auto",
+        "revision": 9,
+        "isotope": 18
+      },
+      {
+        "type": "focusout",
+        "id": "atom-hydrogens",
+        "value": "auto",
+        "revision": 9,
+        "isotope": 18
+      }
+    ]
+  },
+  {
+    "mode": "native-undo-prelude-2",
+    "steps": [
+      {
+        "label": "initial",
+        "revision": 6,
+        "title": "工艺研发 · 溶剂乙醇 V1",
+        "isotope": null,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "",
+        "active": {
+          "tag": "svg",
+          "id": "",
+          "class": {}
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "fill 18",
+        "revision": 6,
+        "title": "工艺研发 · 溶剂乙醇 V1",
+        "isotope": null,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": {
+          "tag": "INPUT",
+          "id": "atom-isotope",
+          "class": "",
+          "value": "18"
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "Tab 18",
+        "revision": 7,
+        "title": "工艺研发 · 溶剂乙醇 V1",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": null,
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "after B04 screenshot",
+        "revision": 7,
+        "title": "工艺研发 · 溶剂乙醇 V1",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": null,
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "CtrlZ after18",
+        "revision": 7,
+        "title": "工艺研发 · 溶剂乙醇 V1",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": {
+          "tag": "INPUT",
+          "id": "",
+          "class": "document-title",
+          "value": "未命名结构"
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "after B05 screenshot",
+        "revision": 7,
+        "title": "工艺研发 · 溶剂乙醇 V1",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": {
+          "tag": "INPUT",
+          "id": "",
+          "class": "document-title",
+          "value": "未命名结构"
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "fill 19",
+        "revision": 8,
+        "title": "未命名结构",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": {
+          "tag": "INPUT",
+          "id": "",
+          "class": "document-title",
+          "value": "19"
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "Tab 19",
+        "revision": 9,
+        "title": "19",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": {
+          "tag": "BUTTON",
+          "id": "",
+          "class": "icon-button ghost",
+          "value": ""
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "未命名结构"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "canvas.focus 19",
+        "revision": 9,
+        "title": "19",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": {
+          "tag": "svg",
+          "id": "",
+          "class": {}
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "未命名结构"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "fill 18",
+        "revision": 9,
+        "title": "19",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": {
+          "tag": "INPUT",
+          "id": "atom-isotope",
+          "class": "",
+          "value": "18"
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "未命名结构"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "Tab 18",
+        "revision": 9,
+        "title": "19",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": {
+          "tag": "SELECT",
+          "id": "atom-hydrogens",
+          "class": "",
+          "value": "auto"
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "未命名结构"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "canvas.focus 18",
+        "revision": 9,
+        "title": "19",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": {
+          "tag": "svg",
+          "id": "",
+          "class": {}
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "未命名结构"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "button undo",
+        "revision": 10,
+        "title": "未命名结构",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": true,
+        "field": "18",
+        "active": {
+          "tag": "BUTTON",
+          "id": "",
+          "class": "icon-button ghost",
+          "value": ""
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": [
+          {
+            "isotope": 18,
+            "title": "19"
+          }
+        ]
+      },
+      {
+        "label": "button redo",
+        "revision": 11,
+        "title": "19",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": null,
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "未命名结构"
+          }
+        ],
+        "future": []
+      }
+    ],
+    "events": [
+      {
+        "type": "focusin",
+        "id": "atom-isotope",
+        "value": "",
+        "revision": 6
+      },
+      {
+        "type": "input",
+        "id": "atom-isotope",
+        "value": "18",
+        "revision": 6
+      },
+      {
+        "type": "change",
+        "id": "atom-isotope",
+        "value": "18",
+        "revision": 6
+      },
+      {
+        "type": "focusin",
+        "id": "atom-isotope",
+        "value": "18",
+        "revision": 9,
+        "isotope": 18
+      },
+      {
+        "type": "input",
+        "id": "atom-isotope",
+        "value": "18",
+        "revision": 9,
+        "isotope": 18
+      },
+      {
+        "type": "focusout",
+        "id": "atom-isotope",
+        "value": "18",
+        "revision": 9,
+        "isotope": 18
+      },
+      {
+        "type": "focusin",
+        "id": "atom-hydrogens",
+        "value": "auto",
+        "revision": 9,
+        "isotope": 18
+      },
+      {
+        "type": "focusout",
+        "id": "atom-hydrogens",
+        "value": "auto",
+        "revision": 9,
+        "isotope": 18
+      }
+    ]
+  },
+  {
+    "mode": "native-undo-prelude-3",
+    "steps": [
+      {
+        "label": "initial",
+        "revision": 6,
+        "title": "工艺研发 · 溶剂乙醇 V1",
+        "isotope": null,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "",
+        "active": {
+          "tag": "svg",
+          "id": "",
+          "class": {}
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "fill 18",
+        "revision": 6,
+        "title": "工艺研发 · 溶剂乙醇 V1",
+        "isotope": null,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": {
+          "tag": "INPUT",
+          "id": "atom-isotope",
+          "class": "",
+          "value": "18"
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "Tab 18",
+        "revision": 7,
+        "title": "工艺研发 · 溶剂乙醇 V1",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": null,
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "after B04 screenshot",
+        "revision": 7,
+        "title": "工艺研发 · 溶剂乙醇 V1",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": null,
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "CtrlZ after18",
+        "revision": 7,
+        "title": "工艺研发 · 溶剂乙醇 V1",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": {
+          "tag": "INPUT",
+          "id": "",
+          "class": "document-title",
+          "value": "未命名结构"
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "after B05 screenshot",
+        "revision": 7,
+        "title": "工艺研发 · 溶剂乙醇 V1",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": {
+          "tag": "INPUT",
+          "id": "",
+          "class": "document-title",
+          "value": "未命名结构"
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "fill 19",
+        "revision": 8,
+        "title": "未命名结构",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": {
+          "tag": "INPUT",
+          "id": "",
+          "class": "document-title",
+          "value": "19"
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "Tab 19",
+        "revision": 9,
+        "title": "19",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": {
+          "tag": "BUTTON",
+          "id": "",
+          "class": "icon-button ghost",
+          "value": ""
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "未命名结构"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "canvas.focus 19",
+        "revision": 9,
+        "title": "19",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": {
+          "tag": "svg",
+          "id": "",
+          "class": {}
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "未命名结构"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "fill 18",
+        "revision": 9,
+        "title": "19",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": {
+          "tag": "INPUT",
+          "id": "atom-isotope",
+          "class": "",
+          "value": "18"
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "未命名结构"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "Tab 18",
+        "revision": 9,
+        "title": "19",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": {
+          "tag": "SELECT",
+          "id": "atom-hydrogens",
+          "class": "",
+          "value": "auto"
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "未命名结构"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "canvas.focus 18",
+        "revision": 9,
+        "title": "19",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": {
+          "tag": "svg",
+          "id": "",
+          "class": {}
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "未命名结构"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "button undo",
+        "revision": 10,
+        "title": "未命名结构",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": true,
+        "field": "18",
+        "active": {
+          "tag": "BUTTON",
+          "id": "",
+          "class": "icon-button ghost",
+          "value": ""
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": [
+          {
+            "isotope": 18,
+            "title": "19"
+          }
+        ]
+      },
+      {
+        "label": "button redo",
+        "revision": 11,
+        "title": "19",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": null,
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "未命名结构"
+          }
+        ],
+        "future": []
+      }
+    ],
+    "events": [
+      {
+        "type": "focusin",
+        "id": "atom-isotope",
+        "value": "",
+        "revision": 6
+      },
+      {
+        "type": "input",
+        "id": "atom-isotope",
+        "value": "18",
+        "revision": 6
+      },
+      {
+        "type": "change",
+        "id": "atom-isotope",
+        "value": "18",
+        "revision": 6
+      },
+      {
+        "type": "focusin",
+        "id": "atom-isotope",
+        "value": "18",
+        "revision": 9,
+        "isotope": 18
+      },
+      {
+        "type": "input",
+        "id": "atom-isotope",
+        "value": "18",
+        "revision": 9,
+        "isotope": 18
+      },
+      {
+        "type": "focusout",
+        "id": "atom-isotope",
+        "value": "18",
+        "revision": 9,
+        "isotope": 18
+      },
+      {
+        "type": "focusin",
+        "id": "atom-hydrogens",
+        "value": "auto",
+        "revision": 9,
+        "isotope": 18
+      },
+      {
+        "type": "focusout",
+        "id": "atom-hydrogens",
+        "value": "auto",
+        "revision": 9,
+        "isotope": 18
+      }
+    ]
+  },
+  {
+    "mode": "native-undo-prelude-human",
+    "steps": [
+      {
+        "label": "initial",
+        "revision": 6,
+        "title": "工艺研发 · 溶剂乙醇 V1",
+        "isotope": null,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "",
+        "active": {
+          "tag": "svg",
+          "id": "",
+          "class": {}
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "human click isotope 18",
+        "revision": 6,
+        "title": "工艺研发 · 溶剂乙醇 V1",
+        "isotope": null,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "",
+        "active": {
+          "tag": "INPUT",
+          "id": "atom-isotope",
+          "class": "",
+          "value": ""
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "fill 18",
+        "revision": 6,
+        "title": "工艺研发 · 溶剂乙醇 V1",
+        "isotope": null,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": {
+          "tag": "INPUT",
+          "id": "atom-isotope",
+          "class": "",
+          "value": "18"
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "Tab 18",
+        "revision": 7,
+        "title": "工艺研发 · 溶剂乙醇 V1",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": null,
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "after B04 screenshot",
+        "revision": 7,
+        "title": "工艺研发 · 溶剂乙醇 V1",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": null,
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "CtrlZ after18",
+        "revision": 7,
+        "title": "工艺研发 · 溶剂乙醇 V1",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": {
+          "tag": "INPUT",
+          "id": "",
+          "class": "document-title",
+          "value": "未命名结构"
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "after B05 screenshot",
+        "revision": 7,
+        "title": "工艺研发 · 溶剂乙醇 V1",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": {
+          "tag": "INPUT",
+          "id": "",
+          "class": "document-title",
+          "value": "未命名结构"
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "human click isotope 19",
+        "revision": 8,
+        "title": "未命名结构",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": null,
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "fill 19",
+        "revision": 8,
+        "title": "未命名结构",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": null,
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "Tab 19",
+        "revision": 8,
+        "title": "未命名结构",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": {
+          "tag": "SELECT",
+          "id": "atom-hydrogens",
+          "class": "",
+          "value": "auto"
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "canvas.focus 19",
+        "revision": 8,
+        "title": "未命名结构",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": {
+          "tag": "svg",
+          "id": "",
+          "class": {}
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "human click isotope 18",
+        "revision": 8,
+        "title": "未命名结构",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": {
+          "tag": "INPUT",
+          "id": "atom-isotope",
+          "class": "",
+          "value": "18"
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "fill 18",
+        "revision": 8,
+        "title": "未命名结构",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": {
+          "tag": "INPUT",
+          "id": "atom-isotope",
+          "class": "",
+          "value": "18"
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "Tab 18",
+        "revision": 8,
+        "title": "未命名结构",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": {
+          "tag": "SELECT",
+          "id": "atom-hydrogens",
+          "class": "",
+          "value": "auto"
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "canvas.focus 18",
+        "revision": 8,
+        "title": "未命名结构",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": {
+          "tag": "svg",
+          "id": "",
+          "class": {}
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": []
+      },
+      {
+        "label": "button undo",
+        "revision": 9,
+        "title": "工艺研发 · 溶剂乙醇 V1",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": true,
+        "field": "18",
+        "active": {
+          "tag": "BUTTON",
+          "id": "",
+          "class": "icon-button ghost",
+          "value": ""
+        },
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": [
+          {
+            "isotope": 18,
+            "title": "未命名结构"
+          }
+        ]
+      },
+      {
+        "label": "button redo",
+        "revision": 10,
+        "title": "未命名结构",
+        "isotope": 18,
+        "canUndo": true,
+        "canRedo": false,
+        "field": "18",
+        "active": null,
+        "storeAvailable": true,
+        "past": [
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "阿司匹林"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "未命名结构"
+          },
+          {
+            "isotope": null,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          },
+          {
+            "isotope": 18,
+            "title": "工艺研发 · 溶剂乙醇 V1"
+          }
+        ],
+        "future": []
+      }
+    ],
+    "events": [
+      {
+        "type": "focusin",
+        "id": "atom-isotope",
+        "value": "",
+        "revision": 6
+      },
+      {
+        "type": "input",
+        "id": "atom-isotope",
+        "value": "1",
+        "revision": 6
+      },
+      {
+        "type": "input",
+        "id": "atom-isotope",
+        "value": "18",
+        "revision": 6
+      },
+      {
+        "type": "change",
+        "id": "atom-isotope",
+        "value": "18",
+        "revision": 6
+      },
+      {
+        "type": "focusin",
+        "id": "atom-isotope",
+        "value": "18",
+        "revision": 8,
+        "isotope": 18
+      },
+      {
+        "type": "focusout",
+        "id": "atom-isotope",
+        "value": "18",
+        "revision": 8,
+        "isotope": 18
+      },
+      {
+        "type": "focusin",
+        "id": "atom-hydrogens",
+        "value": "auto",
+        "revision": 8,
+        "isotope": 18
+      },
+      {
+        "type": "focusout",
+        "id": "atom-hydrogens",
+        "value": "auto",
+        "revision": 8,
+        "isotope": 18
+      },
+      {
+        "type": "focusin",
+        "id": "atom-isotope",
+        "value": "18",
+        "revision": 8,
+        "isotope": 18
+      },
+      {
+        "type": "input",
+        "id": "atom-isotope",
+        "value": "1",
+        "revision": 8,
+        "isotope": 18
+      },
+      {
+        "type": "input",
+        "id": "atom-isotope",
+        "value": "18",
+        "revision": 8,
+        "isotope": 18
+      },
+      {
+        "type": "focusout",
+        "id": "atom-isotope",
+        "value": "18",
+        "revision": 8,
+        "isotope": 18
+      },
+      {
+        "type": "focusin",
+        "id": "atom-hydrogens",
+        "value": "auto",
+        "revision": 8,
+        "isotope": 18
+      },
+      {
+        "type": "focusout",
+        "id": "atom-hydrogens",
+        "value": "auto",
+        "revision": 8,
+        "isotope": 18
+      }
+    ]
+  }
+]

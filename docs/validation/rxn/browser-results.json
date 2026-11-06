@@ -1,0 +1,201 @@
+{
+  "browser": "Chrome",
+  "results": [
+    {
+      "file": "reaction-center-v2000.rxn",
+      "visibleFileInputImport": true,
+      "visibleIsotopeEdit": true,
+      "undoRedo": true,
+      "strictExport": true,
+      "downloads": [
+        {
+          "format": "rxn",
+          "suggestedFilename": "Mapped isotope oxidation.rxn",
+          "roles": [
+            1,
+            1,
+            1
+          ],
+          "maps": [
+            [
+              [
+                1,
+                2
+              ]
+            ],
+            [
+              [
+                1,
+                2
+              ]
+            ],
+            [
+              [
+                0
+              ]
+            ]
+          ],
+          "pairs": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "reactantIsotope": 14,
+          "productIsotope": 13,
+          "reactionCenters": [
+            "MakeAndChange",
+            "ChangeType"
+          ]
+        },
+        {
+          "format": "rxn-v3000",
+          "suggestedFilename": "Mapped isotope oxidation.rxn",
+          "roles": [
+            1,
+            1,
+            1
+          ],
+          "maps": [
+            [
+              [
+                1,
+                2
+              ]
+            ],
+            [
+              [
+                1,
+                2
+              ]
+            ],
+            [
+              [
+                0
+              ]
+            ]
+          ],
+          "pairs": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "reactantIsotope": 14,
+          "productIsotope": 13,
+          "reactionCenters": [
+            "MakeAndChange",
+            "ChangeType"
+          ]
+        }
+      ]
+    },
+    {
+      "file": "reaction-center-v3000.rxn",
+      "visibleFileInputImport": true,
+      "visibleIsotopeEdit": true,
+      "undoRedo": true,
+      "strictExport": true,
+      "downloads": [
+        {
+          "format": "rxn",
+          "suggestedFilename": "Mapped isotope oxidation.rxn",
+          "roles": [
+            1,
+            1,
+            1
+          ],
+          "maps": [
+            [
+              [
+                1,
+                2
+              ]
+            ],
+            [
+              [
+                1,
+                2
+              ]
+            ],
+            [
+              [
+                0
+              ]
+            ]
+          ],
+          "pairs": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "reactantIsotope": 14,
+          "productIsotope": 13,
+          "reactionCenters": [
+            "MakeAndChange",
+            "ChangeType"
+          ]
+        },
+        {
+          "format": "rxn-v3000",
+          "suggestedFilename": "Mapped isotope oxidation.rxn",
+          "roles": [
+            1,
+            1,
+            1
+          ],
+          "maps": [
+            [
+              [
+                1,
+                2
+              ]
+            ],
+            [
+              [
+                1,
+                2
+              ]
+            ],
+            [
+              [
+                0
+              ]
+            ]
+          ],
+          "pairs": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "reactantIsotope": 14,
+          "productIsotope": 13,
+          "reactionCenters": [
+            "MakeAndChange",
+            "ChangeType"
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "aiTested": false
+}

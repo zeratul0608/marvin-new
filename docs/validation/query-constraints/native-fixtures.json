@@ -1,0 +1,424 @@
+{
+  "scope": "Own original native fixtures from published CDX/CDXML types. Conditions can contradict the drawn graph; no concrete molecule or successful database match is claimed.",
+  "filesPrepared": 14,
+  "results": [
+    {
+      "scenario": "all-fields",
+      "file": "native-all-fields.cdxml",
+      "format": "cdxml",
+      "expected": {
+        "atoms": [
+          {
+            "element": "C",
+            "queryConstraints": {
+              "substituentsExactly": 2,
+              "substituentsUpTo": 4,
+              "ringBondCount": "Fusion",
+              "unsaturatedBonds": "MustBePresent",
+              "reactionChange": true,
+              "reactionStereo": "Inversion"
+            }
+          },
+          {
+            "element": "N"
+          }
+        ],
+        "bonds": [
+          {
+            "atoms": [
+              0,
+              1
+            ],
+            "order": 1,
+            "topology": "Ring"
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "all-fields",
+      "file": "native-all-fields.cdx",
+      "format": "cdx",
+      "expected": {
+        "atoms": [
+          {
+            "element": "C",
+            "queryConstraints": {
+              "substituentsExactly": 2,
+              "substituentsUpTo": 4,
+              "ringBondCount": "Fusion",
+              "unsaturatedBonds": "MustBePresent",
+              "reactionChange": true,
+              "reactionStereo": "Inversion"
+            }
+          },
+          {
+            "element": "N"
+          }
+        ],
+        "bonds": [
+          {
+            "atoms": [
+              0,
+              1
+            ],
+            "order": 1,
+            "topology": "Ring"
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "zero-explicit-default",
+      "file": "native-zero-explicit-default.cdxml",
+      "format": "cdxml",
+      "expected": {
+        "atoms": [
+          {
+            "element": "C",
+            "queryConstraints": {
+              "substituentsExactly": 0,
+              "substituentsUpTo": 0,
+              "ringBondCount": "Unspecified",
+              "unsaturatedBonds": "Unspecified",
+              "reactionStereo": "Unspecified"
+            }
+          },
+          {
+            "element": "N"
+          }
+        ],
+        "bonds": [
+          {
+            "atoms": [
+              0,
+              1
+            ],
+            "order": 1,
+            "topology": "Unspecified"
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "zero-explicit-default",
+      "file": "native-zero-explicit-default.cdx",
+      "format": "cdx",
+      "expected": {
+        "atoms": [
+          {
+            "element": "C",
+            "queryConstraints": {
+              "substituentsExactly": 0,
+              "substituentsUpTo": 0,
+              "ringBondCount": "Unspecified",
+              "unsaturatedBonds": "Unspecified",
+              "reactionStereo": "Unspecified"
+            }
+          },
+          {
+            "element": "N"
+          }
+        ],
+        "bonds": [
+          {
+            "atoms": [
+              0,
+              1
+            ],
+            "order": 1,
+            "topology": "Unspecified"
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "max-count-255",
+      "file": "native-max-count-255.cdxml",
+      "format": "cdxml",
+      "expected": {
+        "atoms": [
+          {
+            "element": "C",
+            "queryConstraints": {
+              "substituentsExactly": 255,
+              "substituentsUpTo": 255,
+              "ringBondCount": "SpiroOrHigher",
+              "unsaturatedBonds": "MustBeAbsent",
+              "reactionStereo": "Retention"
+            }
+          },
+          {
+            "element": "N"
+          }
+        ],
+        "bonds": [
+          {
+            "atoms": [
+              0,
+              1
+            ],
+            "order": 1,
+            "topology": "RingOrChain"
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "max-count-255",
+      "file": "native-max-count-255.cdx",
+      "format": "cdx",
+      "expected": {
+        "atoms": [
+          {
+            "element": "C",
+            "queryConstraints": {
+              "substituentsExactly": 255,
+              "substituentsUpTo": 255,
+              "ringBondCount": "SpiroOrHigher",
+              "unsaturatedBonds": "MustBeAbsent",
+              "reactionStereo": "Retention"
+            }
+          },
+          {
+            "element": "N"
+          }
+        ],
+        "bonds": [
+          {
+            "atoms": [
+              0,
+              1
+            ],
+            "order": 1,
+            "topology": "RingOrChain"
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "empty-presence-rxn-change",
+      "file": "native-empty-presence-rxn-change.cdxml",
+      "format": "cdxml",
+      "expected": {
+        "atoms": [
+          {
+            "element": "C",
+            "queryConstraints": {
+              "reactionChange": true
+            }
+          },
+          {
+            "element": "N"
+          }
+        ],
+        "bonds": [
+          {
+            "atoms": [
+              0,
+              1
+            ],
+            "order": 1,
+            "topology": "Chain"
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "empty-presence-rxn-change",
+      "file": "native-empty-presence-rxn-change.cdx",
+      "format": "cdx",
+      "expected": {
+        "atoms": [
+          {
+            "element": "C",
+            "queryConstraints": {
+              "reactionChange": true
+            }
+          },
+          {
+            "element": "N"
+          }
+        ],
+        "bonds": [
+          {
+            "atoms": [
+              0,
+              1
+            ],
+            "order": 1,
+            "topology": "Chain"
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "as-drawn",
+      "file": "native-as-drawn.cdxml",
+      "format": "cdxml",
+      "expected": {
+        "atoms": [
+          {
+            "element": "C",
+            "queryConstraints": {
+              "ringBondCount": "AsDrawn"
+            }
+          },
+          {
+            "element": "N"
+          }
+        ],
+        "bonds": [
+          {
+            "atoms": [
+              0,
+              1
+            ],
+            "order": 1,
+            "topology": "RingOrChain"
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "as-drawn",
+      "file": "native-as-drawn.cdx",
+      "format": "cdx",
+      "expected": {
+        "atoms": [
+          {
+            "element": "C",
+            "queryConstraints": {
+              "ringBondCount": "AsDrawn"
+            }
+          },
+          {
+            "element": "N"
+          }
+        ],
+        "bonds": [
+          {
+            "atoms": [
+              0,
+              1
+            ],
+            "order": 1,
+            "topology": "RingOrChain"
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "simple-ring",
+      "file": "native-simple-ring.cdxml",
+      "format": "cdxml",
+      "expected": {
+        "atoms": [
+          {
+            "element": "C",
+            "queryConstraints": {
+              "ringBondCount": "SimpleRing"
+            }
+          },
+          {
+            "element": "N"
+          }
+        ],
+        "bonds": [
+          {
+            "atoms": [
+              0,
+              1
+            ],
+            "order": 1,
+            "topology": "Ring"
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "simple-ring",
+      "file": "native-simple-ring.cdx",
+      "format": "cdx",
+      "expected": {
+        "atoms": [
+          {
+            "element": "C",
+            "queryConstraints": {
+              "ringBondCount": "SimpleRing"
+            }
+          },
+          {
+            "element": "N"
+          }
+        ],
+        "bonds": [
+          {
+            "atoms": [
+              0,
+              1
+            ],
+            "order": 1,
+            "topology": "Ring"
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "no-ring",
+      "file": "native-no-ring.cdxml",
+      "format": "cdxml",
+      "expected": {
+        "atoms": [
+          {
+            "element": "C",
+            "queryConstraints": {
+              "ringBondCount": "NoRingBonds"
+            }
+          },
+          {
+            "element": "N"
+          }
+        ],
+        "bonds": [
+          {
+            "atoms": [
+              0,
+              1
+            ],
+            "order": 1,
+            "topology": "Chain"
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "no-ring",
+      "file": "native-no-ring.cdx",
+      "format": "cdx",
+      "expected": {
+        "atoms": [
+          {
+            "element": "C",
+            "queryConstraints": {
+              "ringBondCount": "NoRingBonds"
+            }
+          },
+          {
+            "element": "N"
+          }
+        ],
+        "bonds": [
+          {
+            "atoms": [
+              0,
+              1
+            ],
+            "order": 1,
+            "topology": "Chain"
+          }
+        ]
+      }
+    }
+  ]
+}

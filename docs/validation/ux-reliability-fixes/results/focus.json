@@ -1,0 +1,33 @@
+{
+  "results": [
+    {
+      "id": "F01-tab-native-undo",
+      "status": "pass",
+      "active": "atom-hydrogens",
+      "title": "Process ethanol"
+    },
+    {
+      "id": "F02-continuous-tab-and-mouse",
+      "status": "pass",
+      "active": "atom-hydrogens",
+      "title": "Process ethanol"
+    },
+    {
+      "id": "F03-save-pending-title",
+      "status": "pass",
+      "title": "Saved without blur"
+    },
+    {
+      "id": "F04-save-pending-field",
+      "status": "pass",
+      "isotope": 19
+    },
+    {
+      "id": "F05-invalid-save-blocked",
+      "status": "pass",
+      "message": "请修正当前字段后再导出"
+    }
+  ],
+  "errors": [],
+  "uiOnlyMutations": true
+}

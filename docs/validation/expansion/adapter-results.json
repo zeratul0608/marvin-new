@@ -1,0 +1,98 @@
+{
+  "source": "Own independently constructed nested CDXML examples.",
+  "filesPrepared": 12,
+  "results": [
+    {
+      "file": "ether-expanded.cdxml",
+      "scenario": "ether",
+      "format": "cdxml",
+      "canonicalIsomericSmiles": "COC",
+      "formula": "C2H6O",
+      "atomCount": 3,
+      "bondCount": 2,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "ether-expanded.cdx",
+      "scenario": "ether",
+      "format": "cdx",
+      "canonicalIsomericSmiles": "COC",
+      "formula": "C2H6O",
+      "atomCount": 3,
+      "bondCount": 2,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "two-port-expanded.cdxml",
+      "scenario": "two-port",
+      "format": "cdxml",
+      "canonicalIsomericSmiles": "NCCO",
+      "formula": "C2H7NO",
+      "atomCount": 4,
+      "bondCount": 3,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "two-port-expanded.cdx",
+      "scenario": "two-port",
+      "format": "cdx",
+      "canonicalIsomericSmiles": "NCCO",
+      "formula": "C2H7NO",
+      "atomCount": 4,
+      "bondCount": 3,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "chiral-expanded.cdxml",
+      "scenario": "chiral",
+      "format": "cdxml",
+      "canonicalIsomericSmiles": "C[C@@](F)(Cl)Br",
+      "formula": "C2H3BrClF",
+      "atomCount": 5,
+      "bondCount": 4,
+      "stereoAtoms": [
+        "R"
+      ],
+      "stereoBonds": []
+    },
+    {
+      "file": "chiral-expanded.cdx",
+      "scenario": "chiral",
+      "format": "cdx",
+      "canonicalIsomericSmiles": "C[C@@](F)(Cl)Br",
+      "formula": "C2H3BrClF",
+      "atomCount": 5,
+      "bondCount": 4,
+      "stereoAtoms": [
+        "R"
+      ],
+      "stereoBonds": []
+    },
+    {
+      "file": "recursive-expanded.cdxml",
+      "scenario": "recursive",
+      "format": "cdxml",
+      "canonicalIsomericSmiles": "COCN",
+      "formula": "C2H7NO",
+      "atomCount": 4,
+      "bondCount": 3,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "recursive-expanded.cdx",
+      "scenario": "recursive",
+      "format": "cdx",
+      "canonicalIsomericSmiles": "COCN",
+      "formula": "C2H7NO",
+      "atomCount": 4,
+      "bondCount": 3,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "validator": "Python stdlib struct + ElementTree; does not invoke the application parser or RDKit.",
+  "validated": 8,
+  "scope": "Bracket usage, FLOAT64 repeat count, nested members, graphic/attachment/bond/inner-atom references. Does not certify general polymer expansion or commercial ChemDraw behavior.",
+  "results": [
+    {
+      "file": "sru-original.cdxml",
+      "groups": [
+        {
+          "usage": "SRU",
+          "repeatPattern": "HeadToTail",
+          "flipType": "Unspecified",
+          "atomIndices": [
+            1,
+            2
+          ],
+          "crossings": [
+            {
+              "bondIndex": 0,
+              "innerAtomIndex": 1
+            },
+            {
+              "bondIndex": 2,
+              "innerAtomIndex": 2
+            }
+          ],
+          "label": "n"
+        }
+      ],
+      "nativeReferencesVerified": true
+    },
+    {
+      "file": "sru-edited.cdxml",
+      "groups": [
+        {
+          "usage": "MultipleGroup",
+          "repeatPattern": "HeadToHead",
+          "flipType": "Flip",
+          "atomIndices": [
+            1,
+            2
+          ],
+          "crossings": [
+            {
+              "bondIndex": 0,
+              "innerAtomIndex": 1
+            },
+            {
+              "bondIndex": 2,
+              "innerAtomIndex": 2
+            }
+          ],
+          "repeatCount": 5.25,
+          "label": "m"
+        }
+      ],
+      "nativeReferencesVerified": true
+    },
+    {
+      "file": "multiple-original.cdx",
+      "groups": [
+        {
+          "usage": "MultipleGroup",
+          "repeatPattern": "HeadToTail",
+          "flipType": "Unspecified",
+          "atomIndices": [
+            1,
+            2
+          ],
+          "crossings": [
+            {
+              "bondIndex": 0,
+              "innerAtomIndex": 1
+            },
+            {
+              "bondIndex": 2,
+              "innerAtomIndex": 2
+            }
+          ],
+          "repeatCount": 3.5,
+          "label": "n"
+        }
+      ],
+      "nativeReferencesVerified": true
+    },
+    {
+      "file": "multiple-original-converted.cdxml",
+      "groups": [
+        {
+          "usage": "MultipleGroup",
+          "repeatPattern": "HeadToTail",
+          "flipType": "Unspecified",
+          "atomIndices": [
+            1,
+            2
+          ],
+          "crossings": [
+            {
+              "bondIndex": 0,
+              "innerAtomIndex": 1
+            },
+            {
+              "bondIndex": 2,
+              "innerAtomIndex": 2
+            }
+          ],
+          "repeatCount": 3.5,
+          "label": "n"
+        }
+      ],
+      "nativeReferencesVerified": true
+    },
+    {
+      "file": "multiple-edited.cdx",
+      "groups": [
+        {
+          "usage": "MultipleGroup",
+          "repeatPattern": "HeadToHead",
+          "flipType": "Flip",
+          "atomIndices": [
+            1,
+            2
+          ],
+          "crossings": [
+            {
+              "bondIndex": 0,
+              "innerAtomIndex": 1
+            },
+            {
+              "bondIndex": 2,
+              "innerAtomIndex": 2
+            }
+          ],
+          "repeatCount": 5.25,
+          "label": "m"
+        }
+      ],
+      "nativeReferencesVerified": true
+    },
+    {
+      "file": "multiple-edited-converted.cdxml",
+      "groups": [
+        {
+          "usage": "MultipleGroup",
+          "repeatPattern": "HeadToHead",
+          "flipType": "Flip",
+          "atomIndices": [
+            1,
+            2
+          ],
+          "crossings": [
+            {
+              "bondIndex": 0,
+              "innerAtomIndex": 1
+            },
+            {
+              "bondIndex": 2,
+              "innerAtomIndex": 2
+            }
+          ],
+          "repeatCount": 5.25,
+          "label": "m"
+        }
+      ],
+      "nativeReferencesVerified": true
+    },
+    {
+      "file": "nested-original.cdxml",
+      "groups": [
+        {
+          "usage": "Copolymer",
+          "repeatPattern": "HeadToTail",
+          "flipType": "Unspecified",
+          "atomIndices": [
+            1,
+            2
+          ],
+          "crossings": []
+        },
+        {
+          "usage": "SRU",
+          "repeatPattern": "HeadToTail",
+          "flipType": "Unspecified",
+          "atomIndices": [
+            1,
+            2
+          ],
+          "crossings": [
+            {
+              "bondIndex": 0,
+              "innerAtomIndex": 1
+            },
+            {
+              "bondIndex": 2,
+              "innerAtomIndex": 2
+            }
+          ],
+          "label": "n"
+        }
+      ],
+      "nativeReferencesVerified": true
+    },
+    {
+      "file": "nested-edited.cdxml",
+      "groups": [
+        {
+          "usage": "Copolymer",
+          "repeatPattern": "HeadToHead",
+          "flipType": "Flip",
+          "atomIndices": [
+            1,
+            2
+          ],
+          "crossings": [],
+          "repeatCount": 5.25,
+          "label": "m"
+        },
+        {
+          "usage": "SRU",
+          "repeatPattern": "HeadToTail",
+          "flipType": "Unspecified",
+          "atomIndices": [
+            1,
+            2
+          ],
+          "crossings": [
+            {
+              "bondIndex": 0,
+              "innerAtomIndex": 1
+            },
+            {
+              "bondIndex": 2,
+              "innerAtomIndex": 2
+            }
+          ],
+          "label": "n"
+        }
+      ],
+      "nativeReferencesVerified": true
+    }
+  ]
+}

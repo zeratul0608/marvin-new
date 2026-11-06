@@ -6,7 +6,6 @@ import { detectFormat, exportDocument, FormatError, importDocument } from '../sr
 import { connectedComponents, molecularFormula } from '../src/core/model';
 import { exampleDocument } from '../src/core/templates';
 import { createChemicalEditor } from '../src/editor/chemical-editor';
-import type { Format } from '../src/core/types';
 
 const fixture = (name: string) => new Uint8Array(readFileSync(resolve('tests/fixtures/cdx', `${name}.cdx`)));
 const uint = (value: number, size = 2): number[] => Array.from({ length: size }, (_, index) => (value >>> (index * 8)) & 255);
@@ -45,7 +44,7 @@ describe('binary ChemDraw CDX import', () => {
   it('refuses the third-party ring stereo file without altering the current document', () => {
     const editor = createChemicalEditor({ container: document.body, document: exampleDocument('ethanol') });
     const before = editor.getDocument();
-    expect(() => editor.import({ data: fixture('rdkit-ring-stereo1') })).toThrow('0x0445');
+    expect(() => editor.import({ data: fixture('rdkit-ring-stereo1') })).toThrow('0x044a');
     expect(editor.getDocument()).toEqual(before);
     editor.destroy();
   });
@@ -87,7 +86,7 @@ describe('binary ChemDraw CDX import', () => {
       expect(molecularFormula(importDocument({ data }).document)).toBe('C2H7N');
     }
     expect(molecularFormula(importDocument({ data: encodeCdx(bytes).slice('cdx:base64,'.length), format: 'cdx' }).document)).toBe('C2H7N');
-    expect(() => exportDocument(importDocument({ data: bytes }).document, { format: 'cdx' as Format })).toThrow('exportSourceFile');
+    expect(decodeCdx(exportDocument(importDocument({ data: bytes }).document, { format: 'cdx' }).data)).toEqual(bytes);
   });
 
   it('supports an explicit document wrapper and scopes atom references to each fragment', () => {
@@ -125,20 +124,20 @@ describe('binary ChemDraw CDX import', () => {
   });
 
   it('reads extended-length properties and diagnoses unrepresented graphical content', () => {
-    const data = molecule([...node(3), ...object(0x8006, 9, prop(0x0700, Array(66000).fill(0), true))]);
+    const data = molecule([...node(3), ...object(0x8007, 9, prop(0x1234, Array(66000).fill(0), true))]);
     const { document, issues } = importDocument({ data });
     expect(Object.keys(document.graph.atoms)).toHaveLength(1);
     expect(issues.some(issue => issue.code === 'UNSUPPORTED_CDX_CONTENT')).toBe(true);
-    expect(() => exportDocument(document, { format: 'cdxml' })).toThrow('导出已阻止');
+    expect(() => exportDocument(document, { format: 'cdxml' })).toThrow('CDXML 映射');
     expect(decodeCdx(document.source!.raw)).toEqual(data);
   });
 
   it.each([
-    atom(prop(0x0400, uint(4))), atom(prop(0x0422, [2])), atom(prop(0x0437, [2])),
+    atom(prop(0x0400, uint(4))), atom(prop(0x0422, [4])), atom(prop(0x0437, [99])),
     atom(prop(0x0403, [1, 0, 7, 0])), atom(prop(0x0201, Array(12).fill(0))), atom(prop(0x0450, [0])),
     molecule([...node(3), ...node(4), ...bond(5, 3, 4, prop(0x0600, uint(3)))]),
     molecule([...node(3), ...node(4), ...bond(5, 3, 4, prop(0x0600, uint(4096)))]),
-    molecule([...node(3), ...object(0x800d, 9, [])]), molecule([...node(3), ...object(0x8017, 9, [])]),
+    molecule([...node(3), ...object(0x800d, 9, [])]), molecule([...node(3), ...object(0x8019, 9, [])]),
     molecule([...node(3), ...object(0x800a, 9, [])]), molecule(fragment(9, node(3))),
   ])('rejects unsupported chemical semantics instead of changing them silently', data => {
     expect(() => importDocument({ data })).toThrow(FormatError);

@@ -1,0 +1,281 @@
+{
+  "persona": "化工研发工程师场景化走查",
+  "browser": "Chrome headless; real visible UI mutations",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "results": [
+    {
+      "id": "B01",
+      "title": "初次打开和基础/高级功能发现",
+      "status": "pass",
+      "durationMs": 20,
+      "initialAtoms": 13,
+      "observation": "默认示例有结构；基础工具可见，高级工具初始收起。",
+      "evidence": ".local/ux-engineer/basics/B01.png"
+    },
+    {
+      "id": "B02",
+      "title": "取消清空不损失文档",
+      "status": "pass",
+      "durationMs": 92,
+      "evidence": ".local/ux-engineer/basics/B02.png"
+    },
+    {
+      "id": "B03",
+      "title": "从空白手绘乙醇",
+      "status": "pass",
+      "durationMs": 218,
+      "formula": "C2H6O\n分子式 · 基础价态规则估算",
+      "readOnlyProof": {
+        "atoms": {
+          "a_b0c52c2a-f848-48de-8cfa-4d9b383c7ca9": {
+            "id": "a_b0c52c2a-f848-48de-8cfa-4d9b383c7ca9",
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          "a_e1382fe0-1e4a-4bc1-b1b4-b7d13832ff4f": {
+            "id": "a_e1382fe0-1e4a-4bc1-b1b4-b7d13832ff4f",
+            "element": "C",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          },
+          "a_0a0a45f2-e31d-4780-8554-3926d4321d6c": {
+            "id": "a_0a0a45f2-e31d-4780-8554-3926d4321d6c",
+            "element": "O",
+            "charge": 0,
+            "hydrogens": {
+              "mode": "auto"
+            }
+          }
+        },
+        "bonds": {
+          "b_efd3bd85-0b8c-4dbf-844a-2c659a300724": {
+            "id": "b_efd3bd85-0b8c-4dbf-844a-2c659a300724",
+            "atoms": [
+              "a_b0c52c2a-f848-48de-8cfa-4d9b383c7ca9",
+              "a_e1382fe0-1e4a-4bc1-b1b4-b7d13832ff4f"
+            ],
+            "order": 1
+          },
+          "b_67701f9f-75f2-44b0-bc00-1ed17233255e": {
+            "id": "b_67701f9f-75f2-44b0-bc00-1ed17233255e",
+            "atoms": [
+              "a_e1382fe0-1e4a-4bc1-b1b4-b7d13832ff4f",
+              "a_0a0a45f2-e31d-4780-8554-3926d4321d6c"
+            ],
+            "order": 1
+          }
+        }
+      },
+      "interaction": "两次真实拖动绘制碳骨架，然后将端点换为氧。",
+      "evidence": ".local/ux-engineer/basics/B03.png"
+    },
+    {
+      "id": "B04",
+      "title": "文档命名及同位素基本属性",
+      "status": "pass",
+      "durationMs": 77,
+      "evidence": ".local/ux-engineer/basics/B04.png"
+    },
+    {
+      "id": "B05",
+      "title": "字段失焦后的Ctrl+Z是否可预期",
+      "status": "friction",
+      "durationMs": 8,
+      "unchanged": true,
+      "isotopeFieldAfterNativeUndo": "18",
+      "evidence": ".local/ux-engineer/basics/B05.png"
+    },
+    {
+      "id": "B06",
+      "title": "撤销重做按钮准确恢复",
+      "status": "pass",
+      "durationMs": 129,
+      "evidence": ".local/ux-engineer/basics/B06.png"
+    },
+    {
+      "id": "B07",
+      "title": "错误数值保护及输入恢复",
+      "status": "pass",
+      "durationMs": 19,
+      "message": "同位素质量数无效",
+      "evidence": ".local/ux-engineer/basics/B07.png"
+    },
+    {
+      "id": "B08",
+      "title": "全选、旋转、画布快捷键撤销",
+      "status": "pass",
+      "durationMs": 76,
+      "evidence": ".local/ux-engineer/basics/B08.png"
+    },
+    {
+      "id": "B09",
+      "title": "画布缩放、平移和适应结构",
+      "status": "pass",
+      "durationMs": 117,
+      "zoom": "150%",
+      "evidence": ".local/ux-engineer/basics/B09.png"
+    },
+    {
+      "id": "B10",
+      "title": "命令搜索能否用中文元素名发现元素",
+      "status": "friction",
+      "durationMs": 105,
+      "results": 0,
+      "text": "没有找到匹配项，试试“苯环”、“查询”、“内部结构”或“原子映射”。",
+      "evidence": ".local/ux-engineer/basics/B10.png"
+    },
+    {
+      "id": "B11",
+      "title": "保存快捷键在标题焦点中的行为",
+      "status": "friction",
+      "durationMs": 10,
+      "exportOpened": false,
+      "observedKeyEvent": {
+        "defaultPrevented": false,
+        "target": "INPUT"
+      },
+      "evidence": ".local/ux-engineer/basics/B11.png"
+    },
+    {
+      "id": "B12",
+      "title": "刷新恢复草稿和当前文档",
+      "status": "pass",
+      "durationMs": 96,
+      "canUndoAfterReload": false,
+      "observation": "刷新恢复当前结构；编辑历史不跨刷新。",
+      "evidence": ".local/ux-engineer/basics/B12.png"
+    },
+    {
+      "id": "B13",
+      "title": "两个工作页是否会覆盖本地草稿",
+      "status": "failed",
+      "durationMs": 461,
+      "chargeBefore": -1,
+      "chargeAfter": 0,
+      "recoveredTitle": "工艺研发 · 主工作页再次保存",
+      "evidence": ".local/ux-engineer/basics/B13.png"
+    },
+    {
+      "id": "B14",
+      "title": "从环工具构建稠合双环的效率",
+      "status": "limited",
+      "durationMs": 146,
+      "atomCount": 12,
+      "bondCount": 12,
+      "formula": "C12H12\n分子式 · 基础价态规则估算",
+      "evidence": ".local/ux-engineer/basics/B14.png"
+    },
+    {
+      "id": "B15",
+      "title": "中英文切换是否改变结构或历史",
+      "status": "pass",
+      "durationMs": 28,
+      "evidence": ".local/ux-engineer/basics/B15.png"
+    },
+    {
+      "id": "B16",
+      "title": "窄屏属性面板与画布返回路径",
+      "status": "pass",
+      "durationMs": 93,
+      "inspectorWidth": 265,
+      "canvasWidth": 323,
+      "observation": "窄屏右侧为覆盖面板，可用关闭按钮回到画布。",
+      "evidence": ".local/ux-engineer/basics/B16.png"
+    }
+  ],
+  "findings": [
+    {
+      "id": "B-F01",
+      "severity": "P2",
+      "title": "属性提交后的焦点与原生撤销交互不一致",
+      "steps": [
+        "先命名文档",
+        "修改氧同位素为18",
+        "Tab离开字段",
+        "Ctrl+Z",
+        "再次点击同位素字段并输入"
+      ],
+      "expected": "撤销目标与焦点可预期，继续输入应进入被点击的字段。",
+      "actual": "文档仍为18O；独立复现中浏览器原生Undo回退标题输入，后续标题失焦提交触发重绘，可能丢失属性输入焦点。顶部Undo对已提交事务工作正常。",
+      "evidence": [
+        ".local/ux-engineer/basics/B05.png",
+        ".local/ux-engineer/basics/undo-debug.md",
+        ".local/ux-engineer/basics/undo-debug.json"
+      ]
+    },
+    {
+      "id": "B-F02",
+      "severity": "P3",
+      "title": "中文元素名搜索没有结果",
+      "steps": [
+        "Ctrl+K",
+        "输入“氧”"
+      ],
+      "expected": "能找到元素 O。",
+      "actual": "没有结果，需要知道元素符号 O。",
+      "evidence": ".local/ux-engineer/basics/B10-search-empty.png"
+    },
+    {
+      "id": "B-F03",
+      "severity": "P2",
+      "title": "编辑标题后Ctrl+S不打开结构导出",
+      "steps": [
+        "聚焦文档名称",
+        "Ctrl+S"
+      ],
+      "expected": "打开结构保存/导出。",
+      "actual": "结构导出没有打开，需要点击导出按钮或先把焦点移回画布。",
+      "evidence": ".local/ux-engineer/basics/B11.png"
+    },
+    {
+      "id": "B-F04",
+      "severity": "P1",
+      "title": "多标签页的本地草稿静默覆盖",
+      "steps": [
+        "工作页A有乙醇",
+        "同一浏览器另开B，修改O电荷为−1，显示已保存本机",
+        "A改文档名触发保存",
+        "刷新B"
+      ],
+      "expected": "B自己的草稿可恢复，或明确提示跨工作页冲突。",
+      "actual": "B的−1电荷消失，恢复A的结构；覆盖前没有冲突提示。",
+      "evidence": [
+        ".local/ux-engineer/basics/B13-second-saved.png",
+        ".local/ux-engineer/basics/B13-second-after-reload.png"
+      ]
+    },
+    {
+      "id": "B-F05",
+      "severity": "P2",
+      "kind": "capability-gap",
+      "title": "环工具不提供沿已有键生成稠合环",
+      "steps": [
+        "放置一个苯环",
+        "保持苯环工具，点击已有环的一条键"
+      ],
+      "expected": "能便捷生成共享两个碳的稠合双环，或明确说明该操作只放置独立环。",
+      "actual": "新增独立6碳环，合计12碳；需要手工连接或通过SMILES导入目标稠环。",
+      "evidence": ".local/ux-engineer/basics/B14.png"
+    }
+  ],
+  "errors": [],
+  "readOnlySdkAssertions": true,
+  "productionCodeModified": false,
+  "harnessCorrections": [
+    {
+      "task": "B06",
+      "issue": "首轮受B05原生标题Undo的待提交输入影响，同位素19实际未写入模型，不能据此判定历史损坏。",
+      "fix": "独立定位后，B06先结束待提交标题，再逐步验证每次同位素及标题后测试Undo/Redo。焦点问题单独记录B-F01。",
+      "originalReport": ".local/ux-engineer/basics/first-run.json",
+      "debugReport": ".local/ux-engineer/basics/undo-debug.md"
+    }
+  ]
+}

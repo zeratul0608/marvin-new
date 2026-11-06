@@ -1,0 +1,3548 @@
+{
+  "scope": "Exact previously protected wrappers. Expanded editable group views retain the original wrapper, all alternatives, annotations, original boundary orders and object references. This is not a claim that ambiguous groups became a single flat molecule. Every branch receives an actual chemistry/query edit and is source-saved/reparsed with complete projection comparison, complete serialized-model/source JSON restoration and undo/redo.",
+  "execution": {
+    "independentPartitions": [
+      {
+        "start": 0,
+        "end": 63
+      },
+      {
+        "start": 63,
+        "end": 126
+      },
+      {
+        "start": 126,
+        "end": 189
+      },
+      {
+        "start": 189,
+        "end": 250
+      }
+    ],
+    "completeCoverageVerified": true
+  },
+  "summary": {
+    "targeted": 250,
+    "expandedGroupView": 250,
+    "editedBranches": 264,
+    "allBranchesEditedAndSourceSaved": 250,
+    "failures": 0
+  },
+  "results": [
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Cyclic Peptide.cdxml",
+      "nativeId": "2698",
+      "label": "bAla",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Cyclic Peptide.cdxml",
+      "nativeId": "2704",
+      "label": "D-Trp",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Cyclic Peptide.cdxml",
+      "nativeId": "5623",
+      "label": "Trp",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-X.cdxml",
+      "nativeId": "14446",
+      "label": "[R4B]",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "7",
+      "label": "D",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "204",
+      "label": "I",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "212",
+      "label": "S",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "4975",
+      "label": "S",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "4992",
+      "label": "A",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "4994",
+      "label": "R",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "4996",
+      "label": "K",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "4998",
+      "label": "L",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "5001",
+      "label": "C",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "5003",
+      "label": "R",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "5030",
+      "label": "Y",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "5757",
+      "label": "L",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "5778",
+      "label": "V",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "5798",
+      "label": "K",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "5821",
+      "label": "E",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "5823",
+      "label": "I",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "5845",
+      "label": "E",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "5868",
+      "label": "K",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "5891",
+      "label": "L",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "5912",
+      "label": "C",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "5929",
+      "label": "G",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "5932",
+      "label": "H",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "5935",
+      "label": "A",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "5950",
+      "label": "N",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "5954",
+      "label": "W",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "5956",
+      "label": "S",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "5973",
+      "label": "Q",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "5976",
+      "label": "F",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "5978",
+      "label": "R",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "6010",
+      "label": "G",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "6023",
+      "label": "Y",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "6053",
+      "label": "S",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "6070",
+      "label": "E",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "6093",
+      "label": "K",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "6116",
+      "label": "C",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "6133",
+      "label": "C",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "6150",
+      "label": "L",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "6171",
+      "label": "T",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "6191",
+      "label": "G",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "6204",
+      "label": "C",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "6221",
+      "label": "T",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "6241",
+      "label": "K",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "6264",
+      "label": "E",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "6287",
+      "label": "E",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "6310",
+      "label": "L",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "6331",
+      "label": "S",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "6348",
+      "label": "I",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "6370",
+      "label": "A",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "6385",
+      "label": "C",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "6402",
+      "label": "L",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "6423",
+      "label": "P",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "6429",
+      "label": "Y",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "6459",
+      "label": "I",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "6481",
+      "label": "D",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Human Insulin.cdxml",
+      "nativeId": "6502",
+      "label": "F",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Nucleophilic Substitution Sn2.cdxml",
+      "nativeId": "8283",
+      "label": "NaCN",
+      "category": "object-reference",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Nucleophilic Substitution Sn2.cdxml",
+      "nativeId": "8507",
+      "label": "NC",
+      "category": "object-reference",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Pituitary Hormones.cdxml",
+      "nativeId": "340",
+      "label": "H",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Pituitary Hormones.cdxml",
+      "nativeId": "345",
+      "label": "OH",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Pituitary Hormones.cdxml",
+      "nativeId": "350",
+      "label": "Cys",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Pituitary Hormones.cdxml",
+      "nativeId": "367",
+      "label": "Tyr",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Pituitary Hormones.cdxml",
+      "nativeId": "397",
+      "label": "Ile",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Pituitary Hormones.cdxml",
+      "nativeId": "418",
+      "label": "Gln",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Pituitary Hormones.cdxml",
+      "nativeId": "441",
+      "label": "Asn",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Pituitary Hormones.cdxml",
+      "nativeId": "462",
+      "label": "Cys",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Pituitary Hormones.cdxml",
+      "nativeId": "479",
+      "label": "Pro",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Pituitary Hormones.cdxml",
+      "nativeId": "499",
+      "label": "Leu",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Pituitary Hormones.cdxml",
+      "nativeId": "520",
+      "label": "Gly",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Pituitary Hormones.cdxml",
+      "nativeId": "706",
+      "label": "H",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Pituitary Hormones.cdxml",
+      "nativeId": "708",
+      "label": "OH",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Pituitary Hormones.cdxml",
+      "nativeId": "711",
+      "label": "Cys",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Pituitary Hormones.cdxml",
+      "nativeId": "713",
+      "label": "Tyr",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Pituitary Hormones.cdxml",
+      "nativeId": "715",
+      "label": "Phe",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Pituitary Hormones.cdxml",
+      "nativeId": "717",
+      "label": "Gln",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Pituitary Hormones.cdxml",
+      "nativeId": "719",
+      "label": "Asn",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Pituitary Hormones.cdxml",
+      "nativeId": "721",
+      "label": "Cys",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Pituitary Hormones.cdxml",
+      "nativeId": "723",
+      "label": "Pro",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Pituitary Hormones.cdxml",
+      "nativeId": "725",
+      "label": "Arg",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Pituitary Hormones.cdxml",
+      "nativeId": "727",
+      "label": "Gly",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "3630",
+      "label": "Cys",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "3633",
+      "label": "Tyr",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "3636",
+      "label": "Phe",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "3639",
+      "label": "Gln",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "3642",
+      "label": "Asn",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "3645",
+      "label": "Cys",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "3648",
+      "label": "Pro",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "3651",
+      "label": "Arg",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "3654",
+      "label": "Gly",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "5806",
+      "label": "Cys",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "5809",
+      "label": "Tyr",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "5812",
+      "label": "Phe",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "5815",
+      "label": "Gln",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "5818",
+      "label": "Asn",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "5821",
+      "label": "Cys",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "5824",
+      "label": "Pro",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "5827",
+      "label": "Lys",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "5830",
+      "label": "Gly",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "6021",
+      "label": "Cys",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "6024",
+      "label": "Phe",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "6027",
+      "label": "Phe",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "6030",
+      "label": "Gln",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "6033",
+      "label": "Asn",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "6036",
+      "label": "Cys",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "6039",
+      "label": "Pro",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "6042",
+      "label": "Arg",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "6045",
+      "label": "Gly",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "6238",
+      "label": "Cys",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "6241",
+      "label": "Tyr",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "6244",
+      "label": "Ile",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "6247",
+      "label": "Gln",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "6250",
+      "label": "Asn",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "6253",
+      "label": "Cys",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "6256",
+      "label": "Pro",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "6259",
+      "label": "Arg",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "6262",
+      "label": "Gly",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "6433",
+      "label": "Cys",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "6436",
+      "label": "Tyr",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "6439",
+      "label": "Ile",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "6442",
+      "label": "Gln",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "6445",
+      "label": "Asn",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "6448",
+      "label": "Cys",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "6451",
+      "label": "Pro",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "6454",
+      "label": "Arg",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "6457",
+      "label": "Gly",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "6647",
+      "label": "Cys",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "6650",
+      "label": "Tyr",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "6653",
+      "label": "Ile",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "6656",
+      "label": "Gln",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "6659",
+      "label": "Asn",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "6662",
+      "label": "Cys",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "6665",
+      "label": "Pro",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "6668",
+      "label": "Pro",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "6671",
+      "label": "Gly",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "6854",
+      "label": "Cys",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "6857",
+      "label": "Tyr",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "6860",
+      "label": "Ile",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "6863",
+      "label": "Gln",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "6866",
+      "label": "Asn",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "6869",
+      "label": "Cys",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "6872",
+      "label": "Pro",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "6875",
+      "label": "Ile",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "6878",
+      "label": "Gly",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "7064",
+      "label": "Cys",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "7067",
+      "label": "Tyr",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "7070",
+      "label": "Ile",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "7073",
+      "label": "Gln",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "7076",
+      "label": "Ser",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "7079",
+      "label": "Cys",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "7082",
+      "label": "Pro",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "7085",
+      "label": "Ile",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "7088",
+      "label": "Gly",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "7254",
+      "label": "Cys",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "7257",
+      "label": "Tyr",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "7260",
+      "label": "Ile",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "7263",
+      "label": "Ser",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "7266",
+      "label": "Asn",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "7269",
+      "label": "Cys",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "7272",
+      "label": "Pro",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "7275",
+      "label": "Ile",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "7278",
+      "label": "Gly",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "7458",
+      "label": "Cys",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "7461",
+      "label": "Tyr",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "7464",
+      "label": "Ile",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "7467",
+      "label": "Ser",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "7470",
+      "label": "Asn",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "7473",
+      "label": "Cys",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "7476",
+      "label": "Pro",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "7479",
+      "label": "Gln",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "7482",
+      "label": "Gly",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "7662",
+      "label": "Cys",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "7665",
+      "label": "Tyr",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "7668",
+      "label": "Ile",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "7671",
+      "label": "Asn",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "7674",
+      "label": "Asn",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "7677",
+      "label": "Cys",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "7680",
+      "label": "Pro",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "7683",
+      "label": "Leu",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "7686",
+      "label": "Gly",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "7849",
+      "label": "Cys",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "7852",
+      "label": "Leu",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "7855",
+      "label": "Ile",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "7858",
+      "label": "Thr",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "7861",
+      "label": "Asn",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "7864",
+      "label": "Cys",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "7867",
+      "label": "Pro",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "7870",
+      "label": "Arg",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "7873",
+      "label": "Gly",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "8050",
+      "label": "Cys",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "8053",
+      "label": "Phe",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "8056",
+      "label": "Val",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "8059",
+      "label": "Arg",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "8062",
+      "label": "Asn",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "8065",
+      "label": "Cys",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "8068",
+      "label": "Pro",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "8071",
+      "label": "Thr",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "8074",
+      "label": "Gly",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "8256",
+      "label": "Cys",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "8259",
+      "label": "Phe",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "8262",
+      "label": "Ile",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "8265",
+      "label": "Arg",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "8268",
+      "label": "Asn",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "8271",
+      "label": "Cys",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "8274",
+      "label": "Pro",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "8277",
+      "label": "Lys",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "8280",
+      "label": "Gly",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "8468",
+      "label": "Cys",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "8471",
+      "label": "Ile",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "8474",
+      "label": "Ile",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "8477",
+      "label": "Arg",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "8480",
+      "label": "Asn",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "8483",
+      "label": "Cys",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "8486",
+      "label": "Pro",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "8489",
+      "label": "Arg",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "8492",
+      "label": "Gly",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "8679",
+      "label": "Cys",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "8682",
+      "label": "Tyr",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "8685",
+      "label": "Phe",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "8688",
+      "label": "Arg",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "8691",
+      "label": "Asn",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "8694",
+      "label": "Cys",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "8697",
+      "label": "Pro",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "8700",
+      "label": "Ile",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "8703",
+      "label": "Gly",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "8898",
+      "label": "Cys",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "8901",
+      "label": "Phe",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "8904",
+      "label": "Trp",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "8907",
+      "label": "Thr",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "8910",
+      "label": "Ser",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "8913",
+      "label": "Cys",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "8916",
+      "label": "Pro",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "8919",
+      "label": "Ile",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Vasopressin Peptides.cdxml",
+      "nativeId": "8922",
+      "label": "Gly",
+      "category": "annotations",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkenes.cdxml",
+      "nativeId": "2038",
+      "label": "X2, CCl4",
+      "category": "alternatives",
+      "viewSourceSaved": true,
+      "branches": 2,
+      "edits": [
+        "query-condition",
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkenes.cdxml",
+      "nativeId": "2047",
+      "label": "X2, ROH",
+      "category": "alternatives",
+      "viewSourceSaved": true,
+      "branches": 2,
+      "edits": [
+        "query-condition",
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkynes Internal.cdxml",
+      "nativeId": "8410",
+      "label": "H2O, D",
+      "category": "alternatives",
+      "viewSourceSaved": true,
+      "branches": 2,
+      "edits": [
+        "isotope",
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkynes Terminal.cdxml",
+      "nativeId": "8996",
+      "label": "Ar-X, Cu(I), R3N",
+      "category": "alternatives",
+      "viewSourceSaved": true,
+      "branches": 3,
+      "edits": [
+        "isotope",
+        "isotope",
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Alkynes Terminal.cdxml",
+      "nativeId": "8998",
+      "label": "Pd(PPh3)4, CuI",
+      "category": "alternatives",
+      "viewSourceSaved": true,
+      "branches": 2,
+      "edits": [
+        "isotope",
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Condensation.cdxml",
+      "nativeId": "15279",
+      "label": "CO2R",
+      "category": "multiple-boundary",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-C.cdxml",
+      "nativeId": "10319",
+      "label": "NR",
+      "category": "multiple-boundary",
+      "viewSourceSaved": true,
+      "branches": 1,
+      "edits": [
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-C.cdxml",
+      "nativeId": "10585",
+      "label": "X=RCO, R, H",
+      "category": "alternatives",
+      "viewSourceSaved": true,
+      "branches": 3,
+      "edits": [
+        "isotope",
+        "query-condition",
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Grignard C-C.cdxml",
+      "nativeId": "12841",
+      "label": "X=RN, R2N",
+      "category": "alternatives",
+      "viewSourceSaved": true,
+      "branches": 2,
+      "edits": [
+        "isotope",
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Nucleophilic Substitution Sn2.cdxml",
+      "nativeId": "1406",
+      "label": "LiCl, DMF",
+      "category": "alternatives",
+      "viewSourceSaved": true,
+      "branches": 2,
+      "edits": [
+        "isotope",
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Nucleophilic Substitution Sn2.cdxml",
+      "nativeId": "2443",
+      "label": "TsNH2, KOH",
+      "category": "alternatives",
+      "viewSourceSaved": true,
+      "branches": 2,
+      "edits": [
+        "isotope",
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Nucleophilic Substitution Sn2.cdxml",
+      "nativeId": "8285",
+      "label": "DMSO, D",
+      "category": "alternatives",
+      "viewSourceSaved": true,
+      "branches": 2,
+      "edits": [
+        "isotope",
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Nucleophilic Substitution Sn2.cdxml",
+      "nativeId": "9019",
+      "label": "DMSO, D",
+      "category": "alternatives",
+      "viewSourceSaved": true,
+      "branches": 2,
+      "edits": [
+        "isotope",
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    },
+    {
+      "file": "CommonAppData/RevvitySignalsSoftware/ChemDrawApplications/ChemDraw/Samples/Nucleophilic Substitution Sn2.cdxml",
+      "nativeId": "9337",
+      "label": "P(OEt)3, D",
+      "category": "alternatives",
+      "viewSourceSaved": true,
+      "branches": 2,
+      "edits": [
+        "isotope",
+        "isotope"
+      ],
+      "allBranchesEditedAndSourceSaved": true,
+      "jsonRestored": true,
+      "undoRedo": true
+    }
+  ],
+  "failures": []
+}

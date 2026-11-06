@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDXML BondLength="30" LabelFont="3" LabelSize="10">
+  <fonttable><font id="3" charset="utf-8" name="Arial"/></fonttable>
+  <page id="1"><fragment id="2">
+      <n id="3" p="-25.9808 -15.0000" Element="8"><t p="-25.9808 -15.0000"><s font="3" size="10">O</s></t></n>
+      
+      
+      <n id="6" p="51.9615 0.0000" Element="7"><t p="51.9615 0.0000"><s font="3" size="10">N</s></t></n>
+      <b id="7" B="3" E="10" Order="1" Display="Solid"/>
+      
+      <b id="9" B="10" E="6" Order="1" Display="Solid"/>
+  <n id="10" NodeType="Fragment" p="12.9904 -7.5" BondOrdering="7 9"><fragment id="11" ConnectionOrder="12 14"><n id="4" p="0.0000 0.0000" Element="6"/><n id="5" p="25.9808 -15.0000" Element="6"/><b id="8" B="4" E="5" Order="1" Display="Solid"/><n id="12" p="-25.9808 -15" NodeType="ExternalConnectionPoint"/><b id="13" B="12" E="4" Order="1" Display="Solid"/><n id="14" p="51.9615 0" NodeType="ExternalConnectionPoint"/><b id="15" B="5" E="14" Order="1" Display="Solid"/></fragment><t p="12.9904 -7.5"><s font="3" size="10" face="96">CH2CH2</s></t></n></fragment></page>
+</CDXML>

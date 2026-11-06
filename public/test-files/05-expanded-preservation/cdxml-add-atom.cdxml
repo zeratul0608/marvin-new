@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE CDXML SYSTEM "http://www.camsoft.com/xml/cdxml.dtd" >
+<CDXML CreationProgram="ChemDraw 7.0d182" Name="test.cdxml" WindowPosition="234 236" WindowSize="549 509" FractionalWidths="yes" ShowAtomQuery="yes" ShowBondQuery="yes" LabelFont="3" LabelSize="10" LabelFace="96" CaptionFont="4" CaptionSize="12" HashSpacing="2.7" MarginWidth="2" LineWidth="1" BoldWidth="4" BondLength="30" BondSpacing="12" ChainAngle="120" PrintMargins="36 36 36 36" MacPrintInfo="00030000025802580000000018F51319FF9BFF94196313800367052803FC00020000025802580000000018F51319000100640064000000010001010100000001270F000100010000000000000000000000000002001901900000000000600000000000000000000100000000000000000000000000000000"><colortable>
+
+<color r="1" g="1" b="1"/>
+
+<color r="0" g="0" b="0"/>
+
+<color r="1" g="0" b="0"/>
+
+<color r="1" g="1" b="0"/>
+
+<color r="0" g="1" b="0"/>
+
+<color r="0" g="1" b="1"/>
+
+<color r="0" g="0" b="1"/>
+
+<color r="1" g="0" b="1"/>
+
+</colortable><fonttable>
+
+<font id="3" charset="iso-8859-1" name="Arial"/>
+
+<font id="4" charset="iso-8859-1" name="Times New Roman"/>
+
+</fonttable><page id="1" HeaderPosition="36" FooterPosition="36" PrintTrimMarks="yes" HeightPages="1" WidthPages="1"><fragment id="8"><n id="5" p="148.5 164.25" Z="1" Element="7" NumHydrogens="1"><t id="17" p="145.69 159.81" BoundingBox="146.25 152.25 151.5 168" Z="6" LabelAlignment="Above" LineStarts="2 3"><s font="3" size="10" face="96">NH</s></t></n><n id="6" p="177.48 172.01" Z="2"/><n id="4" p="119.52 172.01" Z="4"/><b id="2" Z="3" B="5" E="6"/><b id="3" Z="5" B="5" E="4"/><n id="7" p="197.47999999999996 152.01" Element="8"/><b id="9" B="6" E="7" Order="1" Display="Solid"/></fragment><!-- untouched annotation --><graphic id="30" GraphicType="Rectangle" BoundingBox="200 200 220 220"/><t id="31" p="240 240"><s font="3"><![CDATA[keep <note> & text]]></s></t></page></CDXML>

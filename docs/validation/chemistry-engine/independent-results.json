@@ -1,0 +1,351 @@
+{
+  "rdkitVersion": "2025.03.6",
+  "validated": 40,
+  "scope": "Native Python RDKit independently parses generated CDX/CDXML and verifies isomeric SMILES, exact and average mass, R/S and E/Z. Independent runtime/parser, not an independent chemistry toolkit or ChemDraw certification.",
+  "results": [
+    {
+      "file": "aspirin-before.cdx",
+      "smiles": "CC(=O)Oc1ccccc1C(=O)O",
+      "formula": "C9H8O4",
+      "massVerified": true,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "aspirin-before.cdxml",
+      "smiles": "CC(=O)Oc1ccccc1C(=O)O",
+      "formula": "C9H8O4",
+      "massVerified": true,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "aspirin-clean.cdx",
+      "smiles": "CC(=O)Oc1ccccc1C(=O)O",
+      "formula": "C9H8O4",
+      "massVerified": true,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "aspirin-clean.cdxml",
+      "smiles": "CC(=O)Oc1ccccc1C(=O)O",
+      "formula": "C9H8O4",
+      "massVerified": true,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "fused-ring-before.cdx",
+      "smiles": "c1ccc2ccccc2c1",
+      "formula": "C10H8",
+      "massVerified": true,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "fused-ring-before.cdxml",
+      "smiles": "c1ccc2ccccc2c1",
+      "formula": "C10H8",
+      "massVerified": true,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "fused-ring-clean.cdx",
+      "smiles": "c1ccc2ccccc2c1",
+      "formula": "C10H8",
+      "massVerified": true,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "fused-ring-clean.cdxml",
+      "smiles": "c1ccc2ccccc2c1",
+      "formula": "C10H8",
+      "massVerified": true,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "bridged-ring-before.cdx",
+      "smiles": "C1CC2CCC1C2",
+      "formula": "C7H12",
+      "massVerified": true,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "bridged-ring-before.cdxml",
+      "smiles": "C1CC2CCC1C2",
+      "formula": "C7H12",
+      "massVerified": true,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "bridged-ring-clean.cdx",
+      "smiles": "C1CC2CCC1C2",
+      "formula": "C7H12",
+      "massVerified": true,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "bridged-ring-clean.cdxml",
+      "smiles": "C1CC2CCC1C2",
+      "formula": "C7H12",
+      "massVerified": true,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "spiro-ring-before.cdx",
+      "smiles": "C1CCC2(CC1)CCCC2",
+      "formula": "C10H18",
+      "massVerified": true,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "spiro-ring-before.cdxml",
+      "smiles": "C1CCC2(CC1)CCCC2",
+      "formula": "C10H18",
+      "massVerified": true,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "spiro-ring-clean.cdx",
+      "smiles": "C1CCC2(CC1)CCCC2",
+      "formula": "C10H18",
+      "massVerified": true,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "spiro-ring-clean.cdxml",
+      "smiles": "C1CCC2(CC1)CCCC2",
+      "formula": "C10H18",
+      "massVerified": true,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "alanine-S-before.cdx",
+      "smiles": "C[C@H](N)C(=O)O",
+      "formula": "C3H7NO2",
+      "massVerified": true,
+      "stereoAtoms": [
+        "S"
+      ],
+      "stereoBonds": []
+    },
+    {
+      "file": "alanine-S-before.cdxml",
+      "smiles": "C[C@H](N)C(=O)O",
+      "formula": "C3H7NO2",
+      "massVerified": true,
+      "stereoAtoms": [
+        "S"
+      ],
+      "stereoBonds": []
+    },
+    {
+      "file": "alanine-S-clean.cdx",
+      "smiles": "C[C@H](N)C(=O)O",
+      "formula": "C3H7NO2",
+      "massVerified": true,
+      "stereoAtoms": [
+        "S"
+      ],
+      "stereoBonds": []
+    },
+    {
+      "file": "alanine-S-clean.cdxml",
+      "smiles": "C[C@H](N)C(=O)O",
+      "formula": "C3H7NO2",
+      "massVerified": true,
+      "stereoAtoms": [
+        "S"
+      ],
+      "stereoBonds": []
+    },
+    {
+      "file": "alkene-E-before.cdx",
+      "smiles": "C/C=C/C",
+      "formula": "C4H8",
+      "massVerified": true,
+      "stereoAtoms": [],
+      "stereoBonds": [
+        "E"
+      ]
+    },
+    {
+      "file": "alkene-E-before.cdxml",
+      "smiles": "C/C=C/C",
+      "formula": "C4H8",
+      "massVerified": true,
+      "stereoAtoms": [],
+      "stereoBonds": [
+        "E"
+      ]
+    },
+    {
+      "file": "alkene-E-clean.cdx",
+      "smiles": "C/C=C/C",
+      "formula": "C4H8",
+      "massVerified": true,
+      "stereoAtoms": [],
+      "stereoBonds": [
+        "E"
+      ]
+    },
+    {
+      "file": "alkene-E-clean.cdxml",
+      "smiles": "C/C=C/C",
+      "formula": "C4H8",
+      "massVerified": true,
+      "stereoAtoms": [],
+      "stereoBonds": [
+        "E"
+      ]
+    },
+    {
+      "file": "alkene-Z-before.cdx",
+      "smiles": "C/C=C\\C",
+      "formula": "C4H8",
+      "massVerified": true,
+      "stereoAtoms": [],
+      "stereoBonds": [
+        "Z"
+      ]
+    },
+    {
+      "file": "alkene-Z-before.cdxml",
+      "smiles": "C/C=C\\C",
+      "formula": "C4H8",
+      "massVerified": true,
+      "stereoAtoms": [],
+      "stereoBonds": [
+        "Z"
+      ]
+    },
+    {
+      "file": "alkene-Z-clean.cdx",
+      "smiles": "C/C=C\\C",
+      "formula": "C4H8",
+      "massVerified": true,
+      "stereoAtoms": [],
+      "stereoBonds": [
+        "Z"
+      ]
+    },
+    {
+      "file": "alkene-Z-clean.cdxml",
+      "smiles": "C/C=C\\C",
+      "formula": "C4H8",
+      "massVerified": true,
+      "stereoAtoms": [],
+      "stereoBonds": [
+        "Z"
+      ]
+    },
+    {
+      "file": "pyrrole-before.cdx",
+      "smiles": "c1cc[nH]c1",
+      "formula": "C4H5N",
+      "massVerified": true,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "pyrrole-before.cdxml",
+      "smiles": "c1cc[nH]c1",
+      "formula": "C4H5N",
+      "massVerified": true,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "pyrrole-clean.cdx",
+      "smiles": "c1cc[nH]c1",
+      "formula": "C4H5N",
+      "massVerified": true,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "pyrrole-clean.cdxml",
+      "smiles": "c1cc[nH]c1",
+      "formula": "C4H5N",
+      "massVerified": true,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "isotope-before.cdx",
+      "smiles": "[13CH3][18OH]",
+      "formula": "CH4O",
+      "massVerified": true,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "isotope-before.cdxml",
+      "smiles": "[13CH3][18OH]",
+      "formula": "CH4O",
+      "massVerified": true,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "isotope-clean.cdx",
+      "smiles": "[13CH3][18OH]",
+      "formula": "CH4O",
+      "massVerified": true,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "isotope-clean.cdxml",
+      "smiles": "[13CH3][18OH]",
+      "formula": "CH4O",
+      "massVerified": true,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "ammonium-before.cdx",
+      "smiles": "[NH4+]",
+      "formula": "H4N+",
+      "massVerified": true,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "ammonium-before.cdxml",
+      "smiles": "[NH4+]",
+      "formula": "H4N+",
+      "massVerified": true,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "ammonium-clean.cdx",
+      "smiles": "[NH4+]",
+      "formula": "H4N+",
+      "massVerified": true,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "ammonium-clean.cdxml",
+      "smiles": "[NH4+]",
+      "formula": "H4N+",
+      "massVerified": true,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    }
+  ]
+}

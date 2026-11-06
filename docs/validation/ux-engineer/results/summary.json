@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-06",
+  "environment": "Current uncommitted workspace on HEAD 2112c16; Chrome; local Qwen3.6-27B and RDKit",
+  "checks": 68,
+  "statuses": {
+    "passed": 56,
+    "friction": 8,
+    "failed": 1,
+    "limited": 3
+  },
+  "severities": {
+    "P2": 18,
+    "P3": 2,
+    "P1": 1
+  },
+  "areas": {
+    "basics": {
+      "checks": 16,
+      "statuses": {
+        "passed": 11,
+        "friction": 3,
+        "failed": 1,
+        "limited": 1
+      },
+      "findings": 5,
+      "pageErrors": []
+    },
+    "exchange": {
+      "checks": 14,
+      "statuses": {
+        "passed": 10,
+        "friction": 4
+      },
+      "findings": 5,
+      "pageErrors": []
+    },
+    "advanced": {
+      "checks": 15,
+      "statuses": {
+        "passed": 13,
+        "friction": 1,
+        "limited": 1
+      },
+      "findings": 4,
+      "pageErrors": []
+    },
+    "ai": {
+      "checks": 11,
+      "statuses": {
+        "passed": 11
+      },
+      "findings": 4,
+      "pageErrors": []
+    },
+    "large": {
+      "checks": 7,
+      "statuses": {
+        "passed": 7
+      },
+      "findings": 1,
+      "pageErrors": []
+    },
+    "workbench": {
+      "checks": 5,
+      "statuses": {
+        "passed": 4,
+        "limited": 1
+      },
+      "findings": 2,
+      "pageErrors": []
+    }
+  },
+  "interpretation": "Pass verifies defined task outcome including protective refusal; pass does not imply friction-free UX. unsupported is normalized to limited. Synthetic large-document rows are sequential operation checks, not independent participant tasks.",
+  "productionCodeModifiedForThisTask": false
+}

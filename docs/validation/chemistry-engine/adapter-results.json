@@ -1,0 +1,550 @@
+{
+  "rdkitVersion": "2026.09.1",
+  "generatedFrom": "Our own SMILES examples; no commercial sample files redistributed.",
+  "results": [
+    {
+      "file": "aspirin-before.cdx",
+      "scenario": "aspirin",
+      "stage": "before",
+      "format": "cdx",
+      "inputSmiles": "CC(=O)Oc1ccccc1C(=O)O",
+      "canonicalIsomericSmiles": "CC(=O)Oc1ccccc1C(=O)O",
+      "formula": "C9H8O4",
+      "molecularWeight": 180.15899999999996,
+      "exactMass": 180.042258736,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "aspirin-before.cdxml",
+      "scenario": "aspirin",
+      "stage": "before",
+      "format": "cdxml",
+      "inputSmiles": "CC(=O)Oc1ccccc1C(=O)O",
+      "canonicalIsomericSmiles": "CC(=O)Oc1ccccc1C(=O)O",
+      "formula": "C9H8O4",
+      "molecularWeight": 180.15899999999996,
+      "exactMass": 180.042258736,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "aspirin-clean.cdx",
+      "scenario": "aspirin",
+      "stage": "clean",
+      "format": "cdx",
+      "inputSmiles": "CC(=O)Oc1ccccc1C(=O)O",
+      "canonicalIsomericSmiles": "CC(=O)Oc1ccccc1C(=O)O",
+      "formula": "C9H8O4",
+      "molecularWeight": 180.15899999999996,
+      "exactMass": 180.042258736,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "aspirin-clean.cdxml",
+      "scenario": "aspirin",
+      "stage": "clean",
+      "format": "cdxml",
+      "inputSmiles": "CC(=O)Oc1ccccc1C(=O)O",
+      "canonicalIsomericSmiles": "CC(=O)Oc1ccccc1C(=O)O",
+      "formula": "C9H8O4",
+      "molecularWeight": 180.15899999999996,
+      "exactMass": 180.042258736,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "fused-ring-before.cdx",
+      "scenario": "fused-ring",
+      "stage": "before",
+      "format": "cdx",
+      "inputSmiles": "c1ccc2ccccc2c1",
+      "canonicalIsomericSmiles": "c1ccc2ccccc2c1",
+      "formula": "C10H8",
+      "molecularWeight": 128.17399999999995,
+      "exactMass": 128.062600256,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "fused-ring-before.cdxml",
+      "scenario": "fused-ring",
+      "stage": "before",
+      "format": "cdxml",
+      "inputSmiles": "c1ccc2ccccc2c1",
+      "canonicalIsomericSmiles": "c1ccc2ccccc2c1",
+      "formula": "C10H8",
+      "molecularWeight": 128.17399999999995,
+      "exactMass": 128.062600256,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "fused-ring-clean.cdx",
+      "scenario": "fused-ring",
+      "stage": "clean",
+      "format": "cdx",
+      "inputSmiles": "c1ccc2ccccc2c1",
+      "canonicalIsomericSmiles": "c1ccc2ccccc2c1",
+      "formula": "C10H8",
+      "molecularWeight": 128.17399999999995,
+      "exactMass": 128.062600256,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "fused-ring-clean.cdxml",
+      "scenario": "fused-ring",
+      "stage": "clean",
+      "format": "cdxml",
+      "inputSmiles": "c1ccc2ccccc2c1",
+      "canonicalIsomericSmiles": "c1ccc2ccccc2c1",
+      "formula": "C10H8",
+      "molecularWeight": 128.17399999999995,
+      "exactMass": 128.062600256,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "bridged-ring-before.cdx",
+      "scenario": "bridged-ring",
+      "stage": "before",
+      "format": "cdx",
+      "inputSmiles": "C1CC2CCC1C2",
+      "canonicalIsomericSmiles": "C1CC2CCC1C2",
+      "formula": "C7H12",
+      "molecularWeight": 96.173,
+      "exactMass": 96.093900384,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "bridged-ring-before.cdxml",
+      "scenario": "bridged-ring",
+      "stage": "before",
+      "format": "cdxml",
+      "inputSmiles": "C1CC2CCC1C2",
+      "canonicalIsomericSmiles": "C1CC2CCC1C2",
+      "formula": "C7H12",
+      "molecularWeight": 96.173,
+      "exactMass": 96.093900384,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "bridged-ring-clean.cdx",
+      "scenario": "bridged-ring",
+      "stage": "clean",
+      "format": "cdx",
+      "inputSmiles": "C1CC2CCC1C2",
+      "canonicalIsomericSmiles": "C1CC2CCC1C2",
+      "formula": "C7H12",
+      "molecularWeight": 96.173,
+      "exactMass": 96.093900384,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "bridged-ring-clean.cdxml",
+      "scenario": "bridged-ring",
+      "stage": "clean",
+      "format": "cdxml",
+      "inputSmiles": "C1CC2CCC1C2",
+      "canonicalIsomericSmiles": "C1CC2CCC1C2",
+      "formula": "C7H12",
+      "molecularWeight": 96.173,
+      "exactMass": 96.093900384,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "spiro-ring-before.cdx",
+      "scenario": "spiro-ring",
+      "stage": "before",
+      "format": "cdx",
+      "inputSmiles": "C1CCC2(CC1)CCCC2",
+      "canonicalIsomericSmiles": "C1CCC2(CC1)CCCC2",
+      "formula": "C10H18",
+      "molecularWeight": 138.254,
+      "exactMass": 138.140850576,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "spiro-ring-before.cdxml",
+      "scenario": "spiro-ring",
+      "stage": "before",
+      "format": "cdxml",
+      "inputSmiles": "C1CCC2(CC1)CCCC2",
+      "canonicalIsomericSmiles": "C1CCC2(CC1)CCCC2",
+      "formula": "C10H18",
+      "molecularWeight": 138.254,
+      "exactMass": 138.140850576,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "spiro-ring-clean.cdx",
+      "scenario": "spiro-ring",
+      "stage": "clean",
+      "format": "cdx",
+      "inputSmiles": "C1CCC2(CC1)CCCC2",
+      "canonicalIsomericSmiles": "C1CCC2(CC1)CCCC2",
+      "formula": "C10H18",
+      "molecularWeight": 138.254,
+      "exactMass": 138.140850576,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "spiro-ring-clean.cdxml",
+      "scenario": "spiro-ring",
+      "stage": "clean",
+      "format": "cdxml",
+      "inputSmiles": "C1CCC2(CC1)CCCC2",
+      "canonicalIsomericSmiles": "C1CCC2(CC1)CCCC2",
+      "formula": "C10H18",
+      "molecularWeight": 138.254,
+      "exactMass": 138.140850576,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "alanine-S-before.cdx",
+      "scenario": "alanine-S",
+      "stage": "before",
+      "format": "cdx",
+      "inputSmiles": "N[C@@H](C)C(=O)O",
+      "canonicalIsomericSmiles": "C[C@H](N)C(=O)O",
+      "formula": "C3H7NO2",
+      "molecularWeight": 89.09399999999998,
+      "exactMass": 89.047678464,
+      "stereoAtoms": [
+        "S"
+      ],
+      "stereoBonds": []
+    },
+    {
+      "file": "alanine-S-before.cdxml",
+      "scenario": "alanine-S",
+      "stage": "before",
+      "format": "cdxml",
+      "inputSmiles": "N[C@@H](C)C(=O)O",
+      "canonicalIsomericSmiles": "C[C@H](N)C(=O)O",
+      "formula": "C3H7NO2",
+      "molecularWeight": 89.09399999999998,
+      "exactMass": 89.047678464,
+      "stereoAtoms": [
+        "S"
+      ],
+      "stereoBonds": []
+    },
+    {
+      "file": "alanine-S-clean.cdx",
+      "scenario": "alanine-S",
+      "stage": "clean",
+      "format": "cdx",
+      "inputSmiles": "N[C@@H](C)C(=O)O",
+      "canonicalIsomericSmiles": "C[C@H](N)C(=O)O",
+      "formula": "C3H7NO2",
+      "molecularWeight": 89.09399999999998,
+      "exactMass": 89.047678464,
+      "stereoAtoms": [
+        "S"
+      ],
+      "stereoBonds": []
+    },
+    {
+      "file": "alanine-S-clean.cdxml",
+      "scenario": "alanine-S",
+      "stage": "clean",
+      "format": "cdxml",
+      "inputSmiles": "N[C@@H](C)C(=O)O",
+      "canonicalIsomericSmiles": "C[C@H](N)C(=O)O",
+      "formula": "C3H7NO2",
+      "molecularWeight": 89.09399999999998,
+      "exactMass": 89.047678464,
+      "stereoAtoms": [
+        "S"
+      ],
+      "stereoBonds": []
+    },
+    {
+      "file": "alkene-E-before.cdx",
+      "scenario": "alkene-E",
+      "stage": "before",
+      "format": "cdx",
+      "inputSmiles": "C/C=C/C",
+      "canonicalIsomericSmiles": "C/C=C/C",
+      "formula": "C4H8",
+      "molecularWeight": 56.108000000000004,
+      "exactMass": 56.062600255999996,
+      "stereoAtoms": [],
+      "stereoBonds": [
+        "E"
+      ]
+    },
+    {
+      "file": "alkene-E-before.cdxml",
+      "scenario": "alkene-E",
+      "stage": "before",
+      "format": "cdxml",
+      "inputSmiles": "C/C=C/C",
+      "canonicalIsomericSmiles": "C/C=C/C",
+      "formula": "C4H8",
+      "molecularWeight": 56.108000000000004,
+      "exactMass": 56.062600255999996,
+      "stereoAtoms": [],
+      "stereoBonds": [
+        "E"
+      ]
+    },
+    {
+      "file": "alkene-E-clean.cdx",
+      "scenario": "alkene-E",
+      "stage": "clean",
+      "format": "cdx",
+      "inputSmiles": "C/C=C/C",
+      "canonicalIsomericSmiles": "C/C=C/C",
+      "formula": "C4H8",
+      "molecularWeight": 56.108000000000004,
+      "exactMass": 56.062600255999996,
+      "stereoAtoms": [],
+      "stereoBonds": [
+        "E"
+      ]
+    },
+    {
+      "file": "alkene-E-clean.cdxml",
+      "scenario": "alkene-E",
+      "stage": "clean",
+      "format": "cdxml",
+      "inputSmiles": "C/C=C/C",
+      "canonicalIsomericSmiles": "C/C=C/C",
+      "formula": "C4H8",
+      "molecularWeight": 56.108000000000004,
+      "exactMass": 56.062600255999996,
+      "stereoAtoms": [],
+      "stereoBonds": [
+        "E"
+      ]
+    },
+    {
+      "file": "alkene-Z-before.cdx",
+      "scenario": "alkene-Z",
+      "stage": "before",
+      "format": "cdx",
+      "inputSmiles": "C/C=C\\C",
+      "canonicalIsomericSmiles": "C/C=C\\C",
+      "formula": "C4H8",
+      "molecularWeight": 56.108000000000004,
+      "exactMass": 56.062600255999996,
+      "stereoAtoms": [],
+      "stereoBonds": [
+        "Z"
+      ]
+    },
+    {
+      "file": "alkene-Z-before.cdxml",
+      "scenario": "alkene-Z",
+      "stage": "before",
+      "format": "cdxml",
+      "inputSmiles": "C/C=C\\C",
+      "canonicalIsomericSmiles": "C/C=C\\C",
+      "formula": "C4H8",
+      "molecularWeight": 56.108000000000004,
+      "exactMass": 56.062600255999996,
+      "stereoAtoms": [],
+      "stereoBonds": [
+        "Z"
+      ]
+    },
+    {
+      "file": "alkene-Z-clean.cdx",
+      "scenario": "alkene-Z",
+      "stage": "clean",
+      "format": "cdx",
+      "inputSmiles": "C/C=C\\C",
+      "canonicalIsomericSmiles": "C/C=C\\C",
+      "formula": "C4H8",
+      "molecularWeight": 56.108000000000004,
+      "exactMass": 56.062600255999996,
+      "stereoAtoms": [],
+      "stereoBonds": [
+        "Z"
+      ]
+    },
+    {
+      "file": "alkene-Z-clean.cdxml",
+      "scenario": "alkene-Z",
+      "stage": "clean",
+      "format": "cdxml",
+      "inputSmiles": "C/C=C\\C",
+      "canonicalIsomericSmiles": "C/C=C\\C",
+      "formula": "C4H8",
+      "molecularWeight": 56.108000000000004,
+      "exactMass": 56.062600255999996,
+      "stereoAtoms": [],
+      "stereoBonds": [
+        "Z"
+      ]
+    },
+    {
+      "file": "pyrrole-before.cdx",
+      "scenario": "pyrrole",
+      "stage": "before",
+      "format": "cdx",
+      "inputSmiles": "c1cc[nH]c1",
+      "canonicalIsomericSmiles": "c1cc[nH]c1",
+      "formula": "C4H5N",
+      "molecularWeight": 67.091,
+      "exactMass": 67.04219916,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "pyrrole-before.cdxml",
+      "scenario": "pyrrole",
+      "stage": "before",
+      "format": "cdxml",
+      "inputSmiles": "c1cc[nH]c1",
+      "canonicalIsomericSmiles": "c1cc[nH]c1",
+      "formula": "C4H5N",
+      "molecularWeight": 67.091,
+      "exactMass": 67.04219916,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "pyrrole-clean.cdx",
+      "scenario": "pyrrole",
+      "stage": "clean",
+      "format": "cdx",
+      "inputSmiles": "c1cc[nH]c1",
+      "canonicalIsomericSmiles": "c1cc[nH]c1",
+      "formula": "C4H5N",
+      "molecularWeight": 67.091,
+      "exactMass": 67.04219916,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "pyrrole-clean.cdxml",
+      "scenario": "pyrrole",
+      "stage": "clean",
+      "format": "cdxml",
+      "inputSmiles": "c1cc[nH]c1",
+      "canonicalIsomericSmiles": "c1cc[nH]c1",
+      "formula": "C4H5N",
+      "molecularWeight": 67.091,
+      "exactMass": 67.04219916,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "isotope-before.cdx",
+      "scenario": "isotope",
+      "stage": "before",
+      "format": "cdx",
+      "inputSmiles": "[13CH3][18OH]",
+      "canonicalIsomericSmiles": "[13CH3][18OH]",
+      "formula": "CH4O",
+      "molecularWeight": 35.034515840000005,
+      "exactMass": 35.033815968,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "isotope-before.cdxml",
+      "scenario": "isotope",
+      "stage": "before",
+      "format": "cdxml",
+      "inputSmiles": "[13CH3][18OH]",
+      "canonicalIsomericSmiles": "[13CH3][18OH]",
+      "formula": "CH4O",
+      "molecularWeight": 35.034515840000005,
+      "exactMass": 35.033815968,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "isotope-clean.cdx",
+      "scenario": "isotope",
+      "stage": "clean",
+      "format": "cdx",
+      "inputSmiles": "[13CH3][18OH]",
+      "canonicalIsomericSmiles": "[13CH3][18OH]",
+      "formula": "CH4O",
+      "molecularWeight": 35.034515840000005,
+      "exactMass": 35.033815968,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "isotope-clean.cdxml",
+      "scenario": "isotope",
+      "stage": "clean",
+      "format": "cdxml",
+      "inputSmiles": "[13CH3][18OH]",
+      "canonicalIsomericSmiles": "[13CH3][18OH]",
+      "formula": "CH4O",
+      "molecularWeight": 35.034515840000005,
+      "exactMass": 35.033815968,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "ammonium-before.cdx",
+      "scenario": "ammonium",
+      "stage": "before",
+      "format": "cdx",
+      "inputSmiles": "[NH4+]",
+      "canonicalIsomericSmiles": "[NH4+]",
+      "formula": "H4N+",
+      "molecularWeight": 18.039,
+      "exactMass": 18.03382554809,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "ammonium-before.cdxml",
+      "scenario": "ammonium",
+      "stage": "before",
+      "format": "cdxml",
+      "inputSmiles": "[NH4+]",
+      "canonicalIsomericSmiles": "[NH4+]",
+      "formula": "H4N+",
+      "molecularWeight": 18.039,
+      "exactMass": 18.03382554809,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "ammonium-clean.cdx",
+      "scenario": "ammonium",
+      "stage": "clean",
+      "format": "cdx",
+      "inputSmiles": "[NH4+]",
+      "canonicalIsomericSmiles": "[NH4+]",
+      "formula": "H4N+",
+      "molecularWeight": 18.039,
+      "exactMass": 18.03382554809,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    },
+    {
+      "file": "ammonium-clean.cdxml",
+      "scenario": "ammonium",
+      "stage": "clean",
+      "format": "cdxml",
+      "inputSmiles": "[NH4+]",
+      "canonicalIsomericSmiles": "[NH4+]",
+      "formula": "H4N+",
+      "molecularWeight": 18.039,
+      "exactMass": 18.03382554809,
+      "stereoAtoms": [],
+      "stereoBonds": []
+    }
+  ]
+}

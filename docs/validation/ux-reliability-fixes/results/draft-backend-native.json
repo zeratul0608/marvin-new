@@ -1,0 +1,30 @@
+{
+  "browser": "Chrome",
+  "results": [
+    {
+      "name": "actual-IDB-cross-tab-CAS",
+      "ra": {
+        "status": "saved",
+        "title": "Tab A"
+      },
+      "rb": {
+        "status": "conflict",
+        "charge": -1
+      },
+      "passed": true
+    },
+    {
+      "name": "reload-own-branch-preserved",
+      "title": "Original",
+      "charge": -1,
+      "versions": 3,
+      "passed": true
+    },
+    {
+      "name": "actual-IDB-history-bounded",
+      "count": 20,
+      "latest": "44",
+      "passed": true
+    }
+  ]
+}
